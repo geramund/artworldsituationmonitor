@@ -1,6 +1,11 @@
 "use client";
 
+import { useCallback, useRef, useState } from "react";
 import type { MonitorEvent } from "@/lib/types";
+
+const MIN_HEIGHT = 40;
+const DEFAULT_HEIGHT = 132;
+const MAX_HEIGHT_RATIO = 0.7;
 
 const EVENT_LABEL: Record<string, string> = {
   ANNOUNCED: "ANNOUNCED",
@@ -29,11 +34,69 @@ export interface TickerProps {
 }
 
 export default function Ticker({ events, onSelectVenue }: TickerProps) {
+  const [height, setHeight] = useState(DEFAULT_HEIGHT);
+  const dragRef = useRef<{ startY: number; startHeight: number } | null>(null);
+
+  const clamp = useCallback((h: number) => {
+    const max = typeof window !== "undefined" ? window.innerHeight * MAX_HEIGHT_RATIO : 500;
+    return Math.min(Math.max(h, MIN_HEIGHT), max);
+  }, []);
+
+  const handlePointerDown = useCallback(
+    (e: React.PointerEvent<HTMLDivElement>) => {
+      dragRef.current = { startY: e.clientY, startHeight: height };
+      e.currentTarget.setPointerCapture(e.pointerId);
+    },
+    [height],
+  );
+
+  const handlePointerMove = useCallback(
+    (e: React.PointerEvent<HTMLDivElement>) => {
+      if (!dragRef.current) return;
+      const delta = dragRef.current.startY - e.clientY;
+      setHeight(clamp(dragRef.current.startHeight + delta));
+    },
+    [clamp],
+  );
+
+  const handlePointerUp = useCallback((e: React.PointerEvent<HTMLDivElement>) => {
+    dragRef.current = null;
+    e.currentTarget.releasePointerCapture(e.pointerId);
+  }, []);
+
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLDivElement>) => {
+      if (e.key === "ArrowUp") {
+        setHeight((h) => clamp(h + 20));
+        e.preventDefault();
+      } else if (e.key === "ArrowDown") {
+        setHeight((h) => clamp(h - 20));
+        e.preventDefault();
+      }
+    },
+    [clamp],
+  );
+
   return (
     <div
-      className="flex h-[132px] shrink-0 flex-col border-t"
-      style={{ background: "var(--panel)", borderColor: "var(--hairline)" }}
+      className="flex shrink-0 flex-col border-t"
+      style={{ height, background: "var(--panel)", borderColor: "var(--hairline)" }}
     >
+      <div
+        role="separator"
+        aria-orientation="horizontal"
+        aria-label="Resize event stream"
+        aria-valuenow={Math.round(height)}
+        tabIndex={0}
+        onPointerDown={handlePointerDown}
+        onPointerMove={handlePointerMove}
+        onPointerUp={handlePointerUp}
+        onKeyDown={handleKeyDown}
+        className="drag-handle flex shrink-0 cursor-row-resize items-center justify-center"
+        style={{ height: 7, touchAction: "none" }}
+      >
+        <div className="h-[2px] w-8 rounded-full" style={{ background: "var(--hairline)" }} />
+      </div>
       <div
         className="label flex items-center justify-between border-b px-3 py-1"
         style={{ borderColor: "var(--hairline)" }}

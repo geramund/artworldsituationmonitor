@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import type { Venue, Exhibition, Article } from "@/lib/types";
 import { daysUntil, type AdjacentVenue } from "@/lib/derive";
+import Lightbox, { type LightboxState } from "./Lightbox";
 
 const STATUS_LABEL: Record<string, string> = {
   upcoming: "OPENING",
@@ -39,6 +41,8 @@ export default function Dossier({
   onClose,
   onSelectVenue,
 }: DossierProps) {
+  const [lightbox, setLightbox] = useState<LightboxState | null>(null);
+
   return (
     <aside
       className="absolute inset-y-0 right-0 z-20 flex h-full w-full flex-col overflow-y-auto border-l sm:relative sm:z-auto sm:w-[380px] sm:shrink-0"
@@ -152,16 +156,24 @@ export default function Dossier({
 
             {ex.image_urls.length > 0 && (
               <div className="mt-2 flex gap-1.5 overflow-x-auto">
-                {ex.image_urls.slice(0, 6).map((url) => (
+                {ex.image_urls.slice(0, 6).map((url, i) => (
                   // installation views are hotlinked, never rehosted — see SPEC.md §2
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     key={url}
                     src={url}
                     alt={ex.image_credit ?? ex.title}
-                    className="h-20 w-20 shrink-0 object-cover"
+                    className="lightbox-thumb h-20 w-20 shrink-0 object-cover"
                     style={{ border: "1px solid var(--hairline)" }}
                     loading="lazy"
+                    onClick={() =>
+                      setLightbox({
+                        images: ex.image_urls,
+                        index: i,
+                        title: ex.title,
+                        credit: ex.image_credit ?? null,
+                      })
+                    }
                     onError={(e) => {
                       // a broken hotlink shouldn't leave an ugly icon in an
                       // otherwise-clean HUD — just drop it
@@ -255,6 +267,14 @@ export default function Dossier({
         <section className="p-3 text-[10px]" style={{ color: "var(--dim)" }}>
           {venue.notes}
         </section>
+      )}
+
+      {lightbox && (
+        <Lightbox
+          state={lightbox}
+          onClose={() => setLightbox(null)}
+          onNavigate={(index) => setLightbox((prev) => (prev ? { ...prev, index } : prev))}
+        />
       )}
     </aside>
   );

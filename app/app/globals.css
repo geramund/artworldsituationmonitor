@@ -136,6 +136,18 @@ button {
   animation: blip-in 240ms ease-out;
 }
 
+.drag-handle > div {
+  transition: background-color 120ms ease-out;
+}
+.drag-handle:hover > div,
+.drag-handle:focus-visible > div {
+  background: var(--paper-dim) !important;
+}
+
+.lightbox-thumb {
+  cursor: zoom-in;
+}
+
 /* MapLibre control chrome, restyled to match the HUD instead of the default */
 .maplibregl-ctrl-attrib {
   background: transparent !important;
