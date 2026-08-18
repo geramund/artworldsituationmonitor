@@ -28,7 +28,7 @@ function stripHtml(input: string): string {
     .replace(/&#8221;|&rdquo;/g, "”")
     .replace(/&#8211;|&ndash;/g, "–")
     .replace(/&#8212;|&mdash;/g, "—")
-    .replace(/&nbsp;/g, " ")
+    .replace(/&nbsp;|&#160;/g, " ")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
@@ -42,6 +42,15 @@ function articleId(outletId: string, url: string): string {
 
 function textOf(field: unknown): string {
   if (typeof field === "string") return field;
+  // fast-xml-parser wraps a CDATA-only element in { "#text": value } — but
+  // real-world testing found two feeds (Hyperallergic, The Art Newspaper)
+  // where that same shape comes back array-wrapped instead
+  // ([{ "#text": value }]), silently dropping every article from those
+  // outlets since the object branch below never matched an array. Every
+  // other outlet checked returns the bare object; recursing into the
+  // first element covers both without needing to know which shape a given
+  // feed uses.
+  if (Array.isArray(field)) return field.length > 0 ? textOf(field[0]) : "";
   if (field && typeof field === "object" && "#text" in (field as Record<string, unknown>)) {
     return String((field as Record<string, unknown>)["#text"]);
   }
