@@ -224,9 +224,21 @@ export async function resolveArticles(
 
   const wantLLM = options.llmAdjudicate ?? Boolean(process.env.ANTHROPIC_API_KEY);
   const uncached = llmQueue.filter(({ article }) => !cache[article.id]);
-  if (wantLLM && uncached.length > 0) {
+  // Hard ceiling on spend per crawl run, independent of cadence — a burst
+  // of new candidates (a busy news week, a bug reintroducing a backlog)
+  // can't turn into an open-ended bill. Anything past the cap just waits:
+  // it stays ambiguous this run and gets picked up the next time this
+  // article is still uncached, so nothing is lost, only delayed.
+  const MAX_LLM_BATCH_PER_RUN = 25;
+  const batch = uncached.slice(0, MAX_LLM_BATCH_PER_RUN);
+  if (uncached.length > MAX_LLM_BATCH_PER_RUN) {
+    console.warn(
+      `[resolve] ${uncached.length} article(s) need adjudication — capping this run to ${MAX_LLM_BATCH_PER_RUN}, rest will pick up next run`
+    );
+  }
+  if (wantLLM && batch.length > 0) {
     try {
-      const results = await adjudicateBatch(uncached);
+      const results = await adjudicateBatch(batch);
       for (const r of results) cache[r.article_id] = { exhibition_id: r.exhibition_id, confidence: r.confidence };
       saveCache(cache);
     } catch (err) {

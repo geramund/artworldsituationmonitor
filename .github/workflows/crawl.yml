@@ -37,11 +37,15 @@ jobs:
         run: npx tsx pipeline/geocode.ts
 
       - name: Run the crawl
-        # Deliberately no ANTHROPIC_API_KEY here — tier-4 LLM adjudication
-        # is cost-controlled by only running on adjudicate.yml's weekly
-        # schedule, not every hour. New ambiguous articles between weekly
-        # runs just sit in the honest "ambiguous" bucket (pipeline/
-        # resolve.ts already never asserts a confident link without it).
+        # ANTHROPIC_API_KEY enables tier-4 LLM adjudication. Cost is
+        # bounded two ways rather than by cadence: registry/resolution-
+        # cache.json means a given article is only ever sent to the model
+        # once, ever, and pipeline/resolve.ts caps every single run to at
+        # most 25 newly-adjudicated articles regardless of how large the
+        # backlog gets — a burst of new candidates just spreads across a
+        # few more hourly runs instead of one big bill.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npx tsx pipeline/crawl.ts
 
       - name: Rebuild the published site (docs/) from fresh snapshots
