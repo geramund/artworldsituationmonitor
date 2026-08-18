@@ -1,0 +1,33 @@
+{
+  "id": "transmitter",
+  "name": "Transmitter",
+  "kind": "artist_run",
+  "city": "nyc",
+  "district": "bushwick",
+  "url": "https://transmitter.nyc",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "1329 Willoughby Avenue, Brooklyn, NY 11237",
+      "lat": 40.7063004,
+      "lng": -73.9211101
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-18T20:28:44.586Z",
+    "last_success": "2026-08-18T20:28:44.586Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "unknown"
+  },
+  "notes": "Formerly Parallel Art Space. Shares its building with Tiger Strikes Asteroid.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+}

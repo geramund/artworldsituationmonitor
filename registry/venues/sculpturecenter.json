@@ -1,0 +1,33 @@
+{
+  "id": "sculpturecenter",
+  "name": "SculptureCenter",
+  "kind": "institution",
+  "city": "nyc",
+  "district": "long-island-city",
+  "url": "https://www.sculpture-center.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "44-19 Purves Street, Long Island City, NY 11101",
+      "lat": 40.7469077,
+      "lng": -73.9408643
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-18T20:28:44.586Z",
+    "last_success": "2026-08-18T20:28:44.586Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "unknown"
+  },
+  "notes": "Founded 1928. Closed for installation as of add date; fall show opens Sept 19, 2026.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}
