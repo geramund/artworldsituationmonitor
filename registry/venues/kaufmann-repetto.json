@@ -17,7 +17,12 @@
   "config": {
     "wordpress": {
       "mode": "current-page",
-      "path": "/exhibitions-current/"
+      "path": "/exhibitions-current/",
+      "locationLabel": "new york"
+    },
+    "gallerypress": {
+      "type": "wordpress-category",
+      "categoryId": 16
     }
   },
   "paths": {
@@ -28,11 +33,11 @@
   "cadence": "weekly",
   "hours": "Mon–Fri 10–6",
   "health": {
-    "last_attempt": "2026-08-18T18:05:14.135Z",
-    "last_success": "2026-08-18T18:05:14.135Z",
+    "last_attempt": "2026-08-18T18:24:52.709Z",
+    "last_success": "2026-08-18T18:24:52.709Z",
     "record_count": 1,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Verified via kaufmannrepetto.com/contact/ on 2026-08-17. Gallery also operates a Milan space (Via di Porta Tenaglia, 7, 20121 Milano MI, Italy) — out of scope for this NYC-only registry, not recorded as a venue. Shares 55 Walker St address with Bortolami and (per some secondary sources) Andrew Kreps — this Tribeca building appears to house multiple galleries; floor/suite not confirmed, flag for on-site verification.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+  "notes": "Verified via kaufmannrepetto.com/contact/ on 2026-08-17. Gallery also operates a Milan space (Via di Porta Tenaglia, 7, 20121 Milano MI, Italy) — out of scope for this NYC-only registry, not recorded as a venue. Shares 55 Walker St address with Bortolami and (per some secondary sources) Andrew Kreps — this Tribeca building appears to house multiple galleries; floor/suite not confirmed, flag for on-site verification.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable.\n\nBug found + fixed (2026-08-18): /exhibitions-current/ is a multi-location (Milan/New York/Hudson) tabbed slider, not a single current show — the generic current-page scraper was falling back to the page's generic SEO <title> tag (\"Look into our current and upcoming exhibitions\") with no artist. adapters/wordpress.ts now supports an optional wordpress.locationLabel to scope to the \"new york\" pane (.custom-navi/.content[data-swipe] slider markup, .author/.opera classes) — correctly resolves to \"lily van der stokker — Male Art Exhibition, Great Show!\" through Aug 8.\n\ngallerypress (2026-08-18): verified live — wp-json category slug \"press\" (id 16, 43 posts). Real-world data is messy: several posts link only to a self-hosted PDF scan or have no outbound link at all (pure announcements) — adapters/gallerypress.ts drops those per SPEC.md §5.4 rather than guessing an outlet."
 }

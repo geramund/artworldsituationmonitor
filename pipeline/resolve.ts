@@ -261,6 +261,76 @@ export async function resolveArticles(
   return { articles: resolved, stats };
 }
 
+// --- gallerypress support -------------------------------------------------
+//
+// Gallery-curated press listings (adapters/gallerypress.ts) already know
+// their venue — the gallery put the item on its own site — so they skip
+// the venue-guessing tiers above and only need help picking *which*
+// current exhibition at that venue the piece is about, if any.
+
+export function linkWithinVenue(article: Article, exhibitionsAtVenue: Exhibition[], venue: Venue): Article {
+  if (exhibitionsAtVenue.length === 0) return linkVenuesOnly(article, [venue.id], article.link_confidence);
+
+  const haystack = normalizeName(`${article.headline} ${article.excerpt}`);
+  const matches = exhibitionsAtVenue.filter((ex) => {
+    const artistHit = ex.artists.some((a) => {
+      const s = surname(a);
+      return s.length > 2 && containsWord(haystack, s);
+    });
+    return artistHit && inWindow(article.published, ex);
+  });
+
+  if (matches.length === 1) {
+    return link(article, matches[0], venue, Math.max(article.link_confidence, 0.85));
+  }
+  // 0 or 2+ matches — venue is still confirmed (that's not in question), the
+  // specific show just isn't determinable from the text alone.
+  return linkVenuesOnly(article, [venue.id], article.link_confidence);
+}
+
+// --- Ground-truth validation (SPEC.md §8 & §12) ---------------------------
+//
+// "Validate the whole cascade against the gallery-curated press listings
+// from §5.4 — you have ground truth, use it." Gallery-press articles
+// already carry a known-correct venue (that's how they were sourced). This
+// strips that knowledge and re-runs the fully general, venue-blind cascade
+// (tiers 1-3 only — this is a self-check on the deterministic heuristics,
+// not a reason to spend another LLM call) to see whether it would have
+// found the same venue on its own, and reports the miss rate honestly.
+
+export interface ValidationResult {
+  total: number;
+  correctVenue: number;
+  wrongVenue: number;
+  noGuess: number;
+}
+
+export async function validateAgainstGroundTruth(
+  groundTruthArticles: Article[],
+  exhibitions: Exhibition[],
+  venues: Venue[]
+): Promise<ValidationResult> {
+  const anonymized = groundTruthArticles
+    .filter((a) => a.links.venue_ids.length === 1) // single known-true venue per item
+    .map((a) => ({ ...a, links: { exhibition_id: null, venue_ids: [], artist_names: [] }, link_confidence: 0 }));
+
+  if (anonymized.length === 0) return { total: 0, correctVenue: 0, wrongVenue: 0, noGuess: 0 };
+
+  const knownVenueByArticleId = new Map(groundTruthArticles.map((a) => [a.id, a.links.venue_ids[0]]));
+  const { articles: guessed } = await resolveArticles(anonymized, exhibitions, venues, { llmAdjudicate: false });
+
+  const result: ValidationResult = { total: 0, correctVenue: 0, wrongVenue: 0, noGuess: 0 };
+  for (const a of guessed) {
+    const known = knownVenueByArticleId.get(a.id);
+    if (!known) continue;
+    result.total++;
+    if (a.links.venue_ids.length === 0) result.noGuess++;
+    else if (a.links.venue_ids.includes(known)) result.correctVenue++;
+    else result.wrongVenue++;
+  }
+  return result;
+}
+
 // --- Tier 4: LLM adjudication -------------------------------------------
 
 interface LLMResolution {

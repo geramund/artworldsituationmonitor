@@ -14,6 +14,7 @@
 // block describing HOW to query it; venues without one return an empty
 // array rather than guess.
 
+import * as cheerio from "cheerio";
 import type { Venue, RawExhibition, Adapter } from "../types/index.ts";
 import { CRAWLER_USER_AGENT } from "../pipeline/robots.ts";
 
@@ -30,6 +31,14 @@ interface WPTaxonomyFilteredConfig {
 interface WPCurrentPageConfig {
   mode: "current-page";
   path: string; // e.g. "/exhibitions-current/" — a single page IS the current show
+  // Some multi-location galleries render a location-tabbed slider on this
+  // page instead of a single show (verified on kaufmann repetto's
+  // /exhibitions-current/: `.custom-navi .nav-item[data-swipe]` tabs paired
+  // with `.content[data-swipe]` panes, each holding `.author` / `.opera` /
+  // a "through {date}" paragraph). When set, scope to the pane whose nav
+  // label contains this text (case-insensitive); when unset, or no
+  // matching pane is found, fall back to the generic <title>-tag heuristic.
+  locationLabel?: string;
 }
 type WordPressConfig = WPCustomPostTypeConfig | WPTaxonomyFilteredConfig | WPCurrentPageConfig;
 
@@ -80,6 +89,53 @@ function safeDate(input: string): string | null {
   const d = new Date(input);
   if (Number.isNaN(d.getTime())) return null;
   return d.toISOString().slice(0, 10);
+}
+
+interface LocationSlide {
+  title: string;
+  artists: string[];
+  closesText: string | null;
+}
+
+// See WPCurrentPageConfig.locationLabel — scopes a multi-location slider
+// page down to the pane for one location.
+function extractLocationSlide(html: string, locationLabel: string): LocationSlide | null {
+  const $ = cheerio.load(html);
+  const label = locationLabel.toLowerCase();
+  let swipeId: string | undefined;
+  $(".custom-navi .nav-item").each((_, el) => {
+    const $el = $(el);
+    if ($el.text().trim().toLowerCase().includes(label)) {
+      swipeId = $el.attr("data-swipe");
+      return false; // stop at first match
+    }
+  });
+  if (!swipeId) return null;
+
+  const $pane = $(`.content[data-swipe="${swipeId}"]`);
+  if ($pane.length === 0) return null;
+
+  const artist = $pane.find(".author").first().text().trim();
+  const title = $pane.find(".opera").first().text().trim();
+  if (!artist && !title) return null;
+
+  const paraText = $pane.find("p").first().text().replace(/\s+/g, " ").trim();
+  return { title: title || artist, artists: artist ? [artist] : [], closesText: paraText || null };
+}
+
+// "through august 8th" — no year, ordinal day suffix. Assumes the
+// reference year unless that lands >60 days in the past, in which case it
+// rolls to next year (handles a December page read in early January).
+function parseThroughDate(text: string, referenceYear: number): string | null {
+  const m = text.match(/through\s+([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?/i);
+  if (!m) return null;
+  const [, month, day] = m;
+  let d = new Date(`${month} ${day}, ${referenceYear}`);
+  if (Number.isNaN(d.getTime())) return null;
+  if (d.getTime() < Date.now() - 60 * 24 * 60 * 60 * 1000) {
+    d = new Date(`${month} ${day}, ${referenceYear + 1}`);
+  }
+  return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
 }
 
 // Generic "content area" image guess: pull <img src> values and drop
@@ -186,6 +242,34 @@ async function fetchWordPress(venue: Venue): Promise<RawExhibition[]> {
     const url = new URL(config.path, venue.url).toString();
     const html = await fetchHtml(url);
     if (!html) return [];
+
+    if (config.locationLabel) {
+      const slide = extractLocationSlide(html, config.locationLabel);
+      if (slide) {
+        const closes = slide.closesText ? parseThroughDate(slide.closesText, new Date().getFullYear()) : null;
+        return [
+          {
+            title: slide.title,
+            artists: slide.artists,
+            opens: null,
+            closes,
+            space_label: null,
+            excerpt: slide.closesText ?? "",
+            press_release_url: null,
+            image_urls: extractImages(html, url),
+            image_credit: null,
+            works: [],
+            source_url: url,
+            confidence: closes ? 0.65 : 0.5,
+            fetched_at: new Date().toISOString(),
+          },
+        ];
+      }
+      // No matching pane (page layout changed, or location label stopped
+      // matching) — fall through to the generic <title>-tag heuristic below
+      // rather than returning nothing.
+    }
+
     const text = stripTags(html);
     const titleMatch = html.match(/<title[^>]*>([^<]*)<\/title>/i);
     const title = titleMatch ? stripTags(titleMatch[1]).split("|")[0].trim() : null;

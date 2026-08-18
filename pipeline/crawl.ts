@@ -15,9 +15,10 @@ import sanityAdapter from "../adapters/sanity.ts";
 import wordpressAdapter from "../adapters/wordpress.ts";
 import artlogicAdapter from "../adapters/artlogic.ts";
 import { fetchOutletArticles, type OutletConfig } from "../adapters/rss.ts";
+import { fetchGalleryPressArticles } from "../adapters/gallerypress.ts";
 import { normalizeExhibition } from "./normalize.ts";
 import { plausible } from "./plausible.ts";
-import { resolveArticles, type ResolveStats } from "./resolve.ts";
+import { resolveArticles, linkWithinVenue, validateAgainstGroundTruth, type ResolveStats, type ValidationResult } from "./resolve.ts";
 import { robotsAllows } from "./robots.ts";
 import { diffEvents, bootstrapEvents, type PriorState } from "./diff.ts";
 import { writeCitySnapshot, writeGlobalSnapshot, appendEvents } from "./snapshot.ts";
@@ -150,7 +151,34 @@ async function main() {
   // Resolution cascade (SPEC.md §8) — links each article to the exhibition
   // it's actually about, or explicitly marks it ambiguous/unlinked. Runs
   // even in --dry-run so the preview report reflects real link rates.
-  const { articles: allArticles, stats: resolveStats } = await resolveArticles(rawArticles, allExhibitions, venues);
+  const { articles: resolvedRssArticles, stats: resolveStats } = await resolveArticles(rawArticles, allExhibitions, venues);
+
+  // Gallery-curated press (SPEC.md §5.4) — venue-config-driven, only for the
+  // handful of venues where the listing page has been hand-verified (see
+  // adapters/gallerypress.ts). Already knows its venue, so it skips the
+  // cascade's venue-guessing tiers; linkWithinVenue only has to pick which
+  // current show (if any) the piece is about.
+  const pressArticles: Article[] = [];
+  for (const venue of venues) {
+    let items: Article[] = [];
+    try {
+      items = await fetchGalleryPressArticles(venue);
+    } catch (err) {
+      console.warn(`[gallerypress] ${venue.id}: fetch failed — ${(err as Error).message}`);
+    }
+    if (items.length === 0) continue;
+    const exhibitionsAtVenue = allExhibitions.filter((e) => e.venue_id === venue.id);
+    pressArticles.push(...items.map((a) => linkWithinVenue(a, exhibitionsAtVenue, venue)));
+    console.log(`[gallerypress] ${venue.id}: ${items.length} item(s)`);
+  }
+
+  const allArticles = [...resolvedRssArticles, ...pressArticles];
+
+  // "You have ground truth, use it" (SPEC.md §8) — strip the known-correct
+  // venue off each gallery-press article and see if the general, venue-blind
+  // cascade would have recovered it on its own. A real accuracy check, not
+  // just an internal consistency check.
+  const validation = await validateAgainstGroundTruth(pressArticles, allExhibitions, venues);
 
   const nexus = JSON.parse(readFileSync(NEXUS_PATH, "utf8")) as Nexus[];
 
@@ -180,7 +208,7 @@ async function main() {
     newEvents = written;
   }
 
-  report(venues, allExhibitions, allArticles, newEvents, suspects, blocked, resolveStats);
+  report(venues, allExhibitions, allArticles, newEvents, suspects, blocked, resolveStats, validation);
 }
 
 function report(
@@ -190,7 +218,8 @@ function report(
   events: MonitorEvent[],
   suspects: SuspectReport[],
   blocked: string[],
-  resolveStats: ResolveStats
+  resolveStats: ResolveStats,
+  validation: ValidationResult
 ) {
   const lowConfidence = exhibitions.filter((e) => e.confidence < 0.7);
   const linked = articles.filter((a) => a.links.exhibition_id !== null);
@@ -215,6 +244,13 @@ function report(
     `  resolution: tier1=${resolveStats.tier1} tier2=${resolveStats.tier2} tier3=${resolveStats.tier3} ` +
       `llm=${resolveStats.llm} ambiguous=${resolveStats.ambiguous} unlinked=${resolveStats.unlinked}`
   );
+  if (validation.total > 0) {
+    const rate = ((validation.correctVenue / validation.total) * 100).toFixed(0);
+    console.log(
+      `  ground-truth check (${validation.total} gallerypress article(s), venue anonymized then re-guessed): ` +
+        `${rate}% correct venue (${validation.correctVenue} correct, ${validation.wrongVenue} wrong, ${validation.noGuess} no guess)`
+    );
+  }
   console.log(`New events this run: ${events.length}`);
   console.log(`Median record staleness: ${median.toFixed(1)} day(s)`);
   console.log(`Suspect this run: ${suspects.length}${blocked.length ? `, blocked by robots.txt: ${blocked.length}` : ""}`);

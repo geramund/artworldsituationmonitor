@@ -20,7 +20,12 @@
     }
   ],
   "adapter": "artlogic",
-  "config": {},
+  "config": {
+    "gallerypress": {
+      "type": "artlogic-news-grid",
+      "path": "/news/c/press"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/news",
@@ -29,11 +34,11 @@
   "cadence": "weekly",
   "hours": "Mon–Fri 10–6 (392 Broadway); Mon–Fri 11–6 (390 Broadway)",
   "health": {
-    "last_attempt": "2026-08-18T18:05:14.135Z",
-    "last_success": "2026-08-18T18:05:14.135Z",
+    "last_attempt": "2026-08-18T18:24:52.709Z",
+    "last_success": "2026-08-18T18:24:52.709Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Two NYC spaces confirmed directly on ppowgallery.com. Also operates a London space at 9 Cork Street (not tracked here; out of nyc scope).\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+  "notes": "Two NYC spaces confirmed directly on ppowgallery.com. Also operates a London space at 9 Cork Street (not tracked here; out of nyc scope).\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\ngallerypress (2026-08-18): verified live — /news/c/press is a filtered category view of the site's news grid, ~1000+ entries going back decades (not paginated, so adapters/gallerypress.ts caps at the most recent 25). Other Artlogic venues in this registry use different, unguessable category slugs or a different news template entirely (checked andrew-kreps, edlin, norr-cohan, ortuzar — none matched); left unconfigured rather than guessed."
 }
