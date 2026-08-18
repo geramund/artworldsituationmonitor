@@ -45,6 +45,9 @@ export default function ReviewQueue() {
   const lowConfidence = snapshot.exhibitions
     .filter((e) => e.confidence < 0.7)
     .sort((a, b) => a.confidence - b.confidence);
+  const ambiguousArticles = snapshot.articles
+    .filter((a) => a.links.exhibition_id === null && a.links.venue_ids.length > 0)
+    .sort((a, b) => a.link_confidence - b.link_confidence);
   const venueById = new Map(snapshot.venues.map((v) => [v.id, v]));
 
   return (
@@ -117,6 +120,36 @@ export default function ReviewQueue() {
               <ExhibitionRow key={e.id} exhibition={e} venue={venueById.get(e.venue_id)} />
             ))}
           </Table>
+        )}
+      </Section>
+
+      <Section title={`Ambiguous press matches (${ambiguousArticles.length})`}>
+        {ambiguousArticles.length === 0 ? (
+          <Empty>No article sits between &ldquo;linked&rdquo; and &ldquo;unlinked&rdquo; right now.</Empty>
+        ) : (
+          <>
+            <p className="mb-2 text-[11px]" style={{ color: "var(--dim)" }}>
+              The resolution cascade found a plausible venue for these but couldn&rsquo;t pick a specific
+              exhibition with confidence — either 2+ candidates tied, or an LLM adjudication key isn&rsquo;t
+              configured for this deploy. Not shown as linked press anywhere on the map.
+            </p>
+            <Table headers={["Confidence", "Candidate venue(s)", "Headline", "Outlet"]}>
+              {ambiguousArticles.map((a) => (
+                <tr key={a.id} className="border-t" style={{ borderColor: "var(--hairline)" }}>
+                  <Td className="mono tabular" style={{ color: "var(--orange)" }}>
+                    {(a.link_confidence * 100).toFixed(0)}%
+                  </Td>
+                  <Td>{a.links.venue_ids.map((id) => venueById.get(id)?.name ?? id).join(", ")}</Td>
+                  <Td className="max-w-md">
+                    <a href={a.url} target="_blank" rel="noreferrer" className="underline decoration-dotted">
+                      {a.headline}
+                    </a>
+                  </Td>
+                  <Td style={{ color: "var(--dim)" }}>{a.outlet}</Td>
+                </tr>
+              ))}
+            </Table>
+          </>
         )}
       </Section>
     </div>

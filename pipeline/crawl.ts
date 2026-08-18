@@ -17,6 +17,7 @@ import artlogicAdapter from "../adapters/artlogic.ts";
 import { fetchOutletArticles, type OutletConfig } from "../adapters/rss.ts";
 import { normalizeExhibition } from "./normalize.ts";
 import { plausible } from "./plausible.ts";
+import { resolveArticles, type ResolveStats } from "./resolve.ts";
 import { robotsAllows } from "./robots.ts";
 import { diffEvents, bootstrapEvents, type PriorState } from "./diff.ts";
 import { writeCitySnapshot, writeGlobalSnapshot, appendEvents } from "./snapshot.ts";
@@ -138,13 +139,18 @@ async function main() {
   }
 
   const outlets = JSON.parse(readFileSync(OUTLETS_PATH, "utf8")) as OutletConfig[];
-  const allArticles: Article[] = [];
+  const rawArticles: Article[] = [];
   for (const outlet of outlets) {
     const articles = await fetchOutletArticles(outlet);
-    allArticles.push(...articles);
+    rawArticles.push(...articles);
     console.log(`[rss] ${outlet.id}: ${articles.length} article(s)`);
     await sleep(300);
   }
+
+  // Resolution cascade (SPEC.md §8) — links each article to the exhibition
+  // it's actually about, or explicitly marks it ambiguous/unlinked. Runs
+  // even in --dry-run so the preview report reflects real link rates.
+  const { articles: allArticles, stats: resolveStats } = await resolveArticles(rawArticles, allExhibitions, venues);
 
   const nexus = JSON.parse(readFileSync(NEXUS_PATH, "utf8")) as Nexus[];
 
@@ -174,7 +180,7 @@ async function main() {
     newEvents = written;
   }
 
-  report(venues, allExhibitions, allArticles, newEvents, suspects, blocked);
+  report(venues, allExhibitions, allArticles, newEvents, suspects, blocked, resolveStats);
 }
 
 function report(
@@ -183,10 +189,12 @@ function report(
   articles: Article[],
   events: MonitorEvent[],
   suspects: SuspectReport[],
-  blocked: string[]
+  blocked: string[],
+  resolveStats: ResolveStats
 ) {
   const lowConfidence = exhibitions.filter((e) => e.confidence < 0.7);
-  const linked = articles.filter((a) => a.links.exhibition_id || a.links.venue_ids.length > 0);
+  const linked = articles.filter((a) => a.links.exhibition_id !== null);
+  const ambiguous = articles.filter((a) => a.links.exhibition_id === null && a.links.venue_ids.length > 0);
   const staleDaysList = exhibitions
     .map((e) => (Date.now() - new Date(e.fetched_at).getTime()) / (24 * 60 * 60 * 1000))
     .sort((a, b) => a - b);
@@ -199,7 +207,14 @@ function report(
   console.log(`\n--- ${DRY_RUN ? "DRY-RUN " : ""}PHASE REPORT ---`);
   console.log(`Venues: ${venues.length} (` + [...adapterCounts.entries()].map(([a, c]) => `${a}=${c}`).join(", ") + ")");
   console.log(`Exhibitions: ${exhibitions.length} (${lowConfidence.length} below 0.7 confidence)`);
-  console.log(`Articles: ${articles.length} (${linked.length} linked, ${articles.length - linked.length} unlinked)`);
+  console.log(
+    `Articles: ${articles.length} (${linked.length} linked, ${ambiguous.length} ambiguous, ` +
+      `${articles.length - linked.length - ambiguous.length} unlinked)`
+  );
+  console.log(
+    `  resolution: tier1=${resolveStats.tier1} tier2=${resolveStats.tier2} tier3=${resolveStats.tier3} ` +
+      `llm=${resolveStats.llm} ambiguous=${resolveStats.ambiguous} unlinked=${resolveStats.unlinked}`
+  );
   console.log(`New events this run: ${events.length}`);
   console.log(`Median record staleness: ${median.toFixed(1)} day(s)`);
   console.log(`Suspect this run: ${suspects.length}${blocked.length ? `, blocked by robots.txt: ${blocked.length}` : ""}`);
