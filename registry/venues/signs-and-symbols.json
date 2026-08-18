@@ -23,11 +23,11 @@
   "cadence": "weekly",
   "hours": "Not confirmed from site — verify",
   "health": {
-    "last_attempt": "2026-08-18T18:24:52.709Z",
-    "last_success": "2026-08-18T18:24:52.709Z",
+    "last_attempt": "2026-08-18T18:45:00.742Z",
+    "last_success": "2026-08-18T18:45:00.742Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Program is performance/time-based-media/photography focused. No exhibition confirmed on view for August 2026 — last known show closed July 2025; site did not surface anything newer. Treated as dark; low confidence this reflects an accurate current state rather than a stale/unlinked events page — recommend re-check.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+  "notes": "Program is performance/time-based-media/photography focused. No exhibition confirmed on view for August 2026 — last known show closed July 2025; site did not surface anything newer. Treated as dark; low confidence this reflects an accurate current state rather than a stale/unlinked events page — recommend re-check.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nSquarespace adapter checked (2026-08-18): homepage and /89-greene both have real, parseable text (classic block page, not Fluid Engine) — but the most recent listed show on either is from 2025-06/2025-07, confirming the note above: this really is stale, not a scraping gap. Left unconfigured rather than wired up, since a scraper here would surface a genuinely old show as current."
 }

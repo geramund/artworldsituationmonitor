@@ -23,11 +23,11 @@
   "cadence": "weekly",
   "hours": "Tue–Sat 12–6, or by appointment",
   "health": {
-    "last_attempt": "2026-08-18T18:24:52.709Z",
-    "last_success": "2026-08-18T18:24:52.709Z",
+    "last_attempt": "2026-08-18T18:45:00.742Z",
+    "last_success": "2026-08-18T18:45:00.742Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Founded 2021 by Jordan Barse; sub-level space accessed via sidewalk cellar doors. Last confirmed show (Ty Palow, 'Bird World') closed Jul 31, 2026; next-show date could not be confirmed with confidence from available sources — treat next-opening date as unknown until re-checked, not as Sep 9 like most Tribeca peers.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+  "notes": "Founded 2021 by Jordan Barse; sub-level space accessed via sidewalk cellar doors. Last confirmed show (Ty Palow, 'Bird World') closed Jul 31, 2026; next-show date could not be confirmed with confidence from available sources — treat next-opening date as unknown until re-checked, not as Sep 9 like most Tribeca peers.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nSquarespace adapter checked (2026-08-18): /exhibitions is a \"Fluid Engine\" page (Squarespace 7.1's newer section-based builder) — its content doesn't serialize into the ?format=json mainContent field at all (comes back empty), unlike the classic block pages adapters/squarespace.ts can read. No usable text found; stays manual."
 }

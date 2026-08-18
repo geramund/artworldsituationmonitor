@@ -13,8 +13,12 @@
       "lng": -73.9922719
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "squarespace",
+  "config": {
+    "squarespace": {
+      "path": "/upcoming"
+    }
+  },
   "paths": {
     "exhibitions": "/upcoming",
     "press": "/news",
@@ -23,11 +27,11 @@
   "cadence": "daily",
   "hours": "Not confirmed from site — verify",
   "health": {
-    "last_attempt": "2026-08-18T18:24:52.709Z",
-    "last_success": "2026-08-18T18:24:52.709Z",
-    "record_count": 0,
+    "last_attempt": "2026-08-18T18:45:00.742Z",
+    "last_success": "2026-08-18T18:45:00.742Z",
+    "record_count": 1,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Dark as of 2026-08-17; next show is a 10th-anniversary exhibition, \"Ten Years of Fierman,\" opening 2026-09-16 — within the daily-cadence window once within 3 days of that date.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+  "notes": "Dark as of 2026-08-17; next show is a 10th-anniversary exhibition, \"Ten Years of Fierman,\" opening 2026-09-16 — within the daily-cadence window once within 3 days of that date.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nWired to real live adapter (2026-08-18): confirms the note above exactly — adapters/squarespace.ts scrapes the /upcoming page's free text (\"TEN YEARS OF FIERMAN OPENING SEPTEMBER 16, 2026\", all-caps, no date range given so closes stays null). No structured collection API on this platform for plain Squarespace \"Page\" content — see adapter file header. Low confidence (0.4) reflects that this is free-text parsing, same tier as wordpress.ts's current-page fallback."
 }

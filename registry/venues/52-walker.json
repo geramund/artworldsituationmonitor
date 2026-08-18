@@ -23,11 +23,11 @@
   "cadence": "weekly",
   "hours": "Tue–Sat 10–6 (per David Zwirner house hours; this location showed as closed with no current show on 2026-08-17)",
   "health": {
-    "last_attempt": "2026-08-18T18:24:52.709Z",
-    "last_success": "2026-08-18T18:24:52.709Z",
+    "last_attempt": "2026-08-18T18:45:00.742Z",
+    "last_success": "2026-08-18T18:45:00.742Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Formerly '52W', an independently-branded curatorial program led by Ebony L. Haynes (2021–2025). As of 2026, Haynes moved to a global David Zwirner role and this Tribeca space folded into the main David Zwirner gallery program — no longer separately branded, but 'davidzwirner.com/galleries/new-york/walker-street' is still the canonical URL and '52 Walker' remains the common name in press. Dark as of 2026-08-17; next show Emma McIntyre opens 2026-09-18. Also see 'norr-cohan' venue notes: 52 Walker Street is also claimed as a Norr Cohan (formerly James Cohan) 2nd-floor space — likely a shared building with multiple gallery tenants on different floors; verify on-site before assuming shared coordinates.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+  "notes": "Formerly '52W', an independently-branded curatorial program led by Ebony L. Haynes (2021–2025). As of 2026, Haynes moved to a global David Zwirner role and this Tribeca space folded into the main David Zwirner gallery program — no longer separately branded, but 'davidzwirner.com/galleries/new-york/walker-street' is still the canonical URL and '52 Walker' remains the common name in press. Dark as of 2026-08-17; next show Emma McIntyre opens 2026-09-18. Also see 'norr-cohan' venue notes: 52 Walker Street is also claimed as a Norr Cohan (formerly James Cohan) 2nd-floor space — likely a shared building with multiple gallery tenants on different floors; verify on-site before assuming shared coordinates.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML.\n\nChecked live (2026-08-18): no Sanity signature found on the rendered page at all — davidzwirner.com is a large custom site, likely gating its CMS behind a private backend rather than exposing a public GROQ endpoint like the smaller independent galleries do. Stays manual."
 }

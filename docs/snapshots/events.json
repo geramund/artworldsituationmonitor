@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-18T18:24:52.709Z",
+  "generated_at": "2026-08-18T18:45:00.742Z",
   "window_days": 90,
   "events": [
     {
@@ -435,6 +435,28 @@
       "article_id": null,
       "payload": {
         "title": "Male Art Exhibition, Great Show!"
+      }
+    },
+    {
+      "id": "evt-msz0jo4a-1",
+      "ts": "2026-08-18T18:45:00.742Z",
+      "type": "ANNOUNCED",
+      "venue_id": "fierman",
+      "exhibition_id": "ex-fierman-5b9cddf3d7",
+      "article_id": null,
+      "payload": {
+        "title": "TEN YEARS OF FIERMAN"
+      }
+    },
+    {
+      "id": "evt-msz0jo4a-2",
+      "ts": "2026-08-18T18:45:00.742Z",
+      "type": "ANNOUNCED",
+      "venue_id": "situations",
+      "exhibition_id": "ex-situations-bc19343885",
+      "article_id": null,
+      "payload": {
+        "title": "MASAMITSU SHIGETA"
       }
     }
   ]

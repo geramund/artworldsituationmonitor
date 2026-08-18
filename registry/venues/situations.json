@@ -13,21 +13,25 @@
       "lng": -74.0062765
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "squarespace",
+  "config": {
+    "squarespace": {
+      "path": "/future-1"
+    }
+  },
   "paths": {
-    "exhibitions": "/",
+    "exhibitions": "/future-1",
     "press": "/",
     "news": "/"
   },
   "cadence": "weekly",
   "hours": "Not confirmed from site — verify",
   "health": {
-    "last_attempt": "2026-08-18T18:24:52.709Z",
-    "last_success": "2026-08-18T18:24:52.709Z",
-    "record_count": 0,
+    "last_attempt": "2026-08-18T18:45:00.742Z",
+    "last_success": "2026-08-18T18:45:00.742Z",
+    "record_count": 1,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "SPEC seed list places this venue in Lower East Side, but the gallery relocated to Chelsea (515 W 20th St) in January 2024 per secondary sources — could not independently confirm the exact address from the gallery's own site (contact/info page returned 404). LOW CONFIDENCE on address; verify before geocoding.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+  "notes": "SPEC seed list places this venue in Lower East Side, but the gallery relocated to Chelsea (515 W 20th St) in January 2024 per secondary sources — could not independently confirm the exact address from the gallery's own site (contact/info page returned 404). LOW CONFIDENCE on address; verify before geocoding.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nWired to real live adapter (2026-08-18): /future-1 page's free text lists \"MASAMITSU SHIGETA September 10 - October 17, 2026\" as the next show (adapters/squarespace.ts takes the first title+date match on the page; a second line below it about an UNTITLED ART Houston fair booth is correctly left unparsed, not a gallery exhibition)."
 }

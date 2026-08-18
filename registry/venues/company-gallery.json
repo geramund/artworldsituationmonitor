@@ -13,8 +13,14 @@
       "lng": -73.995216
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "sanity",
+  "config": {
+    "sanity": {
+      "projectId": "t26bgxe5",
+      "dataset": "production",
+      "schema": "embedded"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/",
@@ -23,11 +29,11 @@
   "cadence": "weekly",
   "hours": "Mon–Fri 12–5pm (summer hours)",
   "health": {
-    "last_attempt": "2026-08-18T18:24:52.709Z",
-    "last_success": "2026-08-18T18:24:52.709Z",
+    "last_attempt": "2026-08-18T18:45:00.742Z",
+    "last_success": "2026-08-18T18:45:00.742Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Gallery's own exhibitions page states no upcoming exhibitions as of 2026-08-17; treated as dark for summer despite a secondary source (search aggregator) referencing a Hayden Dunham show — not corroborated on the gallery's own site.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+  "notes": "Gallery's own exhibitions page states no upcoming exhibitions as of 2026-08-17; treated as dark for summer despite a secondary source (search aggregator) referencing a Hayden Dunham show — not corroborated on the gallery's own site.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML.\n\nWired to real live adapter (2026-08-18): verified via direct GROQ query — genuinely dark, most recent show (Aya Brown, \"In the life\") closed 2026-07-31, corroborating the manual note above. Schema is a third distinct Sanity shape (\"embedded\": artists[].artistName inline, not artist document references) — see adapters/sanity.ts."
 }

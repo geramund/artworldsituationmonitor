@@ -5,11 +5,19 @@
 //
 // Different galleries' Sanity studios use genuinely different schemas (field
 // names, nesting) even though they're all Sanity — verified directly against
-// two real venues, Bortolami and Canada, which do NOT share a schema. So
-// this adapter is config-driven per venue (`venue.config.sanity`) rather
-// than assuming one universal shape. A venue with no `config.sanity` set —
-// because its schema hasn't been mapped yet, or the project/dataset couldn't
-// be found on its own site — returns an empty array rather than guessing.
+// three real venues (Bortolami, Canada, Company Gallery), no two of which
+// share a schema. So this adapter is config-driven per venue
+// (`venue.config.sanity`) rather than assuming one universal shape. A venue
+// with no `config.sanity` set — because its schema hasn't been mapped yet,
+// or the project/dataset couldn't be found on its own site — returns an
+// empty array rather than guessing.
+//
+// A "cdn.sanity.io reference in HTML" fingerprint match is necessary but not
+// sufficient: 52 Walker (David Zwirner) shows no live Sanity signature on
+// its rendered page at all (likely a private/gated API behind their own
+// backend), and Foxy Production's one match was a single image URL baked
+// into an otherwise fully static Hugo-generated site — its public GROQ
+// endpoint returns zero documents for any query. Both stay on `manual`.
 
 import { CRAWLER_USER_AGENT } from "../pipeline/robots.ts";
 import type { Venue, RawExhibition, Adapter, Work } from "../types/index.ts";
@@ -24,7 +32,17 @@ interface SanityConfigFlat {
   dataset: string;
   schema: "flat"; // Canada-style: top-level startDate/endDate, installationImages[] (each with its own caption), pressRelease
 }
-type SanityConfig = SanityConfigNested | SanityConfigFlat;
+interface SanityConfigEmbedded {
+  projectId: string;
+  dataset: string;
+  // Company Gallery-style: artists[].artistName inline strings (no artist
+  // document references to dereference), exhibitionInfo.spaces as boolean
+  // flags {upper, lower, upper2} rather than a location reference,
+  // installation[].featuredImage.asset (not installation[].asset directly),
+  // exhibitionInfo.pressRelease as a dereferenceable file asset.
+  schema: "embedded";
+}
+type SanityConfig = SanityConfigNested | SanityConfigFlat | SanityConfigEmbedded;
 
 function hasSanityConfig(config: unknown): config is { sanity: SanityConfig } {
   return (
@@ -153,15 +171,80 @@ async function fetchFlat(venue: Venue, cfg: SanityConfigFlat): Promise<RawExhibi
     });
 }
 
+async function fetchEmbedded(venue: Venue, cfg: SanityConfigEmbedded): Promise<RawExhibition[]> {
+  const query = `*[_type == "exhibition"] | order(exhibitionInfo.startDate desc) [0...6] {
+    title,
+    "artists": artists[].artistName,
+    "opens": exhibitionInfo.startDate,
+    "closes": exhibitionInfo.endDate,
+    "spaces": exhibitionInfo.spaces,
+    "descriptionBlocks": exhibitionInfo.description,
+    "slug": url.current,
+    "images": installation[].featuredImage.asset->url,
+    "pressUrl": exhibitionInfo.pressRelease.asset->url
+  }`;
+  const results = await groq<Record<string, unknown>[]>(cfg.projectId, cfg.dataset, query);
+  if (!results) return [];
+
+  const fetchedAt = new Date().toISOString();
+  return results
+    .filter((r) => typeof r.title === "string")
+    .map((r): RawExhibition => {
+      const images = Array.isArray(r.images) ? (r.images.filter((u) => typeof u === "string") as string[]) : [];
+      const spaces =
+        r.spaces && typeof r.spaces === "object"
+          ? Object.entries(r.spaces as Record<string, unknown>)
+              .filter(([k, v]) => v === true && k !== "_type")
+              .map(([k]) => (k === "upper2" ? "Upper 2" : k.charAt(0).toUpperCase() + k.slice(1)))
+          : [];
+      return {
+        title: r.title as string,
+        artists: Array.isArray(r.artists) ? (r.artists.filter((a) => typeof a === "string") as string[]) : [],
+        kind: "group",
+        opens: typeof r.opens === "string" ? r.opens : null,
+        closes: typeof r.closes === "string" ? r.closes : null,
+        space_label: spaces.length > 0 ? spaces.join(", ") : null,
+        excerpt: portableTextToPlain(r.descriptionBlocks).slice(0, 300),
+        press_release_url: typeof r.pressUrl === "string" ? r.pressUrl : null,
+        image_urls: images,
+        image_credit: null, // no per-image or master caption field in this schema
+        works: [] as Work[],
+        source_url: typeof r.slug === "string" ? `${venue.url}/exhibitions/${r.slug}` : venue.url,
+        confidence: 0.9,
+        fetched_at: fetchedAt,
+      };
+    });
+}
+
+// A document with no closing date isn't necessarily open-ended — real data
+// found on Company Gallery's dataset included an old "Closing Reception:
+// ..." doc from months back with no endDate ever recorded, which a bare
+// "no closes = ongoing" rule would wrongly surface as current. Only trust
+// the open-ended reading when the show also opened recently (or opens in
+// the future); an old opens date with a missing close is much more likely
+// a stale data-entry gap than a genuinely indefinite run.
+const OPEN_ENDED_MAX_AGE_DAYS = 120;
+
+function isRecentOrFuture(dateStr: string | null, maxAgeDays: number): boolean {
+  if (!dateStr) return true; // nothing to be stale about
+  const t = new Date(dateStr).getTime();
+  if (Number.isNaN(t)) return true;
+  return t >= Date.now() - maxAgeDays * 24 * 60 * 60 * 1000;
+}
+
 async function fetchSanity(venue: Venue): Promise<RawExhibition[]> {
   if (!hasSanityConfig(venue.config)) return []; // unmapped schema — honest empty, not a guess
   const cfg = venue.config.sanity;
-  const all = cfg.schema === "nested" ? await fetchNested(venue, cfg) : await fetchFlat(venue, cfg);
+  const all =
+    cfg.schema === "nested" ? await fetchNested(venue, cfg) : cfg.schema === "flat" ? await fetchFlat(venue, cfg) : await fetchEmbedded(venue, cfg);
 
   // Keep it to what's plausibly current: closes today-or-later, or no
-  // closes date at all (open-ended), or opens in the future (upcoming).
+  // closes date but opened recently (open-ended), or opens in the future.
   const today = todayISO();
-  return all.filter((ex) => (ex.closes && ex.closes >= today) || !ex.closes || (ex.opens && ex.opens >= today));
+  return all.filter((ex) => {
+    if (ex.closes) return ex.closes >= today;
+    return isRecentOrFuture(ex.opens, OPEN_ENDED_MAX_AGE_DAYS);
+  });
 }
 
 const sanityAdapter: Adapter = { id: "sanity", fetch: fetchSanity };
