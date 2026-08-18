@@ -1,0 +1,22 @@
+{
+  "name": "art-world-situation-monitor-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Crawl/normalize/geocode/diff/snapshot pipeline for the Art World Situation Monitor",
+  "type": "module",
+  "scripts": {
+    "geocode": "tsx pipeline/geocode.ts",
+    "crawl": "tsx pipeline/crawl.ts",
+    "snapshot": "tsx pipeline/snapshot.ts",
+    "diff": "tsx pipeline/diff.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

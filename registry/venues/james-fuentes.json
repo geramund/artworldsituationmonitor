@@ -1,0 +1,33 @@
+{
+  "id": "james-fuentes",
+  "name": "James Fuentes",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://jamesfuentes.com",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "52 White Street, New York, NY 10013",
+      "lat": 40.7186095,
+      "lng": -74.0038416
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Mon–Fri 10am–6pm (hours not fully confirmed from site)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 1,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Gallery's flagship NY space is now at 52 White Street, Tribeca (moved from its original LES address on Delancey St.); recorded under Tribeca district. Also operates a Los Angeles location (5015 Melrose Ave), out of scope for this registry. Data-quality re-pass 2026-08-17: confirmed 'Somehow Desire' full 17-artist list and curatorial description directly from the exhibition's own dedicated page (jamesfuentes.com/exhibitions/somehow-desire), not just the aggregate listing — confidence raised 0.5 -> 0.9. Cadence corrected daily -> weekly (closes Aug 28, 11 days out, outside the 7-day daily-cadence window per SPEC.md §6). Image pass 2026-08-17: no installation-view image URLs extractable from jamesfuentes.com (no og:image/JSON-LD image metadata either) — page appears to load its image gallery via client-side JS not present in the fetched HTML. Left image_urls empty rather than guess. Follow-up 2026-08-17: also checked the gallery's /news page (no mention of this show — its most recent dated news items predate the Aug 14 opening), ran a raw-content scan for any .jpg/.png/.webp/data-src fragment on the exhibition page (none found), and a general web search for \"'Somehow Desire' James Fuentes installation view\" (zero results — the show is 3 days old as of this check and hasn't been picked up anywhere yet, gallery's own page or otherwise). Genuinely nothing to find yet, not a tooling failure — worth re-checking in a week once press coverage catches up.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fanta-mrlb",
+  "name": "Fanta-MRLB",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "",
+  "spaces": [],
+  "adapter": "manual",
+  "config": {},
+  "paths": {},
+  "cadence": "weekly",
+  "hours": "",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "UNRESOLVED. Extensive web search (direct name, 'MRLB' alone, 'Fantamechanica', Milan's unrelated 'Fanta-MLN', Tribeca gallery-guide cross-reference against ~70 listed Tribeca galleries) found no matching venue as of 2026-08-17. Likely a very small, closed, Instagram-only, or misnamed space — the exact risk the spec calls out ('some venues will be manual forever'). No address, no coordinates, no exhibition data. Retained in the registry rather than dropped so the gap stays visible in the coverage layer; needs a human with local knowledge to resolve or retire this entry."
+}

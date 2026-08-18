@@ -1,0 +1,33 @@
+{
+  "id": "bureau",
+  "name": "Bureau",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://bureau-inc.com",
+  "spaces": [
+    {
+      "label": "112 Duane",
+      "address": "112 Duane Street, New York, NY 10013",
+      "lat": 40.7156153,
+      "lng": -74.0065097
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions-future",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "By appointment only (per site, 2026-08-17)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address (112 Duane Street, relocated 2024) sourced from a secondary listing, not confirmed directly on bureau-inc.com's homepage (page did not surface a street address in this pass) — re-verify address on next crawl. Currently open by-appointment-only with nothing on view; next shows (Libby Rothfeld, Will Yackulic) open 2026-09-10. Site platform unclear from search alone; fingerprint on first crawl.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

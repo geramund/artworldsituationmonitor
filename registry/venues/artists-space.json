@@ -1,0 +1,33 @@
+{
+  "id": "artists-space",
+  "name": "Artists Space",
+  "kind": "institution",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://artistsspace.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "11 Cortlandt Alley, New York, NY 10013",
+      "lat": 40.7173293,
+      "lng": -74.0028789
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "daily",
+  "hours": "Wed–Sat 12–6pm",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Between exhibitions as of 2026-08-17: \"Shani Strand: Everything Must Be Returned\" closed Aug 15; \"Theresa Hak Kyung Cha: Multiple Offerings\" opens Sep 11. Cadence set to daily since a reopening date is announced within 30 days (spec §6 tier is 3 days prior, tightening this closer to Sep 8 is a pipeline job, not a manual one).\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ppow",
+  "name": "P·P·O·W",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://www.ppowgallery.com",
+  "spaces": [
+    {
+      "label": "392 Broadway",
+      "address": "392 Broadway, New York, NY 10013",
+      "lat": 40.7183471,
+      "lng": -74.0025973
+    },
+    {
+      "label": "390 Broadway, 2nd Floor",
+      "address": "390 Broadway, 2nd Floor, New York, NY 10013",
+      "lat": 40.7182729,
+      "lng": -74.0026265
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Mon–Fri 10–6 (392 Broadway); Mon–Fri 11–6 (390 Broadway)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Two NYC spaces confirmed directly on ppowgallery.com. Also operates a London space at 9 Cork Street (not tracked here; out of nyc scope).\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+}

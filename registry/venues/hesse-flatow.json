@@ -1,0 +1,33 @@
+{
+  "id": "hesse-flatow",
+  "name": "Hesse Flatow",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://hesseflatow.com",
+  "spaces": [
+    {
+      "label": "77 Franklin Street",
+      "address": "77 Franklin Street, New York, NY 10013",
+      "lat": 40.7177126,
+      "lng": -74.0045305
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat 11–6 (summer hours: Mon–Fri 11–6)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Confirmed via hesseflatow.com/exhibitions. Also operates a seasonal 'HESSE FLATOW EAST' space at 68 Schellinger Road, Amagansett, NY — out of nyc/tribeca scope, not registered as a second space here. Next NYC shows (Lizzie Gill 'Carousel'; Paloma Izquierdo 'Carrier') open Sep 9, 2026.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+}

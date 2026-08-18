@@ -1,0 +1,33 @@
+{
+  "id": "swiss-institute",
+  "name": "Swiss Institute",
+  "kind": "institution",
+  "city": "nyc",
+  "district": "bowery",
+  "url": "https://swissinstitute.net",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "250 Bowery, New York, NY 10012",
+      "lat": 40.7230843,
+      "lng": -73.993388
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Closed for construction",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "SI purchased 250 Bowery outright (first owned premises in its 40-year history) and the building is closed for construction, reopening spring 2027 with a group show, \"The Environment.\" Current programming is entirely offsite/international (e.g. \"Regift\" featuring Sylvie Fleury at Luma Westbau, Zurich, Jun 13–Sep 6, 2026) — not NYC-based, so excluded from manual.ts. Revisit when the Bowery space reopens.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

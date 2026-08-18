@@ -1,0 +1,2399 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-18T12:50:23.797Z",
+  "city": "nyc",
+  "coverage": {
+    "live": 38,
+    "stale": 0,
+    "dark": 26,
+    "blocked": 0,
+    "no_adapter": 0
+  },
+  "venues": [
+    {
+      "id": "52-walker",
+      "name": "52 Walker",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.davidzwirner.com/galleries/new-york/walker-street",
+      "spaces": [
+        {
+          "label": "52 Walker",
+          "address": "52 Walker Street, New York, NY 10013",
+          "lat": 40.71913,
+          "lng": -74.0033389
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 10–6 (per David Zwirner house hours; this location showed as closed with no current show on 2026-08-17)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Formerly '52W', an independently-branded curatorial program led by Ebony L. Haynes (2021–2025). As of 2026, Haynes moved to a global David Zwirner role and this Tribeca space folded into the main David Zwirner gallery program — no longer separately branded, but 'davidzwirner.com/galleries/new-york/walker-street' is still the canonical URL and '52 Walker' remains the common name in press. Dark as of 2026-08-17; next show Emma McIntyre opens 2026-09-18. Also see 'norr-cohan' venue notes: 52 Walker Street is also claimed as a Norr Cohan (formerly James Cohan) 2nd-floor space — likely a shared building with multiple gallery tenants on different floors; verify on-site before assuming shared coordinates.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+    },
+    {
+      "id": "alexander-and-bonin",
+      "name": "Alexander and Bonin",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.alexanderandbonin.com",
+      "spaces": [
+        {
+          "label": "47 Walker",
+          "address": "47 Walker St, New York, NY 10013",
+          "lat": 40.7189234,
+          "lng": -74.0037167
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/gallery/",
+        "press": "/news/",
+        "news": "/news/"
+      },
+      "cadence": "weekly",
+      "hours": "unknown (gallery closed)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "CLOSED. Shuttered permanently effective 2026-12-31 [sic — closure reporting is dated Dec 2024 across ArtNews/Art-Insider; co-founder Ted Bonin died in 2024 and Carolyn Alexander retired the gallery after 28 years]. Last exhibition (Bryce/Dittborn/Macchi) closed June 2024. Site returned HTTP 403 on 2026-08-17 (may be decommissioned or blocking automated access) — some stale pages were reportedly still indexed as of April 2026 despite the closure. Address 47 Walker St sourced from Yelp, a secondary source — not independently confirmed from the gallery's own site since it is inaccessible. Retained for registry completeness per project policy; recommend excluding from active crawl cadence entirely (no adapter should poll this venue) and surfacing distinctly in the coverage/dark layer as 'closed' rather than 'dark-seasonal'. The Venue schema in SPEC.md §4/§8 has no explicit closed/defunct field — recommend the pipeline team add one rather than overloading `notes` for this signal long-term.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "alexander-gray",
+      "name": "Alexander Gray Associates",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.alexandergray.com",
+      "spaces": [
+        {
+          "label": "384 Broadway",
+          "address": "384 Broadway, New York, NY 10013",
+          "lat": 40.7181403,
+          "lng": -74.0027661
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions/current",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Fri 10:30–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "alexandergray.com/exhibitions/current returned 'no results found' directly — confirmed dark, high confidence. Next show 'People Make Art: A Tribute to Melvin Edwards' opens Sep 9, 2026 per secondary listing.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "andrew-edlin",
+      "name": "Andrew Edlin Gallery",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.edlingallery.com",
+      "spaces": [
+        {
+          "label": "392 Broadway, 2nd Floor",
+          "address": "392 Broadway, 2nd Floor, New York, NY 10013",
+          "lat": 40.7183471,
+          "lng": -74.0025973
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Mon–Fri 10–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Confirmed via edlingallery.com/exhibitions. Last show ('American Landscape Summer Show Extravaganza!') closed Aug 14, 2026, three days before this registry snapshot — genuinely dark, not a stale read. Next show 'Conduits of the Unseen: Women Artists Imagine Other Worlds' (curated by Susan Aberth) opens Sep 9, 2026; will flip to daily cadence ~Sep 6.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "andrew-kreps",
+      "name": "Andrew Kreps Gallery",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.andrewkreps.com",
+      "spaces": [
+        {
+          "label": "22 Cortlandt Alley",
+          "address": "22 Cortlandt Alley, New York, NY 10013",
+          "lat": 40.7181761,
+          "lng": -74.0020133
+        },
+        {
+          "label": "394 Broadway",
+          "address": "394 Broadway, New York, NY 10013",
+          "lat": 40.7184121,
+          "lng": -74.0025352
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "not published on site as of 2026-08-17; call ahead (212-741-8849)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 2,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Verified via andrewkreps.com on 2026-08-17. 22 Cortlandt Alley confirmed as primary address; 394 Broadway confirmed as a second active space via current exhibition listing. Co-participant in THE CAMPUS (offsite, Claverack NY) with Bortolami and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: 'See You Tomorrow Under Other Skies' full artist list and press release confirmed directly on andrewkreps.com's own press-release page (confidence 0.6->0.9). THE CAMPUS record cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: 'See You Tomorrow' installation views are lazy-loaded via JS on andrewkreps.com's collageplatform.com CMS, not present in the static HTML/markdown — no direct image URL extractable, though the page does credit photographer Elisabeth Bernstein for the show's installation photography (not attached to a specific image here since none was captured). THE CAMPUS got 2 real images from thecampusupstate.com's own Artlogic CDN, no credit given on the source page. Follow-up 2026-08-17: also checked the dedicated /exhibition-views subpage (confirmed it exists, ~25 photos all captioned \"Photo: Elisabeth Bernstein\") and did a raw-content scan for any .jpg/.png/.webp/data-src fragment — genuinely no image URL is present in the fetched HTML/markdown for either page; the gallery's collageplatform.com CMS loads that slider's images via client-side JS this tool can't execute. web.archive.org is blocked for this tool entirely. THE CAMPUS credit search exhausted too: thecampusupstate.com's footer only credits \"Site by Artlogic\" (the web platform, not a photographer) — no photo credit exists on the page to find.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "artists-space",
+      "name": "Artists Space",
+      "kind": "institution",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://artistsspace.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "11 Cortlandt Alley, New York, NY 10013",
+          "lat": 40.7173293,
+          "lng": -74.0028789
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "daily",
+      "hours": "Wed–Sat 12–6pm",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Between exhibitions as of 2026-08-17: \"Shani Strand: Everything Must Be Returned\" closed Aug 15; \"Theresa Hak Kyung Cha: Multiple Offerings\" opens Sep 11. Cadence set to daily since a reopening date is announced within 30 days (spec §6 tier is 3 days prior, tightening this closer to Sep 8 is a pipeline job, not a manual one).\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "bortolami",
+      "name": "Bortolami",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.bortolamigallery.com",
+      "spaces": [
+        {
+          "label": "39 Walker",
+          "address": "39 Walker Street, New York, NY 10013",
+          "lat": 40.7191963,
+          "lng": -74.0039696
+        },
+        {
+          "label": "55 Walker",
+          "address": "55 Walker Street, New York, NY 10013",
+          "lat": 40.7188149,
+          "lng": -74.0033589
+        },
+        {
+          "label": "The Upstairs",
+          "address": "39 Walker Street, New York, NY 10013",
+          "lat": 40.7191963,
+          "lng": -74.0039696
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 10–6 & by appointment",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Verified via bortolamigallery.com on 2026-08-17. 39 Walker Street confirmed from gallery's own contact info. Own Tribeca spaces (39 Walker, 55 Walker, The Upstairs) dark as of this date; next shows (Christine Safa; Daniel Buren & Barbara Kasten; Yuan Yuan) open 2026-09-09. 55 Walker and The Upstairs addresses corroborated via Artforum/MutualArt/Instagram secondary sources, not directly re-confirmed on Bortolami's own current page — re-verify at next crawl. Co-founder of THE CAMPUS (offsite annual exhibition, Claverack NY) with Andrew Kreps and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: THE CAMPUS record (dates, full artist list, description) cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: got 2 real images from thecampusupstate.com's own Artlogic CDN. Credit search exhausted — the page's footer only credits \"Site by Artlogic\" (the web platform, not a photographer); no actual photo credit exists on the page.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+    },
+    {
+      "id": "bridget-donahue",
+      "name": "Bridget Donahue",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://www.hoffmandonahue.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "99 Bowery, 2nd Floor, New York, NY 10002",
+          "lat": 40.7173921,
+          "lng": -73.9949686
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Closed for summer vacation (reopens September); normally Tue–Sat",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Rebranded to Hoffman Donahue (hoffmandonahue.com), now a three-location gallery with Hannah Hoffman: New York (this address), Los Angeles, and Beverly Hills. NYC space closed for summer as of 2026-08-17; reopens with Ulrike Muller, Sept 9. Retained under original registry name for continuity; consider renaming to hoffman-donahue in a future pass.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "broadway",
+      "name": "Broadway Gallery",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://broadwaygallery.nyc",
+      "spaces": [
+        {
+          "label": "375 Broadway",
+          "address": "375 Broadway, New York, NY 10013",
+          "lat": 40.717819,
+          "lng": -74.0033494
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions/current/",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 11–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Verified via broadwaygallery.nyc on 2026-08-17. Current-exhibitions page returned no results (dark). Last known show, 'Fruit Business' (Adrianne Rubenstein), closed 2026-07-17. Site platform unclear from search alone; fingerprint on first crawl.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "bureau",
+      "name": "Bureau",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://bureau-inc.com",
+      "spaces": [
+        {
+          "label": "112 Duane",
+          "address": "112 Duane Street, New York, NY 10013",
+          "lat": 40.7156153,
+          "lng": -74.0065097
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions-future",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "By appointment only (per site, 2026-08-17)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address (112 Duane Street, relocated 2024) sourced from a secondary listing, not confirmed directly on bureau-inc.com's homepage (page did not surface a street address in this pass) — re-verify address on next crawl. Currently open by-appointment-only with nothing on view; next shows (Libby Rothfeld, Will Yackulic) open 2026-09-10. Site platform unclear from search alone; fingerprint on first crawl.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "canada",
+      "name": "CANADA",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://canadanewyork.com",
+      "spaces": [
+        {
+          "label": "60 Lispenard Street",
+          "address": "60 Lispenard Street, New York, NY 10013",
+          "lat": 40.7194485,
+          "lng": -74.0029007
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 10–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "canadanewyork.com returned 403 to direct fetch — address sourced from two independent secondary listings (Two Coats of Paint Aug 2026 guide; art-collecting.com Tribeca guide) rather than the venue's own page; confidence lowered accordingly, re-verify when building the adapter. CANADA originated on Broome St/LES (est. 2000) and later relocated to Tribeca — do not use the old Broome St address, it is historical.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+    },
+    {
+      "id": "chapter-ny",
+      "name": "Chapter NY",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://chapter-ny.com",
+      "spaces": [
+        {
+          "label": "60 Walker Street",
+          "address": "60 Walker Street, New York, NY 10013",
+          "lat": 40.7188594,
+          "lng": -74.0028409
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions/current",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 11–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address confirmed via chapter-ny.com/contact. Current-exhibition page renders client-side (JS); confirmed 'current' status via secondary listing (Two Coats of Paint August 2026 gallery guide) rather than direct HTML parse — flag for adapter work, likely nextdata or a JS framework.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "company-gallery",
+      "name": "Company",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://companygallery.us",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "145 Elizabeth Street, New York, NY 10012",
+          "lat": 40.7202743,
+          "lng": -73.995216
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/",
+        "news": "/"
+      },
+      "cadence": "weekly",
+      "hours": "Mon–Fri 12–5pm (summer hours)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Gallery's own exhibitions page states no upcoming exhibitions as of 2026-08-17; treated as dark for summer despite a secondary source (search aggregator) referencing a Hayden Dunham show — not corroborated on the gallery's own site.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+    },
+    {
+      "id": "derosia",
+      "name": "Derosia",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://derosia.nyc",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "197 Grand Street, 2W, New York, NY 10013",
+          "lat": 40.7190831,
+          "lng": -73.9969787
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 12–6pm",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address sits at the LES/East Village/Chinatown border; kept in lower-east-side district per registry grouping.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "dia-chelsea",
+      "name": "Dia Chelsea",
+      "kind": "institution",
+      "city": "nyc",
+      "district": "chelsea",
+      "url": "https://www.diaart.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "537 West 22nd Street, New York, NY 10011",
+          "lat": 40.7478387,
+          "lng": -74.0063018
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibition/exhibitions-projects",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Wed–Sat 12–6pm, closed Sun–Tue",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "diaart.org returned 403 to direct fetch (address/hours corroborated via Yelp/search snippets rather than the primary source directly). Not to be confused with Dia Beacon or Dia Bridgehampton. Data-quality re-pass 2026-08-17: diaart.org still 403'd on every path tried (exhibition page, press release, PDF brochure) and web.archive.org is unreachable by this tool, so the primary source remains unconfirmed directly. However 'David Lamelas: The Machine' dates/description are now independently corroborated by ISLAA (Institute for Studies on Latin American Art, a credible third-party arts institution) in addition to the earlier Ocula listing, both agreeing exactly on Mar 6 2026-Jan 16 2027 (confidence 0.65->0.8). Re-attempt diaart.org directly at next crawl. Image pass 2026-08-17: got one hero/promo image from ISLAA's own CDN (images.prismic.io) — a co-organizer's page, not diaart.org itself, and no photographer credit was given on that page. Genuine installation views would need diaart.org directly; retry then. Follow-up search 2026-08-17: confirmed via a targeted raw-content scan that ISLAA's page has exactly one usable image (the hero) and no installation-view gallery; found and attached the official Dia Art Foundation exhibition brochure PDF as press_release_url instead of null.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "fanta-mrlb",
+      "name": "Fanta-MRLB",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "",
+      "spaces": [],
+      "adapter": "manual",
+      "config": {},
+      "paths": {},
+      "cadence": "weekly",
+      "hours": "",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "UNRESOLVED. Extensive web search (direct name, 'MRLB' alone, 'Fantamechanica', Milan's unrelated 'Fanta-MLN', Tribeca gallery-guide cross-reference against ~70 listed Tribeca galleries) found no matching venue as of 2026-08-17. Likely a very small, closed, Instagram-only, or misnamed space — the exact risk the spec calls out ('some venues will be manual forever'). No address, no coordinates, no exhibition data. Retained in the registry rather than dropped so the gap stays visible in the coverage layer; needs a human with local knowledge to resolve or retire this entry."
+    },
+    {
+      "id": "fierman",
+      "name": "Fierman",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://fierman.nyc",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "19 Pike Street, New York, NY 10002",
+          "lat": 40.7133515,
+          "lng": -73.9922719
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/upcoming",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "daily",
+      "hours": "Not confirmed from site — verify",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Dark as of 2026-08-17; next show is a 10th-anniversary exhibition, \"Ten Years of Fierman,\" opening 2026-09-16 — within the daily-cadence window once within 3 days of that date.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+    },
+    {
+      "id": "foxy-production",
+      "name": "Foxy Production",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://foxyproduction.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "2 East Broadway, New York, NY 10038",
+          "lat": 40.7134268,
+          "lng": -73.9978527
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/",
+        "press": "/",
+        "news": "/"
+      },
+      "cadence": "weekly",
+      "hours": "N/A — gallery program ended",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "CLOSED. Ended its gallery program in October 2023 after 20 years (final show: Erin Calla Watson, closed 2023-10-08); pivoted to consultancy/curatorial/production work without a physical exhibition space. Retained for registry completeness per project philosophy — closures are data, not errors.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+    },
+    {
+      "id": "hesse-flatow",
+      "name": "Hesse Flatow",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://hesseflatow.com",
+      "spaces": [
+        {
+          "label": "77 Franklin Street",
+          "address": "77 Franklin Street, New York, NY 10013",
+          "lat": 40.7177126,
+          "lng": -74.0045305
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 11–6 (summer hours: Mon–Fri 11–6)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Confirmed via hesseflatow.com/exhibitions. Also operates a seasonal 'HESSE FLATOW EAST' space at 68 Schellinger Road, Amagansett, NY — out of nyc/tribeca scope, not registered as a second space here. Next NYC shows (Lizzie Gill 'Carousel'; Paloma Izquierdo 'Carrier') open Sep 9, 2026.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "james-fuentes",
+      "name": "James Fuentes",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://jamesfuentes.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "52 White Street, New York, NY 10013",
+          "lat": 40.7186095,
+          "lng": -74.0038416
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Mon–Fri 10am–6pm (hours not fully confirmed from site)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Gallery's flagship NY space is now at 52 White Street, Tribeca (moved from its original LES address on Delancey St.); recorded under Tribeca district. Also operates a Los Angeles location (5015 Melrose Ave), out of scope for this registry. Data-quality re-pass 2026-08-17: confirmed 'Somehow Desire' full 17-artist list and curatorial description directly from the exhibition's own dedicated page (jamesfuentes.com/exhibitions/somehow-desire), not just the aggregate listing — confidence raised 0.5 -> 0.9. Cadence corrected daily -> weekly (closes Aug 28, 11 days out, outside the 7-day daily-cadence window per SPEC.md §6). Image pass 2026-08-17: no installation-view image URLs extractable from jamesfuentes.com (no og:image/JSON-LD image metadata either) — page appears to load its image gallery via client-side JS not present in the fetched HTML. Left image_urls empty rather than guess. Follow-up 2026-08-17: also checked the gallery's /news page (no mention of this show — its most recent dated news items predate the Aug 14 opening), ran a raw-content scan for any .jpg/.png/.webp/data-src fragment on the exhibition page (none found), and a general web search for \"'Somehow Desire' James Fuentes installation view\" (zero results — the show is 3 days old as of this check and hasn't been picked up anywhere yet, gallery's own page or otherwise). Genuinely nothing to find yet, not a tooling failure — worth re-checking in a week once press coverage catches up.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "kai-matsumiya",
+      "name": "Kai Matsumiya",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "http://kaimatsumiya.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "264 Canal Street, 5E, New York, NY 10013",
+          "lat": 40.7185901,
+          "lng": -74.0012429
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/upcoming",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Wed–Sat 12–6pm & by appointment",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address is on Canal St at the Chinatown/LES border; kept in lower-east-side district. Last confirmed show (\"Sonic Prolapse\", Irina Jasnowski Pascual) closed 2026-04-24; no evidence of anything opening since — treated as dark for summer.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+    },
+    {
+      "id": "kapp-kapp",
+      "name": "Kapp Kapp",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.kappkapp.com",
+      "spaces": [
+        {
+          "label": "86 Walker",
+          "address": "86 Walker St., 4th Fl., New York, NY 10013",
+          "lat": 40.718288,
+          "lng": -74.0013336
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "unknown; not listed on exhibitions page",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address confirmed from kappkapp.com's own exhibitions page footer on 2026-08-17. The exhibitions listing did not surface anything after a show that closed 2025-01-31 — this could mean the gallery is genuinely dark/quiet, or that the page content this pass only surfaced an older cached section. LOW CONFIDENCE on current program status; flag for a direct re-check (kappkapp.com/exhibitions, full scroll) before treating as a confirmed 19-month dark stretch.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "kaufmann-repetto",
+      "name": "kaufmann repetto",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://kaufmannrepetto.com",
+      "spaces": [
+        {
+          "label": "55 Walker",
+          "address": "55 Walker St, New York, NY 10013",
+          "lat": 40.7188149,
+          "lng": -74.0033589
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions-current/",
+        "press": "/news/",
+        "news": "/news/"
+      },
+      "cadence": "weekly",
+      "hours": "Mon–Fri 10–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Verified via kaufmannrepetto.com/contact/ on 2026-08-17. Gallery also operates a Milan space (Via di Porta Tenaglia, 7, 20121 Milano MI, Italy) — out of scope for this NYC-only registry, not recorded as a venue. Shares 55 Walker St address with Bortolami and (per some secondary sources) Andrew Kreps — this Tribeca building appears to house multiple galleries; floor/suite not confirmed, flag for on-site verification.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+    },
+    {
+      "id": "miguel-abreu-gallery",
+      "name": "Miguel Abreu Gallery",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://miguelabreugallery.com",
+      "spaces": [
+        {
+          "label": "88 Eldridge",
+          "address": "88 Eldridge Street, New York, NY 10002",
+          "lat": 40.7172508,
+          "lng": -73.992316
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/events",
+        "news": "/events"
+      },
+      "cadence": "daily",
+      "hours": "Mon–Fri 10am–6pm or by appointment (summer hours)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Site previously also listed a 36 Orchard Street space (seen in secondary sources); current site shows only 88 Eldridge as active. Treat 36 Orchard as historical unless reconfirmed.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+    },
+    {
+      "id": "moma-ps1",
+      "name": "MoMA PS1",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "long-island-city",
+      "url": "https://www.momaps1.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "22-25 Jackson Avenue, Long Island City, NY 11101",
+          "lat": 40.7474725,
+          "lng": -73.9416275
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/en/programs/category/1-exhibitions",
+        "press": "/en/press",
+        "news": "/en/press"
+      },
+      "cadence": "daily",
+      "hours": "12–6pm, Sat from 10am, closed Tue–Wed",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 3,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "\"Greater New York 2026\" (the flagship survey) closes 2026-08-17 — today — so this venue crosses from on_view to closed at snapshot time; a good stress test for the diff engine's CLOSED event. \"Hard Art\" is the next major show, opening Nov 5.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "new-museum",
+      "name": "New Museum",
+      "kind": "institution",
+      "city": "nyc",
+      "district": "bowery",
+      "url": "https://www.newmuseum.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "235 Bowery, New York, NY 10002",
+          "lat": 40.7223463,
+          "lng": -73.9928406
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Thu 11am–9pm; other days generally 11–6, closed Mon–Tue — confirm at newmuseum.org/visit",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Front end is a heavy JS SPA (WebFetch returned empty HTML on every path tried — main page, /press/, and the specific press-release URL) — worth checking for __NEXT_DATA__ or an API when fingerprinting for real adapter work. Multi-floor building; exact per-floor exhibition schedule not fully resolved, see manual.ts confidence. Image search (2026-08-18): installation photography is by Dario Lasagni (confirmed via web search across Warhol Foundation, Pace Gallery, and Frieze coverage of this show), but no fetchable newmuseum.org image URL was found to link — image_urls left empty rather than guessed.\n\nFingerprint (2026-08-18): wordpress — wp-content path in HTML, /wp-json/ unreachable."
+    },
+    {
+      "id": "nicelle-beauchene",
+      "name": "Nicelle Beauchene",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://nicellebeauchene.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "7 Franklin Place, New York, NY 10013",
+          "lat": 40.7178236,
+          "lng": -74.0039574
+        },
+        {
+          "label": "project space",
+          "address": "7 Franklin Place, New York, NY 10013",
+          "lat": 40.7178236,
+          "lng": -74.0039574
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 10–6 (per secondary listing aggregators — gallery's own /visit and /about pages 404'd; phone 212-375-8043 also secondhand)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Gallery has moved to 7 Franklin Place, Tribeca (originally LES-listed in SPEC seed list); recorded under Tribeca district. Main gallery and project space appear to share one address — treated as two spaces at the same building pending confirmation of distinct suite numbers. Data-quality re-pass 2026-08-17: 'Invincible Summer' fully confirmed direct from the gallery's own exhibition page + PDF press release (artist list, dates, reception time all matched) — confidence raised 0.55 -> 0.9. Cadence corrected daily -> weekly (show already closed Aug 14, well outside the 7-day daily-cadence window).\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+    },
+    {
+      "id": "norr-cohan",
+      "name": "Norr Cohan",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.jamescohan.com",
+      "spaces": [
+        {
+          "label": "48 Walker",
+          "address": "48 Walker Street, New York, NY 10013",
+          "lat": 40.7191714,
+          "lng": -74.0035276
+        },
+        {
+          "label": "52 Walker (2nd Floor)",
+          "address": "52 Walker Street, 2nd Floor, New York, NY 10013",
+          "lat": 40.71913,
+          "lng": -74.0033389
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 10–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Formerly James Cohan Gallery — rebranded to NORR COHAN on 2026-07-15 as partner David Norr assumed sole ownership after James and Jane Cohan stepped back (per The Art Newspaper, Artforum, ARTnews). Registry id kept as historical continuity anchor; consider aliasing 'james-cohan' -> 'norr-cohan' in resolution layer since press/backlinks will use both names for a transition period. Domain jamescohan.com unchanged. Both Tribeca spaces dark as of 2026-08-17; next show (Savdie/Soutine at 48 Walker, Vicky Colombet at 52 Walker) opens 2026-09-10/09-17. NOTE: 52 Walker Street address is also claimed by a separate registry venue (David Zwirner's '52-walker', main floor/entrance) — this appears to be a shared building with multiple gallery tenants on different floors; needs physical/on-site verification before geocoding assumes identical coordinates for both venues' spaces.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "ortuzar",
+      "name": "Ortuzar",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.ortuzar.com",
+      "spaces": [
+        {
+          "label": "5 White Street",
+          "address": "5 White Street, New York, NY 10013",
+          "lat": 40.7192043,
+          "lng": -74.0058175
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 10–6",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Founded 2018 by Ales Ortuzar. Confirmed address via ortuzar.com/contact and independent Yelp/MutualArt listings (2 sources agree). Site structure suggests custom build; platform not fingerprinted yet.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "ppow",
+      "name": "P·P·O·W",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.ppowgallery.com",
+      "spaces": [
+        {
+          "label": "392 Broadway",
+          "address": "392 Broadway, New York, NY 10013",
+          "lat": 40.7183471,
+          "lng": -74.0025973
+        },
+        {
+          "label": "390 Broadway, 2nd Floor",
+          "address": "390 Broadway, 2nd Floor, New York, NY 10013",
+          "lat": 40.7182729,
+          "lng": -74.0026265
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Mon–Fri 10–6 (392 Broadway); Mon–Fri 11–6 (390 Broadway)",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Two NYC spaces confirmed directly on ppowgallery.com. Also operates a London space at 9 Cork Street (not tracked here; out of nyc scope).\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "rachel-uffner",
+      "name": "Rachel Uffner",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://uffnerliu.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "170 Suffolk Street, New York, NY 10002",
+          "lat": 40.7208583,
+          "lng": -73.9848396
+        },
+        {
+          "label": "upstairs",
+          "address": "170 Suffolk Street, New York, NY 10002",
+          "lat": 40.7208583,
+          "lng": -73.9848396
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Not confirmed from site — verify",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 2,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Gallery rebranded to Uffner & Liu in May 2025 after promoting director Lucy Liu to partner (per The Art Newspaper, 2025-05-01). Retained under original registry name (Rachel Uffner) for continuity with SPEC seed list; consider renaming to uffner-liu in a future pass. Data-quality re-pass 2026-08-17: both current shows fully confirmed via their own dedicated gallery pages — 'Fool's Privilege' full 16-artist list (was a 3-artist subset) and 'RISD MFA Painting Show' full 11-artist list (was a 3-artist subset, mistakenly thought to be 6) directly from uffnerliu.com's own exhibition pages. Confidence raised 0.6->0.9 and 0.55->0.9. Cadence corrected daily -> weekly (both close Aug 28, 11 days out, outside the 7-day window). Hours still unconfirmed — gallery's own hours/visit page not located this pass.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "signs-and-symbols",
+      "name": "Signs and Symbols",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://www.signsandsymbols.art",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "249 East Houston Street, New York, NY 10002",
+          "lat": 40.7221335,
+          "lng": -73.9856933
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Not confirmed from site — verify",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Program is performance/time-based-media/photography focused. No exhibition confirmed on view for August 2026 — last known show closed July 2025; site did not surface anything newer. Treated as dark; low confidence this reflects an accurate current state rather than a stale/unlinked events page — recommend re-check.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+    },
+    {
+      "id": "situations",
+      "name": "SITUATIONS",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "chelsea",
+      "url": "https://www.situations.us",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "515 West 20th Street, New York, NY 10011",
+          "lat": 40.7463475,
+          "lng": -74.0062765
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/",
+        "press": "/",
+        "news": "/"
+      },
+      "cadence": "weekly",
+      "hours": "Not confirmed from site — verify",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "SPEC seed list places this venue in Lower East Side, but the gallery relocated to Chelsea (515 W 20th St) in January 2024 per secondary sources — could not independently confirm the exact address from the gallery's own site (contact/info page returned 404). LOW CONFIDENCE on address; verify before geocoding.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+    },
+    {
+      "id": "storefront-for-art-and-architecture",
+      "name": "Storefront for Art and Architecture",
+      "kind": "institution",
+      "city": "nyc",
+      "district": "nolita",
+      "url": "https://storefront.nyc",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "97 Kenmare Street, New York, NY 10012",
+          "lat": 40.7214798,
+          "lng": -73.9971028
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/program-type/exhibition/",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Wed–Sat 12–6pm",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Architecture-focused nonprofit, included here for the institutions layer. Site itself noted the space as \"currently closed\" alongside a live exhibition listing — possibly between-install or appointment-only. 2026-08-17 re-check: the specific program page (storefront.nyc/program/longings-returns-by-sim-chi-yin/) confirms Aug 8-29 dates and curator credits directly, corroborated by 3+ independent listings (ArtRabbit, Mato, Storefront's own Facebook) — the homepage's stale \"closed\" text is likely just an unrelated visiting-hours banner, not evidence this show isn't on view. Also corrected cadence from an incorrectly-set 'daily' to 'weekly' per SPEC.md §6 (show doesn't open/close within 7 days of 2026-08-17). Image search (2026-08-18): the program page's gallery component confirms installation photography by Luis Corzo (credit visible in rendered content) but doesn't expose actual image src URLs to a non-browser fetch — image_urls left empty rather than guessed; worth revisiting once a real adapter can render the JS gallery.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+    },
+    {
+      "id": "swiss-institute",
+      "name": "Swiss Institute",
+      "kind": "institution",
+      "city": "nyc",
+      "district": "bowery",
+      "url": "https://swissinstitute.net",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "250 Bowery, New York, NY 10012",
+          "lat": 40.7230843,
+          "lng": -73.993388
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Closed for construction",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "SI purchased 250 Bowery outright (first owned premises in its 40-year history) and the building is closed for construction, reopening spring 2027 with a group show, \"The Environment.\" Current programming is entirely offsite/international (e.g. \"Regift\" featuring Sylvie Fleury at Luma Westbau, Zurich, Jun 13–Sep 6, 2026) — not NYC-based, so excluded from manual.ts. Revisit when the Bowery space reopens.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "the-kitchen",
+      "name": "The Kitchen",
+      "kind": "institution",
+      "city": "nyc",
+      "district": "west-village",
+      "url": "https://thekitchen.org",
+      "spaces": [
+        {
+          "label": "Westbeth loft",
+          "address": "Westbeth Artists Housing, I Building, 163B Bank Street, 4th Floor, New York, NY 10014",
+          "lat": 40.7368831,
+          "lng": -74.0085005
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/on-view",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Public hours vary by program; office Mon–Fri 10am–6pm — see thekitchen.org/on-view",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Operating from a temporary Westbeth loft (163B Bank Street) since relocating from 512 W 19th Street. Interdisciplinary program (performance/media/literary as well as exhibitions) — on-view schedule is sparse between engagements.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "theta",
+      "name": "Theta",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "tribeca",
+      "url": "https://www.theta.nyc",
+      "spaces": [
+        {
+          "label": "184 Franklin Street, Lower Level",
+          "address": "184 Franklin Street, Lower Level, New York, NY 10013",
+          "lat": 40.7195637,
+          "lng": -74.0095069
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/news",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat 12–6, or by appointment",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Founded 2021 by Jordan Barse; sub-level space accessed via sidewalk cellar doors. Last confirmed show (Ty Palow, 'Bird World') closed Jul 31, 2026; next-show date could not be confirmed with confidence from available sources — treat next-opening date as unknown until re-checked, not as Sep 9 like most Tribeca peers.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+    },
+    {
+      "id": "whitney-museum-of-american-art",
+      "name": "Whitney Museum of American Art",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "meatpacking",
+      "url": "https://whitney.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "99 Gansevoort Street, New York, NY 10014",
+          "lat": 40.7396451,
+          "lng": -74.008921
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "daily",
+      "hours": "Mon–Sun 10:30am–6pm, Fri until 10pm",
+      "health": {
+        "last_attempt": "2026-08-18T12:50:23.797Z",
+        "last_success": "2026-08-18T12:50:23.797Z",
+        "record_count": 6,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Large multi-exhibition institution; Whitney Biennial 2026 and the Kelly Akashi terrace commission both close 2026-08-23, hence daily cadence. Dates re-verified 2026-08-17 against whitney.org/press/* pages directly rather than the JS-heavy /exhibitions listing (which was the source of the earlier low-confidence records) — all five dated shows now corroborated first-party. Two records ('\"Untitled\" (America)', 'Dyani White Hawk: Nourish') are ongoing/permanent installations, not dated temporary shows; their null closes (and null opens for Nourish) are intentional, not unresolved.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    }
+  ],
+  "exhibitions": [
+    {
+      "id": "ex-andrew-kreps-cae2bae414",
+      "venue_id": "andrew-kreps",
+      "space_label": null,
+      "title": "See You Tomorrow Under Other Skies",
+      "artists": [
+        "Eleanor Antin",
+        "Andrea Bowers",
+        "Julien Creuzet",
+        "María Dávila and Eduardo Portillo",
+        "Binta Diaw",
+        "Andy Goldsworthy",
+        "Susan Hudson",
+        "Sonya Kelliher-Combs",
+        "James Lavadour",
+        "Joan Snyder",
+        "Cecilia Vicuña",
+        "Rember Yahuarcani"
+      ],
+      "kind": "group",
+      "opens": "2026-06-26",
+      "closes": "2026-09-12",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "A cross-generational group of artists whose work uses land, and the histories it carries, as material — painting, textile, sculpture, performance, and photography, with mapping as a shared impulse.",
+      "press_release_url": "https://www.andrewkreps.com/exhibitions/see-you-tomorrow-under-other-skies/press-release",
+      "image_urls": [],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://www.andrewkreps.com/exhibitions/see-you-tomorrow-under-other-skies",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-andrew-kreps-be63dcad53",
+      "venue_id": "andrew-kreps",
+      "space_label": null,
+      "title": "THE CAMPUS: 2026 Annual Exhibition",
+      "artists": [
+        "Hurvin Anderson",
+        "Vamba Bility",
+        "Miguel Calderón",
+        "Atelier dell'Errore",
+        "Ibrahim El-Salahi",
+        "Roe Ethridge",
+        "John Giorno",
+        "Lee Godie",
+        "Keith Haring",
+        "Lothar Hempel",
+        "Candace Hill-Montgomery",
+        "Oliver Lee Jackson",
+        "Özgür Kar",
+        "Gabriel Kuri",
+        "Phillip Lai",
+        "Max Lamb",
+        "Siobhan Liddell",
+        "Duane Linklater",
+        "Sarah Lucas",
+        "Matthew Monahan",
+        "Tuan Andrew Nguyen",
+        "Kayode Ojo",
+        "Pat Oleszko",
+        "Sanou Oumar",
+        "Tony Oursler",
+        "Virginia Overton",
+        "Matt Paweski",
+        "Nathlie Provosty",
+        "Nick Relph",
+        "Clare Rojas",
+        "Tschabalala Self",
+        "Pace Taylor",
+        "Naama Tsabar",
+        "Francis Upritchard",
+        "Pae White",
+        "Qualeasha Wood"
+      ],
+      "kind": "offsite",
+      "opens": "2026-06-27",
+      "closes": "2026-11-01",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "3rd annual exhibition at the former Ockawamick School, Claverack NY: full-room installations by 40+ artists across 6 founding galleries (incl. Andrew Kreps) and 8 invited UK galleries, plus outdoor site-specific works.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3032/usr/images/events/main_image_override/2/unnamed.jpg",
+        "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3032/usr/images/events/main_image_override/4/260623_gx_thecampus_106.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://thecampusupstate.com/exhibitions/9-2026-annual-exhibition/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-bortolami-be63dcad53",
+      "venue_id": "bortolami",
+      "space_label": null,
+      "title": "THE CAMPUS: 2026 Annual Exhibition",
+      "artists": [
+        "Hurvin Anderson",
+        "Vamba Bility",
+        "Miguel Calderón",
+        "Atelier dell'Errore",
+        "Ibrahim El-Salahi",
+        "Roe Ethridge",
+        "John Giorno",
+        "Lee Godie",
+        "Keith Haring",
+        "Lothar Hempel",
+        "Candace Hill-Montgomery",
+        "Oliver Lee Jackson",
+        "Özgür Kar",
+        "Gabriel Kuri",
+        "Phillip Lai",
+        "Max Lamb",
+        "Siobhan Liddell",
+        "Duane Linklater",
+        "Sarah Lucas",
+        "Matthew Monahan",
+        "Tuan Andrew Nguyen",
+        "Kayode Ojo",
+        "Pat Oleszko",
+        "Sanou Oumar",
+        "Tony Oursler",
+        "Virginia Overton",
+        "Matt Paweski",
+        "Nathlie Provosty",
+        "Nick Relph",
+        "Clare Rojas",
+        "Tschabalala Self",
+        "Pace Taylor",
+        "Naama Tsabar",
+        "Francis Upritchard",
+        "Pae White",
+        "Qualeasha Wood"
+      ],
+      "kind": "offsite",
+      "opens": "2026-06-27",
+      "closes": "2026-11-01",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "3rd annual exhibition at the former Ockawamick School, Claverack NY: full-room installations by 40+ artists across 6 founding galleries (incl. Bortolami) and 8 invited UK galleries, plus outdoor site-specific works.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3032/usr/images/events/main_image_override/2/unnamed.jpg",
+        "https://static-assets.artlogic.net/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite3032/usr/images/events/main_image_override/4/260623_gx_thecampus_106.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://thecampusupstate.com/exhibitions/9-2026-annual-exhibition/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-dia-chelsea-dfbef6233a",
+      "venue_id": "dia-chelsea",
+      "space_label": "main",
+      "title": "David Lamelas: The Machine",
+      "artists": [
+        "David Lamelas"
+      ],
+      "kind": "solo",
+      "opens": "2026-03-06",
+      "closes": "2027-01-16",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "A comprehensive survey of the Argentine artist's work and his first major New York solo presentation — performance, exhibition, and film program in three parts. Preceded by a Feb 10, 2026 performance of \"1416 m3\" (2014).",
+      "press_release_url": "https://islaa.cdn.prismic.io/islaa/aa7jbFxvIZEnje4k_DiaArtFoundation_DavidLamelas_TheMachine_Brochure.pdf",
+      "image_urls": [
+        "https://images.prismic.io/islaa/aYz8u90YXLCxVtFT_DavidLamelas_DiaExhibition_HeroImage.png?auto=format,compress"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://islaa.org/exhibitions/david-lamelas-the-machine/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "ex-james-fuentes-bad977e4da",
+      "venue_id": "james-fuentes",
+      "space_label": "main",
+      "title": "Somehow Desire",
+      "artists": [
+        "aru apaza",
+        "Amy Chase",
+        "Yuna Cho",
+        "Ian Faden",
+        "Mar Figueroa",
+        "Kimberly R. Heard",
+        "Inkpa Mani",
+        "Ambrose Rhapsody Murray",
+        "Hazal Özgür",
+        "Vernando Reuben",
+        "Kiki Serna",
+        "Sok Song",
+        "Leyla Tonak",
+        "Yuwei Tu",
+        "Alixe Turner",
+        "Faye Wei Wei",
+        "Wenqing Zhai"
+      ],
+      "kind": "group",
+      "opens": "2026-08-14",
+      "closes": "2026-08-28",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "A restaging of the Yale School of Art MFA thesis exhibition; 17 emerging artists whose work \"operate[s] through gaps, migrations, coded languages, and material memory.\"",
+      "press_release_url": null,
+      "image_urls": [],
+      "image_credit": null,
+      "works": [],
+      "source_url": "https://jamesfuentes.com/exhibitions/somehow-desire",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-kaufmann-repetto-55b28f3dca",
+      "venue_id": "kaufmann-repetto",
+      "space_label": "55 Walker",
+      "title": "Male Art Exhibition, Great Show!",
+      "artists": [
+        "Lily van der Stokker"
+      ],
+      "kind": "solo",
+      "opens": null,
+      "closes": "2026-08-08",
+      "opening_reception": null,
+      "status": "closed",
+      "excerpt": "Solo exhibition by Lily van der Stokker at the gallery's New York space; closed just before this snapshot.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://kaufmannrepetto.com/site/web/app/uploads/2026/05/DSF9707-Pano-Edit-1920x1096.jpg",
+        "https://kaufmannrepetto.com/site/web/app/uploads/2026/05/DSF9694-Pano-Edit-1920x1432.jpg",
+        "https://kaufmannrepetto.com/site/web/app/uploads/2026/05/DSF9704-Edit-1920x1440.jpg",
+        "https://kaufmannrepetto.com/site/web/app/uploads/2026/05/DSF9746-Edit-1920x1440.jpg",
+        "https://kaufmannrepetto.com/site/web/app/uploads/2026/05/DSF9742-Edit-1920x2560.jpg",
+        "https://kaufmannrepetto.com/site/web/app/uploads/2026/05/DSF9481-Edit-1920x2566.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://kaufmannrepetto.com/exhibition/male-art-exhibition-great-show/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "ex-miguel-abreu-gallery-a52cffd506",
+      "venue_id": "miguel-abreu-gallery",
+      "space_label": "88 Eldridge",
+      "title": "Regroup Show",
+      "artists": [
+        "Alex Carver",
+        "Liz Deschenes",
+        "Sébastien de Ganay",
+        "Kate Mosher Hall",
+        "Flint Jamison",
+        "Sam Lewitt",
+        "Dana Lok",
+        "Scott Lyall",
+        "Beaux Mendes",
+        "Grant Mooney",
+        "Jean-Luc Moulène",
+        "Paul Pagk",
+        "Florian Pumhösl",
+        "R. H. Quaytman",
+        "Eileen Quinlan",
+        "Raha Raissnia",
+        "Jimmy Raskin",
+        "Blake Rayne",
+        "Milton Resnick",
+        "Pamela Rosenkranz"
+      ],
+      "kind": "group",
+      "opens": "2026-07-17",
+      "closes": "2026-08-28",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "A summer group presentation of gallery artists exploring two vectors of organization: materiality as subject, and the formation and deformation of the image.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://miguelabreugallery.com/wp-content/uploads/2026/07/98997f7324f23990f6d2a46d80a6beb8j-1.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://miguelabreugallery.com/exhibitions/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-moma-ps1-0692e4b302",
+      "venue_id": "moma-ps1",
+      "space_label": "main",
+      "title": "Greater New York 2026",
+      "artists": [],
+      "kind": "group",
+      "opens": "2026-04-16",
+      "closes": "2026-08-17",
+      "opening_reception": null,
+      "status": "closed",
+      "excerpt": "The sixth edition of MoMA PS1's signature survey of NYC-area artists: 53 artists and collectives, over 150 works, plus a live performance program.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/dZqsBm2iQtqKSG6emFD0",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/gAIbVWnuSCq1mSF1tjj4",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/9NxyHUWQOrozZV7jCdsg",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/FlAqvkSURXCvRiz0gYG8",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/CWh9lX2zT4O4uOwP86En",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/Qtg7s1BhTnyIW15VHXBn"
+      ],
+      "image_credit": "Kris Graves",
+      "works": [],
+      "source_url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "ex-moma-ps1-1ea7c9df27",
+      "venue_id": "moma-ps1",
+      "space_label": "main",
+      "title": "Open Courtyard Commission: Precious Okoyomon",
+      "artists": [
+        "Precious Okoyomon"
+      ],
+      "kind": "solo",
+      "opens": "2026-07-31",
+      "closes": null,
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "\"Among the flowers I learned to love, A Garden of decreation\" — the first edition of PS1's new biannual Courtyard Commission. On view through 2028; exact closing day not yet published.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/9Li8EeBJSNiyPHkc3fGs",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/ly2D14xS5ybfaDI9cHkV",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/ZXMl3b3GRdKEidm9vI0N",
+        "https://d1tcycker2ppj.cloudfront.net/output=f:jpg,q:60/resize=width:1200,fit:max/cOXuXq9KQ7G5LehIf1Mu"
+      ],
+      "image_credit": "John Kim",
+      "works": [],
+      "source_url": "https://www.momaps1.org/en/programs/747-courtyard-commission-precious-okoyomon",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.75
+    },
+    {
+      "id": "ex-moma-ps1-8c64b21d6d",
+      "venue_id": "moma-ps1",
+      "space_label": "main",
+      "title": "Hard Art",
+      "artists": [
+        "Frank Bowling",
+        "Mark Bradford",
+        "Peter Bradley",
+        "Barbara Chase-Riboud",
+        "Ed Clark",
+        "Melvin Edwards",
+        "Jennie C. Jones",
+        "Joe Overstreet",
+        "Raymond Saunders",
+        "Aria Dean",
+        "Torkwase Dyson",
+        "Nikita Gale",
+        "Suzanne Jackson",
+        "Rindon Johnson",
+        "Caroline Kent",
+        "Carolyn Lazard",
+        "Eric N. Mack",
+        "Charisse Pearlina Weston",
+        "SoiL Thornton"
+      ],
+      "kind": "group",
+      "opens": "2026-11-05",
+      "closes": null,
+      "opening_reception": null,
+      "status": "upcoming",
+      "excerpt": "Survey of the legacy of abstract painting by Black artists in the US, 1969-today, pairing historical figures with recent practice. Over forty artists; closing date not yet published.",
+      "press_release_url": "https://press.moma.org/exhibition/hard-art/",
+      "image_urls": [
+        "https://press.moma.org/wp-content/uploads/2026/03/Bradley_Peter_CircleofFifths_1973.jpg",
+        "https://press.moma.org/wp-content/uploads/2026/03/Saunders_Raymond_Untitled_2000_2010-1500x2000.jpg",
+        "https://press.moma.org/wp-content/uploads/2026/03/Little_James_ChallengeoftheWill_1979-2000x1601.jpg",
+        "https://press.moma.org/wp-content/uploads/2026/03/Hassinger_Maren_Veil_2007_2018.jpg",
+        "https://press.moma.org/wp-content/uploads/2026/03/Thompson_Mildred_MagneticFields_1991.jpg",
+        "https://press.moma.org/wp-content/uploads/2026/03/Black_Hannah_Theuncheckedpanhandler_2023-1-1334x2000.jpg"
+      ],
+      "image_credit": "Various — Peter Bradley courtesy the artist and Karma; James Little photo Thomas Barratt; Maren Hassinger photo Joshua White; Mildred Thompson courtesy Galerie Lelong; Hannah Black photo Tom Carter. See press.moma.org/exhibition/hard-art for full per-work credits.",
+      "works": [],
+      "source_url": "https://www.momaps1.org/en/programs/744-hard-art",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.75
+    },
+    {
+      "id": "ex-new-museum-8abb5d5517",
+      "venue_id": "new-museum",
+      "space_label": "main",
+      "title": "New Humans: Memories of the Future",
+      "artists": [
+        "Cannupa Hanska Luger",
+        "Steffani Jemison",
+        "Precious Okoyomon",
+        "Berenice Olmedo",
+        "WangShui",
+        "Hito Steyerl",
+        "Anicka Yi"
+      ],
+      "kind": "group",
+      "opens": "2026-03-21",
+      "closes": "2026-08-30",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "First exhibition to span the museum's full expanded building: 200+ artists across a century of work on technological change and \"the human.\" Curated by Massimiliano Gioni et al. (partial artist list above.)",
+      "press_release_url": null,
+      "image_urls": [],
+      "image_credit": null,
+      "works": [],
+      "source_url": "https://www.newmuseum.org/exhibition/new-humans-memories-of-the-future/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-nicelle-beauchene-a3d201825d",
+      "venue_id": "nicelle-beauchene",
+      "space_label": "main",
+      "title": "Invincible Summer",
+      "artists": [
+        "Theodora Allen",
+        "Jonathan Baldock",
+        "Sophie Becker",
+        "Angela China",
+        "Margaret Curtis",
+        "Kirsten Deirup",
+        "Dalton Gata",
+        "Hydeon",
+        "Ryan Johnson",
+        "Tamara Kostianovsky",
+        "Gina Litherland",
+        "Mickey Lee",
+        "Sarah Theresa Lee",
+        "Joshua Petker",
+        "Clare Rojas",
+        "Alice Tippit",
+        "Robert Zehnder"
+      ],
+      "kind": "group",
+      "opens": "2026-06-25",
+      "closes": "2026-08-14",
+      "opening_reception": "2026-06-25T18:00:00",
+      "status": "closed",
+      "excerpt": "\"In the midst of winter, I found there was, within me, an invincible summer\" (Camus) — the renewed prominence of surrealism as a means of grappling with psychological and political instability.",
+      "press_release_url": "https://nicellebeauchene.com/wp-content/uploads/2026/06/Invincible-Summer_Press-Release-1.pdf",
+      "image_urls": [
+        "https://nicellebeauchene.com/wp-content/uploads/2026/06/JSP2647-Edit-web-credit-JSP-Art-Photography.jpg",
+        "https://nicellebeauchene.com/wp-content/uploads/2026/06/JSP2650-Edit-web-credit-JSP-Art-Photography.jpg",
+        "https://nicellebeauchene.com/wp-content/uploads/2026/06/JSP2653-Edit-web-credit-JSP-Art-Photography.jpg",
+        "https://nicellebeauchene.com/wp-content/uploads/2026/06/JSP2618-web-credit-JSP-Art-Photography.jpg",
+        "https://nicellebeauchene.com/wp-content/uploads/2026/06/JSP2608-Edit-web-credit-JSP-Art-Photography.jpg",
+        "https://nicellebeauchene.com/wp-content/uploads/2026/06/JSP2588-Pano-larger-sRGB-credit-JSP-Art-Photography-scaled.jpg"
+      ],
+      "image_credit": "JSP Art Photography",
+      "works": [],
+      "source_url": "https://nicellebeauchene.com/exhibitions/invincible-summer/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-rachel-uffner-6581b86c26",
+      "venue_id": "rachel-uffner",
+      "space_label": "main",
+      "title": "Fool's Privilege",
+      "artists": [
+        "Amanda Ba",
+        "Sarah Ball",
+        "Anastasia Bay",
+        "Ilke Cop",
+        "Nicole Eisenman",
+        "Genieve Figgis",
+        "Akira Ikezoe",
+        "Marc Librizzi",
+        "Rafa Macarrón",
+        "Rebecca Morgan",
+        "Curtis Talwst Santiago",
+        "Peter Saul",
+        "Dana Schutz",
+        "Jean-Pierre Villafañe",
+        "Clement Jacques Vossen",
+        "Shafei Xia"
+      ],
+      "kind": "group",
+      "opens": "2026-07-10",
+      "closes": "2026-08-28",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "Sixteen artists whose work channels the subversive logic of the fool figure — humor not as relief from seriousness but as a vehicle for it.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrdyy99x/Install-10.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrdyxs6c/Install-14.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrdyy7m3/Install-11.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrdyxygz/Install-3.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrdyy441/Install-13.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrdyxs1t/Install-9.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://www.uffnerliu.com/exhibitions/fool-s-privilege",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-rachel-uffner-9bad5ad534",
+      "venue_id": "rachel-uffner",
+      "space_label": "upstairs",
+      "title": "Upstairs Gallery: RISD MFA Painting Show",
+      "artists": [
+        "Lloyd-Princeton Cangé",
+        "Callie Coccia",
+        "Isabel Horgan",
+        "Siran Liu",
+        "Kati Lowe",
+        "Lucy Luckovich",
+        "Banshee Maria",
+        "Shiyeon Monk",
+        "Pavol Roskovensky",
+        "Talha Shams",
+        "Ricky Vasan"
+      ],
+      "kind": "group",
+      "opens": "2026-07-10",
+      "closes": "2026-08-28",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "Curated by Ajay Kurian around \"strategic withdrawal\" — how artists navigate systems \"that were never designed to sustain us,\" examining historical marronage and contemporary practice.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrf5r3kp/Install-24.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrf5r78i/Install-21.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrf5r6jb/Install-22.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrf5r0pr/Install-26.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrf5r4dh/Install-23.jpg",
+        "https://www.inventory.gallery/fit-in/2175x2175/17788/mrf5r18c/Install-25.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://uffnerliu.com/exhibitions/upstairs-gallery-risd-mfa-painting-show",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ex-storefront-for-art-and-architecture-6f21dbee7e",
+      "venue_id": "storefront-for-art-and-architecture",
+      "space_label": "main",
+      "title": "归舟: Longings, Returns",
+      "artists": [
+        "Sim Chi Yin"
+      ],
+      "kind": "solo",
+      "opens": "2026-08-08",
+      "closes": "2026-08-29",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "Part of Storefront's ongoing Homelands series on the political dimensions of memory. Curated by Guillermo Ruiz de Teresa and Jessica Kwok; opening performance Aug 8, encore Aug 13.",
+      "press_release_url": null,
+      "image_urls": [],
+      "image_credit": null,
+      "works": [],
+      "source_url": "https://storefront.nyc/program/longings-returns-by-sim-chi-yin/",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-whitney-museum-of-american-art-b40b36af78",
+      "venue_id": "whitney-museum-of-american-art",
+      "space_label": "main",
+      "title": "Whitney Biennial 2026",
+      "artists": [],
+      "kind": "group",
+      "opens": "2026-03-08",
+      "closes": "2026-08-23",
+      "opening_reception": null,
+      "status": "closing_soon",
+      "excerpt": "The 82nd edition, curated by Marcela Guerrero and Drew Sawyer. Members preview March 4; public opening March 8. Closing within the week.",
+      "press_release_url": "https://whitney.org/press/2026-biennial",
+      "image_urls": [
+        "https://whitneymedia.org/assets/image/833787/large_BFA_53520_7759682.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://whitney.org/exhibitions/2026-biennial",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-whitney-museum-of-american-art-11dbff5835",
+      "venue_id": "whitney-museum-of-american-art",
+      "space_label": "main",
+      "title": "Andy Warhol Family Album",
+      "artists": [
+        "Andy Warhol"
+      ],
+      "kind": "solo",
+      "opens": "2026-04-30",
+      "closes": "2026-10-19",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "732 small-format Polaroids Warhol made in 1972-73: portraits, candid shots of collaborators and friends, and scenes from Montauk and Europe.",
+      "press_release_url": "https://whitney.org/press/andy-warhol-family-album",
+      "image_urls": [
+        "https://whitneymedia.org/assets/artwork/12785/2000_195_cropped.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://whitney.org/exhibitions/andy-warhol-family-album",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-whitney-museum-of-american-art-78a5355e6d",
+      "venue_id": "whitney-museum-of-american-art",
+      "space_label": "main",
+      "title": "Hyundai Terrace Commission: Kelly Akashi",
+      "artists": [
+        "Kelly Akashi"
+      ],
+      "kind": "solo",
+      "opens": "2026-03-08",
+      "closes": "2026-08-23",
+      "opening_reception": null,
+      "status": "closing_soon",
+      "excerpt": "Site-specific presentation on the fifth-floor outdoor terrace; third Hyundai Terrace Commission under the museum's partnership with Hyundai Motor. Closing within the week.",
+      "press_release_url": "https://whitney.org/press/kelly-akashi",
+      "image_urls": [
+        "https://whitneymedia.org/assets/image/833384/large_WMAA99783_Image_3_Hyundai_Terrace_Commission_Kelly_Akashi__2026_Photo_Timothy_Schenck_lpr__1_.jpg",
+        "https://whitneymedia.org/assets/image/829970/large_Untitled-1.jpg",
+        "https://whitneymedia.org/assets/image/833597/large_Image%201_Hyundai%20Terrace%20Commission%20Kelly%20Akashi%2C%202026_Photo%20Timothy%20Schenck.jpg"
+      ],
+      "image_credit": "Photo: Timothy Schenck",
+      "works": [],
+      "source_url": "https://whitney.org/exhibitions/kelly-akashi",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-whitney-museum-of-american-art-46cd6b8367",
+      "venue_id": "whitney-museum-of-american-art",
+      "space_label": "main",
+      "title": "Mabel Dwight: Cool Head, Warm Heart",
+      "artists": [
+        "Mabel Dwight"
+      ],
+      "kind": "solo",
+      "opens": "2026-02-20",
+      "closes": "2026-08-30",
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "Dwight's first solo museum exhibition: her lithographs of New York's people, theaters, streets, and everyday rituals.",
+      "press_release_url": "https://whitney.org/press/mabel-dwight",
+      "image_urls": [
+        "https://whitneymedia.org/assets/image/833182/large_WMAA38139_31_722_cropped.jpg",
+        "https://whitneymedia.org/assets/artwork/10571/96_68_94_cropped.jpg"
+      ],
+      "image_credit": "",
+      "works": [],
+      "source_url": "https://whitney.org/exhibitions/mabel-dwight",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "ex-whitney-museum-of-american-art-7b331db31b",
+      "venue_id": "whitney-museum-of-american-art",
+      "space_label": "main",
+      "title": "\"Untitled\" (America)",
+      "artists": [
+        "Felix Gonzalez-Torres",
+        "Edward Hopper",
+        "Arshile Gorky",
+        "Alice Neel",
+        "Georgia O'Keeffe",
+        "Jacob Lawrence",
+        "Robert Rauschenberg",
+        "Jean-Michel Basquiat"
+      ],
+      "kind": "group",
+      "opens": "2025-07-05",
+      "closes": null,
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "An ongoing collection installation, on continuous view since July 2025: American art from 1900 through the early 1980s. A rotating long-run hang rather than a dated temporary show.",
+      "press_release_url": null,
+      "image_urls": [
+        "https://whitneymedia.org/assets/image/833049/large_WMAA97701_02_251016_GPowell_Whitney_1409_v2_3x2_web.jpg",
+        "https://whitneymedia.org/assets/image/833233/large_UNTITLED_AMERICA_002_PS.jpg",
+        "https://whitneymedia.org/assets/image/832610/large_WMAA94513_UNTITLED_AMERICA_028.jpg",
+        "https://whitneymedia.org/assets/image/832612/large_WMAA94509_UNTITLED_AMERICA_024.jpg",
+        "https://whitneymedia.org/assets/image/832614/large_WMAA94510_UNTITLED_AMERICA_026_PS.jpg",
+        "https://whitneymedia.org/assets/image/832615/large_WMAA94511_UNTITLED_AMERICA_025_PS.jpg"
+      ],
+      "image_credit": "Photograph by Ron Amstutz, digital image © Whitney Museum of American Art (first image by Gus Powell)",
+      "works": [],
+      "source_url": "https://whitney.org/exhibitions/untitled-america",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "ex-whitney-museum-of-american-art-4bf6a9183c",
+      "venue_id": "whitney-museum-of-american-art",
+      "space_label": "main",
+      "title": "Dyani White Hawk: Nourish",
+      "artists": [
+        "Dyani White Hawk"
+      ],
+      "kind": "solo",
+      "opens": null,
+      "closes": null,
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "Permanent site-specific installation of thousands of handmade ceramic tiles in the Studio Bar (8th floor), opened 2024 as part of the museum's restaurant art program. Not a temporary exhibition.",
+      "press_release_url": null,
+      "image_urls": [],
+      "image_credit": null,
+      "works": [],
+      "source_url": "https://whitney.org/artists/20459",
+      "fetched_at": "2026-08-17T00:00:00Z",
+      "confidence": 0.7
+    }
+  ],
+  "articles": [
+    {
+      "id": "article-artforum-8d0678c04bbe",
+      "outlet": "Artforum",
+      "headline": "Brett Littman to Lead Museum of Contemporary Art San Diego",
+      "byline": null,
+      "published": "2026-08-17T19:32:52.000Z",
+      "url": "https://www.artforum.com/news/brett-littman-to-helm-museum-of-contemporary-art-san-diego-1234757138/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-e891ff4f4a93",
+      "outlet": "Artforum",
+      "headline": "Two Pace Gallery Executives Resign In The Aftermath Of Major Layoffs",
+      "byline": null,
+      "published": "2026-08-17T19:26:26.000Z",
+      "url": "https://www.artforum.com/news/two-pace-gallery-executives-resign-1234757150/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-137faaf9e9ea",
+      "outlet": "Artforum",
+      "headline": "Contemporary Art Platform ART KL Debuting in Kuala Lumpur in October",
+      "byline": null,
+      "published": "2026-08-17T18:30:01.000Z",
+      "url": "https://www.artforum.com/news/contemporary-art-platform-art-kl-debuting-in-october-1234757133/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-71ee6589378c",
+      "outlet": "Artforum",
+      "headline": "Renaissance Works Stolen From Sicilian Museum During Town Feast",
+      "byline": null,
+      "published": "2026-08-17T18:08:42.000Z",
+      "url": "https://www.artforum.com/news/works-by-antonello-da-messina-stolen-on-assumption-day-1234757128/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-0f7d50479e73",
+      "outlet": "Artforum",
+      "headline": "Renoir, Cézanne, and Matisse Artworks Stolen in March Recovered by Italian Police",
+      "byline": null,
+      "published": "2026-08-17T17:12:30.000Z",
+      "url": "https://www.artforum.com/news/parma-artworks-stolen-recovered-by-italian-police-1234757122/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-e62f9c8ec1d3",
+      "outlet": "Artforum",
+      "headline": "Painter Mary Heilmann, Who Brought Warmth to Abstraction, Dead at 86",
+      "byline": null,
+      "published": "2026-08-17T15:16:11.000Z",
+      "url": "https://www.artforum.com/news/mary-heilmann-painter-of-rippling-abstractions-dies-at-86-1234757072/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-4b70f1496fb8",
+      "outlet": "Artforum",
+      "headline": "David Rimanelli on Instagram’s Infancy",
+      "byline": null,
+      "published": "2026-08-17T13:58:08.000Z",
+      "url": "https://www.artforum.com/columns/david-rimanelli-instagrams-infancy-1234757083/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-fec6ef6f3b09",
+      "outlet": "Artforum",
+      "headline": "Artist Builds Free-To-Play Video Game Replica Of Michael Heizer’s City",
+      "byline": null,
+      "published": "2026-08-14T20:32:22.000Z",
+      "url": "https://www.artforum.com/news/artist-builds-free-to-play-vreplica-of-michael-heizer-city-1234757035/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-98aa3613e16f",
+      "outlet": "Artforum",
+      "headline": "Stolen Picasso Print Recovered Eight Years Later in Vacant Apartment",
+      "byline": null,
+      "published": "2026-08-14T18:32:12.000Z",
+      "url": "https://www.artforum.com/news/stolen-picasso-print-recovered-eight-years-later-1234757051/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-9513ea27583f",
+      "outlet": "Artforum",
+      "headline": "Former Philadelphia University Of The Arts Dormitory To House Affordable Apartments",
+      "byline": null,
+      "published": "2026-08-14T17:24:32.000Z",
+      "url": "https://www.artforum.com/news/former-phil-university-of-the-arts-dormitory-apartments-1234757039/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-442b58fb0d60",
+      "outlet": "Artforum",
+      "headline": "Frieze Seoul Will Move to Zaha Hadid’s Dongdaemun Design Plaza for Its 2027 Edition",
+      "byline": null,
+      "published": "2026-08-14T16:30:17.000Z",
+      "url": "https://www.artforum.com/news/frieze-seoul-will-move-to-zaha-hadids-ddp-for-2027-1234757028/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artforum-243c29c1907b",
+      "outlet": "Artforum",
+      "headline": "Longtime Camden Art Centre Director Martin Clark to Lead Towner Eastbourne",
+      "byline": null,
+      "published": "2026-08-14T15:16:24.000Z",
+      "url": "https://www.artforum.com/news/martin-clark-to-lead-towner-eastbourne-1234757010/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-742359cfe584",
+      "outlet": "ARTnews",
+      "headline": "In ‘Strange Rules,’ an Epic Show with a Bold Vision For What Counts as&#160;Art",
+      "byline": null,
+      "published": "2026-08-17T22:17:25.000Z",
+      "url": "https://www.artnews.com/art-news/artists/strange-rules-venice-exhibition-asks-what-is-art-1234795127/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-9f8407628ef6",
+      "outlet": "ARTnews",
+      "headline": "Sinai Desert Excavations Reveal New Information About Site’s Strategic Importance in Ancient&#160;Egypt",
+      "byline": null,
+      "published": "2026-08-17T21:21:36.000Z",
+      "url": "https://www.artnews.com/art-news/news/tel-abu-saify-excavations-masen-revelation-ancient-egypt-1234795111/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-5522bd1defbb",
+      "outlet": "ARTnews",
+      "headline": "Brett Littman Named Next Director of MCA San&#160;Diego",
+      "byline": null,
+      "published": "2026-08-17T20:42:43.000Z",
+      "url": "https://www.artnews.com/art-news/news/brett-littman-director-mca-san-diego-1234795110/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-85690ff965c4",
+      "outlet": "ARTnews",
+      "headline": "2,500-Year-Old Etruscan Bronze Relics Excavated from Ancient Well in&#160;Italy",
+      "byline": null,
+      "published": "2026-08-17T20:34:55.000Z",
+      "url": "https://www.artnews.com/art-news/news/etruscan-bronze-relics-italy-1234795085/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-cc04aa587f1f",
+      "outlet": "ARTnews",
+      "headline": "Alison Jacques Gallery Hit with Lawsuit After Artist’s Estate Cancels Sale to First-Time&#160;Collectors",
+      "byline": null,
+      "published": "2026-08-17T19:30:24.000Z",
+      "url": "https://www.artnews.com/art-news/news/collectors-sue-alison-jacques-monica-sjoo-cancels-sale-1234795087/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-91da0ceeb4f1",
+      "outlet": "ARTnews",
+      "headline": "Renaissance Masterpieces Stolen from Sicilian Museum During National&#160;Holiday",
+      "byline": null,
+      "published": "2026-08-17T16:51:28.000Z",
+      "url": "https://www.artnews.com/art-news/news/antonello-da-messina-masterpieces-stolen-sicilian-museum-1234795072/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-839e60cb6227",
+      "outlet": "ARTnews",
+      "headline": "Bryan Joseph Lee Named Deputy Commissioner of New York City Cultural&#160;Affairs",
+      "byline": null,
+      "published": "2026-08-17T15:00:00.000Z",
+      "url": "https://www.artnews.com/art-news/news/bryan-joseph-lee-deputy-commissioner-nyc-cultural-affairs-1234795064/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-717367097405",
+      "outlet": "ARTnews",
+      "headline": "Why Brancusi’s Sleek, Streamlined Sculptures Still&#160;Seduce",
+      "byline": null,
+      "published": "2026-08-16T09:00:00.000Z",
+      "url": "https://www.artnews.com/art-in-america/features/brancusi-sleek-sculptures-neue-nationalgalerie-moma-design-1234794979/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-5e894e39150b",
+      "outlet": "ARTnews",
+      "headline": "Mary Heilmann, Influential Abstract Painter, Dead at&#160;86",
+      "byline": null,
+      "published": "2026-08-15T15:59:04.000Z",
+      "url": "https://www.artnews.com/art-news/news/mary-heilmann-influential-abstract-painter-dead-86-1234795047/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-78d288ffa657",
+      "outlet": "ARTnews",
+      "headline": "Brazilian Police Recover Eight Stolen Matisse ‘Jazz’ Works Worth $193,000, Arrest One&#160;Suspect",
+      "byline": null,
+      "published": "2026-08-14T22:08:12.000Z",
+      "url": "https://www.artnews.com/art-news/news/brazilian-police-stolen-matisse-jazz-works-recovered-1234795039/",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-contemporary-art-daily-05340fbee22c",
+      "outlet": "Contemporary Art Daily",
+      "headline": "Announcement",
+      "byline": null,
+      "published": "2026-08-11T11:30:00.000Z",
+      "url": "pa1636",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-contemporary-art-daily-0b43f1938d0c",
+      "outlet": "Contemporary Art Daily",
+      "headline": "Announcement",
+      "byline": null,
+      "published": "2026-08-06T16:00:00.000Z",
+      "url": "pa1603",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-contemporary-art-daily-d3117b6b9b2f",
+      "outlet": "Contemporary Art Daily",
+      "headline": "Announcement",
+      "byline": null,
+      "published": "2026-08-04T16:00:00.000Z",
+      "url": "pa1570",
+      "excerpt": "",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    }
+  ]
+}

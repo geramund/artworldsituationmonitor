@@ -1,0 +1,44 @@
+{
+  "id": "nicelle-beauchene",
+  "name": "Nicelle Beauchene",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://nicellebeauchene.com",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "7 Franklin Place, New York, NY 10013",
+      "lat": 40.7178236,
+      "lng": -74.0039574
+    },
+    {
+      "label": "project space",
+      "address": "7 Franklin Place, New York, NY 10013",
+      "lat": 40.7178236,
+      "lng": -74.0039574
+    }
+  ],
+  "adapter": "manual",
+  "config": {
+    "wordpress": {
+      "mode": "custom-post-type",
+      "restBase": "exhibitions-api"
+    }
+  },
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat 10–6 (per secondary listing aggregators — gallery's own /visit and /about pages 404'd; phone 212-375-8043 also secondhand)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 1,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Gallery has moved to 7 Franklin Place, Tribeca (originally LES-listed in SPEC seed list); recorded under Tribeca district. Main gallery and project space appear to share one address — treated as two spaces at the same building pending confirmation of distinct suite numbers. Data-quality re-pass 2026-08-17: 'Invincible Summer' fully confirmed direct from the gallery's own exhibition page + PDF press release (artist list, dates, reception time all matched) — confidence raised 0.55 -> 0.9. Cadence corrected daily -> weekly (show already closed Aug 14, well outside the 7-day daily-cadence window).\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+}

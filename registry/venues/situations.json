@@ -1,0 +1,33 @@
+{
+  "id": "situations",
+  "name": "SITUATIONS",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "chelsea",
+  "url": "https://www.situations.us",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "515 West 20th Street, New York, NY 10011",
+      "lat": 40.7463475,
+      "lng": -74.0062765
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/",
+    "press": "/",
+    "news": "/"
+  },
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "SPEC seed list places this venue in Lower East Side, but the gallery relocated to Chelsea (515 W 20th St) in January 2024 per secondary sources — could not independently confirm the exact address from the gallery's own site (contact/info page returned 404). LOW CONFIDENCE on address; verify before geocoding.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+}

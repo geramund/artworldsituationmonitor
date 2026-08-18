@@ -1,0 +1,33 @@
+{
+  "id": "andrew-edlin",
+  "name": "Andrew Edlin Gallery",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://www.edlingallery.com",
+  "spaces": [
+    {
+      "label": "392 Broadway, 2nd Floor",
+      "address": "392 Broadway, 2nd Floor, New York, NY 10013",
+      "lat": 40.7183471,
+      "lng": -74.0025973
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Mon–Fri 10–6",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Confirmed via edlingallery.com/exhibitions. Last show ('American Landscape Summer Show Extravaganza!') closed Aug 14, 2026, three days before this registry snapshot — genuinely dark, not a stale read. Next show 'Conduits of the Unseen: Women Artists Imagine Other Worlds' (curated by Susan Aberth) opens Sep 9, 2026; will flip to daily cadence ~Sep 6.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+}

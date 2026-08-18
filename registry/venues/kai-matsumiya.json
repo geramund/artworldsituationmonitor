@@ -1,0 +1,33 @@
+{
+  "id": "kai-matsumiya",
+  "name": "Kai Matsumiya",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "http://kaimatsumiya.com",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "264 Canal Street, 5E, New York, NY 10013",
+      "lat": 40.7185901,
+      "lng": -74.0012429
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/upcoming",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Wed–Sat 12–6pm & by appointment",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address is on Canal St at the Chinatown/LES border; kept in lower-east-side district. Last confirmed show (\"Sonic Prolapse\", Irina Jasnowski Pascual) closed 2026-04-24; no evidence of anything opening since — treated as dark for summer.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+}

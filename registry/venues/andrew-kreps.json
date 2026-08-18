@@ -1,0 +1,39 @@
+{
+  "id": "andrew-kreps",
+  "name": "Andrew Kreps Gallery",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://www.andrewkreps.com",
+  "spaces": [
+    {
+      "label": "22 Cortlandt Alley",
+      "address": "22 Cortlandt Alley, New York, NY 10013",
+      "lat": 40.7181761,
+      "lng": -74.0020133
+    },
+    {
+      "label": "394 Broadway",
+      "address": "394 Broadway, New York, NY 10013",
+      "lat": 40.7184121,
+      "lng": -74.0025352
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "not published on site as of 2026-08-17; call ahead (212-741-8849)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 2,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Verified via andrewkreps.com on 2026-08-17. 22 Cortlandt Alley confirmed as primary address; 394 Broadway confirmed as a second active space via current exhibition listing. Co-participant in THE CAMPUS (offsite, Claverack NY) with Bortolami and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: 'See You Tomorrow Under Other Skies' full artist list and press release confirmed directly on andrewkreps.com's own press-release page (confidence 0.6->0.9). THE CAMPUS record cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: 'See You Tomorrow' installation views are lazy-loaded via JS on andrewkreps.com's collageplatform.com CMS, not present in the static HTML/markdown — no direct image URL extractable, though the page does credit photographer Elisabeth Bernstein for the show's installation photography (not attached to a specific image here since none was captured). THE CAMPUS got 2 real images from thecampusupstate.com's own Artlogic CDN, no credit given on the source page. Follow-up 2026-08-17: also checked the dedicated /exhibition-views subpage (confirmed it exists, ~25 photos all captioned \"Photo: Elisabeth Bernstein\") and did a raw-content scan for any .jpg/.png/.webp/data-src fragment — genuinely no image URL is present in the fetched HTML/markdown for either page; the gallery's collageplatform.com CMS loads that slider's images via client-side JS this tool can't execute. web.archive.org is blocked for this tool entirely. THE CAMPUS credit search exhausted too: thecampusupstate.com's footer only credits \"Site by Artlogic\" (the web platform, not a photographer) — no photo credit exists on the page to find.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+}

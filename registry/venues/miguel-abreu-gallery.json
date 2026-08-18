@@ -1,0 +1,33 @@
+{
+  "id": "miguel-abreu-gallery",
+  "name": "Miguel Abreu Gallery",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://miguelabreugallery.com",
+  "spaces": [
+    {
+      "label": "88 Eldridge",
+      "address": "88 Eldridge Street, New York, NY 10002",
+      "lat": 40.7172508,
+      "lng": -73.992316
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/events",
+    "news": "/events"
+  },
+  "cadence": "daily",
+  "hours": "Mon–Fri 10am–6pm or by appointment (summer hours)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 1,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Site previously also listed a 36 Orchard Street space (seen in secondary sources); current site shows only 88 Eldridge as active. Treat 36 Orchard as historical unless reconfirmed.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+}

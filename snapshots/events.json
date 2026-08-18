@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-18T12:50:23.797Z",
+  "window_days": 90,
+  "events": [
+    {
+      "id": "evt-msynuo7r-24",
+      "ts": "2025-07-05T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-7b331db31b",
+      "article_id": null,
+      "payload": {
+        "title": "\"Untitled\" (America)"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-23",
+      "ts": "2026-02-20T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-46cd6b8367",
+      "article_id": null,
+      "payload": {
+        "title": "Mabel Dwight: Cool Head, Warm Heart"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-4",
+      "ts": "2026-03-06T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "dia-chelsea",
+      "exhibition_id": "ex-dia-chelsea-dfbef6233a",
+      "article_id": null,
+      "payload": {
+        "title": "David Lamelas: The Machine"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-18",
+      "ts": "2026-03-08T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-b40b36af78",
+      "article_id": null,
+      "payload": {
+        "title": "Whitney Biennial 2026"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-21",
+      "ts": "2026-03-08T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-78a5355e6d",
+      "article_id": null,
+      "payload": {
+        "title": "Hyundai Terrace Commission: Kelly Akashi"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-12",
+      "ts": "2026-03-21T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-8abb5d5517",
+      "article_id": null,
+      "payload": {
+        "title": "New Humans: Memories of the Future"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-8",
+      "ts": "2026-04-16T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "moma-ps1",
+      "exhibition_id": "ex-moma-ps1-0692e4b302",
+      "article_id": null,
+      "payload": {
+        "title": "Greater New York 2026"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-20",
+      "ts": "2026-04-30T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-11dbff5835",
+      "article_id": null,
+      "payload": {
+        "title": "Andy Warhol Family Album"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-13",
+      "ts": "2026-06-25T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-a3d201825d",
+      "article_id": null,
+      "payload": {
+        "title": "Invincible Summer"
+      }
+    },
+    {
+      "id": "evt-msynuo7q-1",
+      "ts": "2026-06-26T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-cae2bae414",
+      "article_id": null,
+      "payload": {
+        "title": "See You Tomorrow Under Other Skies"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-2",
+      "ts": "2026-06-27T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-be63dcad53",
+      "article_id": null,
+      "payload": {
+        "title": "THE CAMPUS: 2026 Annual Exhibition"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-3",
+      "ts": "2026-06-27T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-be63dcad53",
+      "article_id": null,
+      "payload": {
+        "title": "THE CAMPUS: 2026 Annual Exhibition"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-15",
+      "ts": "2026-07-10T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "rachel-uffner",
+      "exhibition_id": "ex-rachel-uffner-6581b86c26",
+      "article_id": null,
+      "payload": {
+        "title": "Fool's Privilege"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-16",
+      "ts": "2026-07-10T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "rachel-uffner",
+      "exhibition_id": "ex-rachel-uffner-9bad5ad534",
+      "article_id": null,
+      "payload": {
+        "title": "Upstairs Gallery: RISD MFA Painting Show"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-7",
+      "ts": "2026-07-17T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "miguel-abreu-gallery",
+      "exhibition_id": "ex-miguel-abreu-gallery-a52cffd506",
+      "article_id": null,
+      "payload": {
+        "title": "Regroup Show"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-10",
+      "ts": "2026-07-31T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "moma-ps1",
+      "exhibition_id": "ex-moma-ps1-1ea7c9df27",
+      "article_id": null,
+      "payload": {
+        "title": "Open Courtyard Commission: Precious Okoyomon"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-6",
+      "ts": "2026-08-08T00:00:00.000Z",
+      "type": "CLOSED",
+      "venue_id": "kaufmann-repetto",
+      "exhibition_id": "ex-kaufmann-repetto-55b28f3dca",
+      "article_id": null,
+      "payload": {
+        "title": "Male Art Exhibition, Great Show!"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-17",
+      "ts": "2026-08-08T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "storefront-for-art-and-architecture",
+      "exhibition_id": "ex-storefront-for-art-and-architecture-6f21dbee7e",
+      "article_id": null,
+      "payload": {
+        "title": "归舟: Longings, Returns"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-5",
+      "ts": "2026-08-14T00:00:00.000Z",
+      "type": "OPENED",
+      "venue_id": "james-fuentes",
+      "exhibition_id": "ex-james-fuentes-bad977e4da",
+      "article_id": null,
+      "payload": {
+        "title": "Somehow Desire"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-14",
+      "ts": "2026-08-14T00:00:00.000Z",
+      "type": "CLOSED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-a3d201825d",
+      "article_id": null,
+      "payload": {
+        "title": "Invincible Summer"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-9",
+      "ts": "2026-08-17T00:00:00.000Z",
+      "type": "CLOSED",
+      "venue_id": "moma-ps1",
+      "exhibition_id": "ex-moma-ps1-0692e4b302",
+      "article_id": null,
+      "payload": {
+        "title": "Greater New York 2026"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-11",
+      "ts": "2026-08-17T00:00:00Z",
+      "type": "ANNOUNCED",
+      "venue_id": "moma-ps1",
+      "exhibition_id": "ex-moma-ps1-8c64b21d6d",
+      "article_id": null,
+      "payload": {
+        "title": "Hard Art",
+        "opens": "2026-11-05"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-19",
+      "ts": "2026-08-18T12:50:23.797Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-b40b36af78",
+      "article_id": null,
+      "payload": {
+        "title": "Whitney Biennial 2026",
+        "closes": "2026-08-23"
+      }
+    },
+    {
+      "id": "evt-msynuo7r-22",
+      "ts": "2026-08-18T12:50:23.797Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-78a5355e6d",
+      "article_id": null,
+      "payload": {
+        "title": "Hyundai Terrace Commission: Kelly Akashi",
+        "closes": "2026-08-23"
+      }
+    }
+  ]
+}

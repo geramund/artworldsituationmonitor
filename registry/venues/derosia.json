@@ -1,0 +1,33 @@
+{
+  "id": "derosia",
+  "name": "Derosia",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://derosia.nyc",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "197 Grand Street, 2W, New York, NY 10013",
+      "lat": 40.7190831,
+      "lng": -73.9969787
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat 12–6pm",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address sits at the LES/East Village/Chinatown border; kept in lower-east-side district per registry grouping.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

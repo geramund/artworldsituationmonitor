@@ -1,0 +1,48 @@
+name: crawl
+
+on:
+  schedule:
+    # Hourly — matches the outlet RSS cadence (SPEC.md §6). Manual venues are
+    # local file reads (no politeness cost), so re-processing all of them
+    # every run is fine; only the outlet fetches hit the network on a
+    # cadence that matters.
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pipeline dependencies
+        run: npm install
+
+      - name: Geocode any un-cached addresses
+        run: npx tsx pipeline/geocode.ts
+
+      - name: Run the crawl
+        run: npx tsx pipeline/crawl.ts
+
+      - name: Commit snapshot + registry changes
+        run: |
+          git config user.name "art-world-situation-monitor[bot]"
+          git config user.email "actions@github.com"
+          git add snapshots/ registry/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "crawl: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

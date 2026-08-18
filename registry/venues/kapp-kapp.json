@@ -1,0 +1,33 @@
+{
+  "id": "kapp-kapp",
+  "name": "Kapp Kapp",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://www.kappkapp.com",
+  "spaces": [
+    {
+      "label": "86 Walker",
+      "address": "86 Walker St., 4th Fl., New York, NY 10013",
+      "lat": 40.718288,
+      "lng": -74.0013336
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "unknown; not listed on exhibitions page",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address confirmed from kappkapp.com's own exhibitions page footer on 2026-08-17. The exhibitions listing did not surface anything after a show that closed 2025-01-31 — this could mean the gallery is genuinely dark/quiet, or that the page content this pass only surfaced an older cached section. LOW CONFIDENCE on current program status; flag for a direct re-check (kappkapp.com/exhibitions, full scroll) before treating as a confirmed 19-month dark stretch.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

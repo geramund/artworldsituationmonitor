@@ -1,0 +1,33 @@
+{
+  "id": "chapter-ny",
+  "name": "Chapter NY",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://chapter-ny.com",
+  "spaces": [
+    {
+      "label": "60 Walker Street",
+      "address": "60 Walker Street, New York, NY 10013",
+      "lat": 40.7188594,
+      "lng": -74.0028409
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions/current",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat 11–6",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address confirmed via chapter-ny.com/contact. Current-exhibition page renders client-side (JS); confirmed 'current' status via secondary listing (Two Coats of Paint August 2026 gallery guide) rather than direct HTML parse — flag for adapter work, likely nextdata or a JS framework.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

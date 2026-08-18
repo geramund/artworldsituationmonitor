@@ -1,0 +1,33 @@
+{
+  "id": "moma-ps1",
+  "name": "MoMA PS1",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "long-island-city",
+  "url": "https://www.momaps1.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "22-25 Jackson Avenue, Long Island City, NY 11101",
+      "lat": 40.7474725,
+      "lng": -73.9416275
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/en/programs/category/1-exhibitions",
+    "press": "/en/press",
+    "news": "/en/press"
+  },
+  "cadence": "daily",
+  "hours": "12–6pm, Sat from 10am, closed Tue–Wed",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 3,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "\"Greater New York 2026\" (the flagship survey) closes 2026-08-17 — today — so this venue crosses from on_view to closed at snapshot time; a good stress test for the diff engine's CLOSED event. \"Hard Art\" is the next major show, opening Nov 5.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

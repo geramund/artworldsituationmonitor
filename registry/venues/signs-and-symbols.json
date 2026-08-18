@@ -1,0 +1,33 @@
+{
+  "id": "signs-and-symbols",
+  "name": "Signs and Symbols",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://www.signsandsymbols.art",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "249 East Houston Street, New York, NY 10002",
+      "lat": 40.7221335,
+      "lng": -73.9856933
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Program is performance/time-based-media/photography focused. No exhibition confirmed on view for August 2026 — last known show closed July 2025; site did not surface anything newer. Treated as dark; low confidence this reflects an accurate current state rather than a stale/unlinked events page — recommend re-check.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+}

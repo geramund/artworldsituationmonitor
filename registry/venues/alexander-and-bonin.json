@@ -1,0 +1,33 @@
+{
+  "id": "alexander-and-bonin",
+  "name": "Alexander and Bonin",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://www.alexanderandbonin.com",
+  "spaces": [
+    {
+      "label": "47 Walker",
+      "address": "47 Walker St, New York, NY 10013",
+      "lat": 40.7189234,
+      "lng": -74.0037167
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/gallery/",
+    "press": "/news/",
+    "news": "/news/"
+  },
+  "cadence": "weekly",
+  "hours": "unknown (gallery closed)",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "CLOSED. Shuttered permanently effective 2026-12-31 [sic — closure reporting is dated Dec 2024 across ArtNews/Art-Insider; co-founder Ted Bonin died in 2024 and Carolyn Alexander retired the gallery after 28 years]. Last exhibition (Bryce/Dittborn/Macchi) closed June 2024. Site returned HTTP 403 on 2026-08-17 (may be decommissioned or blocking automated access) — some stale pages were reportedly still indexed as of April 2026 despite the closure. Address 47 Walker St sourced from Yelp, a secondary source — not independently confirmed from the gallery's own site since it is inaccessible. Retained for registry completeness per project policy; recommend excluding from active crawl cadence entirely (no adapter should poll this venue) and surfacing distinctly in the coverage/dark layer as 'closed' rather than 'dark-seasonal'. The Venue schema in SPEC.md §4/§8 has no explicit closed/defunct field — recommend the pipeline team add one rather than overloading `notes` for this signal long-term.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

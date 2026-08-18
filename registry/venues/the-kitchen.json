@@ -1,0 +1,33 @@
+{
+  "id": "the-kitchen",
+  "name": "The Kitchen",
+  "kind": "institution",
+  "city": "nyc",
+  "district": "west-village",
+  "url": "https://thekitchen.org",
+  "spaces": [
+    {
+      "label": "Westbeth loft",
+      "address": "Westbeth Artists Housing, I Building, 163B Bank Street, 4th Floor, New York, NY 10014",
+      "lat": 40.7368831,
+      "lng": -74.0085005
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/on-view",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Public hours vary by program; office Mon–Fri 10am–6pm — see thekitchen.org/on-view",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Operating from a temporary Westbeth loft (163B Bank Street) since relocating from 512 W 19th Street. Interdisciplinary program (performance/media/literary as well as exhibitions) — on-view schedule is sparse between engagements.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "bridget-donahue",
+  "name": "Bridget Donahue",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://www.hoffmandonahue.com",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "99 Bowery, 2nd Floor, New York, NY 10002",
+      "lat": 40.7173921,
+      "lng": -73.9949686
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Closed for summer vacation (reopens September); normally Tue–Sat",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Rebranded to Hoffman Donahue (hoffmandonahue.com), now a three-location gallery with Hannah Hoffman: New York (this address), Los Angeles, and Beverly Hills. NYC space closed for summer as of 2026-08-17; reopens with Ulrike Muller, Sept 9. Retained under original registry name for continuity; consider renaming to hoffman-donahue in a future pass.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

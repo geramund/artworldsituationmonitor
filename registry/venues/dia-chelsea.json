@@ -1,0 +1,33 @@
+{
+  "id": "dia-chelsea",
+  "name": "Dia Chelsea",
+  "kind": "institution",
+  "city": "nyc",
+  "district": "chelsea",
+  "url": "https://www.diaart.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "537 West 22nd Street, New York, NY 10011",
+      "lat": 40.7478387,
+      "lng": -74.0063018
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibition/exhibitions-projects",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Wed–Sat 12–6pm, closed Sun–Tue",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 1,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "diaart.org returned 403 to direct fetch (address/hours corroborated via Yelp/search snippets rather than the primary source directly). Not to be confused with Dia Beacon or Dia Bridgehampton. Data-quality re-pass 2026-08-17: diaart.org still 403'd on every path tried (exhibition page, press release, PDF brochure) and web.archive.org is unreachable by this tool, so the primary source remains unconfirmed directly. However 'David Lamelas: The Machine' dates/description are now independently corroborated by ISLAA (Institute for Studies on Latin American Art, a credible third-party arts institution) in addition to the earlier Ocula listing, both agreeing exactly on Mar 6 2026-Jan 16 2027 (confidence 0.65->0.8). Re-attempt diaart.org directly at next crawl. Image pass 2026-08-17: got one hero/promo image from ISLAA's own CDN (images.prismic.io) — a co-organizer's page, not diaart.org itself, and no photographer credit was given on that page. Genuine installation views would need diaart.org directly; retry then. Follow-up search 2026-08-17: confirmed via a targeted raw-content scan that ISLAA's page has exactly one usable image (the hero) and no installation-view gallery; found and attached the official Dia Art Foundation exhibition brochure PDF as press_release_url instead of null.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+}

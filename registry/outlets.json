@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hyperallergic",
+    "name": "Hyperallergic",
+    "rss_url": "https://hyperallergic.com/feed/",
+    "site_url": "https://hyperallergic.com",
+    "cadence": "hourly",
+    "status": "ok",
+    "notes": "Verified 2026-08-17: 200, application/rss+xml (redirects to /rss/)."
+  },
+  {
+    "id": "artforum",
+    "name": "Artforum",
+    "rss_url": "https://www.artforum.com/feed/",
+    "site_url": "https://www.artforum.com",
+    "cadence": "hourly",
+    "status": "ok",
+    "notes": "Verified 2026-08-17: 200, application/rss+xml."
+  },
+  {
+    "id": "artnews",
+    "name": "ARTnews",
+    "rss_url": "https://www.artnews.com/feed/",
+    "site_url": "https://www.artnews.com",
+    "cadence": "hourly",
+    "status": "ok",
+    "notes": "Verified 2026-08-17: 200."
+  },
+  {
+    "id": "the-art-newspaper",
+    "name": "The Art Newspaper",
+    "rss_url": "https://www.theartnewspaper.com/rss.xml",
+    "site_url": "https://www.theartnewspaper.com",
+    "cadence": "hourly",
+    "status": "ok",
+    "notes": "Verified 2026-08-17: 200, text/xml. (Not /rss — that path 404s; the feed is linked from the homepage's <link rel=\"alternate\"> tag.)"
+  },
+  {
+    "id": "frieze",
+    "name": "Frieze",
+    "rss_url": "https://www.frieze.com/rss.xml",
+    "site_url": "https://www.frieze.com",
+    "cadence": "hourly",
+    "status": "blocked",
+    "notes": "403 on every attempt 2026-08-17 (curl, WebFetch) despite robots.txt not disallowing it — looks like WAF/bot-protection, not a policy block. Surfaced honestly as blocked in outlet coverage rather than silently omitted; retry with a real browser context in a later pass."
+  },
+  {
+    "id": "e-flux",
+    "name": "e-flux Announcements",
+    "rss_url": null,
+    "site_url": "https://www.e-flux.com/announcements",
+    "cadence": "hourly",
+    "status": "no_feed",
+    "notes": "No RSS/Atom feed discoverable as of 2026-08-17 — e-flux distributes announcements by direct email rather than syndication. No adapter possible without a different ingestion path (e.g. a mailbox adapter), out of scope for Phase 1/3's rss.ts."
+  },
+  {
+    "id": "contemporary-art-daily",
+    "name": "Contemporary Art Daily",
+    "rss_url": "https://stacks.contemporaryartlibrary.org/daily/feed.rss",
+    "site_url": "https://contemporaryartdaily.com",
+    "cadence": "hourly",
+    "status": "ok",
+    "notes": "Verified 2026-08-17: contemporaryartdaily.com/feed/ redirects here (200, application/rss+xml) — CAD's feed now lives on the contemporaryartlibrary.org domain."
+  },
+  {
+    "id": "ocula",
+    "name": "Ocula Magazine",
+    "rss_url": "https://ocula.com/magazine/rss/",
+    "site_url": "https://ocula.com/magazine",
+    "cadence": "hourly",
+    "status": "blocked",
+    "notes": "403 on every attempt 2026-08-17 despite robots.txt allowing general crawling (Disallow only /previews/) — WAF/bot-protection. Surfaced honestly as blocked."
+  }
+]

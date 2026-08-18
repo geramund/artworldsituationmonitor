@@ -1,0 +1,33 @@
+{
+  "id": "canada",
+  "name": "CANADA",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://canadanewyork.com",
+  "spaces": [
+    {
+      "label": "60 Lispenard Street",
+      "address": "60 Lispenard Street, New York, NY 10013",
+      "lat": 40.7194485,
+      "lng": -74.0029007
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/news",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat 10–6",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "canadanewyork.com returned 403 to direct fetch — address sourced from two independent secondary listings (Two Coats of Paint Aug 2026 guide; art-collecting.com Tribeca guide) rather than the venue's own page; confidence lowered accordingly, re-verify when building the adapter. CANADA originated on Broome St/LES (est. 2000) and later relocated to Tribeca — do not use the old Broome St address, it is historical.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+}

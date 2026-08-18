@@ -1,0 +1,45 @@
+{
+  "id": "bortolami",
+  "name": "Bortolami",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://www.bortolamigallery.com",
+  "spaces": [
+    {
+      "label": "39 Walker",
+      "address": "39 Walker Street, New York, NY 10013",
+      "lat": 40.7191963,
+      "lng": -74.0039696
+    },
+    {
+      "label": "55 Walker",
+      "address": "55 Walker Street, New York, NY 10013",
+      "lat": 40.7188149,
+      "lng": -74.0033589
+    },
+    {
+      "label": "The Upstairs",
+      "address": "39 Walker Street, New York, NY 10013",
+      "lat": 40.7191963,
+      "lng": -74.0039696
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat 10–6 & by appointment",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 1,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Verified via bortolamigallery.com on 2026-08-17. 39 Walker Street confirmed from gallery's own contact info. Own Tribeca spaces (39 Walker, 55 Walker, The Upstairs) dark as of this date; next shows (Christine Safa; Daniel Buren & Barbara Kasten; Yuan Yuan) open 2026-09-09. 55 Walker and The Upstairs addresses corroborated via Artforum/MutualArt/Instagram secondary sources, not directly re-confirmed on Bortolami's own current page — re-verify at next crawl. Co-founder of THE CAMPUS (offsite annual exhibition, Claverack NY) with Andrew Kreps and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: THE CAMPUS record (dates, full artist list, description) cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: got 2 real images from thecampusupstate.com's own Artlogic CDN. Credit search exhausted — the page's footer only credits \"Site by Artlogic\" (the web platform, not a photographer); no actual photo credit exists on the page.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+}

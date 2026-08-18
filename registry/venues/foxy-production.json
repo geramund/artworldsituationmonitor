@@ -1,0 +1,33 @@
+{
+  "id": "foxy-production",
+  "name": "Foxy Production",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://foxyproduction.com",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "2 East Broadway, New York, NY 10038",
+      "lat": 40.7134268,
+      "lng": -73.9978527
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/",
+    "press": "/",
+    "news": "/"
+  },
+  "cadence": "weekly",
+  "hours": "N/A — gallery program ended",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "CLOSED. Ended its gallery program in October 2023 after 20 years (final show: Erin Calla Watson, closed 2023-10-08); pivoted to consultancy/curatorial/production work without a physical exhibition space. Retained for registry completeness per project philosophy — closures are data, not errors.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+}

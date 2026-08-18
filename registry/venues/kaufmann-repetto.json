@@ -1,0 +1,38 @@
+{
+  "id": "kaufmann-repetto",
+  "name": "kaufmann repetto",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "tribeca",
+  "url": "https://kaufmannrepetto.com",
+  "spaces": [
+    {
+      "label": "55 Walker",
+      "address": "55 Walker St, New York, NY 10013",
+      "lat": 40.7188149,
+      "lng": -74.0033589
+    }
+  ],
+  "adapter": "manual",
+  "config": {
+    "wordpress": {
+      "mode": "current-page",
+      "path": "/exhibitions-current/"
+    }
+  },
+  "paths": {
+    "exhibitions": "/exhibitions-current/",
+    "press": "/news/",
+    "news": "/news/"
+  },
+  "cadence": "weekly",
+  "hours": "Mon–Fri 10–6",
+  "health": {
+    "last_attempt": "2026-08-18T12:50:23.797Z",
+    "last_success": "2026-08-18T12:50:23.797Z",
+    "record_count": 1,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Verified via kaufmannrepetto.com/contact/ on 2026-08-17. Gallery also operates a Milan space (Via di Porta Tenaglia, 7, 20121 Milano MI, Italy) — out of scope for this NYC-only registry, not recorded as a venue. Shares 55 Walker St address with Bortolami and (per some secondary sources) Andrew Kreps — this Tribeca building appears to house multiple galleries; floor/suite not confirmed, flag for on-site verification.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+}

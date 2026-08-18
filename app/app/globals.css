@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  --ground: #0b0c0c;
+  --panel: #151717;
+  --panel-raised: #1b1d1d;
+  --hairline: #2a2d2d;
+  --paper: #e8e4da;
+  --paper-dim: #a6a297;
+  --orange: #c8511b;
+  --red: #b4121b;
+  --blue: #4c6fa5;
+  --dim: #5a5f5f;
+
+  --font-ui: var(--font-inter-tight), "Inter Tight", system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", ui-monospace, monospace;
+  --font-serif: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+}
+
+@theme inline {
+  --color-ground: var(--ground);
+  --color-panel: var(--panel);
+  --color-panel-raised: var(--panel-raised);
+  --color-hairline: var(--hairline);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-orange: var(--orange);
+  --color-red: var(--red);
+  --color-blue: var(--blue);
+  --color-dim: var(--dim);
+  --font-sans: var(--font-ui);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--ground);
+  color: var(--paper);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  line-height: 1.4;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--orange);
+  color: var(--ground);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--panel);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--hairline);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dim);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--paper-dim);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 1px solid var(--orange);
+  outline-offset: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes blip-in {
+  from {
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.event-blip {
+  animation: blip-in 240ms ease-out;
+}
+
+/* MapLibre control chrome, restyled to match the HUD instead of the default */
+.maplibregl-ctrl-attrib {
+  background: transparent !important;
+  color: var(--dim) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 9px !important;
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--dim) !important;
+}
+.maplibregl-ctrl-bottom-right {
+  bottom: 2px !important;
+  right: 2px !important;
+}
+.maplibregl-popup-content {
+  background: var(--panel) !important;
+  color: var(--paper) !important;
+  border: 1px solid var(--hairline) !important;
+  box-shadow: none !important;
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+  padding: 8px 10px !important;
+}
+.maplibregl-popup-tip {
+  border-top-color: var(--panel) !important;
+  border-bottom-color: var(--panel) !important;
+}
+/* Venue hover/click preview: image flush to the edge, no default padding —
+   buildPreviewContent() supplies its own spacing around the text block. */
+.venue-preview-popup .maplibregl-popup-content {
+  padding: 0 !important;
+  overflow: hidden;
+}
+.maplibregl-popup-close-button {
+  color: var(--paper-dim) !important;
+  font-size: 14px !important;
+}
