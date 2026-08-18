@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-18T20:14:42.520Z",
+  "generated_at": "2026-08-18T21:16:19.687Z",
   "window_days": 90,
   "events": [
     {
@@ -537,6 +537,6133 @@
       "article_id": null,
       "payload": {
         "title": "Atrium Stair: Klára Hosnedlová—Shelter"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-1",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-350dcec99b",
+      "article_id": null,
+      "payload": {
+        "title": "Summer Group Show: Between Memory and Imagination"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-2",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d52254d623",
+      "article_id": null,
+      "payload": {
+        "title": "Art & Design Show: Spectra"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-3",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9cc16a4e2e",
+      "article_id": null,
+      "payload": {
+        "title": "Kevork Mourad: The Echoes of Silent Bells"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-4",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-591de827db",
+      "article_id": null,
+      "payload": {
+        "title": "Sultan Bin Fahad: Blue Note"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-5",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ddbc012c80",
+      "article_id": null,
+      "payload": {
+        "title": "Atieh Sohrabi, Farshid Shafiey, Baran Shafiey: All in the Family"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-6",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-369ca958e5",
+      "article_id": null,
+      "payload": {
+        "title": "Wassef Boutros-Ghali: A Retrospective & Book Launch"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-7",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a88e5640a6",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: Noble Blossoms"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-8",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-bf818cd471",
+      "article_id": null,
+      "payload": {
+        "title": "Douglas White: The Great Wave"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-9",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-585b2436c2",
+      "article_id": null,
+      "payload": {
+        "title": "Mehdi Farhadian: Revealing the Unseen"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-10",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b287ea551b",
+      "article_id": null,
+      "payload": {
+        "title": "Roya Akhavan Shahabi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-11",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9ee0e7f5f7",
+      "article_id": null,
+      "payload": {
+        "title": "Morteza Khosravi: Between Action and Silence"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-12",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-674c5eab95",
+      "article_id": null,
+      "payload": {
+        "title": "Darvish: Enrapture"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-13",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-834b8fa3ee",
+      "article_id": null,
+      "payload": {
+        "title": "Bahar Sabzevari: Ancestral Algorithms"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-14",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8bf2566174",
+      "article_id": null,
+      "payload": {
+        "title": "Ayad Alkadhi: Sunken Republic"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-15",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5ffefdcc2b",
+      "article_id": null,
+      "payload": {
+        "title": "Leila Heller Gallery x Roya Khadjavi Projects: Playful Oblivion"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-16",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d59e3686eb",
+      "article_id": null,
+      "payload": {
+        "title": "Art Unmuted Exhibition: Curated by Jasmine Melamed"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-17",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1eeb226ede",
+      "article_id": null,
+      "payload": {
+        "title": "Darvish: Between States"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-18",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b23f0b4a64",
+      "article_id": null,
+      "payload": {
+        "title": "The Art of Giving: Holiday Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-19",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3a06b26e52",
+      "article_id": null,
+      "payload": {
+        "title": "Ryan Koopmans and Alice Wexell: The Wild Within"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-20",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5c3191f657",
+      "article_id": null,
+      "payload": {
+        "title": "Parinaz Eleish Gharagozlou: Stories in Thousand Pieces"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-21",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c56b2c1b26",
+      "article_id": null,
+      "payload": {
+        "title": "Reza Derakshani: Crowns & Leaves"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-22",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b78a0a3e94",
+      "article_id": null,
+      "payload": {
+        "title": "Morteza Khosravi: The Floating Table"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-23",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-547893f023",
+      "article_id": null,
+      "payload": {
+        "title": "Wassef Boutros-Ghali: A Retrospective (1965-2016) & Book Launch"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-24",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a365393150",
+      "article_id": null,
+      "payload": {
+        "title": "Katya Emelyanova: Elevated State"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-25",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b0a8ec350f",
+      "article_id": null,
+      "payload": {
+        "title": "Bahman Mohasses"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-26",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-139bd72138",
+      "article_id": null,
+      "payload": {
+        "title": "Sultan Bin Fahad: Cncve"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-27",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-dfcb7409a2",
+      "article_id": null,
+      "payload": {
+        "title": "Nature and Form: ​Sculptural Dialogues Across Time and Place"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-28",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1b6518867b",
+      "article_id": null,
+      "payload": {
+        "title": "Naeemeh Kazemi: Bubble Land"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-29",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-65e6a42cd6",
+      "article_id": null,
+      "payload": {
+        "title": "Morteza Khazaie: Upside Down"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-30",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ca23673c9f",
+      "article_id": null,
+      "payload": {
+        "title": "Reza Derakshani: I PAINT YOUR GRACE, I PAINT YOUR PAIN, I PAINT LOVE"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-31",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-433e83c13f",
+      "article_id": null,
+      "payload": {
+        "title": "Aileen Bordman: Monet's Garden"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-32",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-acd55c79fb",
+      "article_id": null,
+      "payload": {
+        "title": "Chihuly: Selections From Four Decades of Iconic Work"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-33",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8d13b7629e",
+      "article_id": null,
+      "payload": {
+        "title": "Melis Buyruk: Four Birds and One Soul"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-34",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-77f560c9d4",
+      "article_id": null,
+      "payload": {
+        "title": "Morteza Darehbaghi: Timeless Blossoms"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-35",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-71db186efd",
+      "article_id": null,
+      "payload": {
+        "title": "PARINAZ ELEISH GHARAGOZLOU: STORIES IN THOUSAND PIECES"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-36",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-18b11ec24c",
+      "article_id": null,
+      "payload": {
+        "title": "Zeinab Alhashemi: Metempsychosis The Soul’s Journey Through Material"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-37",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-88fc8311a8",
+      "article_id": null,
+      "payload": {
+        "title": "Marwan Sahmarani: Dirty Mirror Selfie"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-38",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e8da5d1e27",
+      "article_id": null,
+      "payload": {
+        "title": "Behrang Samadzadegan: Flames Beneath The Flowering Sky"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-39",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8b6d12771e",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: Evanescence and Regeneration"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-40",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f362ca7146",
+      "article_id": null,
+      "payload": {
+        "title": "María José Benvenuto: Nature's Pulse"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-41",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-288e8de296",
+      "article_id": null,
+      "payload": {
+        "title": "Sumayyah Samaha: Lines and Forms"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-42",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d59ac3c961",
+      "article_id": null,
+      "payload": {
+        "title": "'…I Kept The Night Vigil…' Curated by Behrang Samadzadegan"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-43",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6418cb0c75",
+      "article_id": null,
+      "payload": {
+        "title": "Arthur Carter: Geometric Abstraction"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-44",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-7417b174bf",
+      "article_id": null,
+      "payload": {
+        "title": "\"Expansive Change: Distortion as Dialogue in Modern and Contemporary Art\" curated by Santiago R. Guggenheim"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-45",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-926b906b1f",
+      "article_id": null,
+      "payload": {
+        "title": "Zeinab Alhashemi: There May Exist"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-46",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-abb20eaaac",
+      "article_id": null,
+      "payload": {
+        "title": "World Builders: Artist as Architect"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-47",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-29369390a3",
+      "article_id": null,
+      "payload": {
+        "title": "\"Carpets of Eden, Gardens of Fantasy\" Curated By Behrang Samadzadegan"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-48",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-dc96733a86",
+      "article_id": null,
+      "payload": {
+        "title": "Chihuly: Four Decades of Iconic Work"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-49",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3cb2a26db7",
+      "article_id": null,
+      "payload": {
+        "title": "Maryam Lamei: Symphony of Birds"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-50",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-84cf4aec96",
+      "article_id": null,
+      "payload": {
+        "title": "Aref Montazeri: Immortal Mirror"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-51",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-60a81a7991",
+      "article_id": null,
+      "payload": {
+        "title": "Arash Nazari: Poem is My Name"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-52",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-492ea1411c",
+      "article_id": null,
+      "payload": {
+        "title": "Diane Tuft: Entropy"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-53",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-79324338fd",
+      "article_id": null,
+      "payload": {
+        "title": "Holiday Pop-Up"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-54",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-90b0229625",
+      "article_id": null,
+      "payload": {
+        "title": "Mark Hadjipateras"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-55",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5d77a438a5",
+      "article_id": null,
+      "payload": {
+        "title": "Maxi Cohen: ‘The Poetry of Water’"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-56",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-4b0532095e",
+      "article_id": null,
+      "payload": {
+        "title": "Diane Tuft: ‘Frozen In Time: Photographs from the Arctic and Antarctica’"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-57",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ae8f0fa0b6",
+      "article_id": null,
+      "payload": {
+        "title": "Clifford Ross: 'Hurricane Waves'"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-58",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9e3908cda6",
+      "article_id": null,
+      "payload": {
+        "title": "Darvish: \"Every Story Is Us\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-59",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c9329cdd5a",
+      "article_id": null,
+      "payload": {
+        "title": "Ali Cha’aban: “I Guess I Am Still Angry”"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-60",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-56ba9e04bc",
+      "article_id": null,
+      "payload": {
+        "title": "Jehangir Vazifdar: A 60-Year Retrospective"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-61",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3d2078b295",
+      "article_id": null,
+      "payload": {
+        "title": "Farideh Lashai: Between the Flower and the Mountain: Woodcut Prints and Darbandsar Mountains, 1981-1987"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-62",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f4110ef8b7",
+      "article_id": null,
+      "payload": {
+        "title": "Naeemeh Kazemi: LaLaLand"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-63",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e7d872df18",
+      "article_id": null,
+      "payload": {
+        "title": "Sumayyah Samaha: Long Voyage"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-64",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ee6bd8abdb",
+      "article_id": null,
+      "payload": {
+        "title": "Diaz & Hengst: Cosmic Dance"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-65",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-7b0790b162",
+      "article_id": null,
+      "payload": {
+        "title": "\"Land of Honey\" Curated By Emann Odufu"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-66",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e07b53d533",
+      "article_id": null,
+      "payload": {
+        "title": "Katya Traboulsi: Perpetual Identities"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-67",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c723db75a1",
+      "article_id": null,
+      "payload": {
+        "title": "\"The Storyteller\": a collection of contemporary narratives | Curated by Behrang Samadzadegan"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-68",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-01f6b8c98a",
+      "article_id": null,
+      "payload": {
+        "title": "Melis Buyruk: \"The Bloom Room\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-69",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-7a18d170ca",
+      "article_id": null,
+      "payload": {
+        "title": "Lin Jingjing: Elsewhere"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-70",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-132402fc28",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: All That Cascades"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-71",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5649e20120",
+      "article_id": null,
+      "payload": {
+        "title": "Soheil Rad: Eternal Glory"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-72",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-308ef99b5e",
+      "article_id": null,
+      "payload": {
+        "title": "John Clement: Speedway"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-73",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-0324d274dd",
+      "article_id": null,
+      "payload": {
+        "title": "DIFC Sculpture Park: Edition 2"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-74",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-64cb9de3e1",
+      "article_id": null,
+      "payload": {
+        "title": "Behrang Samadzadegan: The Missing Witness"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-75",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-232fdddf80",
+      "article_id": null,
+      "payload": {
+        "title": "Arash Nazari: My Name Is Chance"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-76",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ce378efa9b",
+      "article_id": null,
+      "payload": {
+        "title": "Neal Rock: Pericardium"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-77",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-37afa77657",
+      "article_id": null,
+      "payload": {
+        "title": "Darvish Fakhr: Traveling Light"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-78",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8ffc1095b9",
+      "article_id": null,
+      "payload": {
+        "title": "Robert Wilson: Video Portraits"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-79",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-27d70b2171",
+      "article_id": null,
+      "payload": {
+        "title": "Mouna Rebeiz: Totems"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-80",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d02d38635c",
+      "article_id": null,
+      "payload": {
+        "title": "Parinaz Eleish Gharagozlou: Beyond the Seas There is a City"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-81",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-2f38b59573",
+      "article_id": null,
+      "payload": {
+        "title": "Azza Al Qubaisi: Between The Dune Lines"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-82",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a33f1ab056",
+      "article_id": null,
+      "payload": {
+        "title": "Ana D'Castro | Efflorescence: Variations on Color"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-83",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-0592f275d8",
+      "article_id": null,
+      "payload": {
+        "title": "Melis Buyruk | Habitat: Bloom"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-84",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e075ca34e6",
+      "article_id": null,
+      "payload": {
+        "title": "Tarik Currimbhoy: Sculpture in Motion"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-85",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-19216a960b",
+      "article_id": null,
+      "payload": {
+        "title": "Grimanesa Amorós: Scientia"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-86",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5711ff1357",
+      "article_id": null,
+      "payload": {
+        "title": "Shahzad Hassan Ghazi: Grace versus Strength: The Elements of Ornament"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-87",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6cfd69afeb",
+      "article_id": null,
+      "payload": {
+        "title": "Nan Swid: \"Paint - Wax - Pencil - Ink\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-88",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-2ea131b092",
+      "article_id": null,
+      "payload": {
+        "title": "Mouna Rebeiz: The Soothsayer at the 59th Venice Biennale"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-89",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b1eb3af2de",
+      "article_id": null,
+      "payload": {
+        "title": "Wim Delvoye: \"Wim Delvoye\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-90",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-7a900c4e38",
+      "article_id": null,
+      "payload": {
+        "title": "Reza Derakshani: \"Night Conveys the Light, Every Day and Every Night\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-91",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b3205daca6",
+      "article_id": null,
+      "payload": {
+        "title": "Naeemeh Kazemi: \"LaLaLand\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-92",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-92211d9a07",
+      "article_id": null,
+      "payload": {
+        "title": "Sculpture Park at DIFC"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-93",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-4e0b9e3345",
+      "article_id": null,
+      "payload": {
+        "title": "Nathaniel Galka: \"rebellious nature...\""
+      }
+    },
+    {
+      "id": "evt-msz6emhp-94",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-0f62b2438b",
+      "article_id": null,
+      "payload": {
+        "title": "Zeinab Al Hashemi: Desert X in AlUla"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-95",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-cc6fcb4b85",
+      "article_id": null,
+      "payload": {
+        "title": "Mouna Rebeiz: Colour Power"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-96",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-99913f181b",
+      "article_id": null,
+      "payload": {
+        "title": "Zeinab Al Hashemi: Constructivism: We See Things As We Are"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-97",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d98ad305b6",
+      "article_id": null,
+      "payload": {
+        "title": "Parinaz Eleish Gharagozlou: Amnesia of a Forgotten City"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-98",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a32a694bfb",
+      "article_id": null,
+      "payload": {
+        "title": "The Mana Jalalian Collection: A Rare Collection of Iranian Modern Art"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-99",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-91ae52cc87",
+      "article_id": null,
+      "payload": {
+        "title": "Anton Bakker: Perspectives of Symmetry"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-100",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1d03f82c27",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: Becoming Again"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-101",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6053387cb2",
+      "article_id": null,
+      "payload": {
+        "title": "Mia Fonssagrives Solow: Sculpture Retrospective"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-102",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d84e7dde0e",
+      "article_id": null,
+      "payload": {
+        "title": "ANA D' CASTRO: ENCHANTED GARDEN"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-103",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-89fb97814a",
+      "article_id": null,
+      "payload": {
+        "title": "Richard Fishman: Break, Blow, Burn"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-104",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-53843f0ec3",
+      "article_id": null,
+      "payload": {
+        "title": "Eduardo Perez-Cabrero: Silent Day"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-105",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1419a69f9d",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: Hope Springs Eternal"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-106",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d54f57aad7",
+      "article_id": null,
+      "payload": {
+        "title": "Aref Montazeri: Mirror"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-107",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e1224f06d7",
+      "article_id": null,
+      "payload": {
+        "title": "Soraya Sharghi: Beyond the Realm"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-108",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9cc1f081b3",
+      "article_id": null,
+      "payload": {
+        "title": "Marwan Sahmarani: Before the Blast"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-109",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3953c0751c",
+      "article_id": null,
+      "payload": {
+        "title": "Tarik Currimbhoy: New Sculptures"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-110",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-989cee3f8c",
+      "article_id": null,
+      "payload": {
+        "title": "Mia Fonssagrives Solow Pop-Up"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-111",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-612f354a25",
+      "article_id": null,
+      "payload": {
+        "title": "Shahzad Hassan Ghazi | Virya: The Energy"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-112",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ac25b6cd0b",
+      "article_id": null,
+      "payload": {
+        "title": "Bahar Sabzevari: Gaze and Glance"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-113",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ceb6a895b2",
+      "article_id": null,
+      "payload": {
+        "title": "Abdul Qader Al Rais: Nuqta - The Diactric"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-114",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ae316bef23",
+      "article_id": null,
+      "payload": {
+        "title": "Reza Derakshani: The Shadow of a Fig Tree Quiets My Soul"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-115",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-28a586554b",
+      "article_id": null,
+      "payload": {
+        "title": "Nick Moss: Steel Shapes"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-116",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5819498110",
+      "article_id": null,
+      "payload": {
+        "title": "Francesca Pasquali - MATERIAL ANATOMY"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-117",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b389758a36",
+      "article_id": null,
+      "payload": {
+        "title": "Melis Buyruk: HABITAT"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-118",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3b24da0546",
+      "article_id": null,
+      "payload": {
+        "title": "Reza Derakshani: EMANATIONS"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-119",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-069f865260",
+      "article_id": null,
+      "payload": {
+        "title": "Arthur Carter in Conversation with Modern and Contemporary Masters"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-120",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-66c03d1b2b",
+      "article_id": null,
+      "payload": {
+        "title": "Ali Chaaban: Anonymous Hours"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-121",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-00acc6fb22",
+      "article_id": null,
+      "payload": {
+        "title": "Shahzad Hassan Ghazi: Are We From The Same Ocean?"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-122",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a210d977ce",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: The Flight of Time"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-123",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f6d06f7392",
+      "article_id": null,
+      "payload": {
+        "title": "Double Vision: Curated by Jane Holzer"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-124",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6792055cfb",
+      "article_id": null,
+      "payload": {
+        "title": "Inaugural Exhibition"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-125",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e9ac5be095",
+      "article_id": null,
+      "payload": {
+        "title": "Johan Creten: True Love"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-126",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-179d0bf973",
+      "article_id": null,
+      "payload": {
+        "title": "Soraya Sharghi: Out of Realm"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-127",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-15f1df13a0",
+      "article_id": null,
+      "payload": {
+        "title": "Nick Moss: Rigorous Perception"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-128",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ae782abc98",
+      "article_id": null,
+      "payload": {
+        "title": "Ayad Alkadhi: Works on view"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-129",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ca370baf74",
+      "article_id": null,
+      "payload": {
+        "title": "Verdure"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-130",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1358cc1941",
+      "article_id": null,
+      "payload": {
+        "title": "Exemplary Bodies"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-131",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e1440e6e7c",
+      "article_id": null,
+      "payload": {
+        "title": "Summer Group Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-132",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-7ab2c626a5",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Lee Hovnanian | Part III: PURE"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-133",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e5a4c44a12",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Lee Hovnanian | PART II: HAPPY HOUR"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-134",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-69fa8b466e",
+      "article_id": null,
+      "payload": {
+        "title": "Philip Taaffe"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-135",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-41d44d4f06",
+      "article_id": null,
+      "payload": {
+        "title": "Kenny Scharf: Inner and Outer Space"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-136",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b9a1d22e01",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Lee Hovnanian: The Women's Trilogy Project"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-137",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-00c4ba63e9",
+      "article_id": null,
+      "payload": {
+        "title": "Sudarshan Shetty: 'A Song, A Story' and 'The Empty Vessel'"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-138",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-96121b6e1d",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: Sacred Space"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-139",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b9acdd5394",
+      "article_id": null,
+      "payload": {
+        "title": "Enoc Perez: The Desert Bloom"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-140",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-725b834006",
+      "article_id": null,
+      "payload": {
+        "title": "Jacob Hashimoto: The Eclipse"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-141",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3526880677",
+      "article_id": null,
+      "payload": {
+        "title": "Grisaille"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-142",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b252d850ea",
+      "article_id": null,
+      "payload": {
+        "title": "Afruz Amighi: No More Disguise"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-143",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-4a2cbac989",
+      "article_id": null,
+      "payload": {
+        "title": "Exilic Pleasures: Surrealism Refuged in America"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-144",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-5be478d2c2",
+      "article_id": null,
+      "payload": {
+        "title": "Surface Issues - Group Exhibition"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-145",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c28b9f8143",
+      "article_id": null,
+      "payload": {
+        "title": "Lalla Essaydi: Still in Progress"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-146",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-589fc47b8f",
+      "article_id": null,
+      "payload": {
+        "title": "The Bruce High Quality Foundation: The Second Coming"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-147",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1c474f7b72",
+      "article_id": null,
+      "payload": {
+        "title": "Marwan Sahmarani: Drifting Island"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-148",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c0079e0a01",
+      "article_id": null,
+      "payload": {
+        "title": "Tony Cragg at DIFC Gate"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-149",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-02a4db7b8a",
+      "article_id": null,
+      "payload": {
+        "title": "Rashid Rana: Scatter in Time"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-150",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-edcd9dbdda",
+      "article_id": null,
+      "payload": {
+        "title": "Shiva Ahmadi: Ascend"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-151",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1019dab4a3",
+      "article_id": null,
+      "payload": {
+        "title": "Bill Viola: The Vast"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-152",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a49142f710",
+      "article_id": null,
+      "payload": {
+        "title": "The Museum of Non-Objective Painting | The Birth of the Guggenheim"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-153",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-cb936b9ca3",
+      "article_id": null,
+      "payload": {
+        "title": "Tony Cragg"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-154",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-246d1aa72d",
+      "article_id": null,
+      "payload": {
+        "title": "Zaha Hadid"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-155",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ef8a99377a",
+      "article_id": null,
+      "payload": {
+        "title": "Frank Stella"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-156",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8f1034d1c0",
+      "article_id": null,
+      "payload": {
+        "title": "Richard Hudson: New Sculptures"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-157",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6d17313c24",
+      "article_id": null,
+      "payload": {
+        "title": "Gordon Cheung: Lines in the Sand"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-158",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-053f47852f",
+      "article_id": null,
+      "payload": {
+        "title": "Francesca Pasquali: Plastic Resonance"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-159",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d7074c4a8f",
+      "article_id": null,
+      "payload": {
+        "title": "Summer Group Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-160",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-eec0e931cf",
+      "article_id": null,
+      "payload": {
+        "title": "Seydou Keïta"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-161",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c9b7690372",
+      "article_id": null,
+      "payload": {
+        "title": "Group Exhibition"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-162",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-fb55cc44a3",
+      "article_id": null,
+      "payload": {
+        "title": "SHOJA AZARI & SHAHRAM KARIMI: THE COLD EARTH SLEEPS BELOW"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-163",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-dde9e8e5af",
+      "article_id": null,
+      "payload": {
+        "title": "Shrines to Speed"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-164",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-093886b3c5",
+      "article_id": null,
+      "payload": {
+        "title": "Ross Bleckner: Forever Overhead"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-165",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-d20c744637",
+      "article_id": null,
+      "payload": {
+        "title": "Afruz Amighi: Mångata"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-166",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e3d472f69b",
+      "article_id": null,
+      "payload": {
+        "title": "Farideh Lashai: 'The Tyranny of Autumn' Silkscreen Portfolio"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-167",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-844112105d",
+      "article_id": null,
+      "payload": {
+        "title": "ARTHUR CARTER: REFLECTIONS ON FORM: SCULPTURES, PAINTINGS AND DRAWINGS"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-168",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9608879bd0",
+      "article_id": null,
+      "payload": {
+        "title": "Michelangelo Pistoletto"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-169",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-2c6376eea3",
+      "article_id": null,
+      "payload": {
+        "title": "Y.Z. Kami: White Domes"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-170",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-787d4df9e6",
+      "article_id": null,
+      "payload": {
+        "title": "Shoja Azari & Shahram Karimi: The Cold Earth Sleeps Below"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-171",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ef9f715251",
+      "article_id": null,
+      "payload": {
+        "title": "AFRUZ AMIGHI: NIGHT PAINTINGS"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-172",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-b0477c9fac",
+      "article_id": null,
+      "payload": {
+        "title": "Sohrab Sepehri"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-173",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6914368b95",
+      "article_id": null,
+      "payload": {
+        "title": "Zaha Hadid"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-174",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-08cdeea48e",
+      "article_id": null,
+      "payload": {
+        "title": "Noor Ali Chagani: House of Bricks"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-175",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a9dcc495a4",
+      "article_id": null,
+      "payload": {
+        "title": "Wim Delvoye"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-176",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ece22028a7",
+      "article_id": null,
+      "payload": {
+        "title": "Ghada Amer: Earth. Love. Fire"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-177",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9155934243",
+      "article_id": null,
+      "payload": {
+        "title": "Moataz Nasr: Broken Patterns"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-178",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f87027cf35",
+      "article_id": null,
+      "payload": {
+        "title": "Arthur Carter"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-179",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-60e2533ab9",
+      "article_id": null,
+      "payload": {
+        "title": "Summer Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-180",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-cb93192143",
+      "article_id": null,
+      "payload": {
+        "title": "Aida Mahmudova: Passing By..."
+      }
+    },
+    {
+      "id": "evt-msz6emhp-181",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8aed66be72",
+      "article_id": null,
+      "payload": {
+        "title": "Hadieh Shafie: Surfaced"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-182",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-93e0921a87",
+      "article_id": null,
+      "payload": {
+        "title": "All American by Ganzeer, Curated by Shiva Balaghi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-183",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-da3fc5f89c",
+      "article_id": null,
+      "payload": {
+        "title": "Loris Cecchini: Emotional Diagrams and Other Micrologies"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-184",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a665a1663c",
+      "article_id": null,
+      "payload": {
+        "title": "Time to Hit the Road: curated by Alex Gerson and Matteo Zevi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-185",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-0877c092ae",
+      "article_id": null,
+      "payload": {
+        "title": "Ayad Alkadhi: Silent Words"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-186",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-988fd1f9d1",
+      "article_id": null,
+      "payload": {
+        "title": "Kiln"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-187",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a931aa7a7c",
+      "article_id": null,
+      "payload": {
+        "title": "Ethereal"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-188",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-2f8efca2f4",
+      "article_id": null,
+      "payload": {
+        "title": "Pop Sculpture - Pop Culture"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-189",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-19c556ed79",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Lee Hovnanian: Plastic Perfect"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-190",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-79e2680279",
+      "article_id": null,
+      "payload": {
+        "title": "Close Up: Contemporary Portraiture"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-191",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-1859660857",
+      "article_id": null,
+      "payload": {
+        "title": "Look at Me: Portraiture from Manet to the Present"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-192",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a220097232",
+      "article_id": null,
+      "payload": {
+        "title": "Look at Me: Portraiture from Manet to the Present - 57th Street"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-193",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-7b18abb4bc",
+      "article_id": null,
+      "payload": {
+        "title": "Steven Naifeh: Uzbek Series"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-194",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-07e6a5aed2",
+      "article_id": null,
+      "payload": {
+        "title": "Steven Naifeh: Found in Translation"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-195",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-13a4f6c75a",
+      "article_id": null,
+      "payload": {
+        "title": "Steven Naifeh: Found in Translation at Middle Eastern Center for the Arts (MECA)"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-196",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9cdcf50e5d",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: The Snowfall of Spiders"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-197",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8ba958a190",
+      "article_id": null,
+      "payload": {
+        "title": "Richard Hudson"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-198",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-51a79eec96",
+      "article_id": null,
+      "payload": {
+        "title": "Kezban Arca Batibeka: Nest"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-199",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ec709e7264",
+      "article_id": null,
+      "payload": {
+        "title": "Murat Pulat: Image-Animal"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-200",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-0e6684717e",
+      "article_id": null,
+      "payload": {
+        "title": "Matilde Alessandra: Modern Wonder"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-201",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-76df5e57b6",
+      "article_id": null,
+      "payload": {
+        "title": "LA2: A Young Collector's Exhibition"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-202",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-bf7e7d9b8b",
+      "article_id": null,
+      "payload": {
+        "title": "Shoja Azari: Fake-Idyllic Life"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-203",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-46397b4011",
+      "article_id": null,
+      "payload": {
+        "title": "Iké Udé: Style and Sympathies"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-204",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f9dbd5ece9",
+      "article_id": null,
+      "payload": {
+        "title": "Jay Shinn: Neonish 24.7"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-205",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-228e51a166",
+      "article_id": null,
+      "payload": {
+        "title": "Shoja Azari and Shahram Karimi: Magic of Light"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-206",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ca9c9726fd",
+      "article_id": null,
+      "payload": {
+        "title": "Caligraffitti: 1984-2013"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-207",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-ae4d045aa6",
+      "article_id": null,
+      "payload": {
+        "title": "The Wall by El Seed"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-208",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-31c01f9774",
+      "article_id": null,
+      "payload": {
+        "title": "Summer Selects"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-209",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-bfd72400d9",
+      "article_id": null,
+      "payload": {
+        "title": "Summer Selects: Ran Hwang"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-210",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-0ffa10ef29",
+      "article_id": null,
+      "payload": {
+        "title": "Bass! How Low Can You Go?"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-211",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-eab3fb526e",
+      "article_id": null,
+      "payload": {
+        "title": "Faig Ahmed: East in Twist"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-212",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-a93bdc6d44",
+      "article_id": null,
+      "payload": {
+        "title": "Negar Ahkami: The Consumption"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-213",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-89a4d67fcf",
+      "article_id": null,
+      "payload": {
+        "title": "Kezban Arca Batibeka at Istanbul Inn London"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-214",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-03d01bb026",
+      "article_id": null,
+      "payload": {
+        "title": "Farideh Lashai: Thus in Silence in Dreams' Projections"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-215",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-73a254d436",
+      "article_id": null,
+      "payload": {
+        "title": "MECA and Leila Heller Gallery Present: The Space Between"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-216",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-13821a87c2",
+      "article_id": null,
+      "payload": {
+        "title": "Transparencies: Contemporary Art and a History of Glass"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-217",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-56e2ae8e0a",
+      "article_id": null,
+      "payload": {
+        "title": "Shiva Ahmadi: Apocalyptic Playland"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-218",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8539ce3c3c",
+      "article_id": null,
+      "payload": {
+        "title": "Game II: The Works of Gayle Wells Mandle and Julia Mandle"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-219",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-962df2c291",
+      "article_id": null,
+      "payload": {
+        "title": "Kate Eric: Ripped Seams and Other Delights"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-220",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-be560a22f2",
+      "article_id": null,
+      "payload": {
+        "title": "Gulay Semercioglu: Variations on Line"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-221",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-4f605a2b35",
+      "article_id": null,
+      "payload": {
+        "title": "Reza Derakshani: Silence of the Night"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-222",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-dbf1902208",
+      "article_id": null,
+      "payload": {
+        "title": "Rock, Paper, Scissors"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-223",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-9a770d8d14",
+      "article_id": null,
+      "payload": {
+        "title": "Mitra Tabrizian: Photographs"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-224",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-570af9a445",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Lee Hovnanian: Mud Pie"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-225",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8bcfc314b0",
+      "article_id": null,
+      "payload": {
+        "title": "Khosrow Hassanzadeh: Haft Khan - The Seven Labors of Rostam"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-226",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-2451dbf828",
+      "article_id": null,
+      "payload": {
+        "title": "Ran Hwang: Transition"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-227",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3f7e69af62",
+      "article_id": null,
+      "payload": {
+        "title": "Ayad Alkadhi: Umbilical"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-228",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c0deb70330",
+      "article_id": null,
+      "payload": {
+        "title": "Elizabeth Thompson: Stories from the Everglades"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-229",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6d4f8da9ea",
+      "article_id": null,
+      "payload": {
+        "title": "The Mask and the Mirror: Curated by Shirin Neshat"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-230",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-e7436d20bb",
+      "article_id": null,
+      "payload": {
+        "title": "Marcos Grigorian: Earthworks"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-231",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-8b2cd27bb4",
+      "article_id": null,
+      "payload": {
+        "title": "Firooz Zahedi: Elizabeth Taylor in Iran"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-232",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f32299478c",
+      "article_id": null,
+      "payload": {
+        "title": "Sharam Karimi: The Rose Garden of Remembrance"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-233",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-16b3c473f0",
+      "article_id": null,
+      "payload": {
+        "title": "Julia Mandle and Gayle Wells Mandle: Game"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-234",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-081f55f3df",
+      "article_id": null,
+      "payload": {
+        "title": "Soody Sharifi: Of Miniature Serenades And Maxiature Moments"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-235",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-da51b7dae5",
+      "article_id": null,
+      "payload": {
+        "title": "Illuminations (After Arthur Rimbaud)"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-236",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-3958edc3b1",
+      "article_id": null,
+      "payload": {
+        "title": "Istanbul Cool!"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-237",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-f142f0774f",
+      "article_id": null,
+      "payload": {
+        "title": "Shoja Azari: Icons"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-238",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-c06102adaf",
+      "article_id": null,
+      "payload": {
+        "title": "Tehran-New York"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-239",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-2f6923fab4",
+      "article_id": null,
+      "payload": {
+        "title": "Shiva Ahmadi: Reinventing the Poetics of Myth"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-240",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-be7f737b20",
+      "article_id": null,
+      "payload": {
+        "title": "settle for a good fantasy"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-241",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-9493b51f93",
+      "article_id": null,
+      "payload": {
+        "title": "Liz Glynn"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-242",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-6238ae6642",
+      "article_id": null,
+      "payload": {
+        "title": "WOODS LANDS MEADOWS"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-243",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-1089531336",
+      "article_id": null,
+      "payload": {
+        "title": "Eric N. Mack"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-244",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-fe672fe231",
+      "article_id": null,
+      "payload": {
+        "title": "Tauba Auerbach"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-245",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "peter-blum",
+      "exhibition_id": "ex-peter-blum-c313406695",
+      "article_id": null,
+      "payload": {
+        "title": "Paul Fägerskiöld"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-246",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-9f379172fe",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony McCall"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-247",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-b8baf6da87",
+      "article_id": null,
+      "payload": {
+        "title": "Luke Agada"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-248",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-95df90a05f",
+      "article_id": null,
+      "payload": {
+        "title": "Yale MFA Photography 2026 Thesis Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-249",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1747f58d20",
+      "article_id": null,
+      "payload": {
+        "title": "Tania Franco Klein"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-250",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eeed73967d",
+      "article_id": null,
+      "payload": {
+        "title": "Manifest and Sublime"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-251",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-265077d5fc",
+      "article_id": null,
+      "payload": {
+        "title": "Victoria Sambunaris"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-252",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f9cb5160e3",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Ellen Bartley"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-253",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5ca4a54d9c",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show, Presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-254",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-293c120cce",
+      "article_id": null,
+      "payload": {
+        "title": "Sheida Soleimani"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-255",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4d7ab6db32",
+      "article_id": null,
+      "payload": {
+        "title": "Yamamoto Masao"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-256",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-61eea7d76e",
+      "article_id": null,
+      "payload": {
+        "title": "Pello Irazu"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-257",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-15ca669f8f",
+      "article_id": null,
+      "payload": {
+        "title": "Kevin Umaña"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-258",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5b0a03f51a",
+      "article_id": null,
+      "payload": {
+        "title": "Frieze Los Angeles"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-259",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-39ee6860ac",
+      "article_id": null,
+      "payload": {
+        "title": "Felix Art Fair 2026"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-260",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3edacecca2",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Geesaman"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-261",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1e35abe56d",
+      "article_id": null,
+      "payload": {
+        "title": "Untitled Art: Miami Beach 2025"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-262",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6f00c1f0c0",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2025"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-263",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d32e804ecd",
+      "article_id": null,
+      "payload": {
+        "title": "Guanyu Xu"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-264",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5c12a34b40",
+      "article_id": null,
+      "payload": {
+        "title": "Larry Sultan"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-265",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2277f7d8f2",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show 2025"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-266",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c22ca190f9",
+      "article_id": null,
+      "payload": {
+        "title": "David Alekhuogie"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-267",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5260da75ee",
+      "article_id": null,
+      "payload": {
+        "title": "Celebrating 30 Years"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-268",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6b102b943c",
+      "article_id": null,
+      "payload": {
+        "title": "Maria Antelman"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-269",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0a86984015",
+      "article_id": null,
+      "payload": {
+        "title": "Jenny Calivas"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-270",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4301ee8acb",
+      "article_id": null,
+      "payload": {
+        "title": "Independent"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-271",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-56594de5bd",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show, presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-272",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-feef1a26ff",
+      "article_id": null,
+      "payload": {
+        "title": "Zanele Muholi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-273",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-524ed0d899",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-274",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9f5bf129c0",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky & John Paul Morabito"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-275",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-af26412344",
+      "article_id": null,
+      "payload": {
+        "title": "John Divola"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-276",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6167f42fdc",
+      "article_id": null,
+      "payload": {
+        "title": "Untitled Art: Miami Beach 2024"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-277",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0a0a3d1ba7",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2024"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-278",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a3d0aa2052",
+      "article_id": null,
+      "payload": {
+        "title": "Omar Barquet"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-279",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b4e9b678df",
+      "article_id": null,
+      "payload": {
+        "title": "Tania Franco Klein"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-280",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9c51ac1054",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show 2024"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-281",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-90679495ec",
+      "article_id": null,
+      "payload": {
+        "title": "Mitch Epstein"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-282",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-aeefa6dcf3",
+      "article_id": null,
+      "payload": {
+        "title": "Immersion"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-283",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-91a7ac91a2",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-284",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-57b6501f16",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-285",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-09aef4f8ee",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Lum"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-286",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e4b710aea5",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Saville"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-287",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3338db3e79",
+      "article_id": null,
+      "payload": {
+        "title": "1-54: New York"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-288",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-09f0d9d0a2",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show, presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-289",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8d37c97a1c",
+      "article_id": null,
+      "payload": {
+        "title": "Hellen van Meene"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-290",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3f6a1da465",
+      "article_id": null,
+      "payload": {
+        "title": "Carolyn Drake"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-291",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9ed50760db",
+      "article_id": null,
+      "payload": {
+        "title": "Sandi Haber Fifield"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-292",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eca9aacde3",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-293",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-47348da488",
+      "article_id": null,
+      "payload": {
+        "title": "Andrew Moore"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-294",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eb62f9f832",
+      "article_id": null,
+      "payload": {
+        "title": "Yamamoto Masao"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-295",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-73df573c10",
+      "article_id": null,
+      "payload": {
+        "title": "Untitled Art: Miami Beach 2023"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-296",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9dd551f5d3",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2023"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-297",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-708ac2606d",
+      "article_id": null,
+      "payload": {
+        "title": "ADAA: The Art Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-298",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-45c401bfd3",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show 2023"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-299",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-125fc88c5a",
+      "article_id": null,
+      "payload": {
+        "title": "Intimate Strangers"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-300",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c6d299cfde",
+      "article_id": null,
+      "payload": {
+        "title": "John Divola"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-301",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3d36b5d696",
+      "article_id": null,
+      "payload": {
+        "title": "John Divola"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-302",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-73a9c8aee4",
+      "article_id": null,
+      "payload": {
+        "title": "Jitka Hanzlová"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-303",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b0df2a0080",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show, presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-304",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1128d094ac",
+      "article_id": null,
+      "payload": {
+        "title": "Larry Sultan"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-305",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-607d708af7",
+      "article_id": null,
+      "payload": {
+        "title": "Mitch Epstein"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-306",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f203249138",
+      "article_id": null,
+      "payload": {
+        "title": "Victoria Sambunaris"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-307",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-763d7cdeab",
+      "article_id": null,
+      "payload": {
+        "title": "Ed Ruscha"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-308",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-24e0fcb806",
+      "article_id": null,
+      "payload": {
+        "title": "Untitled Art: Miami Beach 2022"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-309",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-64d972fcc0",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2022"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-310",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-95b08d597e",
+      "article_id": null,
+      "payload": {
+        "title": "ADAA: The Art Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-311",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-26091b6532",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Ellen Bartley"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-312",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-79c9243f0f",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-313",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9978c5dc1f",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show 2022"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-314",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b31c4fefff",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony Hernandez"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-315",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-96f1ae2383",
+      "article_id": null,
+      "payload": {
+        "title": "Through the Looking Glass"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-316",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5fb22892ea",
+      "article_id": null,
+      "payload": {
+        "title": "Sandi Haber Fifield"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-317",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-830ec5f768",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-318",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5961931c67",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show, presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-319",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-69b9db2eff",
+      "article_id": null,
+      "payload": {
+        "title": "John Divola"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-320",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e6d94963d5",
+      "article_id": null,
+      "payload": {
+        "title": "Carolyn Drake"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-321",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c5351de8de",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Lum"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-322",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-76d9ef18cd",
+      "article_id": null,
+      "payload": {
+        "title": "Art Basel Miami Beach"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-323",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-24925cb630",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-324",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-06b0985b61",
+      "article_id": null,
+      "payload": {
+        "title": "ADAA: The Art Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-325",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eb358aeeee",
+      "article_id": null,
+      "payload": {
+        "title": "Ori Gersht"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-326",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6ab6a85965",
+      "article_id": null,
+      "payload": {
+        "title": "Zanele Muholi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-327",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-cb86ba5791",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show 2021"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-328",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2de9b553a1",
+      "article_id": null,
+      "payload": {
+        "title": "Mining the Archive"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-329",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-cba84228da",
+      "article_id": null,
+      "payload": {
+        "title": "Sandi Haber Fifield"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-330",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-36236206cb",
+      "article_id": null,
+      "payload": {
+        "title": "Art Basel OVR Pioneers: Jared Bark"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-331",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e397740862",
+      "article_id": null,
+      "payload": {
+        "title": "David Alekhuogie"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-332",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4200ce04bb",
+      "article_id": null,
+      "payload": {
+        "title": "Terry Evans"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-333",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-75306f1bf8",
+      "article_id": null,
+      "payload": {
+        "title": "Art Basel OVR: Miami"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-334",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-246a7608fd",
+      "article_id": null,
+      "payload": {
+        "title": "Jared Bark"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-335",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-670e68ba3b",
+      "article_id": null,
+      "payload": {
+        "title": "Photo London Digital"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-336",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6fc8cc5e48",
+      "article_id": null,
+      "payload": {
+        "title": "Matt Lipps"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-337",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-cdc4bab5ee",
+      "article_id": null,
+      "payload": {
+        "title": "Art Basel Online View Room"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-338",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-27d68c96d7",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Ellen Bartley"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-339",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-be2275933f",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo New York"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-340",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-15af116fe2",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-341",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-dc0de4dbf9",
+      "article_id": null,
+      "payload": {
+        "title": "ADAA, The Art Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-342",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b23c798f9c",
+      "article_id": null,
+      "payload": {
+        "title": "Tseng Kwong Chi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-343",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-41bf5d9c3e",
+      "article_id": null,
+      "payload": {
+        "title": "Guanyu Xu"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-344",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8a7debb0e5",
+      "article_id": null,
+      "payload": {
+        "title": "Yamamoto Masao"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-345",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-127ead1203",
+      "article_id": null,
+      "payload": {
+        "title": "UNTITLED, Miami Beach"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-346",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2882ecaf71",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2019"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-347",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-33884e9ea2",
+      "article_id": null,
+      "payload": {
+        "title": "David Hilliard"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-348",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9a25c39f34",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Ellen Bartley"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-349",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1f6c34ac16",
+      "article_id": null,
+      "payload": {
+        "title": "Jared Bark"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-350",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-fd4ccf6024",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-351",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9827e43135",
+      "article_id": null,
+      "payload": {
+        "title": "Transcript - Yale MFA Photography 2019 Thesis Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-352",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c548fad19e",
+      "article_id": null,
+      "payload": {
+        "title": "Lisa Kereszi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-353",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-80cc3deff9",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-354",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-fef80f973c",
+      "article_id": null,
+      "payload": {
+        "title": "Terry Evans"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-355",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4d709cec65",
+      "article_id": null,
+      "payload": {
+        "title": "Victoria Sambunaris"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-356",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0f740b3c2b",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show, Presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-357",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6080dbd964",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-358",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-dccafd9c6e",
+      "article_id": null,
+      "payload": {
+        "title": "Larry Sultan"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-359",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3a821fd4b4",
+      "article_id": null,
+      "payload": {
+        "title": "Andrew Moore"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-360",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-58fb9af976",
+      "article_id": null,
+      "payload": {
+        "title": "UNTITLED, Miami Beach"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-361",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4c12f5589f",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-362",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-19f5bbc332",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-363",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1f3d563de0",
+      "article_id": null,
+      "payload": {
+        "title": "Sandi Haber Fifield"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-364",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-35af93682f",
+      "article_id": null,
+      "payload": {
+        "title": "Ori Gersht"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-365",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4ae2ff6c71",
+      "article_id": null,
+      "payload": {
+        "title": "Interventions"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-366",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c3b74a0320",
+      "article_id": null,
+      "payload": {
+        "title": "David Maisel"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-367",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8db077c7d7",
+      "article_id": null,
+      "payload": {
+        "title": "Dallas Art Fair"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-368",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5ce5e5ec33",
+      "article_id": null,
+      "payload": {
+        "title": "The Photography Show presented by AIPAD"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-369",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-49d4c5b868",
+      "article_id": null,
+      "payload": {
+        "title": "Jared Bark"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-370",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-81a1692b9f",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-371",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d383ec261e",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-372",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4bf7d82c5a",
+      "article_id": null,
+      "payload": {
+        "title": "Jitka Hanzlova"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-373",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8ef5548f2d",
+      "article_id": null,
+      "payload": {
+        "title": "UNTITLED, Miami Beach"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-374",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-76a02f33d4",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-375",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7bf3fb030d",
+      "article_id": null,
+      "payload": {
+        "title": "Zanele Muholi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-376",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-65a62ddff3",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony Hernandez"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-377",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6265c50552",
+      "article_id": null,
+      "payload": {
+        "title": "Notions of Home"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-378",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-dc373e3ed5",
+      "article_id": null,
+      "payload": {
+        "title": "Victoria Sambunaris"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-379",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8616132a45",
+      "article_id": null,
+      "payload": {
+        "title": "Mark Steinmetz"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-380",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ae2d4e0a43",
+      "article_id": null,
+      "payload": {
+        "title": "Paul Mpagi Sepuya"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-381",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c5e052dfeb",
+      "article_id": null,
+      "payload": {
+        "title": "Masao Yamamoto"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-382",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-19ac225b6e",
+      "article_id": null,
+      "payload": {
+        "title": "PULSE MIAMI BEACH 2016 | BOOTH N-201"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-383",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7a4468650c",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-384",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8d88f09fd5",
+      "article_id": null,
+      "payload": {
+        "title": "Sandi Haber Fifield"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-385",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4c0e77c129",
+      "article_id": null,
+      "payload": {
+        "title": "Mitch Epstein"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-386",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-61cbb2f297",
+      "article_id": null,
+      "payload": {
+        "title": "LUX: The Radiant Sea"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-387",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a0fb66873b",
+      "article_id": null,
+      "payload": {
+        "title": "Sandro Miller"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-388",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eb26d76cbc",
+      "article_id": null,
+      "payload": {
+        "title": "Bertien van Manen"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-389",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-89dac925ce",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-390",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ed64abc61c",
+      "article_id": null,
+      "payload": {
+        "title": "Olivo Barbieri"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-391",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-921338b539",
+      "article_id": null,
+      "payload": {
+        "title": "Hellen van Meene"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-392",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f3ed06402a",
+      "article_id": null,
+      "payload": {
+        "title": "Hiroh Kakai"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-393",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-079bfa8924",
+      "article_id": null,
+      "payload": {
+        "title": "Zanele Muholi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-394",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9c19147c9e",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-395",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-51ca2f836f",
+      "article_id": null,
+      "payload": {
+        "title": "A Room of One's Own"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-396",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a1a7d96923",
+      "article_id": null,
+      "payload": {
+        "title": "Matthew Jensen"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-397",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-63255123c4",
+      "article_id": null,
+      "payload": {
+        "title": "Jitka Hanzlova"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-398",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-871cf2b81a",
+      "article_id": null,
+      "payload": {
+        "title": "The Armory Show 2015"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-399",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0e67d17023",
+      "article_id": null,
+      "payload": {
+        "title": "Esko Mannikko"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-400",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-90d914878d",
+      "article_id": null,
+      "payload": {
+        "title": "Sebastiao Salgado"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-401",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2097e1e887",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-402",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9ed84f35c5",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Lum"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-403",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ead38babb2",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-404",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f0314d175b",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Ellen Bartley"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-405",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ed586660a5",
+      "article_id": null,
+      "payload": {
+        "title": "The Thing Itself"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-406",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2934f1dcb8",
+      "article_id": null,
+      "payload": {
+        "title": "Kahn & Selesnick"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-407",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7e71407606",
+      "article_id": null,
+      "payload": {
+        "title": "David Maisel"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-408",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b912f09fcf",
+      "article_id": null,
+      "payload": {
+        "title": "Pello Irazu"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-409",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c5d7a0051b",
+      "article_id": null,
+      "payload": {
+        "title": "Andrew Moore"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-410",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2ebb5599a7",
+      "article_id": null,
+      "payload": {
+        "title": "Hellen van Meene"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-411",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6211b1056d",
+      "article_id": null,
+      "payload": {
+        "title": "Olivo Barbieri"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-412",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-13a722a564",
+      "article_id": null,
+      "payload": {
+        "title": "Desire (Curated by Jodie Vicenta Jacobson)"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-413",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-dc9175148e",
+      "article_id": null,
+      "payload": {
+        "title": "Sebastiao Salgado"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-414",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a610a0b1f8",
+      "article_id": null,
+      "payload": {
+        "title": "Terry Evans"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-415",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-41315c64d4",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-416",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-026fd0c2c7",
+      "article_id": null,
+      "payload": {
+        "title": "Project Gallery"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-417",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e6e0886c84",
+      "article_id": null,
+      "payload": {
+        "title": "Zanele Muholi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-418",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1672455ac5",
+      "article_id": null,
+      "payload": {
+        "title": "David Hilliard"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-419",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e41cad49d9",
+      "article_id": null,
+      "payload": {
+        "title": "Jitka Hanzlova"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-420",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-54f3698ff3",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Lum"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-421",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-43bb4724b2",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-422",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-fa71778cee",
+      "article_id": null,
+      "payload": {
+        "title": "tête-à-tête (Curated by Mickalene Thomas)"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-423",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-30f7977b93",
+      "article_id": null,
+      "payload": {
+        "title": "Lisa Kereszi"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-424",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-490df00ce7",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-425",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-58e3581b61",
+      "article_id": null,
+      "payload": {
+        "title": "Alex Prager"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-426",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d528e946df",
+      "article_id": null,
+      "payload": {
+        "title": "Olivo Barbieri"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-427",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-cbf92f96d5",
+      "article_id": null,
+      "payload": {
+        "title": "Masao Yamamoto"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-428",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-469ccc957a",
+      "article_id": null,
+      "payload": {
+        "title": "Jitka Hanzlova"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-429",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f78fa8b3c3",
+      "article_id": null,
+      "payload": {
+        "title": "Bertien van Manen"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-430",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c460362e63",
+      "article_id": null,
+      "payload": {
+        "title": "Esko Mannikko"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-431",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4c0167fa1d",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core: 1606-1907"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-432",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4971b3183e",
+      "article_id": null,
+      "payload": {
+        "title": "Amy Elkins"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-433",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-dd59c09d5c",
+      "article_id": null,
+      "payload": {
+        "title": "Hellen van Meene"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-434",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-feedc47e21",
+      "article_id": null,
+      "payload": {
+        "title": "Beautiful Vagabonds: Birds in Contemporary Photography"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-435",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-67ee4c3e3f",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-436",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a55cfb7a90",
+      "article_id": null,
+      "payload": {
+        "title": "Melanie Willhide"
+      }
+    },
+    {
+      "id": "evt-msz6emhp-437",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9c4b28d4cf",
+      "article_id": null,
+      "payload": {
+        "title": "Jeff Brouws"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-438",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-25fb4a7984",
+      "article_id": null,
+      "payload": {
+        "title": "Baltz, Becher, Ruscha"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-439",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6516f990f0",
+      "article_id": null,
+      "payload": {
+        "title": "Masao Yamamoto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-440",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6ca2152f9a",
+      "article_id": null,
+      "payload": {
+        "title": "Victoria Sambunaris"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-441",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d78876af89",
+      "article_id": null,
+      "payload": {
+        "title": "Kahn & Selesnick"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-442",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-25723d1862",
+      "article_id": null,
+      "payload": {
+        "title": "Alex Prager"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-443",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ff8b4648c5",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-444",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1936fbee49",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-445",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-94769b0f09",
+      "article_id": null,
+      "payload": {
+        "title": "Bryan Graf"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-446",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2bfc69662b",
+      "article_id": null,
+      "payload": {
+        "title": "Incognito: The Hidden Self-Portrait / Summer Group Show"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-447",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7197748421",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Geesaman"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-448",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2ee36e79da",
+      "article_id": null,
+      "payload": {
+        "title": "Vera Lutter"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-449",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ca263d9207",
+      "article_id": null,
+      "payload": {
+        "title": "Olivo Barbieri"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-450",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-595ebae6b8",
+      "article_id": null,
+      "payload": {
+        "title": "Sigga Björg Sigurðardóttir"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-451",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-94993e40a5",
+      "article_id": null,
+      "payload": {
+        "title": "Esko Mannikko"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-452",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eba2e525c3",
+      "article_id": null,
+      "payload": {
+        "title": "Alex Prager"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-453",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-015dc3628a",
+      "article_id": null,
+      "payload": {
+        "title": "Garry Winogrand"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-454",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4a682f5e1d",
+      "article_id": null,
+      "payload": {
+        "title": "Andrew Moore"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-455",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-920b660e90",
+      "article_id": null,
+      "payload": {
+        "title": "Hellen van Meene"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-456",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e8525dab51",
+      "article_id": null,
+      "payload": {
+        "title": "Esko Mannikko"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-457",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c0c369cd3f",
+      "article_id": null,
+      "payload": {
+        "title": "Glitz & Grime: Photographs of Times Square"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-458",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-39c8f5d2dc",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Saville"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-459",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-bccc74e97c",
+      "article_id": null,
+      "payload": {
+        "title": "Hiroh Kikai"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-460",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-fc3994b955",
+      "article_id": null,
+      "payload": {
+        "title": "August Sander"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-461",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-60f862e75c",
+      "article_id": null,
+      "payload": {
+        "title": "Masato Seto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-462",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-69e2523f7f",
+      "article_id": null,
+      "payload": {
+        "title": "Lisa Kereszi: Fantasies Hellen van Meene: Selections"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-463",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-278da43a2b",
+      "article_id": null,
+      "payload": {
+        "title": "Alex Prager"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-464",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0c20c6bd97",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-465",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-22bf65555b",
+      "article_id": null,
+      "payload": {
+        "title": "Contemporary Abstractions"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-466",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7deda7acfa",
+      "article_id": null,
+      "payload": {
+        "title": "David Hilliard"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-467",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9de6647481",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-468",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-04ae64cb74",
+      "article_id": null,
+      "payload": {
+        "title": "Amy Elkins"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-469",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-746d42c955",
+      "article_id": null,
+      "payload": {
+        "title": "Masao Yamamoto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-470",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-feb1aa8b2d",
+      "article_id": null,
+      "payload": {
+        "title": "Hiroh Kikai"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-471",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e3e0e47b98",
+      "article_id": null,
+      "payload": {
+        "title": "THE GOOD LIFE"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-472",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-df975614d9",
+      "article_id": null,
+      "payload": {
+        "title": "Solitary Ice"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-473",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7f2f9a210f",
+      "article_id": null,
+      "payload": {
+        "title": "Kahn & Selesnick"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-474",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8d83c93458",
+      "article_id": null,
+      "payload": {
+        "title": "Victoria Sambunaris"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-475",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b4c708951b",
+      "article_id": null,
+      "payload": {
+        "title": "Robert Adams, Lewis Baltz, Frank Gohlke"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-476",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0138002779",
+      "article_id": null,
+      "payload": {
+        "title": "Pello Irazu"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-477",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2b431191f5",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Josephson"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-478",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b3dda8d53a",
+      "article_id": null,
+      "payload": {
+        "title": "Bertien van Manen"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-479",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-226ea1cae3",
+      "article_id": null,
+      "payload": {
+        "title": "Olivo Barbieri"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-480",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-fbdce5e5c0",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-481",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-419c200171",
+      "article_id": null,
+      "payload": {
+        "title": "Rachel Perry"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-482",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-cd31397e39",
+      "article_id": null,
+      "payload": {
+        "title": "Easy Rider: Road Trips through America"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-483",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6965fac43d",
+      "article_id": null,
+      "payload": {
+        "title": "Christopher Makos"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-484",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-bfc5c2bcf0",
+      "article_id": null,
+      "payload": {
+        "title": "PERSONA"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-485",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-315e20c1c1",
+      "article_id": null,
+      "payload": {
+        "title": "Lisa Kereszi"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-486",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-75b7e184e2",
+      "article_id": null,
+      "payload": {
+        "title": "Sarah Schorr"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-487",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1df3302bc6",
+      "article_id": null,
+      "payload": {
+        "title": "Hellen van Meene"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-488",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-27e8a8a78d",
+      "article_id": null,
+      "payload": {
+        "title": "Laura Letinsky"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-489",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ad1c762578",
+      "article_id": null,
+      "payload": {
+        "title": "Andrew Moore"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-490",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f9d85aa64f",
+      "article_id": null,
+      "payload": {
+        "title": "Barbara Kasten"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-491",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9836b09cf6",
+      "article_id": null,
+      "payload": {
+        "title": "Don Donaghy"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-492",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f1d9a3374e",
+      "article_id": null,
+      "payload": {
+        "title": "Christian Patterson"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-493",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2239bac10d",
+      "article_id": null,
+      "payload": {
+        "title": "Esko Mannikko"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-494",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a7dd9a6658",
+      "article_id": null,
+      "payload": {
+        "title": "ARCADIA"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-495",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7ab465e775",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Geesaman"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-496",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-12536cb981",
+      "article_id": null,
+      "payload": {
+        "title": "Storefront Stories"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-497",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e7b9c52e14",
+      "article_id": null,
+      "payload": {
+        "title": "Olivo Barbieri"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-498",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8c1d9b1776",
+      "article_id": null,
+      "payload": {
+        "title": "Tom Hunter"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-499",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-784fd8ff53",
+      "article_id": null,
+      "payload": {
+        "title": "Bertien van Manen"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-500",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-729ee04235",
+      "article_id": null,
+      "payload": {
+        "title": "Jessica Backhaus"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-501",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-deb619a136",
+      "article_id": null,
+      "payload": {
+        "title": "David Hilliard"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-502",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4e47e9d746",
+      "article_id": null,
+      "payload": {
+        "title": "Mary Ellen Mark"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-503",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1d363278c9",
+      "article_id": null,
+      "payload": {
+        "title": "Edward del Valle & Mirta Gomez"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-504",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-5f248ee872",
+      "article_id": null,
+      "payload": {
+        "title": "Ed Ruscha"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-505",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-93ea0c7b72",
+      "article_id": null,
+      "payload": {
+        "title": "On View: Photographing the Museum"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-506",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-394a6d6b09",
+      "article_id": null,
+      "payload": {
+        "title": "Pacific Lines"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-507",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-4cb9bc81ce",
+      "article_id": null,
+      "payload": {
+        "title": "Chan Chao"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-508",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1c4fe07d4a",
+      "article_id": null,
+      "payload": {
+        "title": "Mark Steinmetz"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-509",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-869f77d350",
+      "article_id": null,
+      "payload": {
+        "title": "Priscilla Monge"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-510",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-728aa50515",
+      "article_id": null,
+      "payload": {
+        "title": "Mario Cravo Neto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-511",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-e943a09bfd",
+      "article_id": null,
+      "payload": {
+        "title": "Jodie Vicenta Jacobson"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-512",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-da6eda3e22",
+      "article_id": null,
+      "payload": {
+        "title": "Lisa Kereszi"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-513",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-85e52411a5",
+      "article_id": null,
+      "payload": {
+        "title": "Ed Ruscha, Robert Frank and Walker Evans"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-514",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3e81b3e78f",
+      "article_id": null,
+      "payload": {
+        "title": "Kahn & Selesnick"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-515",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-27946568b8",
+      "article_id": null,
+      "payload": {
+        "title": "Linda Connor"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-516",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d192633fc4",
+      "article_id": null,
+      "payload": {
+        "title": "Mitch Epstein"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-517",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-f90bb00dd2",
+      "article_id": null,
+      "payload": {
+        "title": "Oraien Catledge"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-518",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b1a38e2f80",
+      "article_id": null,
+      "payload": {
+        "title": "OFF THE SHELF"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-519",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-73655c9d5c",
+      "article_id": null,
+      "payload": {
+        "title": "DREAMWEAVERS"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-520",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-62867984af",
+      "article_id": null,
+      "payload": {
+        "title": "August Sander"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-521",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6188e4d1b0",
+      "article_id": null,
+      "payload": {
+        "title": "Julius Shulman"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-522",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-bbcba2f238",
+      "article_id": null,
+      "payload": {
+        "title": "Susan Unterberg"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-523",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d4797057b3",
+      "article_id": null,
+      "payload": {
+        "title": "Art History: Photography References Painting"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-524",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-07d5521f0e",
+      "article_id": null,
+      "payload": {
+        "title": "David Hilliard"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-525",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-cad50bcdde",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Geesaman"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-526",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1f85bf5e84",
+      "article_id": null,
+      "payload": {
+        "title": "Andre Kertesz"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-527",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0bb367612f",
+      "article_id": null,
+      "payload": {
+        "title": "Tom Hunter"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-528",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8800d40830",
+      "article_id": null,
+      "payload": {
+        "title": "Bertien van Manen"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-529",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-239033c778",
+      "article_id": null,
+      "payload": {
+        "title": "Enchanted Evening"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-530",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-494e50b694",
+      "article_id": null,
+      "payload": {
+        "title": "Kahn & Selesnick"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-531",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-bd24415aab",
+      "article_id": null,
+      "payload": {
+        "title": "Masao Yamamoto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-532",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-736e83027f",
+      "article_id": null,
+      "payload": {
+        "title": "Mike Smith"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-533",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2194e2de5e",
+      "article_id": null,
+      "payload": {
+        "title": "David Hilliard"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-534",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d8c6a466d8",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Saville"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-535",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-383daccb8f",
+      "article_id": null,
+      "payload": {
+        "title": "Andrew Moore"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-536",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ed00768edb",
+      "article_id": null,
+      "payload": {
+        "title": "Chan Chao"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-537",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-eaff262a37",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Josephson"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-538",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-53aee33e5f",
+      "article_id": null,
+      "payload": {
+        "title": "Terry Evans"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-539",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-23f5502857",
+      "article_id": null,
+      "payload": {
+        "title": "Kahn & Selesnick"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-540",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-d0340b5512",
+      "article_id": null,
+      "payload": {
+        "title": "Yousuf Karsh"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-541",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-3e6c39c322",
+      "article_id": null,
+      "payload": {
+        "title": "About Face: Works by Diane Arbus, August Sander,  Rineke Dykstra, Thomas Ruff and others"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-542",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9dacd2a01f",
+      "article_id": null,
+      "payload": {
+        "title": "Frederic Weber"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-543",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-bec4e9fdc0",
+      "article_id": null,
+      "payload": {
+        "title": "Susan Unterberg"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-544",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-7b33f4d17d",
+      "article_id": null,
+      "payload": {
+        "title": "Mark Steinmetz"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-545",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-c18bb3b610",
+      "article_id": null,
+      "payload": {
+        "title": "Jim Cooke"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-546",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1155ea39ec",
+      "article_id": null,
+      "payload": {
+        "title": "Linda Connor"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-547",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b3f817a061",
+      "article_id": null,
+      "payload": {
+        "title": "Masao Yamamoto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-548",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-2635286121",
+      "article_id": null,
+      "payload": {
+        "title": "Lynn Geesaman"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-549",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-06b8ffb6f7",
+      "article_id": null,
+      "payload": {
+        "title": "Guido Guidi"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-550",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-005d8f7c4c",
+      "article_id": null,
+      "payload": {
+        "title": "Lisette Model"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-551",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-112f8c8c40",
+      "article_id": null,
+      "payload": {
+        "title": "Sebastiao Salgado"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-552",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b732be10ad",
+      "article_id": null,
+      "payload": {
+        "title": "Nadav Kander"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-553",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-a9780d63aa",
+      "article_id": null,
+      "payload": {
+        "title": "Mark Power"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-554",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-ab76d244ad",
+      "article_id": null,
+      "payload": {
+        "title": "Lewis Baltz"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-555",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9d8e04fa39",
+      "article_id": null,
+      "payload": {
+        "title": "Ken Josephson"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-556",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-36e11a08f5",
+      "article_id": null,
+      "payload": {
+        "title": "Mario Cravo Neto"
+      }
+    },
+    {
+      "id": "evt-msz6emhq-557",
+      "ts": "2026-08-18T21:16:19.687Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-0b81d3e415",
+      "article_id": null,
+      "payload": {
+        "title": "Julius Shulman & Richard Neutra"
       }
     }
   ]
