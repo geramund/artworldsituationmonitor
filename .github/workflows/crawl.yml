@@ -37,6 +37,12 @@ jobs:
         run: npx tsx pipeline/geocode.ts
 
       - name: Run the crawl
+        # ANTHROPIC_API_KEY is optional — pipeline/resolve.ts's tier-4 LLM
+        # adjudication auto-skips (falling back to the explicit "ambiguous"
+        # bucket) when it's unset. Add the secret in repo Settings > Secrets
+        # to turn it on; no further workflow changes needed.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npx tsx pipeline/crawl.ts
 
       - name: Rebuild the published site (docs/) from fresh snapshots
