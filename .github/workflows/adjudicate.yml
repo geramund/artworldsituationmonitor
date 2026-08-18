@@ -1,23 +1,30 @@
-name: crawl
+name: adjudicate
 
 on:
   schedule:
-    # Hourly — matches the outlet RSS cadence (SPEC.md §6). Manual venues are
-    # local file reads (no politeness cost), so re-processing all of them
-    # every run is fine; only the outlet fetches hit the network on a
-    # cadence that matters.
-    - cron: "0 * * * *"
+    # Weekly, not hourly — this is the only place ANTHROPIC_API_KEY is
+    # injected, so it's the only place tier-4 LLM adjudication (SPEC.md §8)
+    # can spend anything. The cache in registry/resolution-cache.json means
+    # cost doesn't really change with frequency (each article is only ever
+    # adjudicated once, whenever it's first seen) — weekly just keeps the
+    # review queue's ambiguous backlog from growing stale for a month at a
+    # time. Runs the same pipeline/crawl.ts as crawl.yml; the only
+    # difference is this workflow's env carries the key.
+    - cron: "0 6 * * 1" # Monday 06:00 UTC
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
+  # Shares crawl.yml's group — both workflows write the same registry/,
+  # snapshots/, and docs/ files and commit+push to main, so they must never
+  # run concurrently.
   group: crawl
   cancel-in-progress: false
 
 jobs:
-  crawl:
+  adjudicate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,12 +43,9 @@ jobs:
       - name: Geocode any un-cached addresses
         run: npx tsx pipeline/geocode.ts
 
-      - name: Run the crawl
-        # Deliberately no ANTHROPIC_API_KEY here — tier-4 LLM adjudication
-        # is cost-controlled by only running on adjudicate.yml's weekly
-        # schedule, not every hour. New ambiguous articles between weekly
-        # runs just sit in the honest "ambiguous" bucket (pipeline/
-        # resolve.ts already never asserts a confident link without it).
+      - name: Run the crawl (with LLM adjudication enabled)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npx tsx pipeline/crawl.ts
 
       - name: Rebuild the published site (docs/) from fresh snapshots
@@ -55,6 +59,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "crawl: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "adjudicate: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
