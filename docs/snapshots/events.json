@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-18T18:45:00.742Z",
+  "generated_at": "2026-08-18T19:15:25.585Z",
   "window_days": 90,
   "events": [
     {
@@ -457,6 +457,86 @@
       "article_id": null,
       "payload": {
         "title": "MASAMITSU SHIGETA"
+      }
+    },
+    {
+      "id": "evt-msz1moyb-1",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Victor Young"
+      }
+    },
+    {
+      "id": "evt-msz1moyb-2",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "ANNOUNCED",
+      "venue_id": "miguel-abreu-gallery",
+      "exhibition_id": "ex-miguel-abreu-gallery-0f56f77095",
+      "article_id": null,
+      "payload": {
+        "title": "Regroup Show"
+      }
+    },
+    {
+      "id": "evt-msz1moyb-3",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "EXTENDED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-8abb5d5517",
+      "article_id": null,
+      "payload": {
+        "title": "New Humans: Memories of the Future",
+        "was": "2026-08-30",
+        "now": "2026-08-31"
+      }
+    },
+    {
+      "id": "evt-msz1moyb-4",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-8abb5d5517",
+      "article_id": null,
+      "payload": {
+        "title": "New Humans: Memories of the Future",
+        "count": 1
+      }
+    },
+    {
+      "id": "evt-msz1moyb-5",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "ANNOUNCED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-50fd4d045d",
+      "article_id": null,
+      "payload": {
+        "title": "Plaza: Sarah Lucas—VENUS VICTORIA"
+      }
+    },
+    {
+      "id": "evt-msz1moyb-6",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "ANNOUNCED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-44c0bf50f1",
+      "article_id": null,
+      "payload": {
+        "title": "Facade: Tschabalala Self—Art Lovers"
+      }
+    },
+    {
+      "id": "evt-msz1moyb-7",
+      "ts": "2026-08-18T19:15:25.585Z",
+      "type": "ANNOUNCED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-541d431df1",
+      "article_id": null,
+      "payload": {
+        "title": "Atrium Stair: Klára Hosnedlová—Shelter"
       }
     }
   ]

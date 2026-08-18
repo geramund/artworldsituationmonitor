@@ -13,8 +13,13 @@
       "lng": -73.992316
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "wordpress",
+  "config": {
+    "wordpress": {
+      "mode": "exhibition-archive",
+      "path": "/exhibitions/"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/events",
@@ -23,11 +28,11 @@
   "cadence": "daily",
   "hours": "Mon–Fri 10am–6pm or by appointment (summer hours)",
   "health": {
-    "last_attempt": "2026-08-18T18:45:00.742Z",
-    "last_success": "2026-08-18T18:45:00.742Z",
+    "last_attempt": "2026-08-18T19:15:25.585Z",
+    "last_success": "2026-08-18T19:15:25.585Z",
     "record_count": 1,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Site previously also listed a 36 Orchard Street space (seen in secondary sources); current site shows only 88 Eldridge as active. Treat 36 Orchard as historical unless reconfirmed.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
+  "notes": "Site previously also listed a 36 Orchard Street space (seen in secondary sources); current site shows only 88 Eldridge as active. Treat 36 Orchard as historical unless reconfirmed.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable.\n\nWired to real live adapter (2026-08-18): the standard REST endpoints turned out to be a dead end (dozens of oddly-named, mostly-untitled \"pages\" from a page-builder, no clean current-show signal; the real \"exhibition\" custom post type isn't exposed via /wp-json/ at all). /exhibitions/ itself is a clean, well-labeled archive though (confirmed via the post-type-archive-exhibition body class) with an explicit <h3>Current</h3> section — scraped directly instead. Found and worked around a real markup bug on the gallery's own site: the artist-list div's class attribute is missing its \"=\" (renders as class\"exhibition-subtitle italic\"), which silently drops the class for any normal CSS-selector scrape; adapters/wordpress.ts's findByClassOrMangledAttr matches the mangled attribute name directly instead of just returning an empty artist list. Confirms \"88 Eldridge\" as the current space label, matching the note above."
 }

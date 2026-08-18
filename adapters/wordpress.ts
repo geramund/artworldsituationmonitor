@@ -40,7 +40,37 @@ interface WPCurrentPageConfig {
   // matching pane is found, fall back to the generic <title>-tag heuristic.
   locationLabel?: string;
 }
-type WordPressConfig = WPCustomPostTypeConfig | WPTaxonomyFilteredConfig | WPCurrentPageConfig;
+interface WPExhibitionArchiveConfig {
+  mode: "exhibition-archive";
+  // e.g. "/exhibitions/" — a real "exhibition" custom post type (confirmed
+  // via `post-type-archive-exhibition` on the body class) rendered as an
+  // archive page with an explicit `<h3>Current</h3>` section, each show a
+  // `.exhibition-item` with `.exhibition-title` / `.exhibition-subtitle`
+  // (comma-separated artist list) / `.exhibition-location` /
+  // `.exhibition-dates`. Not exposed via /wp-json/ (show_in_rest is false
+  // for this CPT on the one venue this was verified against), so this
+  // scrapes the rendered archive HTML instead of querying the REST API.
+  path: string;
+}
+interface WPNextEmbeddedConfig {
+  mode: "nextjs-embedded";
+  // e.g. "/exhibitions/" — a headless-WordPress site where the public
+  // frontend is a separate Next.js app (verified on New Museum: /wp-json/
+  // on the public domain 500s — the real WP/WPGraphQL backend lives on a
+  // different subdomain entirely). The page still embeds real, fully
+  // structured data — GraphQL-typed objects with ISO startDate/endDate —
+  // pre-fetched into a `<script id="__NEXT_DATA__">` JSON blob for SSR.
+  // No extra request needed; just walk that JSON for objects matching
+  // `typeName` (New Museum: "Exhibition").
+  path: string;
+  typeName: string;
+}
+type WordPressConfig =
+  | WPCustomPostTypeConfig
+  | WPTaxonomyFilteredConfig
+  | WPCurrentPageConfig
+  | WPExhibitionArchiveConfig
+  | WPNextEmbeddedConfig;
 
 function getWordPressConfig(venue: Venue): WordPressConfig | null {
   const wp = (venue.config as { wordpress?: WordPressConfig } | undefined)?.wordpress;
@@ -91,6 +121,17 @@ function safeDate(input: string): string | null {
   return d.toISOString().slice(0, 10);
 }
 
+function todayISO(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function isRecentOrFuture(dateStr: string | null, maxAgeDays: number): boolean {
+  if (!dateStr) return true;
+  const t = new Date(dateStr).getTime();
+  if (Number.isNaN(t)) return true;
+  return t >= Date.now() - maxAgeDays * 24 * 60 * 60 * 1000;
+}
+
 interface LocationSlide {
   title: string;
   artists: string[];
@@ -136,6 +177,166 @@ function parseThroughDate(text: string, referenceYear: number): string | null {
     d = new Date(`${month} ${day}, ${referenceYear + 1}`);
   }
   return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
+}
+
+// Miguel Abreu Gallery's own markup has a real bug: `class"exhibition-
+// subtitle italic"` is missing its `=`, so the parser can't recognize it as
+// a class attribute — it merges into one mangled attribute name instead
+// (verified: `{"class\"exhibition-subtitle": "", "italic\"": ""}`). Try the
+// normal selector first; fall back to matching that mangled attribute name
+// directly so a real site typo doesn't just silently drop the artist list.
+function findByClassOrMangledAttr(
+  $scope: ReturnType<cheerio.CheerioAPI>,
+  className: string
+): ReturnType<cheerio.CheerioAPI> {
+  const normal = $scope.find(`.${className}`);
+  if (normal.length > 0) return normal;
+  return $scope.find("*").filter((_, el) => Object.keys(el.attribs ?? {}).some((k) => k.includes(className)));
+}
+
+// See WPExhibitionArchiveConfig — scopes to the <h3>Current</h3> section's
+// .exhibition-item entries only, never Past (or Upcoming, if a theme has
+// one — treated the same as Current since both are worth surfacing).
+function extractExhibitionArchive(html: string, pageUrl: string): RawExhibition[] {
+  const $ = cheerio.load(html);
+  const fetchedAt = new Date().toISOString();
+  const results: RawExhibition[] = [];
+
+  const sectionHeaders = $("h3").filter((_, el) => {
+    const label = $(el).text().trim().toLowerCase();
+    return label === "current" || label === "upcoming";
+  });
+
+  sectionHeaders.each((_, header) => {
+    const $header = $(header);
+    // Verified structure nests both the heading and its items inside the
+    // same wrapper div, with Past living in a separate sibling wrapper —
+    // scoping to the parent keeps this section's items from bleeding into
+    // the next.
+    const container = $header.parent();
+    container.find(".exhibition-item").each((__, el) => {
+      const $el = $(el);
+      const title = $el.find(".exhibition-title").first().text().trim();
+      if (!title) return;
+
+      const artistsText = findByClassOrMangledAttr($el, "exhibition-subtitle").first().text().trim();
+      const artists = artistsText
+        ? artistsText
+            .split(",")
+            .map((a) => a.trim())
+            .filter(Boolean)
+        : [];
+      const spaceLabel = $el.find(".exhibition-location").first().text().trim() || null;
+      const datesText = $el.find(".exhibition-dates").first().text().trim();
+      const { opens, closes } = parseDateRange(datesText, new Date().getFullYear());
+
+      const href = $el.find("a[href]").first().attr("href");
+      const sourceUrl = href ? new URL(href, pageUrl).toString() : pageUrl;
+      const imgSrc = $el.find("img").first().attr("src");
+
+      results.push({
+        title,
+        artists,
+        opens,
+        closes,
+        space_label: spaceLabel,
+        excerpt: "",
+        press_release_url: null,
+        image_urls: imgSrc ? [new URL(imgSrc, pageUrl).toString()] : [],
+        image_credit: null,
+        works: [],
+        source_url: sourceUrl,
+        // Real per-field structure (not free-text parsing) — same
+        // confidence tier as a clean sanity/artlogic hit.
+        confidence: opens || closes ? 0.85 : 0.7,
+        fetched_at: fetchedAt,
+      });
+    });
+  });
+
+  return results;
+}
+
+// See WPNextEmbeddedConfig. Only trusted as "current" the same way
+// sanity.ts treats a missing closing date — an old opens date with nothing
+// recorded after it (New Museum's page embeds its full exhibition history,
+// e.g. a 2022 "First Look" with no endDate) is far more likely stale than a
+// genuinely still-running installation.
+const NEXT_EMBEDDED_OPEN_ENDED_MAX_AGE_DAYS = 180;
+
+function extractNextData(html: string): unknown {
+  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  if (!m) return null;
+  try {
+    return JSON.parse(m[1]);
+  } catch {
+    return null;
+  }
+}
+
+function collectByTypename(node: unknown, typeName: string, seenIds: Set<string>, out: Record<string, unknown>[]): void {
+  if (Array.isArray(node)) {
+    for (const item of node) collectByTypename(item, typeName, seenIds, out);
+    return;
+  }
+  if (!node || typeof node !== "object") return;
+  const rec = node as Record<string, unknown>;
+  if (rec.__typename === typeName) {
+    const id = typeof rec.databaseId === "number" || typeof rec.databaseId === "string" ? String(rec.databaseId) : JSON.stringify(rec);
+    if (!seenIds.has(id)) {
+      seenIds.add(id);
+      out.push(rec);
+    }
+  }
+  for (const v of Object.values(rec)) collectByTypename(v, typeName, seenIds, out);
+}
+
+function isoDateOnly(value: unknown): string | null {
+  if (typeof value !== "string" || value.length === 0) return null;
+  const d = new Date(value);
+  return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
+}
+
+function extractNextEmbedded(html: string, typeName: string): RawExhibition[] {
+  const data = extractNextData(html);
+  if (!data) return [];
+
+  const found: Record<string, unknown>[] = [];
+  collectByTypename(data, typeName, new Set(), found);
+
+  const fetchedAt = new Date().toISOString();
+  const today = todayISO();
+  const results: RawExhibition[] = [];
+
+  for (const rec of found) {
+    const title = typeof rec.title === "string" ? stripTags(rec.title) : null;
+    if (!title) continue;
+    const opens = isoDateOnly(rec.startDate);
+    const closes = isoDateOnly(rec.endDate);
+    const isCurrent = closes ? closes >= today : isRecentOrFuture(opens, NEXT_EMBEDDED_OPEN_ENDED_MAX_AGE_DAYS);
+    if (!isCurrent) continue;
+
+    const link = typeof rec.link === "string" ? rec.link : null;
+    const featuredImage = rec.featuredImage as { node?: { sourceUrl?: unknown } } | undefined;
+    const imageUrl = typeof featuredImage?.node?.sourceUrl === "string" ? featuredImage.node.sourceUrl : null;
+
+    results.push({
+      title,
+      artists: [], // no artist field on this GraphQL type — not fabricated
+      opens,
+      closes,
+      space_label: null,
+      excerpt: "",
+      press_release_url: null,
+      image_urls: imageUrl ? [imageUrl] : [],
+      image_credit: null,
+      works: [],
+      source_url: link ?? "",
+      confidence: 0.85, // real GraphQL-typed structured data, not free-text
+      fetched_at: fetchedAt,
+    });
+  }
+  return results;
 }
 
 // Generic "content area" image guess: pull <img src> values and drop
@@ -294,6 +495,20 @@ async function fetchWordPress(venue: Venue): Promise<RawExhibition[]> {
         fetched_at: new Date().toISOString(),
       },
     ];
+  }
+
+  if (config.mode === "exhibition-archive") {
+    const url = new URL(config.path, venue.url).toString();
+    const html = await fetchHtml(url);
+    if (!html) return [];
+    return extractExhibitionArchive(html, url);
+  }
+
+  if (config.mode === "nextjs-embedded") {
+    const url = new URL(config.path, venue.url).toString();
+    const html = await fetchHtml(url);
+    if (!html) return [];
+    return extractNextEmbedded(html, config.typeName);
   }
 
   const base = new URL(`/wp-json/wp/v2/${config.restBase}`, venue.url);

@@ -23,11 +23,11 @@
   "cadence": "weekly",
   "hours": "Tue–Sat 12–6pm",
   "health": {
-    "last_attempt": "2026-08-18T18:45:00.742Z",
-    "last_success": "2026-08-18T18:45:00.742Z",
+    "last_attempt": "2026-08-18T19:15:25.585Z",
+    "last_success": "2026-08-18T19:15:25.585Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address sits at the LES/East Village/Chinatown border; kept in lower-east-side district per registry grouping.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+  "notes": "Address sits at the LES/East Village/Chinatown border; kept in lower-east-side district per registry grouping.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched.\n\nAdapter investigation (2026-08-18): homepage is real, server-rendered text (Rails/Hotwire, not a JS SPA — no /sitemap.xml either, so no generic fallback route). Confirms genuinely dark for the rest of summer: \"Closed for remainder of Summer. Upcoming: Kern Samuel (September), Sam Anderson (October), Em Rooney (November)\" — month-only, no day/year given, so not confidently parseable into opens/closes dates. Left manual; worth a human re-check in September."
 }
