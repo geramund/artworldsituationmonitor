@@ -18,6 +18,7 @@ import {
   venueAnchor,
 } from "@/lib/derive";
 import { useIsMobile } from "@/lib/useIsMobile";
+import { withBasePath } from "@/lib/basePath";
 import TopBar from "./TopBar";
 import LeftRail from "./LeftRail";
 import MapView from "./MapView";
@@ -86,12 +87,12 @@ export default function Monitor() {
     // the previous city's venues while the new snapshot is in flight.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setCitySnapshot(null);
-    fetchJSON<CitySnapshot>(`/snapshots/${state.city}.json`).then(setCitySnapshot);
+    fetchJSON<CitySnapshot>(withBasePath(`/snapshots/${state.city}.json`)).then(setCitySnapshot);
   }, [state.city]);
 
   useEffect(() => {
-    fetchJSON<GlobalSnapshot>("/snapshots/global.json").then(setGlobalSnapshot);
-    fetchJSON<EventsSnapshot>("/snapshots/events.json").then(setEventsSnapshot);
+    fetchJSON<GlobalSnapshot>(withBasePath("/snapshots/global.json")).then(setGlobalSnapshot);
+    fetchJSON<EventsSnapshot>(withBasePath("/snapshots/events.json")).then(setEventsSnapshot);
   }, []);
 
   useEffect(() => {

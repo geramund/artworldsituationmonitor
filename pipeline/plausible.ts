@@ -32,7 +32,14 @@ export function plausible(
     .map((r) => ({ next: r, prior: priorByUrl.get(r.source_url) }))
     .filter((pair): pair is { next: Exhibition; prior: Exhibition } => pair.prior !== undefined);
 
-  if (matched.length === 0) return { ok: true }; // fully different URL set — treat as legitimate turnover
+  // A match of 1 isn't a sample — "ALL titles changed" from n=1 is
+  // indistinguishable from "this one show's title was legitimately edited."
+  // Observed for real during Phase 2 wiring: a single title/URL formatting
+  // difference between hand-curated and adapter-sourced data tripped this
+  // exact false positive. SPEC.md's signal (§6) is about a *pattern* across
+  // a redesign, not a coincidence in one record.
+  const MIN_SAMPLE = 3;
+  if (matched.length === 0 || matched.length < MIN_SAMPLE) return { ok: true };
 
   const allDatesShifted = matched.every(
     (m) => m.next.opens !== m.prior.opens || m.next.closes !== m.prior.closes

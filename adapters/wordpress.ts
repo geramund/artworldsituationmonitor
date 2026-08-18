@@ -49,8 +49,16 @@ function stripTags(html: string): string {
     .replace(/&amp;/g, "&")
     .replace(/&nbsp;/g, " ")
     .replace(/&#8217;|&rsquo;/g, "’")
+    .replace(/&#8216;|&lsquo;/g, "‘")
+    .replace(/&#8220;|&ldquo;/g, "“")
+    .replace(/&#8221;|&rdquo;/g, "”")
     .replace(/&#8211;|&ndash;/g, "–")
     .replace(/&#8212;|&mdash;/g, "—")
+    .replace(/&bull;/g, "•")
+    .replace(/&hellip;/g, "…")
+    .replace(/&copy;/g, "©")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
     .trim();
 }

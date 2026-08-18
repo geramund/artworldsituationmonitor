@@ -29,17 +29,24 @@ jobs:
       - name: Install pipeline dependencies
         run: npm install
 
+      - name: Install app dependencies
+        run: npm install
+        working-directory: app
+
       - name: Geocode any un-cached addresses
         run: npx tsx pipeline/geocode.ts
 
       - name: Run the crawl
         run: npx tsx pipeline/crawl.ts
 
-      - name: Commit snapshot + registry changes
+      - name: Rebuild the published site (docs/) from fresh snapshots
+        run: ./scripts/build-pages.sh
+
+      - name: Commit snapshot + registry + site changes
         run: |
           git config user.name "art-world-situation-monitor[bot]"
           git config user.email "actions@github.com"
-          git add snapshots/ registry/
+          git add snapshots/ registry/ docs/
           if git diff --cached --quiet; then
             echo "No changes."
           else

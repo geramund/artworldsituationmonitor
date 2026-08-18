@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { CitySnapshot, Venue, Exhibition } from "@/lib/types";
+import { withBasePath } from "@/lib/basePath";
 
 async function fetchJSON<T>(url: string): Promise<T | null> {
   try {
@@ -26,7 +27,7 @@ export default function ReviewQueue() {
   const [snapshot, setSnapshot] = useState<CitySnapshot | null>(null);
 
   useEffect(() => {
-    fetchJSON<CitySnapshot>("/snapshots/nyc.json").then(setSnapshot);
+    fetchJSON<CitySnapshot>(withBasePath("/snapshots/nyc.json")).then(setSnapshot);
   }, []);
 
   if (!snapshot) {

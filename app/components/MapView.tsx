@@ -10,6 +10,7 @@ import {
   getAdjacentOpenVenues,
   type DistrictActivity,
 } from "@/lib/derive";
+import { withBasePath } from "@/lib/basePath";
 
 const BASEMAP_STYLE_URL = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
@@ -18,7 +19,7 @@ const BASEMAP_STYLE_URL = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style
 // silently, so tiles never get requested and the map stays blank). Serving
 // both files from public/ and pointing setWorkerUrl at them sidesteps
 // Turbopack's worker bundling entirely. See scripts/copy-maplibre-worker.mjs.
-maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
+maplibregl.setWorkerUrl(withBasePath("/maplibre-gl-worker.mjs"));
 
 const PALETTE = {
   orange: "#c8511b",

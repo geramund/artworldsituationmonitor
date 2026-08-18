@@ -13,7 +13,7 @@
       "lng": -74.0058175
     }
   ],
-  "adapter": "manual",
+  "adapter": "artlogic",
   "config": {},
   "paths": {
     "exhibitions": "/exhibitions",
@@ -23,8 +23,8 @@
   "cadence": "weekly",
   "hours": "Tue–Sat 10–6",
   "health": {
-    "last_attempt": "2026-08-18T13:36:28.027Z",
-    "last_success": "2026-08-18T13:36:28.027Z",
+    "last_attempt": "2026-08-18T14:17:19.093Z",
+    "last_success": "2026-08-18T14:17:19.093Z",
     "record_count": 0,
     "consecutive_failures": 0,
     "status": "ok"
