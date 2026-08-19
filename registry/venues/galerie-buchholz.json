@@ -1,0 +1,31 @@
+{
+  "id": "galerie-buchholz",
+  "name": "Galerie Buchholz",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "upper-east-side",
+  "url": "https://www.galeriebuchholz.de",
+  "spaces": [
+    {
+      "label": "new-york",
+      "address": "17 E 82nd St, New York, NY 10028",
+      "lat": 40.778614,
+      "lng": -73.9610193
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat, 10am–6pm",
+  "health": {
+    "last_attempt": "2026-08-19T03:17:35.725Z",
+    "last_success": "2026-08-19T03:17:35.725Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "New York space of the Berlin/Cologne/NY gallery (represents Isa Genzken, Wolfgang Tillmans, and others). Address and hours confirmed via search cross-referenced against the gallery's own /exhibitions page. That page is a single combined archive across all three cities spanning decades, not NY-specific — will need per-entry location parsing to isolate NY-only shows if this gets adapter-wired; recent NY-tagged shows at add time include Yuji Agematsu ('Marseille 1994', Jun 2026), Isa Genzken ('Projects for Outside (ISA USA)', Mar 2026), and Paul Thek (May 2026).\n\nAdded 2026-08-19 at user request. Fingerprint: no known CMS signature matched (static/custom HTML, no adapter available)."
+}

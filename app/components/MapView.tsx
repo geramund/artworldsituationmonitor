@@ -428,6 +428,8 @@ export default function MapView({
       const closingSoon = exhibitions.some((e) => e.status === "closing_soon");
       const onView = exhibitions.some((e) => e.status === "open" || e.status === "closing_soon");
       const openingSoon = exhibitions.some((e) => e.status === "upcoming");
+      const isOffsite = exhibitions.some((e) => e.kind === "offsite");
+      const hasPress = (venuePressCount.get(venue.id) ?? 0) > 0;
 
       if (isDark && activeLayers.has("dark")) return true;
       if (closingSoon && activeLayers.has("closing")) return true;
@@ -435,9 +437,11 @@ export default function MapView({
       if (openingSoon && activeLayers.has("openings")) return true;
       if (isInstitution && activeLayers.has("institutions")) return true;
       if (isArtistRun && activeLayers.has("artist_run")) return true;
+      if (isOffsite && activeLayers.has("offsite")) return true;
+      if (hasPress && activeLayers.has("press")) return true;
       return false;
     },
-    [activeLayers]
+    [activeLayers, venuePressCount]
   );
 
   useEffect(() => {

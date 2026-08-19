@@ -242,7 +242,14 @@ export default function Monitor() {
         const ex = e.exhibition_id ? exhibitionById.get(e.exhibition_id) : null;
         const headline =
           typeof e.payload?.headline === "string" ? (e.payload.headline as string) : null;
-        const label = [venue?.name, ex?.title].filter(Boolean).join(" — ") || headline || "—";
+        // ex.title reflects live snapshot state, which can drop the record
+        // entirely once it ages out — fall back to the title recorded in the
+        // event's own payload at write time so old events don't silently
+        // degrade to a bare venue name once their exhibition is gone.
+        const payloadTitle =
+          typeof e.payload?.title === "string" ? (e.payload.title as string) : null;
+        const title = ex?.title ?? payloadTitle;
+        const label = [venue?.name, title].filter(Boolean).join(" — ") || headline || "—";
         return { ...e, label };
       });
   }, [eventsSnapshot, state.range, now, venueById, exhibitionById]);
