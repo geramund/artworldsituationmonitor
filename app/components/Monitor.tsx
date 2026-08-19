@@ -16,6 +16,7 @@ import {
   computeActivityIndex,
   getAdjacentOpenVenues,
   venueAnchor,
+  isOnsite,
 } from "@/lib/derive";
 import { useIsMobile } from "@/lib/useIsMobile";
 import { withBasePath } from "@/lib/basePath";
@@ -139,7 +140,8 @@ export default function Monitor() {
   const venueHasOpenShow = useMemo(() => {
     const set = new Set<string>();
     for (const [vid, exs] of exhibitionsByVenue) {
-      if (exs.some((e) => e.status === "open" || e.status === "closing_soon")) set.add(vid);
+      if (exs.some((e) => isOnsite(e) && (e.status === "open" || e.status === "closing_soon")))
+        set.add(vid);
     }
     return set;
   }, [exhibitionsByVenue]);

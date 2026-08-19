@@ -39,8 +39,41 @@ async function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function geocodeOnce(address: string): Promise<GeocodeCacheEntry | null> {
-  const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(address)}`;
+// left,top,right,bottom (min-lon,max-lat,max-lon,min-lat) around NYC metro.
+// Passed as an unbounded `viewbox` (bias, not a hard filter) so a genuinely
+// odd address can still resolve outside it rather than coming back empty —
+// see the plausibility check below for what catches a bad match instead.
+const NYC_VIEWBOX = "-74.30,40.92,-73.65,40.48";
+const NYC_CENTER = { lat: 40.7128, lng: -74.006 };
+
+function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371;
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+// Bug this guards against (found 2026-08-19): a plain free-text Nominatim
+// query for "475 Tenth Avenue, New York, NY 10018" matched a same-named
+// street in Colonie, Albany County — ~200km upstate — instead of Manhattan's
+// West Side avenue, silently, with no signal anything had gone wrong. Four
+// Chelsea venues (aca-galleries, michael-rosenfeld, nicola-vassell,
+// sean-kelly) carried that wrong point for a day before a user spotted a
+// marker sitting in Watervliet on the map. `viewbox` biases NYC-area lookups
+// toward the right result; the distance check below is the backstop for
+// when biasing still isn't enough — it warns loudly rather than silently
+// accepting a result 200km from where it was asked to look.
+async function geocodeOnce(
+  address: string,
+  viewbox?: string
+): Promise<GeocodeCacheEntry | null> {
+  const params = new URLSearchParams({ format: "json", limit: "1", q: address });
+  if (viewbox) params.set("viewbox", viewbox);
+  const url = `https://nominatim.openstreetmap.org/search?${params.toString()}`;
   const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) {
     console.warn(`  geocode HTTP ${res.status} for "${address}"`);
@@ -52,9 +85,20 @@ async function geocodeOnce(address: string): Promise<GeocodeCacheEntry | null> {
     return null;
   }
   const r = results[0];
+  const lat = Number(r.lat);
+  const lng = Number(r.lon);
+  if (viewbox === NYC_VIEWBOX) {
+    const distanceKm = haversineKm(NYC_CENTER.lat, NYC_CENTER.lng, lat, lng);
+    if (distanceKm > 75) {
+      console.warn(
+        `  SUSPECT geocode for "${address}": resolved ${Math.round(distanceKm)}km from NYC ` +
+          `(${r.display_name}) — check by hand before trusting this point`
+      );
+    }
+  }
   return {
-    lat: Number(r.lat),
-    lng: Number(r.lon),
+    lat,
+    lng,
     display_name: r.display_name,
     fetched_at: new Date().toISOString(),
   };
@@ -75,11 +119,15 @@ function simplifyAddress(address: string): string | null {
   return simplified !== address ? simplified : null;
 }
 
-async function resolve(address: string, cache: GeocodeCache): Promise<GeocodeCacheEntry | null> {
+async function resolve(
+  address: string,
+  cache: GeocodeCache,
+  viewbox?: string
+): Promise<GeocodeCacheEntry | null> {
   const key = normalizeAddress(address);
   if (key in cache && cache[key] !== null) return cache[key];
   console.log(`geocoding: ${address}`);
-  let entry = await geocodeOnce(address);
+  let entry = await geocodeOnce(address, viewbox);
   cache[key] = entry;
   saveCache(cache);
   await sleep(1100); // stay under Nominatim's 1 req/sec ceiling with margin
@@ -88,7 +136,7 @@ async function resolve(address: string, cache: GeocodeCache): Promise<GeocodeCac
     const simplified = simplifyAddress(address);
     if (simplified) {
       const simplifiedKey = normalizeAddress(simplified);
-      entry = simplifiedKey in cache ? cache[simplifiedKey] : await geocodeOnce(simplified);
+      entry = simplifiedKey in cache ? cache[simplifiedKey] : await geocodeOnce(simplified, viewbox);
       if (!(simplifiedKey in cache)) {
         cache[simplifiedKey] = entry;
         await sleep(1100);
@@ -113,10 +161,11 @@ async function main() {
     const path = join(VENUES_DIR, file);
     const venue = JSON.parse(readFileSync(path, "utf8")) as Venue;
     let changed = false;
+    const viewbox = venue.city === "nyc" ? NYC_VIEWBOX : undefined;
     for (const space of venue.spaces) {
       if (space.lat != null && space.lng != null) continue;
       if (!space.address) continue;
-      const entry = await resolve(space.address, cache);
+      const entry = await resolve(space.address, cache, viewbox);
       if (entry) {
         space.lat = entry.lat;
         space.lng = entry.lng;

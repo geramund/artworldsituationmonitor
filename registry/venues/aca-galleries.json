@@ -9,8 +9,8 @@
     {
       "label": "main",
       "address": "173 Tenth Avenue, New York, NY 10011",
-      "lat": 42.7252526,
-      "lng": -73.7110577
+      "lat": 40.746149,
+      "lng": -74.0054155
     }
   ],
   "adapter": "artlogic",
@@ -29,5 +29,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nCorrection 2026-08-19: this space's lat/lng were wrong (42.7252526, -73.7110577 — Colonie, Albany County, NY, ~140mi upstate). pipeline/geocode.ts's Nominatim query for '173 Tenth Avenue, New York, NY 10011' matched a same-named street in Colonie rather than Manhattan's West Side avenue, with no country/bbox bias or plausibility check to catch it. Same bug hit michael-rosenfeld, nicola-vassell, and sean-kelly (all Tenth/Eleventh Ave Chelsea addresses) — re-geocoded all four with a Manhattan-bounded query; geocode.ts itself hardened against recurrence."
 }

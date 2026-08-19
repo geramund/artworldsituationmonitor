@@ -24,12 +24,14 @@ import { resolveArticles, linkWithinVenue, validateAgainstGroundTruth, type Reso
 import { robotsAllows } from "./robots.ts";
 import { diffEvents, bootstrapEvents, type PriorState } from "./diff.ts";
 import { writeCitySnapshot, writeGlobalSnapshot, appendEvents } from "./snapshot.ts";
+import { applyOffsiteOverrides, type OffsiteOverride } from "./offsite.ts";
 import type { Adapter, Venue, Exhibition, Article, Nexus, MonitorEvent, CitySnapshot } from "../types/index.ts";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const VENUES_DIR = join(ROOT, "registry/venues");
 const OUTLETS_PATH = join(ROOT, "registry/outlets.json");
 const NEXUS_PATH = join(ROOT, "registry/nexus.json");
+const OFFSITE_OVERRIDES_PATH = join(ROOT, "registry/offsite-overrides.json");
 const NYC_SNAPSHOT_PATH = join(ROOT, "snapshots/nyc.json");
 
 const DRY_RUN = process.argv.includes("--dry-run");
@@ -67,7 +69,7 @@ interface SuspectReport {
 async function main() {
   const now = new Date();
   const venues = loadVenues();
-  const allExhibitions: Exhibition[] = [];
+  let allExhibitions: Exhibition[] = [];
   const suspects: SuspectReport[] = [];
   const blocked: string[] = [];
 
@@ -184,6 +186,15 @@ async function main() {
   const validation = await validateAgainstGroundTruth(pressArticles, allExhibitions, venues);
 
   const nexus = JSON.parse(readFileSync(NEXUS_PATH, "utf8")) as Nexus[];
+
+  // Known-offsite corrections (SPEC.md §8/§10) — see pipeline/offsite.ts.
+  // Applied late, after resolution/validation above (which only look at
+  // title/artists/dates, unaffected by a kind/space_label change) and
+  // before diff/snapshot writing, so both see the corrected kind.
+  const offsiteOverrides = existsSync(OFFSITE_OVERRIDES_PATH)
+    ? (JSON.parse(readFileSync(OFFSITE_OVERRIDES_PATH, "utf8")) as OffsiteOverride[])
+    : [];
+  allExhibitions = applyOffsiteOverrides(allExhibitions, offsiteOverrides, nexus);
 
   let newEvents: MonitorEvent[];
   if (DRY_RUN) {

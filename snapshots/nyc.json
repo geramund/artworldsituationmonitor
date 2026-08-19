@@ -114,8 +114,8 @@
         {
           "label": "main",
           "address": "173 Tenth Avenue, New York, NY 10011",
-          "lat": 42.7252526,
-          "lng": -73.7110577
+          "lat": 40.746149,
+          "lng": -74.0054155
         }
       ],
       "adapter": "artlogic",
@@ -1985,8 +1985,8 @@
         {
           "label": "main",
           "address": "100 Eleventh Avenue, New York, NY 10011",
-          "lat": 42.7355236,
-          "lng": -73.711277
+          "lat": 40.7461924,
+          "lng": -74.0077206
         }
       ],
       "adapter": "manual",
@@ -2205,8 +2205,8 @@
         {
           "label": "main",
           "address": "138 Tenth Avenue, New York, NY 10011",
-          "lat": 42.7252526,
-          "lng": -73.7110577
+          "lat": 40.7448683,
+          "lng": -74.0059742
         }
       ],
       "adapter": "artlogic",
@@ -2655,8 +2655,8 @@
         {
           "label": "main",
           "address": "475 Tenth Avenue, New York, NY 10018",
-          "lat": 42.7252526,
-          "lng": -73.7110577
+          "lat": 40.7561342,
+          "lng": -73.9982421
         }
       ],
       "adapter": "artlogic",
@@ -3280,13 +3280,13 @@
     {
       "id": "ex-andrew-kreps-066d1920d5",
       "venue_id": "andrew-kreps",
-      "space_label": null,
+      "space_label": "THE CAMPUS",
       "title": "THE CAMPUS",
       "artists": [
         "Roe Ethridge",
         "Oliver Lee Jackson"
       ],
-      "kind": "two_person",
+      "kind": "offsite",
       "opens": "2026-06-27",
       "closes": "2026-11-01",
       "opening_reception": null,
@@ -3434,10 +3434,10 @@
     {
       "id": "ex-bortolami-ee531ec34f",
       "venue_id": "bortolami",
-      "space_label": "The Campus",
+      "space_label": "THE CAMPUS",
       "title": "THE CAMPUS: 2026 Annual Exhibition",
       "artists": [],
-      "kind": "group",
+      "kind": "offsite",
       "opens": "2026-06-27",
       "closes": "2026-11-01",
       "opening_reception": null,
@@ -4186,7 +4186,7 @@
         "Meg Webster",
         "Jane Benson"
       ],
-      "kind": "group",
+      "kind": "offsite",
       "opens": null,
       "closes": null,
       "opening_reception": null,

@@ -88,6 +88,7 @@ export function computeActivityIndex(
   };
 
   for (const ex of exhibitions) {
+    if (!isOnsite(ex)) continue; // offsite shows belong to the host's district, not the reporting gallery's
     const district = venueDistrict.get(ex.venue_id);
     const opensIn = daysUntil(ex.opens, now);
     const closesIn = daysUntil(ex.closes, now);
@@ -158,6 +159,17 @@ export function getAdjacentOpenVenues(
   return out.sort((a, b) => a.distanceMeters - b.distanceMeters);
 }
 
+// An offsite exhibition ("a gallery's artist showing at a museum elsewhere",
+// SPEC.md §8) is real and worth surfacing via the `offsite` layer, but must
+// never make the REPORTING gallery's own building read as having something
+// on view — that's a different, host institution's building. Everywhere
+// on/dark/opening/closing status is derived from a venue's exhibitions,
+// filter to onsite ones first; `offsite` itself is the one signal that
+// looks at all of them.
+export function isOnsite(ex: Exhibition): boolean {
+  return ex.kind !== "offsite";
+}
+
 /** Venue counts per togglable layer, for the left-rail badges. */
 export function computeLayerCounts(
   venues: Venue[],
@@ -179,12 +191,13 @@ export function computeLayerCounts(
 
   for (const venue of venues) {
     const exhibitions = exhibitionsByVenue.get(venue.id) ?? [];
-    const isDark = exhibitions.length === 0;
+    const onsite = exhibitions.filter(isOnsite);
+    const isDark = onsite.length === 0;
     if (isDark) counts.dark += 1;
-    if (exhibitions.some((e) => e.status === "upcoming")) counts.openings += 1;
-    if (exhibitions.some((e) => e.status === "open" || e.status === "closing_soon"))
+    if (onsite.some((e) => e.status === "upcoming")) counts.openings += 1;
+    if (onsite.some((e) => e.status === "open" || e.status === "closing_soon"))
       counts.on_view += 1;
-    if (exhibitions.some((e) => e.status === "closing_soon")) counts.closing += 1;
+    if (onsite.some((e) => e.status === "closing_soon")) counts.closing += 1;
     if (exhibitions.some((e) => e.kind === "offsite")) counts.offsite += 1;
     if (venue.kind === "museum" || venue.kind === "institution") counts.institutions += 1;
     if (venue.kind === "artist_run" || venue.kind === "nonprofit") counts.artist_run += 1;

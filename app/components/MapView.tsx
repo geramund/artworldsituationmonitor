@@ -8,6 +8,7 @@ import {
   venueAnchor,
   recencyOpacity,
   getAdjacentOpenVenues,
+  isOnsite,
   type DistrictActivity,
 } from "@/lib/derive";
 import { withBasePath } from "@/lib/basePath";
@@ -422,12 +423,16 @@ export default function MapView({
   // --- markers ---
   const layerVisible = useCallback(
     (venue: Venue, exhibitions: Exhibition[]): boolean => {
-      const isDark = exhibitions.length === 0;
+      // Onsite-only for anything implying activity AT this venue's own
+      // building — an offsite show elsewhere shouldn't make its home
+      // building read as dark/on-view/opening/closing (SPEC.md §8/§10).
+      const onsite = exhibitions.filter(isOnsite);
+      const isDark = onsite.length === 0;
       const isInstitution = venue.kind === "museum" || venue.kind === "institution";
       const isArtistRun = venue.kind === "artist_run" || venue.kind === "nonprofit";
-      const closingSoon = exhibitions.some((e) => e.status === "closing_soon");
-      const onView = exhibitions.some((e) => e.status === "open" || e.status === "closing_soon");
-      const openingSoon = exhibitions.some((e) => e.status === "upcoming");
+      const closingSoon = onsite.some((e) => e.status === "closing_soon");
+      const onView = onsite.some((e) => e.status === "open" || e.status === "closing_soon");
+      const openingSoon = onsite.some((e) => e.status === "upcoming");
       const isOffsite = exhibitions.some((e) => e.kind === "offsite");
       const hasPress = (venuePressCount.get(venue.id) ?? 0) > 0;
 
@@ -468,7 +473,11 @@ export default function MapView({
         continue;
       }
 
-      const primary = exhibitions[0];
+      // Prefer an onsite exhibition for the marker's color/preview — an
+      // offsite show shouldn't make this building's own marker look "open."
+      // If nothing here is onsite, the marker already reads dark (above);
+      // no preview poster makes sense for it either.
+      const primary = exhibitions.find(isOnsite);
       const status = primary?.status ?? null;
       const opacity = primary ? recencyOpacity(primary.fetched_at) : 0.5;
       const hasPress = (venuePressCount.get(venue.id) ?? 0) > 0;
