@@ -21,11 +21,11 @@
   "cadence": "weekly",
   "hours": "Tue–Sat, 12–6pm",
   "health": {
-    "last_attempt": null,
-    "last_success": null,
+    "last_attempt": "2026-08-19T03:22:40.467Z",
+    "last_success": "2026-08-19T03:22:40.467Z",
     "record_count": 0,
     "consecutive_failures": 0,
-    "status": "unknown"
+    "status": "ok"
   },
   "notes": "Address and hours confirmed directly on the site's /contact page. The /exhibitions page reads as a flat reverse-chronological archive rather than a live current/upcoming split — most recent entry at add time (2026-08-19) is Sue Tompkins, 'Wanna', dated May 16–Jul 31 2026, which has already closed as of today, so treat exhibition data as historical/unverified-current until a crawl confirms what's actually on view now. Two Bridges, not quite Lower East Side proper — a distinct neighborhood tag from the rest of this registry's LES venues.\n\nAdded 2026-08-19 at user request. Fingerprint: no known CMS signature matched (custom-built site, SVG asset paths) — no adapter available."
 }
