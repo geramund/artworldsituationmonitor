@@ -334,5 +334,37 @@
     "lat": 40.7672334,
     "lng": -73.9655036,
     "notes": "Preview Gala Nov 12. The Art Dealers Association of America rebranded this long-running fair from \"The Art Show\" to \"ADAA Fair\" for 2026 — both names still circulate; theartshow.org also still live. Source: artnews.com rebrand coverage, adaafair.org, checked 2026-08-18."
+  },
+  {
+    "id": "the-campus-2026",
+    "kind": "fair",
+    "name": "THE CAMPUS",
+    "edition": "3rd Annual Exhibition, 2026",
+    "city": "claverack",
+    "country": "us",
+    "opens": "2026-06-27",
+    "closes": "2026-11-01",
+    "venue_ids": ["andrew-kreps", "bortolami", "kaufmann-repetto"],
+    "url": "https://thecampusupstate.com",
+    "fairground_address": "341 NY Route 217, Claverack, NY 12534 (the former Ockawamick School)",
+    "lat": 42.2384016,
+    "lng": -73.6942151,
+    "notes": "Shared offsite exhibition site owned by 6 founding galleries (Andrew Kreps, Bortolami, kaufmann repetto, James Cohan, Anton Kern, kurimanzutto — only the first 3 are currently tracked as venues in this registry) since a joint 2021 purchase of the vacant 78,000 sq ft Ockawamick School and 22 acres; 2026 edition adds 8 invited UK galleries. Nominatim resolves this address to 'City of Hudson' rather than 'Claverack' — a known rural boundary quirk; multiple real-estate/press sources agree on 341 NY Route 217, Claverack, NY 12534. Curated by Timo Kappeller, Artistic Director. Source: thecampusupstate.com, The Art Newspaper (2024-07-03), checked 2026-08-19.\n\nAdded 2026-08-19 at user request, correcting a mislocation: Andrew Kreps' and Bortolami's own live-crawled exhibition listings both surface THE CAMPUS as one of their current shows (titled 'THE CAMPUS' / 'THE CAMPUS: 2026 Annual Exhibition'), and since no adapter in this codebase ever sets an exhibition's kind to 'offsite' (grep confirms zero uses — the concept exists in SPEC.md §8/§10 and in the app's Offsite layer/isOffsite logic, but was never wired up on the data-production side), those records render as ordinary on-site Tribeca shows: pinned at 22 Cortlandt Alley / 39 Walker Street, and counted toward Tribeca's activity-index score. That mis-attribution is a real, unfixed pipeline gap, not something this nexus entry alone resolves — this entry just gives THE CAMPUS its own correctly-located pin (Claverack, not Tribeca) so the real location is discoverable on the map via the Nexus layer."
+  },
+  {
+    "id": "frieze-house-seoul-2026",
+    "kind": "fair",
+    "name": "Frieze House Seoul",
+    "edition": "Paula Cooper Gallery: \"WOODS LANDS MEADOWS\"",
+    "city": "seoul",
+    "country": "kr",
+    "opens": "2026-08-27",
+    "closes": "2026-09-19",
+    "venue_ids": ["paula-cooper"],
+    "url": "https://www.frieze.com/frieze-house-seoul",
+    "fairground_address": "17 Dongho-ro 15-gil, Jung-gu, Seoul, South Korea",
+    "lat": 37.5560574,
+    "lng": 127.0091221,
+    "notes": "Frieze's year-round satellite exhibition space in Seoul (distinct from the COEX fairground tracked as frieze-seoul-2026), timed to run through Frieze Seoul fair week. Source: frieze.com/frieze-house-seoul, paulacoopergallery.com, checked 2026-08-19.\n\nAdded 2026-08-19 at user request, correcting the same class of mislocation as the-campus-2026: Paula Cooper Gallery's own live-crawled exhibitions list surfaces 'WOODS LANDS MEADOWS' with space_label 'Frieze House Seoul', but since it isn't tagged kind:'offsite' (no adapter in this codebase ever sets that kind — see the-campus-2026's note), it renders as an ordinary on-site Chelsea show, pinned at Paula Cooper's 534 West 21st St address rather than Seoul. This entry gives it a correctly-located pin; the underlying gallery-side mis-attribution is unfixed."
   }
 ]
