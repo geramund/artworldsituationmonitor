@@ -1,0 +1,31 @@
+{
+  "id": "jennys",
+  "name": "Jenny's",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "hells-kitchen",
+  "url": "https://jennys.us",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "333 W 52nd St, 12th Floor, New York, NY 10019",
+      "lat": 40.7644349,
+      "lng": -73.9866099
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions"
+  },
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-19T02:52:03.416Z",
+    "last_success": "2026-08-19T02:52:03.416Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Apartment-turned-project-space gallery, regular monthly-ish program (e.g. 'Disappointment' — Julien Goniche, Morag Keil, Andrei Koschmieder, Mar 28–May 16 2026). No address listed on the site itself — resolved via 2026 NYC gallery guides (Two Coats of Paint) cross-referencing recent show announcements against this address; the site's own /exhibitions page confirms matching show titles/dates. Note it moved at some point from an earlier Pell Street (LES) location to this Hell's Kitchen address — treat as current pending direct confirmation on a crawl.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: WordPress (wp-content path in HTML)."
+}

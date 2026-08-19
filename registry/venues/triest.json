@@ -1,0 +1,29 @@
+{
+  "id": "triest",
+  "name": "Triest",
+  "kind": "artist_run",
+  "city": "nyc",
+  "district": "chelsea",
+  "url": "https://triest.es",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "309 W 30th St #1B, New York, NY 10001",
+      "lat": 40.7501521,
+      "lng": -73.9958942
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {},
+  "cadence": "weekly",
+  "hours": "Open by appointment",
+  "health": {
+    "last_attempt": "2026-08-19T02:52:03.416Z",
+    "last_success": "2026-08-19T02:52:03.416Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Small project space, open by appointment (triest.info@gmail.com). Address is listed directly on the site. The site is a minimal single-page archive of past shows (Charlie Davenport; Rachel Ashton & Clemens Freigang; Olive Bonner, Oscar Mooney & Max Thorner; Ivy Lockhart; Karla Zurita) with no explicit dates visible per-entry and no clear current/upcoming distinction — treat exhibition data as unverified until a closer look or a crawl confirms current status.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: no known CMS signature matched (minimal custom/static HTML) — no adapter available."
+}

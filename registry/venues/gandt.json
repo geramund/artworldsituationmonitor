@@ -1,0 +1,29 @@
+{
+  "id": "gandt",
+  "name": "G&T",
+  "kind": "artist_run",
+  "city": "nyc",
+  "district": "astoria",
+  "url": "https://www.gandtmedia.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "31-09 37th St, Ground Fl., Astoria, NY 11103",
+      "lat": 40.7616116,
+      "lng": -73.9187258
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {},
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — by appointment, verify",
+  "health": {
+    "last_attempt": "2026-08-19T02:52:03.416Z",
+    "last_success": "2026-08-19T02:52:03.416Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Apartment gallery in Astoria, Queens. No address on the site itself (gandtmedia.org lists a single scrolling page of past/current artist presentations with no dedicated /exhibitions path) — address resolved via web search cross-referencing Artforum's venue index against the same contact email (gandt.information@gmail.com) and phone number (917-453-0653) the gallery's own site lists; not independently confirmed by a second source, so treat with slightly lower confidence than the others in this batch. Ground-floor unit — a real street-level space, not purely a private apartment.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: Wix (wixstatic.com asset host) — no adapter available for this platform yet."
+}

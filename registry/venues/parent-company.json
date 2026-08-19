@@ -1,0 +1,31 @@
+{
+  "id": "parent-company",
+  "name": "Parent Company",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://www.parentcompany.net",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "154 E Broadway, New York, NY 10002",
+      "lat": 40.7141695,
+      "lng": -73.9907606
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions"
+  },
+  "cadence": "weekly",
+  "hours": "Wed–Sat, 11am–6pm and by appointment",
+  "health": {
+    "last_attempt": "2026-08-19T02:52:03.416Z",
+    "last_success": "2026-08-19T02:52:03.416Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address, hours, and current/upcoming show dates all confirmed directly on the site. Current show at add time: Joey Gonnella, 'Love Will Return in a Different Way' (Jul 9–Aug 22 2026); next up: Earth Ængel, 'The Dolphin Denouement' (Sep 10–Oct 31 2026).\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: Squarespace (squarespace-cdn.com asset host) — a strong candidate to wire the real squarespace adapter (adapters/squarespace.ts) once its /exhibitions page's Fluid Engine vs. classic-layout structure is checked, same as fierman.nyc/situations.us."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "47-canal",
+  "name": "47 Canal",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "chelsea",
+  "url": "https://47canal.us",
+  "spaces": [
+    {
+      "label": "main (opening Sept 2026)",
+      "address": "529 W 20th St, New York, NY 10011",
+      "lat": 40.7466312,
+      "lng": -74.0068964
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "artists": "/artists"
+  },
+  "cadence": "weekly",
+  "hours": "By appointment during the move; TBD once Chelsea space opens",
+  "health": {
+    "last_attempt": "2026-08-19T02:52:03.416Z",
+    "last_success": "2026-08-19T02:52:03.416Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Established gallery (historically represented Anicka Yi, Josh Kline, and others), mid-relocation as of this writing: the site states verbatim \"This September, 47 Canal will open our gallery at 529 West 20th Street in Chelsea.\" Former space was 59 Wooster St (Soho); the site's /info page currently lists an interim mailing address of 210 Canal St #204 with a by-appointment-only viewing room during the transition. Using the announced new Chelsea address as the primary space since that's where the gallery will actually operate going forward, but it isn't open yet as of 2026-08-19 — re-verify once the September opening happens.\n\nAdded 2026-08-19 at user request (apartment-gallery batch, though 47 Canal itself has outgrown that description). Fingerprint: Kirby CMS (media/pages/ URL structure) — no adapter available for this platform yet."
+}
