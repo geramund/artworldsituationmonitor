@@ -1,0 +1,33 @@
+{
+  "id": "the-jewish-museum",
+  "name": "The Jewish Museum",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "upper-east-side",
+  "url": "https://thejewishmuseum.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "1109 Fifth Avenue, New York, NY 10128",
+      "lat": 40.7854097,
+      "lng": -73.9571827
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Sat–Wed 11am–6pm (Thu until 8pm), closed Tue/Wed per some sources — hours vary by source, verify",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address confirmed (Nominatim matched the museum by name directly). Hours conflicting across secondary sources this session (one lists Tue/Wed closed, another implies a Mon–Sun spread) — not resolved by a direct fetch; flagged for verification rather than guessing. Geocoding required the abbreviated '5th Ave' form of the address, same issue as metropolitan-museum-of-art/guggenheim/neue-galerie.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+}

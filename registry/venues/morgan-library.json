@@ -1,0 +1,33 @@
+{
+  "id": "morgan-library",
+  "name": "The Morgan Library & Museum",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "murray-hill",
+  "url": "https://www.themorgan.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "225 Madison Avenue, New York, NY 10016",
+      "lat": 40.7492685,
+      "lng": -73.9814652
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Thu, Sat–Sun 10:30am–5pm; Fri 10:30am–8pm; closed Mon",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence). Rare books/manuscripts/drawings institution — programs regular temporary exhibitions alongside its permanent collection (Morgan's library, illuminated manuscripts).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+}

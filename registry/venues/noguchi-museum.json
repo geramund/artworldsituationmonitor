@@ -1,0 +1,33 @@
+{
+  "id": "noguchi-museum",
+  "name": "The Noguchi Museum",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "long-island-city",
+  "url": "https://www.noguchi.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "9-01 33rd Road, Long Island City, NY 11106",
+      "lat": 40.7669901,
+      "lng": -73.9376072
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/museum/exhibitions",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Wed–Sun 11am–6pm, closed Mon–Tue",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence on the point itself). Isamu Noguchi's own converted-factory museum and adjoining sculpture garden, distinct from moma-ps1 (also in Long Island City) and from Socrates Sculpture Park a few blocks north.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+}

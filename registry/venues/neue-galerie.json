@@ -1,0 +1,33 @@
+{
+  "id": "neue-galerie",
+  "name": "Neue Galerie New York",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "upper-east-side",
+  "url": "https://www.neuegalerie.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "1048 Fifth Avenue, New York, NY 10028",
+      "lat": 40.7812237,
+      "lng": -73.9602374
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Currently closed for construction/restoration; reopening planned Autumn 2026 with regular hours Mon, Wed–Sun 10am–6pm (closed Tue)",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Closed for the summer/undergoing restoration as of add date (2026-08-19), per secondary sources (Yelp lists it 'TEMP. CLOSED'); planned reopening Autumn 2026 — treat as dark until that's confirmed directly. Geocoding required the abbreviated '5th Ave' form of the address, same issue as metropolitan-museum-of-art/guggenheim/the-jewish-museum.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — homepage not fetched given the closure; starts on manual."
+}

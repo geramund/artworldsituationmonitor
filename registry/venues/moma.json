@@ -1,0 +1,33 @@
+{
+  "id": "moma",
+  "name": "Museum of Modern Art",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "midtown",
+  "url": "https://www.moma.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "11 West 53rd Street, New York, NY 10019",
+      "lat": 40.7616124,
+      "lng": -73.9774992
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/calendar/exhibitions",
+    "press": "/press",
+    "news": "/magazine"
+  },
+  "cadence": "weekly",
+  "hours": "Mon–Thu, Sat–Sun 10:30am–5:30pm; Fri 10:30am–8:30pm",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address/hours confirmed via moma.org. Large multi-exhibition institution — at add time the site lists 'Marcel Duchamp' (through Aug 22), 'Frida and Diego: The Last Dream' (through Sep 12), 'Pierre Huyghe: UUmwelt' (through Nov 29), and 'Architects of Liberation: Modernism in Western Africa' (through 2027-01-02) as concurrently on view; not individually entered as manual records here, left for a proper crawl/adapter pass.\n\nFingerprint (2026-08-19): sanity — cdn.sanity.io/images/476nwnl9/production/ references in page markup (project id 476nwnl9). Not wired to the live adapter — needs the same dataset/schema config verification given to bortolami/kaufmann-repetto before switching off manual."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "guggenheim",
+  "name": "Solomon R. Guggenheim Museum",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "upper-east-side",
+  "url": "https://www.guggenheim.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "1071 Fifth Avenue, New York, NY 10128",
+      "lat": 40.7829932,
+      "lng": -73.958925
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibition",
+    "press": "/press-release",
+    "news": "/press-release"
+  },
+  "cadence": "weekly",
+  "hours": "Daily 10:30am–5:30pm; pay-what-you-wish Mon & Sat 4–5:30pm",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address/hours from secondary sources, not directly re-confirmed — guggenheim.org's fetched homepage only returned a cookie-consent banner, no exhibition content came through. Geocoding required the abbreviated '5th Ave' form — spelled-out 'Fifth Avenue' matched a generic segment up in Central Harlem instead of this building; same issue hit metropolitan-museum-of-art, neue-galerie, and the-jewish-museum (all Fifth Ave UES addresses added in this same batch).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — homepage fetch didn't surface any platform signature; starts on manual."
+}

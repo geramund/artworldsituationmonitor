@@ -1,0 +1,33 @@
+{
+  "id": "brooklyn-museum",
+  "name": "Brooklyn Museum",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "prospect-heights",
+  "url": "https://www.brooklynmuseum.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "200 Eastern Parkway, Brooklyn, NY 11238",
+      "lat": 40.6709546,
+      "lng": -73.9632948
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Wed–Sun 11am–6pm (Thu until 10pm), closed Mon–Tue; first Saturday of the month 11am–11pm",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address/hours from secondary sources — brooklynmuseum.org returned HTTP 403 (bot-blocked) on both homepage and /exhibitions this session. Address geocoded cleanly (Nominatim matched the museum by name directly), no issue there. District tagged 'prospect-heights' (the museum sits right at the Prospect Heights/Crown Heights border on Eastern Parkway) — a new district for this registry, no existing Brooklyn museum-tier entries to cross-check against.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site blocked automated fetches; starts on manual."
+}

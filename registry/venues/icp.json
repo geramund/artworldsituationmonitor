@@ -1,0 +1,33 @@
+{
+  "id": "icp",
+  "name": "International Center of Photography",
+  "kind": "museum",
+  "city": "nyc",
+  "district": "lower-east-side",
+  "url": "https://www.icp.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "84 Ludlow Street, New York, NY 10002",
+      "lat": 40.7182002,
+      "lng": -73.9891854
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/press"
+  },
+  "cadence": "weekly",
+  "hours": "Mon, Wed, Fri–Sun 10:30am–6:30pm; Thu 10:30am–8pm; closed Tue",
+  "health": {
+    "last_attempt": "2026-08-19T13:44:29.000Z",
+    "last_success": "2026-08-19T13:44:29.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address/hours from secondary sources (Nominatim matched the center by name directly, high confidence). Museum + school at this Essex Crossing/LES location since 2020 (relocated from its former Bowery/Sixth Ave sites); this is a different neighborhood cluster from this registry's other LES galleries but the same general district tag.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+}
