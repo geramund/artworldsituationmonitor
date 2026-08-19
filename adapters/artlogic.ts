@@ -8,10 +8,15 @@
 // ppowgallery.com.
 //
 // Listing page (/exhibitions) layout:
-//   - The first `.grid-container` (no "Upcoming"/"Past" <h4> heading above
-//     it) holds CURRENT exhibitions.
-//   - A `.grid-container` immediately preceded by `<h4>Upcoming</h4>` holds
-//     upcoming ones.
+//   - Multiple `.grid-container` divs (ids vary: "large", "medium", "small",
+//     "exhibitions-grid", ...). CURRENT exhibitions live in a container with
+//     no section heading. A container whose OWN <h4> section-header (nested
+//     INSIDE it, not a preceding sibling — confirmed on both ppowgallery.com
+//     and yancey-richardson.com, which also mixes in every historical art-fair
+//     booth back to the 2000s) reads "Past" must be skipped entirely; "Upcoming"
+//     is kept. Do not track section state across sibling iteration — the
+//     heading is nested per-container, so a doc-order running-state approach
+//     silently misattributes the Past archive to whatever section preceded it.
 //   - Each `.entry` is `<a href="/exhibitions/{slug}">` wrapping an <h1>
 //     title, optional `<h2 class="subtitle2">` space label, and `<h3>` date
 //     range text like "June 26 – September 12, 2026". Entries with no <a>
@@ -84,20 +89,16 @@ function parseListing(html: string, origin: string): ListingEntry[] {
   const $ = cheerio.load(html);
   const entries: ListingEntry[] = [];
 
-  // Only the FIRST grid-container that is not preceded by an "Upcoming"/
-  // "Past" heading is current; the very next one (if headed "Upcoming") is
-  // upcoming. Walk top-level containers in document order and track the
-  // most recent section heading seen.
-  let section: "current" | "upcoming" | "past" = "current";
-  $(".grid-container, h4").each((_, el) => {
-    const $el = $(el);
-    if ($el.is("h4")) {
-      const heading = $el.text().trim().toLowerCase();
-      if (heading === "upcoming") section = "upcoming";
-      else if (heading === "past") section = "past";
-      return;
-    }
-    if (section === "past") return;
+  // Each grid-container carries its own section heading NESTED inside it
+  // (not as a preceding sibling) — read it locally per-container rather
+  // than tracking running state across document order. A container with no
+  // heading (or one that isn't "Past") is current/upcoming; "Past" is a
+  // full historical archive (including old art-fair booths) and must be
+  // skipped entirely.
+  $(".grid-container").each((_, container) => {
+    const $el = $(container);
+    const heading = $el.find("h4").first().text().trim().toLowerCase();
+    if (heading === "past") return;
 
     $el.find(".entry > a[href^='/exhibitions/']").each((_, a) => {
       const $a = $(a);
