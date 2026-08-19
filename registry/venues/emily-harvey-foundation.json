@@ -1,0 +1,29 @@
+{
+  "id": "emily-harvey-foundation",
+  "name": "Emily Harvey Foundation",
+  "kind": "nonprofit",
+  "city": "nyc",
+  "district": "soho",
+  "url": "https://www.emilyharveyfoundation.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "537 Broadway, 2nd Fl., New York, NY 10012",
+      "lat": 40.7233656,
+      "lng": -73.9987051
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {},
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-19T13:03:43.000Z",
+    "last_success": "2026-08-19T13:03:43.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address confirmed on the site (also maintains a Venice, Italy space at San Polo 322, not tracked here). Fluxus-focused nonprofit founded by Emily Harvey; hours and current exhibition not surfaced by a shallow fetch of the homepage/NY landing page — the site's Past Exhibitions section wasn't checked for a current show. Treat as unverified-current until a closer look or a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: not determined (old-style site, no obvious CMS signature in the fetched markup) — no adapter available, starts on manual."
+}

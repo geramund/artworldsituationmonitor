@@ -1,0 +1,31 @@
+{
+  "id": "white-columns",
+  "name": "White Columns",
+  "kind": "nonprofit",
+  "city": "nyc",
+  "district": "west-village",
+  "url": "https://whitecolumns.org",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "91 Horatio Street, New York, NY 10014",
+      "lat": 40.7388498,
+      "lng": -74.0083132
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions-programming"
+  },
+  "cadence": "weekly",
+  "hours": "Tue–Sat, 11am–6pm",
+  "health": {
+    "last_attempt": "2026-08-19T13:03:43.000Z",
+    "last_success": "2026-08-19T13:03:43.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address and hours confirmed directly on the site. Founded 1970 (Jeffrey Lew, Gordon Matta-Clark et al.), oldest artist-run nonprofit still operating in NYC. Nominatim geocodes this address to 'Meatpacking District' but the gallery and most press describe it as West Village; tagged west-village accordingly. Current programming at add time: 'White Columns Online #37: unhomely' (Jul 17–Sep 12, 2026), with a group show (Mieko Meguro, Eric Spencer, Juliette Collet) save-the-dated for Sep 12–Oct 24.\n\nAdded 2026-08-19 at user request. Fingerprint: WordPress (wpenginepowered.com asset host) — starts on manual pending the config/mode work (see kaufmann-repetto, miguel-abreu-gallery, new-museum for the shape) needed to wire the live adapter."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "nahmad-contemporary",
+  "name": "Nahmad Contemporary",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "upper-east-side",
+  "url": "https://www.nahmadcontemporary.com",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "980 Madison Ave, 3rd Fl., New York, NY 10075",
+      "lat": 40.7745795,
+      "lng": -73.9631791
+    }
+  ],
+  "adapter": "artlogic",
+  "config": {},
+  "paths": {
+    "exhibitions": "/exhibitions",
+    "press": "/press",
+    "news": "/news"
+  },
+  "cadence": "weekly",
+  "hours": "Not confirmed from site — verify",
+  "health": {
+    "last_attempt": "2026-08-19T13:03:43.000Z",
+    "last_success": "2026-08-19T13:03:43.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address is from secondary sources (Yelp/directory listings), NOT confirmed on the gallery's own site — the site's own about/contact pages show no address at all and the gallery currently displays as 'Temporarily Closed' on its homepage, with no reopening date given. Only listed current activity at add time is an off-site fair presentation (Lucio Fontana at Independent 20th Century, Sep 24-27 2026). Treat both the address and any exhibition data as unverified until confirmed directly or via a crawl.\n\nAdded 2026-08-19 at user request. Fingerprint: Artlogic (static-assets.artlogic.net) — adapter wired using the standard Artlogic config/paths convention, unverified against this specific site given the closed status."
+}

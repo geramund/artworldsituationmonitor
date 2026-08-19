@@ -1,0 +1,32 @@
+{
+  "id": "kaje",
+  "name": "KAJE",
+  "kind": "gallery",
+  "city": "nyc",
+  "district": "gowanus",
+  "url": "https://kaje.world",
+  "spaces": [
+    {
+      "label": "main",
+      "address": "74 15th Street, Brooklyn, NY 11215",
+      "lat": 40.6679484,
+      "lng": -73.9944426
+    }
+  ],
+  "adapter": "manual",
+  "config": {},
+  "paths": {
+    "exhibitions": "/current",
+    "upcoming": "/upcoming"
+  },
+  "cadence": "weekly",
+  "hours": "Sat–Sun, 12–6pm, and by appointment",
+  "health": {
+    "last_attempt": "2026-08-19T13:03:43.000Z",
+    "last_success": "2026-08-19T13:03:43.000Z",
+    "record_count": 0,
+    "consecutive_failures": 0,
+    "status": "ok"
+  },
+  "notes": "Address and hours confirmed directly on the site. Gowanus, Brooklyn — this registry's first Gowanus entry (nearest existing district tags are Red Hook/Sunset Park). Homepage shows a rotating grid of recent/current shows (e.g. 'Vault Gowanus', works by Michael E. Smith) rather than a clean current/upcoming split — treat exhibition data as unverified-current until a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: site markup suggests Kirby CMS (no adapter available yet — starts on manual)."
+}
