@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-19T13:38:17.471Z",
+  "generated_at": "2026-08-19T14:24:57.911Z",
   "city": "nyc",
   "coverage": {
-    "live": 96,
+    "live": 109,
     "stale": 0,
-    "dark": 74,
+    "dark": 86,
     "blocked": 0,
     "no_adapter": 0
   },
@@ -31,8 +31,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -62,8 +62,8 @@
       "cadence": "weekly",
       "hours": "By appointment during the move; TBD once Chelsea space opens",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -95,8 +95,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6 (per David Zwirner house hours; this location showed as closed with no current show on 2026-08-17)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -114,8 +114,8 @@
         {
           "label": "main",
           "address": "173 Tenth Avenue, New York, NY 10011",
-          "lat": 42.7252526,
-          "lng": -73.7110577
+          "lat": 40.746149,
+          "lng": -74.0054155
         }
       ],
       "adapter": "artlogic",
@@ -128,13 +128,13 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nCorrection 2026-08-19: this space's lat/lng were wrong (42.7252526, -73.7110577 — Colonie, Albany County, NY, ~140mi upstate). pipeline/geocode.ts's Nominatim query for '173 Tenth Avenue, New York, NY 10011' matched a same-named street in Colonie rather than Manhattan's West Side avenue, with no country/bbox bias or plausibility check to catch it. Same bug hit michael-rosenfeld, nicola-vassell, and sean-kelly (all Tenth/Eleventh Ave Chelsea addresses) — re-geocoded all four with a Manhattan-bounded query; geocode.ts itself hardened against recurrence."
     },
     {
       "id": "acquavella",
@@ -161,8 +161,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -194,8 +194,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -227,8 +227,8 @@
       "cadence": "weekly",
       "hours": "unknown (gallery closed)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -260,8 +260,8 @@
       "cadence": "weekly",
       "hours": "Tue–Fri 10:30–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -293,8 +293,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -326,8 +326,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -365,13 +365,13 @@
       "cadence": "weekly",
       "hours": "not published on site as of 2026-08-17; call ahead (212-741-8849)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Verified via andrewkreps.com on 2026-08-17. 22 Cortlandt Alley confirmed as primary address; 394 Broadway confirmed as a second active space via current exhibition listing. Co-participant in THE CAMPUS (offsite, Claverack NY) with Bortolami and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: 'See You Tomorrow Under Other Skies' full artist list and press release confirmed directly on andrewkreps.com's own press-release page (confidence 0.6->0.9). THE CAMPUS record cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: 'See You Tomorrow' installation views are lazy-loaded via JS on andrewkreps.com's collageplatform.com CMS, not present in the static HTML/markdown — no direct image URL extractable, though the page does credit photographer Elisabeth Bernstein for the show's installation photography (not attached to a specific image here since none was captured). THE CAMPUS got 2 real images from thecampusupstate.com's own Artlogic CDN, no credit given on the source page. Follow-up 2026-08-17: also checked the dedicated /exhibition-views subpage (confirmed it exists, ~25 photos all captioned \"Photo: Elisabeth Bernstein\") and did a raw-content scan for any .jpg/.png/.webp/data-src fragment — genuinely no image URL is present in the fetched HTML/markdown for either page; the gallery's collageplatform.com CMS loads that slider's images via client-side JS this tool can't execute. web.archive.org is blocked for this tool entirely. THE CAMPUS credit search exhausted too: thecampusupstate.com's footer only credits \"Site by Artlogic\" (the web platform, not a photographer) — no photo credit exists on the page to find.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+      "notes": "Verified via andrewkreps.com on 2026-08-17. 22 Cortlandt Alley confirmed as primary address; 394 Broadway confirmed as a second active space via current exhibition listing. Co-participant in THE CAMPUS (offsite, Claverack NY) with Bortolami and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: 'See You Tomorrow Under Other Skies' full artist list and press release confirmed directly on andrewkreps.com's own press-release page (confidence 0.6->0.9). THE CAMPUS record cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: 'See You Tomorrow' installation views are lazy-loaded via JS on andrewkreps.com's collageplatform.com CMS, not present in the static HTML/markdown — no direct image URL extractable, though the page does credit photographer Elisabeth Bernstein for the show's installation photography (not attached to a specific image here since none was captured). THE CAMPUS got 2 real images from thecampusupstate.com's own Artlogic CDN, no credit given on the source page. Follow-up 2026-08-17: also checked the dedicated /exhibition-views subpage (confirmed it exists, ~25 photos all captioned \"Photo: Elisabeth Bernstein\") and did a raw-content scan for any .jpg/.png/.webp/data-src fragment — genuinely no image URL is present in the fetched HTML/markdown for either page; the gallery's collageplatform.com CMS loads that slider's images via client-side JS this tool can't execute. web.archive.org is blocked for this tool entirely. THE CAMPUS credit search exhausted too: thecampusupstate.com's footer only credits \"Site by Artlogic\" (the web platform, not a photographer) — no photo credit exists on the page to find.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nCorrection 2026-08-18/19: the live crawl surfaces THE CAMPUS (Claverack NY, not Tribeca) as an ordinary current exhibition of this venue — pinned here on the map and counted in Tribeca's activity index — because the artlogic adapter's kindFromArtistCount() has no way to produce kind:'offsite' (nothing in this codebase ever does; see registry/nexus.json's the-campus-2026 entry for the full explanation). Not fixed at the pipeline level; the-campus-2026 in nexus.json now carries the correct Claverack address/coordinates as a workaround so the real location is at least discoverable."
     },
     {
       "id": "anita-shapolsky",
@@ -398,8 +398,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -431,8 +431,8 @@
       "cadence": "daily",
       "hours": "Wed–Sat 12–6pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -464,8 +464,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -497,8 +497,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -528,8 +528,8 @@
       "cadence": "weekly",
       "hours": "Thu–Sun, 11am–6pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -579,13 +579,13 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6 & by appointment",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Verified via bortolamigallery.com on 2026-08-17. 39 Walker Street confirmed from gallery's own contact info. Own Tribeca spaces (39 Walker, 55 Walker, The Upstairs) dark as of this date; next shows (Christine Safa; Daniel Buren & Barbara Kasten; Yuan Yuan) open 2026-09-09. 55 Walker and The Upstairs addresses corroborated via Artforum/MutualArt/Instagram secondary sources, not directly re-confirmed on Bortolami's own current page — re-verify at next crawl. Co-founder of THE CAMPUS (offsite annual exhibition, Claverack NY) with Andrew Kreps and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: THE CAMPUS record (dates, full artist list, description) cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: got 2 real images from thecampusupstate.com's own Artlogic CDN. Credit search exhausted — the page's footer only credits \"Site by Artlogic\" (the web platform, not a photographer); no actual photo credit exists on the page.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+      "notes": "Verified via bortolamigallery.com on 2026-08-17. 39 Walker Street confirmed from gallery's own contact info. Own Tribeca spaces (39 Walker, 55 Walker, The Upstairs) dark as of this date; next shows (Christine Safa; Daniel Buren & Barbara Kasten; Yuan Yuan) open 2026-09-09. 55 Walker and The Upstairs addresses corroborated via Artforum/MutualArt/Instagram secondary sources, not directly re-confirmed on Bortolami's own current page — re-verify at next crawl. Co-founder of THE CAMPUS (offsite annual exhibition, Claverack NY) with Andrew Kreps and kaufmann repetto. Site platform unclear from search alone; fingerprint on first crawl. Data-quality re-pass 2026-08-17: THE CAMPUS record (dates, full artist list, description) cross-verified against its own primary site, thecampusupstate.com (confidence 0.5->0.9). Image pass 2026-08-17: got 2 real images from thecampusupstate.com's own Artlogic CDN. Credit search exhausted — the page's footer only credits \"Site by Artlogic\" (the web platform, not a photographer); no actual photo credit exists on the page.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML.\n\nCorrection 2026-08-18/19: the live crawl surfaces THE CAMPUS: 2026 Annual Exhibition (Claverack NY, not Tribeca) as an ordinary current exhibition of this venue — pinned here on the map and counted in Tribeca's activity index — because no adapter in this codebase ever produces kind:'offsite' (see registry/nexus.json's the-campus-2026 entry for the full explanation). Not fixed at the pipeline level; the-campus-2026 in nexus.json now carries the correct Claverack address/coordinates as a workaround so the real location is at least discoverable."
     },
     {
       "id": "bric",
@@ -612,8 +612,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -645,8 +645,8 @@
       "cadence": "weekly",
       "hours": "Closed for summer vacation (reopens September); normally Tue–Sat",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -678,13 +678,46 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 11–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Verified via broadwaygallery.nyc on 2026-08-17. Current-exhibitions page returned no results (dark). Last known show, 'Fruit Business' (Adrianne Rubenstein), closed 2026-07-17. Site platform unclear from search alone; fingerprint on first crawl.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "brooklyn-museum",
+      "name": "Brooklyn Museum",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "prospect-heights",
+      "url": "https://www.brooklynmuseum.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "200 Eastern Parkway, Brooklyn, NY 11238",
+          "lat": 40.6709546,
+          "lng": -73.9632948
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Wed–Sun 11am–6pm (Thu until 10pm), closed Mon–Tue; first Saturday of the month 11am–11pm",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours from secondary sources — brooklynmuseum.org returned HTTP 403 (bot-blocked) on both homepage and /exhibitions this session. Address geocoded cleanly (Nominatim matched the museum by name directly), no issue there. District tagged 'prospect-heights' (the museum sits right at the Prospect Heights/Crown Heights border on Eastern Parkway) — a new district for this registry, no existing Brooklyn museum-tier entries to cross-check against.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site blocked automated fetches; starts on manual."
     },
     {
       "id": "bureau",
@@ -711,8 +744,8 @@
       "cadence": "weekly",
       "hours": "By appointment only (per site, 2026-08-17)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -750,8 +783,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -783,8 +816,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 11–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -816,8 +849,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -855,8 +888,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 12–5pm (summer hours)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -888,8 +921,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -921,8 +954,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -954,8 +987,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 12–6pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -987,8 +1020,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sat 12–6pm, closed Sun–Tue",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1016,8 +1049,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1049,13 +1082,42 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "emily-harvey-foundation",
+      "name": "Emily Harvey Foundation",
+      "kind": "nonprofit",
+      "city": "nyc",
+      "district": "soho",
+      "url": "https://www.emilyharveyfoundation.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "537 Broadway, 2nd Fl., New York, NY 10012",
+          "lat": 40.7233656,
+          "lng": -73.9987051
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {},
+      "cadence": "weekly",
+      "hours": "Not confirmed from site — verify",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address confirmed on the site (also maintains a Venice, Italy space at San Polo 322, not tracked here). Fluxus-focused nonprofit founded by Emily Harvey; hours and current exhibition not surfaced by a shallow fetch of the homepage/NY landing page — the site's Past Exhibitions section wasn't checked for a current show. Treat as unverified-current until a closer look or a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: not determined (old-style site, no obvious CMS signature in the fetched markup) — no adapter available, starts on manual."
     },
     {
       "id": "entrance",
@@ -1082,8 +1144,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1104,8 +1166,8 @@
       "cadence": "weekly",
       "hours": "",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1137,8 +1199,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1174,8 +1236,8 @@
       "cadence": "daily",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1207,13 +1269,46 @@
       "cadence": "weekly",
       "hours": "N/A — gallery program ended",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "CLOSED. Ended its gallery program in October 2023 after 20 years (final show: Erin Calla Watson, closed 2023-10-08); pivoted to consultancy/curatorial/production work without a physical exhibition space. Retained for registry completeness per project philosophy — closures are data, not errors.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML.\n\nChecked live (2026-08-18): the fingerprint match was a single static background-image URL baked into what's now a fully static Hugo-generated site (generator meta tag confirms Hugo 0.85.0) — no live Sanity API call, and the project's public GROQ endpoint returns zero documents for any query. Consistent with the gallery program having ended; stays manual."
+    },
+    {
+      "id": "frick-collection",
+      "name": "The Frick Collection",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "upper-east-side",
+      "url": "https://www.frick.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "1 East 70th Street, New York, NY 10021",
+          "lat": 40.7712589,
+          "lng": -73.9671675
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Mon, Wed–Sun 10:30am–5:30pm, closed Tue",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours confirmed via frick.org fetch. Reopened at its historic 1 East 70th Street home in spring 2025 after a major renovation (the interim 'Frick Madison' at the old Whitney/Met Breuer building at 945 Madison Ave is no longer in use — not tracked here). Homepage emphasizes the permanent collection over a single headline temporary show; full exhibitions list at /exhibitions not separately checked.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint (2026-08-19): Drupal — /sites/default/files/ asset paths, responsive .webp image variants. Not one of this codebase's five built adapters (manual/sanity/wordpress/artlogic/squarespace) — starts on manual."
     },
     {
       "id": "gagosian-chelsea",
@@ -1240,8 +1335,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1271,8 +1366,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat, 10am–6pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1304,8 +1399,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1337,8 +1432,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1366,13 +1461,46 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — by appointment, verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Apartment gallery in Astoria, Queens. No address on the site itself (gandtmedia.org lists a single scrolling page of past/current artist presentations with no dedicated /exhibitions path) — address resolved via web search cross-referencing Artforum's venue index against the same contact email (gandt.information@gmail.com) and phone number (917-453-0653) the gallery's own site lists; not independently confirmed by a second source, so treat with slightly lower confidence than the others in this batch. Ground-floor unit — a real street-level space, not purely a private apartment.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: Wix (wixstatic.com asset host) — no adapter available for this platform yet."
+    },
+    {
+      "id": "guggenheim",
+      "name": "Solomon R. Guggenheim Museum",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "upper-east-side",
+      "url": "https://www.guggenheim.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "1071 Fifth Avenue, New York, NY 10128",
+          "lat": 40.7829932,
+          "lng": -73.958925
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibition",
+        "press": "/press-release",
+        "news": "/press-release"
+      },
+      "cadence": "weekly",
+      "hours": "Daily 10:30am–5:30pm; pay-what-you-wish Mon & Sat 4–5:30pm",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours from secondary sources, not directly re-confirmed — guggenheim.org's fetched homepage only returned a cookie-consent banner, no exhibition content came through. Geocoding required the abbreviated '5th Ave' form — spelled-out 'Fifth Avenue' matched a generic segment up in Central Harlem instead of this building; same issue hit metropolitan-museum-of-art, neue-galerie, and the-jewish-museum (all Fifth Ave UES addresses added in this same batch).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — homepage fetch didn't surface any platform signature; starts on manual."
     },
     {
       "id": "hauser-wirth-chelsea",
@@ -1399,8 +1527,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1432,8 +1560,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1465,13 +1593,46 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 11–6 (summer hours: Mon–Fri 11–6)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Confirmed via hesseflatow.com/exhibitions. Also operates a seasonal 'HESSE FLATOW EAST' space at 68 Schellinger Road, Amagansett, NY — out of nyc/tribeca scope, not registered as a second space here. Next NYC shows (Lizzie Gill 'Carousel'; Paloma Izquierdo 'Carrier') open Sep 9, 2026.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "icp",
+      "name": "International Center of Photography",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "lower-east-side",
+      "url": "https://www.icp.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "84 Ludlow Street, New York, NY 10002",
+          "lat": 40.7182002,
+          "lng": -73.9891854
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Mon, Wed, Fri–Sun 10:30am–6:30pm; Thu 10:30am–8pm; closed Tue",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours from secondary sources (Nominatim matched the center by name directly, high confidence). Museum + school at this Essex Crossing/LES location since 2020 (relocated from its former Bowery/Sixth Ave sites); this is a different neighborhood cluster from this registry's other LES galleries but the same general district tag.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
     },
     {
       "id": "jack-shainman",
@@ -1498,8 +1659,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1531,8 +1692,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10am–6pm (hours not fully confirmed from site)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1564,8 +1725,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1595,8 +1756,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1628,13 +1789,45 @@
       "cadence": "weekly",
       "hours": "Wed–Sat 12–6pm & by appointment",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Address is on Canal St at the Chinatown/LES border; kept in lower-east-side district. Last confirmed show (\"Sonic Prolapse\", Irina Jasnowski Pascual) closed 2026-04-24; no evidence of anything opening since — treated as dark for summer.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nSquarespace adapter checked (2026-08-18): /current-2 comes back with empty mainContent (Fluid Engine page, same as theta.nyc) — no usable text found; stays manual."
+    },
+    {
+      "id": "kaje",
+      "name": "KAJE",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "gowanus",
+      "url": "https://kaje.world",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "74 15th Street, Brooklyn, NY 11215",
+          "lat": 40.6679484,
+          "lng": -73.9944426
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/current",
+        "upcoming": "/upcoming"
+      },
+      "cadence": "weekly",
+      "hours": "Sat–Sun, 12–6pm, and by appointment",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address and hours confirmed directly on the site. Gowanus, Brooklyn — this registry's first Gowanus entry (nearest existing district tags are Red Hook/Sunset Park). Homepage shows a rotating grid of recent/current shows (e.g. 'Vault Gowanus', works by Michael E. Smith) rather than a clean current/upcoming split — treat exhibition data as unverified-current until a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: site markup suggests Kirby CMS (no adapter available yet — starts on manual)."
     },
     {
       "id": "kapp-kapp",
@@ -1661,8 +1854,8 @@
       "cadence": "weekly",
       "hours": "unknown; not listed on exhibitions page",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1704,8 +1897,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1735,8 +1928,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat, 12–6pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1768,8 +1961,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1801,8 +1994,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1834,8 +2027,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1867,8 +2060,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1900,8 +2093,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1933,8 +2126,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1966,13 +2159,46 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Also has spaces at 502/522/526 W 22nd St, not separately tracked here.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "metropolitan-museum-of-art",
+      "name": "The Metropolitan Museum of Art",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "upper-east-side",
+      "url": "https://www.metmuseum.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "1000 Fifth Avenue, New York, NY 10028",
+          "lat": 40.7794396,
+          "lng": -73.9633825
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Sun–Tue 10am–5pm, Wed closed, Thu 10am–5pm, Fri–Sat 10am–9pm",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours from secondary sources (Yelp, official /plan-your-visit page per search results), not directly re-confirmed by fetch — metmuseum.org returned HTTP 429 (rate-limited/bot-blocked) on every attempt this session, both homepage and /exhibitions. Geocoding required the abbreviated '5th Ave' form of the address — the spelled-out 'Fifth Avenue' query matched a generic 5th Avenue segment up in Central Harlem (~4km off) instead of interpolating this specific building; worth remembering for any future re-geocode. This registry entry covers only the Fifth Avenue main building, not The Cloisters (a separate uptown site) or the closed Met Breuer.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site blocked automated fetches; starts on manual."
     },
     {
       "id": "michael-rosenfeld",
@@ -1985,8 +2211,8 @@
         {
           "label": "main",
           "address": "100 Eleventh Avenue, New York, NY 10011",
-          "lat": 42.7355236,
-          "lng": -73.711277
+          "lat": 40.7461924,
+          "lng": -74.0077206
         }
       ],
       "adapter": "manual",
@@ -1999,13 +2225,13 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual."
+      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nCorrection 2026-08-19: this space's lat/lng were wrong (42.7355236, -73.711277 — Watervliet, Albany County, NY, ~140mi upstate). pipeline/geocode.ts's Nominatim query for '100 Eleventh Avenue, New York, NY 10011' matched a same-named street in Watervliet rather than Manhattan's West Side avenue, with no country/bbox bias or plausibility check to catch it. Same bug hit aca-galleries, nicola-vassell, and sean-kelly (all Tenth/Eleventh Ave Chelsea addresses) — re-geocoded all four with a Manhattan-bounded query; geocode.ts itself hardened against recurrence."
     },
     {
       "id": "miguel-abreu-gallery",
@@ -2037,8 +2263,8 @@
       "cadence": "daily",
       "hours": "Mon–Fri 10am–6pm or by appointment (summer hours)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2070,13 +2296,112 @@
       "cadence": "daily",
       "hours": "12–6pm, Sat from 10am, closed Tue–Wed",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "\"Greater New York 2026\" (the flagship survey) closes 2026-08-17 — today — so this venue crosses from on_view to closed at snapshot time; a good stress test for the diff engine's CLOSED event. \"Hard Art\" is the next major show, opening Nov 5.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+    },
+    {
+      "id": "moma",
+      "name": "Museum of Modern Art",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "midtown",
+      "url": "https://www.moma.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "11 West 53rd Street, New York, NY 10019",
+          "lat": 40.7616124,
+          "lng": -73.9774992
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/calendar/exhibitions",
+        "press": "/press",
+        "news": "/magazine"
+      },
+      "cadence": "weekly",
+      "hours": "Mon–Thu, Sat–Sun 10:30am–5:30pm; Fri 10:30am–8:30pm",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours confirmed via moma.org. Large multi-exhibition institution — at add time the site lists 'Marcel Duchamp' (through Aug 22), 'Frida and Diego: The Last Dream' (through Sep 12), 'Pierre Huyghe: UUmwelt' (through Nov 29), and 'Architects of Liberation: Modernism in Western Africa' (through 2027-01-02) as concurrently on view; not individually entered as manual records here, left for a proper crawl/adapter pass.\n\nFingerprint (2026-08-19): sanity — cdn.sanity.io/images/476nwnl9/production/ references in page markup (project id 476nwnl9). Not wired to the live adapter — needs the same dataset/schema config verification given to bortolami/kaufmann-repetto before switching off manual."
+    },
+    {
+      "id": "morgan-library",
+      "name": "The Morgan Library & Museum",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "murray-hill",
+      "url": "https://www.themorgan.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "225 Madison Avenue, New York, NY 10016",
+          "lat": 40.7492685,
+          "lng": -73.9814652
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Thu, Sat–Sun 10:30am–5pm; Fri 10:30am–8pm; closed Mon",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence). Rare books/manuscripts/drawings institution — programs regular temporary exhibitions alongside its permanent collection (Morgan's library, illuminated manuscripts).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+    },
+    {
+      "id": "nahmad-contemporary",
+      "name": "Nahmad Contemporary",
+      "kind": "gallery",
+      "city": "nyc",
+      "district": "upper-east-side",
+      "url": "https://www.nahmadcontemporary.com",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "980 Madison Ave, 3rd Fl., New York, NY 10075",
+          "lat": 40.7745795,
+          "lng": -73.9631791
+        }
+      ],
+      "adapter": "artlogic",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/news"
+      },
+      "cadence": "weekly",
+      "hours": "Not confirmed from site — verify",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 1,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address is from secondary sources (Yelp/directory listings), NOT confirmed on the gallery's own site — the site's own about/contact pages show no address at all and the gallery currently displays as 'Temporarily Closed' on its homepage, with no reopening date given. Only listed current activity at add time is an off-site fair presentation (Lucio Fontana at Independent 20th Century, Sep 24-27 2026). Treat both the address and any exhibition data as unverified until confirmed directly or via a crawl.\n\nAdded 2026-08-19 at user request. Fingerprint: Artlogic (static-assets.artlogic.net) — adapter wired using the standard Artlogic config/paths convention, unverified against this specific site given the closed status."
     },
     {
       "id": "nara-roesler-ny",
@@ -2103,13 +2428,46 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "neue-galerie",
+      "name": "Neue Galerie New York",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "upper-east-side",
+      "url": "https://www.neuegalerie.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "1048 Fifth Avenue, New York, NY 10028",
+          "lat": 40.7812237,
+          "lng": -73.9602374
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Currently closed for construction/restoration; reopening planned Autumn 2026 with regular hours Mon, Wed–Sun 10am–6pm (closed Tue)",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Closed for the summer/undergoing restoration as of add date (2026-08-19), per secondary sources (Yelp lists it 'TEMP. CLOSED'); planned reopening Autumn 2026 — treat as dark until that's confirmed directly. Geocoding required the abbreviated '5th Ave' form of the address, same issue as metropolitan-museum-of-art/guggenheim/the-jewish-museum.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — homepage not fetched given the closure; starts on manual."
     },
     {
       "id": "new-museum",
@@ -2142,8 +2500,8 @@
       "cadence": "weekly",
       "hours": "Thu 11am–9pm; other days generally 11–6, closed Mon–Tue — confirm at newmuseum.org/visit",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2186,8 +2544,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6 (per secondary listing aggregators — gallery's own /visit and /about pages 404'd; phone 212-375-8043 also secondhand)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2205,8 +2563,8 @@
         {
           "label": "main",
           "address": "138 Tenth Avenue, New York, NY 10011",
-          "lat": 42.7252526,
-          "lng": -73.7110577
+          "lat": 40.7448683,
+          "lng": -74.0059742
         }
       ],
       "adapter": "artlogic",
@@ -2219,13 +2577,13 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nCorrection 2026-08-19: this space's lat/lng were wrong (42.7252526, -73.7110577 — Colonie, Albany County, NY, ~140mi upstate). pipeline/geocode.ts's Nominatim query for '138 Tenth Avenue, New York, NY 10011' matched a same-named street in Colonie rather than Manhattan's West Side avenue, with no country/bbox bias or plausibility check to catch it. Same bug hit aca-galleries, michael-rosenfeld, and sean-kelly (all Tenth/Eleventh Ave Chelsea addresses) — re-geocoded all four with a Manhattan-bounded query; geocode.ts itself hardened against recurrence."
     },
     {
       "id": "nino-mier-ny",
@@ -2252,13 +2610,46 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+    },
+    {
+      "id": "noguchi-museum",
+      "name": "The Noguchi Museum",
+      "kind": "museum",
+      "city": "nyc",
+      "district": "long-island-city",
+      "url": "https://www.noguchi.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "9-01 33rd Road, Long Island City, NY 11106",
+          "lat": 40.7669901,
+          "lng": -73.9376072
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/museum/exhibitions",
+        "press": "/press",
+        "news": "/press"
+      },
+      "cadence": "weekly",
+      "hours": "Wed–Sun 11am–6pm, closed Mon–Tue",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence on the point itself). Isamu Noguchi's own converted-factory museum and adjoining sculpture garden, distinct from moma-ps1 (also in Long Island City) and from Socrates Sculpture Park a few blocks north.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
     },
     {
       "id": "norr-cohan",
@@ -2291,8 +2682,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2324,8 +2715,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2357,8 +2748,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2390,8 +2781,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2421,8 +2812,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sat, 11am–6pm and by appointment",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2454,13 +2845,13 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual. Actually runs (at least) 3 real Chelsea addresses on West 21st Street (521, 529, 534) per current exhibition listings; this registry only tracks a single 'main' space (534) — the other two aren't separately geocoded, though all three are close enough (~50-100m apart) that this doesn't meaningfully mislocate them on the map, unlike the Frieze House Seoul issue below.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nCorrection 2026-08-19: the live crawl surfaces 'WOODS LANDS MEADOWS' (Frieze House Seoul, South Korea — not Chelsea) as an ordinary current exhibition of this venue — pinned here on the map and counted in Chelsea's activity index — because no adapter in this codebase ever produces kind:'offsite' (see registry/nexus.json's frieze-house-seoul-2026 entry for the full explanation). Not fixed at the pipeline level; frieze-house-seoul-2026 in nexus.json now carries the correct Seoul address/coordinates as a workaround so the real location is at least discoverable."
     },
     {
       "id": "peter-blum",
@@ -2487,8 +2878,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2520,8 +2911,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2564,8 +2955,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10–6 (392 Broadway); Mon–Fri 11–6 (390 Broadway)",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2603,8 +2994,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2636,8 +3027,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2655,8 +3046,8 @@
         {
           "label": "main",
           "address": "475 Tenth Avenue, New York, NY 10018",
-          "lat": 42.7252526,
-          "lng": -73.7110577
+          "lat": 40.7561342,
+          "lng": -73.9982421
         }
       ],
       "adapter": "artlogic",
@@ -2669,13 +3060,13 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
       },
-      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+      "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nCorrection 2026-08-19: this space's lat/lng were wrong (42.7252526, -73.7110577 — Colonie, Albany County, NY, ~140mi upstate, in the Watervliet area) — user spotted the marker sitting in Watervliet on the map and flagged it. pipeline/geocode.ts's Nominatim query for '475 Tenth Avenue, New York, NY 10018' matched a same-named street in Colonie rather than Manhattan's West Side avenue (10th/11th Ave near the West 30s-40s aren't well-indexed as 'Tenth'/'Eleventh Avenue' text in OSM, and the query had no country/bbox bias or plausibility check to catch the mismatch). Same bug hit aca-galleries, michael-rosenfeld, and nicola-vassell (all Tenth/Eleventh Ave Chelsea addresses) — re-geocoded all four with a Manhattan-bounded query; geocode.ts itself hardened against recurrence."
     },
     {
       "id": "signs-and-symbols",
@@ -2702,8 +3093,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2739,8 +3130,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2772,8 +3163,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2805,8 +3196,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2845,8 +3236,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sat 12–6pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2878,8 +3269,8 @@
       "cadence": "weekly",
       "hours": "Closed for construction",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2911,8 +3302,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2944,8 +3335,8 @@
       "cadence": "weekly",
       "hours": "Public hours vary by program; office Mon–Fri 10am–6pm — see thekitchen.org/on-view",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2977,8 +3368,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 12–6, or by appointment",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3010,8 +3401,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3043,8 +3434,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3076,8 +3467,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3105,8 +3496,8 @@
       "cadence": "weekly",
       "hours": "Open by appointment",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3138,8 +3529,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3171,13 +3562,44 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
       },
       "notes": "Started as pop-ups, now a fixed space.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+    },
+    {
+      "id": "white-columns",
+      "name": "White Columns",
+      "kind": "nonprofit",
+      "city": "nyc",
+      "district": "west-village",
+      "url": "https://whitecolumns.org",
+      "spaces": [
+        {
+          "label": "main",
+          "address": "91 Horatio Street, New York, NY 10014",
+          "lat": 40.7388498,
+          "lng": -74.0083132
+        }
+      ],
+      "adapter": "manual",
+      "config": {},
+      "paths": {
+        "exhibitions": "/exhibitions-programming"
+      },
+      "cadence": "weekly",
+      "hours": "Tue–Sat, 11am–6pm",
+      "health": {
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
+        "record_count": 0,
+        "consecutive_failures": 0,
+        "status": "ok"
+      },
+      "notes": "Address and hours confirmed directly on the site. Founded 1970 (Jeffrey Lew, Gordon Matta-Clark et al.), oldest artist-run nonprofit still operating in NYC. Nominatim geocodes this address to 'Meatpacking District' but the gallery and most press describe it as West Village; tagged west-village accordingly. Current programming at add time: 'White Columns Online #37: unhomely' (Jul 17–Sep 12, 2026), with a group show (Mieko Meguro, Eric Spencer, Juliette Collet) save-the-dated for Sep 12–Oct 24.\n\nAdded 2026-08-19 at user request. Fingerprint: WordPress (wpenginepowered.com asset host) — starts on manual pending the config/mode work (see kaufmann-repetto, miguel-abreu-gallery, new-museum for the shape) needed to wire the live adapter."
     },
     {
       "id": "whitney-museum-of-american-art",
@@ -3204,8 +3626,8 @@
       "cadence": "daily",
       "hours": "Mon–Sun 10:30am–6pm, Fri until 10pm",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3237,8 +3659,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-08-19T13:38:17.471Z",
-        "last_success": "2026-08-19T13:38:17.471Z",
+        "last_attempt": "2026-08-19T14:24:57.911Z",
+        "last_success": "2026-08-19T14:24:57.911Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3274,19 +3696,19 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.edlingallery.com/exhibitions/conduits-of-the-unseen-women-artists-imagine-other-worlds",
-      "fetched_at": "2026-08-19T13:38:25.454Z",
+      "fetched_at": "2026-08-19T14:25:04.854Z",
       "confidence": 0.85
     },
     {
       "id": "ex-andrew-kreps-066d1920d5",
       "venue_id": "andrew-kreps",
-      "space_label": null,
+      "space_label": "THE CAMPUS",
       "title": "THE CAMPUS",
       "artists": [
         "Roe Ethridge",
         "Oliver Lee Jackson"
       ],
-      "kind": "two_person",
+      "kind": "offsite",
       "opens": "2026-06-27",
       "closes": "2026-11-01",
       "opening_reception": null,
@@ -3304,7 +3726,7 @@
       "image_credit": "Guang Xu",
       "works": [],
       "source_url": "https://www.andrewkreps.com/exhibitions/the-campus2",
-      "fetched_at": "2026-08-19T13:38:29.008Z",
+      "fetched_at": "2026-08-19T14:25:08.114Z",
       "confidence": 0.85
     },
     {
@@ -3335,7 +3757,7 @@
       "image_credit": "Elisabeth Bernstein",
       "works": [],
       "source_url": "https://www.andrewkreps.com/exhibitions/see-you-tomorrow-under-other-skies",
-      "fetched_at": "2026-08-19T13:38:29.008Z",
+      "fetched_at": "2026-08-19T14:25:08.114Z",
       "confidence": 0.85
     },
     {
@@ -3355,7 +3777,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.andrewkreps.com/exhibitions/kenneth-victor-young",
-      "fetched_at": "2026-08-19T13:38:29.008Z",
+      "fetched_at": "2026-08-19T14:25:08.114Z",
       "confidence": 0.85
     },
     {
@@ -3379,7 +3801,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/christine-safa",
-      "fetched_at": "2026-08-19T13:38:37.101Z",
+      "fetched_at": "2026-08-19T14:25:14.270Z",
       "confidence": 0.9
     },
     {
@@ -3404,7 +3826,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/daniel-buren-and-barbara-kasten",
-      "fetched_at": "2026-08-19T13:38:37.101Z",
+      "fetched_at": "2026-08-19T14:25:14.270Z",
       "confidence": 0.9
     },
     {
@@ -3428,16 +3850,16 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/yuan-yuan",
-      "fetched_at": "2026-08-19T13:38:37.101Z",
+      "fetched_at": "2026-08-19T14:25:14.270Z",
       "confidence": 0.9
     },
     {
       "id": "ex-bortolami-ee531ec34f",
       "venue_id": "bortolami",
-      "space_label": "The Campus",
+      "space_label": "THE CAMPUS",
       "title": "THE CAMPUS: 2026 Annual Exhibition",
       "artists": [],
-      "kind": "group",
+      "kind": "offsite",
       "opens": "2026-06-27",
       "closes": "2026-11-01",
       "opening_reception": null,
@@ -3455,7 +3877,7 @@
       "image_credit": "The Campus 2026 Annual Exhibition, Installation view, Claverack, NY, 2026. Photo: Guang Xu.",
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/the-campus-2026-annual-exhibition",
-      "fetched_at": "2026-08-19T13:38:37.101Z",
+      "fetched_at": "2026-08-19T14:25:14.270Z",
       "confidence": 0.9
     },
     {
@@ -3499,7 +3921,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://fierman.nyc/upcoming",
-      "fetched_at": "2026-08-19T13:38:42.199Z",
+      "fetched_at": "2026-08-19T14:25:17.828Z",
       "confidence": 0.4
     },
     {
@@ -3562,7 +3984,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://kaufmannrepetto.com/exhibitions-current/",
-      "fetched_at": "2026-08-19T13:38:50.858Z",
+      "fetched_at": "2026-08-19T14:25:25.587Z",
       "confidence": 0.65
     },
     {
@@ -3589,7 +4011,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leilahellergallery.com/exhibitions/summer-group-show-between-memory-and-imagination",
-      "fetched_at": "2026-08-19T13:38:52.327Z",
+      "fetched_at": "2026-08-19T14:25:26.963Z",
       "confidence": 0.85
     },
     {
@@ -3632,7 +4054,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leilahellergallery.com/exhibitions/art-design-show-spectra",
-      "fetched_at": "2026-08-19T13:38:52.327Z",
+      "fetched_at": "2026-08-19T14:25:26.963Z",
       "confidence": 0.85
     },
     {
@@ -3661,7 +4083,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leilahellergallery.com/exhibitions/kevork-mourad-the-echoes-of-silent-bells",
-      "fetched_at": "2026-08-19T13:38:52.327Z",
+      "fetched_at": "2026-08-19T14:25:26.963Z",
       "confidence": 0.85
     },
     {
@@ -3688,7 +4110,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leilahellergallery.com/exhibitions/sultan-bin-fahad-blue-note",
-      "fetched_at": "2026-08-19T13:38:52.327Z",
+      "fetched_at": "2026-08-19T14:25:26.963Z",
       "confidence": 0.85
     },
     {
@@ -3708,7 +4130,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.luhringaugustine.com/exhibitions/settle-for-a-good-fantasy",
-      "fetched_at": "2026-08-19T13:39:01.741Z",
+      "fetched_at": "2026-08-19T14:25:34.504Z",
       "confidence": 0.6
     },
     {
@@ -3751,7 +4173,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://miguelabreugallery.com/exhibitions/regroup-show-3/",
-      "fetched_at": "2026-08-19T13:39:05.251Z",
+      "fetched_at": "2026-08-19T14:25:37.618Z",
       "confidence": 0.85
     },
     {
@@ -3856,6 +4278,28 @@
       "confidence": 0.75
     },
     {
+      "id": "ex-nahmad-contemporary-85c7f48ac5",
+      "venue_id": "nahmad-contemporary",
+      "space_label": null,
+      "title": "Lucio Fontana",
+      "artists": [
+        "Lucio Fontana"
+      ],
+      "kind": "solo",
+      "opens": null,
+      "closes": null,
+      "opening_reception": null,
+      "status": "open",
+      "excerpt": "",
+      "press_release_url": null,
+      "image_urls": [],
+      "image_credit": null,
+      "works": [],
+      "source_url": "https://www.nahmadcontemporary.com/exhibitions/lucio-fontana",
+      "fetched_at": "2026-08-19T14:25:38.557Z",
+      "confidence": 0.6
+    },
+    {
       "id": "ex-new-museum-8abb5d5517",
       "venue_id": "new-museum",
       "space_label": null,
@@ -3874,7 +4318,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/new-humans-memories-of-the-future/",
-      "fetched_at": "2026-08-19T13:39:10.610Z",
+      "fetched_at": "2026-08-19T14:25:44.251Z",
       "confidence": 0.85
     },
     {
@@ -3896,7 +4340,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/plaza-sarah-lucas-venus-victoria/",
-      "fetched_at": "2026-08-19T13:39:10.610Z",
+      "fetched_at": "2026-08-19T14:25:44.251Z",
       "confidence": 0.85
     },
     {
@@ -3918,7 +4362,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/facade-tschabalala-self-art-lovers/",
-      "fetched_at": "2026-08-19T13:39:10.610Z",
+      "fetched_at": "2026-08-19T14:25:44.251Z",
       "confidence": 0.85
     },
     {
@@ -3940,7 +4384,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/atrium-stair-klara-hosnedlova/",
-      "fetched_at": "2026-08-19T13:39:10.610Z",
+      "fetched_at": "2026-08-19T14:25:44.251Z",
       "confidence": 0.85
     },
     {
@@ -3960,7 +4404,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/blue-state/",
-      "fetched_at": "2026-08-19T13:39:11.409Z",
+      "fetched_at": "2026-08-19T14:25:45.029Z",
       "confidence": 0.6
     },
     {
@@ -3987,7 +4431,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/invincible-summer/",
-      "fetched_at": "2026-08-19T13:39:11.793Z",
+      "fetched_at": "2026-08-19T14:25:45.473Z",
       "confidence": 0.6
     },
     {
@@ -4014,7 +4458,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/i-can-hear-the-grass-grow/",
-      "fetched_at": "2026-08-19T13:39:12.270Z",
+      "fetched_at": "2026-08-19T14:25:45.919Z",
       "confidence": 0.6
     },
     {
@@ -4041,7 +4485,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/10417/",
-      "fetched_at": "2026-08-19T13:39:12.768Z",
+      "fetched_at": "2026-08-19T14:25:46.362Z",
       "confidence": 0.6
     },
     {
@@ -4068,7 +4512,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/kari-cholnoky-3/",
-      "fetched_at": "2026-08-19T13:39:13.161Z",
+      "fetched_at": "2026-08-19T14:25:46.823Z",
       "confidence": 0.6
     },
     {
@@ -4095,7 +4539,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/galesburg/",
-      "fetched_at": "2026-08-19T13:39:13.545Z",
+      "fetched_at": "2026-08-19T14:25:47.266Z",
       "confidence": 0.6
     },
     {
@@ -4118,7 +4562,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.jamescohan.com/exhibitions/savdie-soutine",
-      "fetched_at": "2026-08-19T13:39:21.617Z",
+      "fetched_at": "2026-08-19T14:25:54.265Z",
       "confidence": 0.85
     },
     {
@@ -4140,7 +4584,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.jamescohan.com/exhibitions/vicky-colombet",
-      "fetched_at": "2026-08-19T13:39:21.617Z",
+      "fetched_at": "2026-08-19T14:25:54.265Z",
       "confidence": 0.85
     },
     {
@@ -4162,7 +4606,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.paulacoopergallery.com/exhibitions/liz-glynn6",
-      "fetched_at": "2026-08-19T13:39:30.402Z",
+      "fetched_at": "2026-08-19T14:26:02.468Z",
       "confidence": 0.6
     },
     {
@@ -4186,7 +4630,7 @@
         "Meg Webster",
         "Jane Benson"
       ],
-      "kind": "group",
+      "kind": "offsite",
       "opens": null,
       "closes": null,
       "opening_reception": null,
@@ -4197,7 +4641,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.paulacoopergallery.com/exhibitions/woods-lands-meadows",
-      "fetched_at": "2026-08-19T13:39:30.402Z",
+      "fetched_at": "2026-08-19T14:26:02.468Z",
       "confidence": 0.6
     },
     {
@@ -4219,7 +4663,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.paulacoopergallery.com/exhibitions/eric-n-mack2",
-      "fetched_at": "2026-08-19T13:39:30.402Z",
+      "fetched_at": "2026-08-19T14:26:02.468Z",
       "confidence": 0.85
     },
     {
@@ -4241,7 +4685,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.paulacoopergallery.com/exhibitions/tauba-auerbach5",
-      "fetched_at": "2026-08-19T13:39:30.402Z",
+      "fetched_at": "2026-08-19T14:26:02.468Z",
       "confidence": 0.85
     },
     {
@@ -4265,7 +4709,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.peterblumgallery.com/exhibitions/paul-fagerskiold4",
-      "fetched_at": "2026-08-19T13:39:48.477Z",
+      "fetched_at": "2026-08-19T14:26:19.721Z",
       "confidence": 0.6
     },
     {
@@ -4370,7 +4814,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.skny.com/exhibitions/anthony-mccall7",
-      "fetched_at": "2026-08-19T13:39:55.359Z",
+      "fetched_at": "2026-08-19T14:26:25.753Z",
       "confidence": 0.85
     },
     {
@@ -4394,7 +4838,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.skny.com/exhibitions/luke-agada",
-      "fetched_at": "2026-08-19T13:39:55.359Z",
+      "fetched_at": "2026-08-19T14:26:25.753Z",
       "confidence": 0.85
     },
     {
@@ -4414,7 +4858,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.situations.us/future-1",
-      "fetched_at": "2026-08-19T13:40:01.997Z",
+      "fetched_at": "2026-08-19T14:26:31.725Z",
       "confidence": 0.5
     },
     {
@@ -4441,7 +4885,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://storefront.nyc/program/longings-returns-by-sim-chi-yin/",
-      "fetched_at": "2026-08-19T13:40:02.516Z",
+      "fetched_at": "2026-08-19T14:26:31.908Z",
       "confidence": 0.6
     },
     {
@@ -4468,7 +4912,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://storefront.nyc/program/black-fire-by-thandi-loewenson/",
-      "fetched_at": "2026-08-19T13:40:02.945Z",
+      "fetched_at": "2026-08-19T14:26:32.405Z",
       "confidence": 0.6
     },
     {
@@ -4495,7 +4939,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://storefront.nyc/program/perforation-ellipse-by-alison-nguyen/",
-      "fetched_at": "2026-08-19T13:40:03.374Z",
+      "fetched_at": "2026-08-19T14:26:32.723Z",
       "confidence": 0.6
     },
     {
@@ -4522,7 +4966,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://storefront.nyc/program/public-address-by-alex-strada/",
-      "fetched_at": "2026-08-19T13:40:03.805Z",
+      "fetched_at": "2026-08-19T14:26:33.041Z",
       "confidence": 0.45
     },
     {
@@ -4549,7 +4993,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://storefront.nyc/program/territorio-vivo-by-sertao-negro/",
-      "fetched_at": "2026-08-19T13:40:04.442Z",
+      "fetched_at": "2026-08-19T14:26:33.358Z",
       "confidence": 0.6
     },
     {
@@ -4576,7 +5020,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://storefront.nyc/program/na-floresta-a-noite-in-the-forest-of-the-night-by-denilson-baniwa/",
-      "fetched_at": "2026-08-19T13:40:04.870Z",
+      "fetched_at": "2026-08-19T14:26:33.838Z",
       "confidence": 0.45
     },
     {
@@ -4758,7 +5202,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.yanceyrichardson.com/exhibitions/yale-mfa-photography-2026-thesis-show",
-      "fetched_at": "2026-08-19T13:40:06.492Z",
+      "fetched_at": "2026-08-19T14:26:35.426Z",
       "confidence": 0.6
     },
     {
@@ -4780,7 +5224,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.yanceyrichardson.com/exhibitions/tania-franco-klein2",
-      "fetched_at": "2026-08-19T13:40:06.492Z",
+      "fetched_at": "2026-08-19T14:26:35.426Z",
       "confidence": 0.85
     }
   ],
@@ -4966,6 +5410,21 @@
       "link_confidence": 0
     },
     {
+      "id": "article-artforum-28e9120b890d",
+      "outlet": "Artforum",
+      "headline": "Chinati Foundation to Renovate Artillery Sheds Housing Judd Works",
+      "byline": "Polly Watson",
+      "published": "2026-08-19T14:20:30.000Z",
+      "url": "https://www.artforum.com/news/chinati-foundation-to-restore-artillery-sheds-1234757349/",
+      "excerpt": "The Chinati Foundation in Marfa, Texas, has announced plans to restore the Artillery Sheds, a pair of military structures repurposed by renowned Minimalist Donald Judd to house his 100 untitled works in mill aluminum. The buildings sit on the grounds of the decommissioned Fort D. A. Russell, the for",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
       "id": "article-artforum-99caffb46452",
       "outlet": "Artforum",
       "headline": "Deadlines and Divine Distractions",
@@ -5116,21 +5575,6 @@
       "link_confidence": 0
     },
     {
-      "id": "article-artforum-fec6ef6f3b09",
-      "outlet": "Artforum",
-      "headline": "Artist Builds Free-To-Play Video Game Replica Of Michael Heizer’s City",
-      "byline": "Mika Lee",
-      "published": "2026-08-14T20:32:22.000Z",
-      "url": "https://www.artforum.com/news/artist-builds-free-to-play-vreplica-of-michael-heizer-city-1234757035/",
-      "excerpt": "Digital artist Lily Belmira has created a free video game that recreates the environment of Michael Heizer’s monumental land art sculpture City, 1970–2022, in the Nevada desert. Belmira, who is based in Tulsa, Oklahoma, wrote on her blog that she saw the act of creating the game as a “way to undermi",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
       "id": "article-artnews-e26369d09ee4",
       "outlet": "ARTnews",
       "headline": "The Mythic, Mutable Worlds of Elizabeth Glaessner",
@@ -5266,13 +5710,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-artnews-5522bd1defbb",
-      "outlet": "ARTnews",
-      "headline": "Brett Littman Named Next Director of MCA San Diego",
-      "byline": "Maximilíano Durón",
-      "published": "2026-08-17T20:42:43.000Z",
-      "url": "https://www.artnews.com/art-news/news/brett-littman-director-mca-san-diego-1234795110/",
-      "excerpt": "He previously served as the director of the Noguchi Museum and the Drawing Center.",
+      "id": "article-the-art-newspaper-00b4b09918f2",
+      "outlet": "The Art Newspaper",
+      "headline": "US National Gallery of Art acquires paintings, sculptures and photographs spanning five centuries",
+      "byline": "Elena Goukassian",
+      "published": "2026-08-19T14:00:00.000Z",
+      "url": "https://www.theartnewspaper.com/2026/08/19/national-gallery-art-us-acquisitions-wifredo-lam-marie-bracquemond",
+      "excerpt": "Works by Marie Bracquemond, Wifredo Lam, T.C. Cannon, Christina Quarles and many others are among the around 190 objects joining the collection",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -6106,13 +6550,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-the-art-newspaper-c7aca4df06b4",
-      "outlet": "The Art Newspaper",
-      "headline": "Van Gogh’s exuberant ‘Tarascon Stagecoach’ will go on show in New York",
-      "byline": "Martin Bailey",
-      "published": "2026-08-07T09:00:00.000Z",
-      "url": "https://www.theartnewspaper.com/2026/08/07/van-goghs-exuberant-tarascon-stagecoach-is-donated-to-los-angeles",
-      "excerpt": "The masterpiece, alongside 62 other works given by the Pearlman family, is coming on tour from Los Angeles",
+      "id": "article-contemporary-art-daily-6312c3fb8d32",
+      "outlet": "Contemporary Art Daily",
+      "headline": "Jason Hirata, Park McArthur at INCURVA",
+      "byline": null,
+      "published": "2026-08-19T00:00:00.000Z",
+      "url": "https://www.contemporaryartdaily.com/project/jason-hirata-park-mcarthur-at-incurva-trapani-79799?source=rss",
+      "excerpt": "July 11 – November 8, 2026",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -6586,21 +7030,6 @@
       "link_confidence": 0
     },
     {
-      "id": "article-contemporary-art-daily-3e38ea7bf19e",
-      "outlet": "Contemporary Art Daily",
-      "headline": "Matt Keegan at Magenta Plains",
-      "byline": null,
-      "published": "2026-08-03T00:00:00.000Z",
-      "url": "https://www.contemporaryartdaily.com/project/matt-keegan-at-magenta-plains-new-york-82560?source=rss",
-      "excerpt": "July 2 – August 14, 2026",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
       "id": "article-hyperallergic-438e57aa630b",
       "outlet": "Hyperallergic",
       "headline": "Who Stole the Guggenheim’s Picasso?",
@@ -6655,6 +7084,21 @@
       "published": "2026-08-18T19:01:20.000Z",
       "url": "https://www.artforum.com/news/new-york-dcla-announces-two-new-leadership-appointments-1234757188/",
       "excerpt": "Diya Vij, commissioner of the New York City Department of Cultural Affairs (DCLA), named two new positions within the agency: Bryan Joseph Lee will serve as deputy commissioner, and Ryan Max will serve as chief of staff. Max has been the director of external affairs at DCLA for 11 years—he first joi",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-71bfe8b11428",
+      "outlet": "ARTnews",
+      "headline": "Marfa’s Chinati Foundation Plans Major Restoration of Artillery Sheds, Home to Donald Judd’s Iconic Aluminum Works",
+      "byline": "Maximilíano Durón",
+      "published": "2026-08-19T14:10:17.000Z",
+      "url": "https://www.artnews.com/art-news/news/chinati-foundation-artillery-sheds-restoration-marfa-judd-1234795237/",
+      "excerpt": "“We’ve tried to bring to this project is a certain amount of pragmatism—a balance between excellence and humility,” executive director Caitlin Murray said.",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],

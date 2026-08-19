@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-19T13:38:17.471Z",
+  "generated_at": "2026-08-19T14:24:57.911Z",
   "window_days": 90,
   "events": [
     {
@@ -691,6 +691,17 @@
       "article_id": null,
       "payload": {
         "title": "Tania Franco Klein"
+      }
+    },
+    {
+      "id": "evt-mt06qm0b-1",
+      "ts": "2026-08-19T14:24:57.911Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nahmad-contemporary",
+      "exhibition_id": "ex-nahmad-contemporary-85c7f48ac5",
+      "article_id": null,
+      "payload": {
+        "title": "Lucio Fontana"
       }
     }
   ]
