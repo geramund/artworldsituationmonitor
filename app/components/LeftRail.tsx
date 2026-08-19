@@ -9,7 +9,10 @@ const LAYER_DEFS: { id: LayerId; label: string; color: string }[] = [
   { id: "institutions", label: "Institutions", color: "var(--paper)" },
   { id: "artist_run", label: "Artist-run / nonprofit", color: "var(--paper)" },
   { id: "nexus", label: "Nexus (fairs, biennials)", color: "var(--blue)" },
-  { id: "press", label: "Press", color: "var(--blue)" },
+  // "press" layer toggle deliberately hidden for now (2026-08-19) — press
+  // linkage quality isn't there yet to surface as a filter; see the phase
+  // report's low linked-article rate. Underlying plumbing (venuePressCount,
+  // layerVisible's press branch) is untouched, just not exposed in the UI.
   { id: "offsite", label: "Offsite", color: "var(--paper-dim)" },
   { id: "dark", label: "Dark", color: "var(--dim)" },
 ];
