@@ -13,8 +13,13 @@
       "lng": -73.9376072
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "wordpress",
+  "config": {
+    "wordpress": {
+      "mode": "custom-post-type",
+      "restBase": "exhibition"
+    }
+  },
   "paths": {
     "exhibitions": "/museum/exhibitions",
     "press": "/press",
@@ -29,5 +34,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence on the point itself). Isamu Noguchi's own converted-factory museum and adjoining sculpture garden, distinct from moma-ps1 (also in Long Island City) and from Socrates Sculpture Park a few blocks north.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+  "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence on the point itself). Isamu Noguchi's own converted-factory museum and adjoining sculpture garden, distinct from moma-ps1 (also in Long Island City) and from Socrates Sculpture Park a few blocks north.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Adapter wired 2026-08-19: noguchi.org runs WordPress with a public /wp-json/wp/v2/exhibition custom post type (confirmed live — real current/recent titles like 'Isamu Noguchi at Lever House', 'Toshiko Takaezu: Worlds Within'), custom-post-type mode, restBase 'exhibition' — same shape as guggenheim.org, verified independently on this site. As with Guggenheim, no guarantee of structured dates in the generic page scrape; expect some null opens/closes at moderate confidence rather than a hard failure."
 }

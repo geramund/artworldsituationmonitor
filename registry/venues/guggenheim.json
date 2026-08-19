@@ -13,8 +13,13 @@
       "lng": -73.958925
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "wordpress",
+  "config": {
+    "wordpress": {
+      "mode": "custom-post-type",
+      "restBase": "exhibition"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibition",
     "press": "/press-release",
@@ -29,5 +34,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address/hours from secondary sources, not directly re-confirmed — guggenheim.org's fetched homepage only returned a cookie-consent banner, no exhibition content came through. Geocoding required the abbreviated '5th Ave' form — spelled-out 'Fifth Avenue' matched a generic segment up in Central Harlem instead of this building; same issue hit metropolitan-museum-of-art, neue-galerie, and the-jewish-museum (all Fifth Ave UES addresses added in this same batch).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — homepage fetch didn't surface any platform signature; starts on manual."
+  "notes": "Address/hours from secondary sources, not directly re-confirmed — guggenheim.org's fetched homepage only returned a cookie-consent banner. Geocoding required the abbreviated '5th Ave' form — spelled-out 'Fifth Avenue' matched a generic segment up in Central Harlem instead of this building; same issue hit metropolitan-museum-of-art and neue-galerie (the-jewish-museum, also affected, was removed at user request).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Adapter wired 2026-08-19: guggenheim.org runs WordPress with a public /wp-json/wp/v2/exhibition custom post type (confirmed live — real, current titles like 'Taryn Simon | Father Country I Do Love You', 'Carol Bove', 'Guggenheim Pop: 1960 to Now'), same custom-post-type mode already used for nicelle-beauchene. No structured open/close dates in the REST payload or in the page's rendered content (checked directly) — only a broad 'exhibition_year' taxonomy (e.g. '2026', '2027'), so the adapter's generic page-scrape date-range regex will likely come up empty for most records; expect opens/closes null and moderate (~0.45) confidence rather than precise dates. Real titles/excerpts/images/source URLs still land, which is a genuine improvement over manual's empty result."
 }
