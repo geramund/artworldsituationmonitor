@@ -8,7 +8,8 @@
     "geocode": "tsx pipeline/geocode.ts",
     "crawl": "tsx pipeline/crawl.ts",
     "snapshot": "tsx pipeline/snapshot.ts",
-    "diff": "tsx pipeline/diff.ts"
+    "diff": "tsx pipeline/diff.ts",
+    "manual-status": "tsx pipeline/manual-status.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.117.0",
