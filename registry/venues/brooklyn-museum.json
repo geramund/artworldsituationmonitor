@@ -25,9 +25,9 @@
   "health": {
     "last_attempt": "2026-08-19T16:22:12.596Z",
     "last_success": "2026-08-19T16:22:12.596Z",
-    "record_count": 0,
+    "record_count": 2,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address/hours from secondary sources — brooklynmuseum.org returned HTTP 403 (bot-blocked) on both homepage and /exhibitions this session. Address geocoded cleanly (Nominatim matched the museum by name directly), no issue there. District tagged 'prospect-heights' (the museum sits right at the Prospect Heights/Crown Heights border on Eastern Parkway) — a new district for this registry, no existing Brooklyn museum-tier entries to cross-check against.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site blocked automated fetches; starts on manual."
+  "notes": "Address/hours from secondary sources — brooklynmuseum.org returned HTTP 403 (bot-blocked) on both homepage and /exhibitions this session. Address geocoded cleanly (Nominatim matched the museum by name directly), no issue there. District tagged 'prospect-heights' (the museum sits right at the Prospect Heights/Crown Heights border on Eastern Parkway) — a new district for this registry, no existing Brooklyn museum-tier entries to cross-check against.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Checked for a public API: Brooklyn Museum's OpenCollection API exists but requires a registered key (not open, no self-service token found); its newer site reportedly runs a sync API pulling from Sanity CMS + OpenCollection + ArchivesSpace, per a 2025 dev blog, but the site itself 429'd every attempt this session (both wp-json and plain fetches) so that couldn't be verified or wired up — worth another look in a future session when it's not rate-limiting. Fingerprint not determined; starts on manual.\n\nManual records written 2026-08-19: 'Iris van Herpen: Sculpting the Senses', 'Unrolling Eternity: The Brooklyn Books of the Dead' — the two shows found via search confirmed to span today's date. One-time hand snapshot, not re-fetched by the crawl — will go stale."
 }

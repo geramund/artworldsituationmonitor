@@ -25,9 +25,9 @@
   "health": {
     "last_attempt": "2026-08-19T16:22:12.596Z",
     "last_success": "2026-08-19T16:22:12.596Z",
-    "record_count": 0,
+    "record_count": 2,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address/hours from secondary sources (Nominatim matched the center by name directly, high confidence). Museum + school at this Essex Crossing/LES location since 2020 (relocated from its former Bowery/Sixth Ave sites); this is a different neighborhood cluster from this registry's other LES galleries but the same general district tag.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+  "notes": "Address/hours from secondary sources (Nominatim matched the center by name directly, high confidence). Museum + school at this Essex Crossing/LES location since 2020 (relocated from its former Bowery/Sixth Ave sites); this is a different neighborhood cluster from this registry's other LES galleries but the same general district tag.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Checked for a public API: none — the homepage fetch (a fresh check, prompted by finding Frick's stack) shows ICP also runs on Drupal, same as frick-collection, not one of this codebase's five adapters and no public REST endpoint found. Starts on manual.\n\nManual records written 2026-08-19: 'Yves Saint Laurent and Photography' (closes Sep 28) and 'Photobooks USA 2000–25' (no dates found at all — left both null rather than guessed, so it'll simply read as open-ended/current). One-time hand snapshot, not re-fetched by the crawl — will go stale."
 }

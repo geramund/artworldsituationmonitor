@@ -25,9 +25,9 @@
   "health": {
     "last_attempt": "2026-08-19T16:22:12.596Z",
     "last_success": "2026-08-19T16:22:12.596Z",
-    "record_count": 0,
+    "record_count": 4,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence). Rare books/manuscripts/drawings institution — programs regular temporary exhibitions alongside its permanent collection (Morgan's library, illuminated manuscripts).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint not determined this pass — site not fetched; starts on manual."
+  "notes": "Address/hours from secondary sources (Nominatim matched the museum by name directly, high confidence). Rare books/manuscripts/drawings institution — programs regular temporary exhibitions alongside its permanent collection (Morgan's library, illuminated manuscripts).\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Checked for a public API: none found; themorgan.org sits behind a Cloudflare bot-challenge (cf-mitigated: challenge header, confirmed on every automated request this session) that blocks scraping outright, let alone offering an API. Fingerprint not determined; starts on manual.\n\nManual records written 2026-08-19: 'Luminous Color', 'The Collected Photograph, 1970–1989', 'The Declaration of Independence: Rare Americana from the Collection', 'Collections Spotlight, Summer 2026' — all four found via search with dates spanning today. One-time hand snapshot, not re-fetched by the crawl — will go stale, and the Cloudflare block means even a future adapter attempt would need a different approach than a plain fetch."
 }

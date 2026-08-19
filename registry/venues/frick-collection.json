@@ -25,9 +25,9 @@
   "health": {
     "last_attempt": "2026-08-19T16:22:12.596Z",
     "last_success": "2026-08-19T16:22:12.596Z",
-    "record_count": 0,
+    "record_count": 1,
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address/hours confirmed via frick.org fetch. Reopened at its historic 1 East 70th Street home in spring 2025 after a major renovation (the interim 'Frick Madison' at the old Whitney/Met Breuer building at 945 Madison Ave is no longer in use — not tracked here). Homepage emphasizes the permanent collection over a single headline temporary show; full exhibitions list at /exhibitions not separately checked.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint (2026-08-19): Drupal — /sites/default/files/ asset paths, responsive .webp image variants. Not one of this codebase's five built adapters (manual/sanity/wordpress/artlogic/squarespace) — starts on manual."
+  "notes": "Address/hours confirmed via frick.org fetch. Reopened at its historic 1 East 70th Street home in spring 2025 after a major renovation (the interim 'Frick Madison' at the old Whitney/Met Breuer building at 945 Madison Ave is no longer in use — not tracked here). Homepage emphasizes the permanent collection over a single headline temporary show; full exhibitions list at /exhibitions not separately checked.\n\nAdded 2026-08-19 at user request (major encyclopedic museums batch). Fingerprint (2026-08-19): Drupal — /sites/default/files/ asset paths, responsive .webp image variants. Not one of this codebase's five built adapters (manual/sanity/wordpress/artlogic/squarespace) — starts on manual. Checked for a public API: none — the Frick's collection backend (TMS/eMuseum via Gallery Systems) is internal only, no public endpoint found.\n\nManual records written 2026-08-19: only one, 'Siena: The Art of Bronze, 1450–1500' (opens Oct 15, upcoming as of add date) — the Frick is genuinely between special exhibitions right now. Its spring show, 'Gainsborough: The Fashion of Portraiture', closed May 25 and was deliberately left out rather than presented as current. One-time hand snapshot, not re-fetched by the crawl — will go stale."
 }
