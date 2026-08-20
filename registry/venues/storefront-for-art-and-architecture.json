@@ -30,11 +30,11 @@
   "cadence": "weekly",
   "hours": "Wed–Sat 12–6pm",
   "health": {
-    "last_attempt": "2026-08-20T03:40:04.138Z",
+    "last_attempt": "2026-08-20T04:30:04.066Z",
     "last_success": "2026-08-20T03:40:04.138Z",
     "record_count": 6,
-    "consecutive_failures": 0,
-    "status": "ok"
+    "consecutive_failures": 1,
+    "status": "suspect"
   },
   "notes": "Architecture-focused nonprofit, included here for the institutions layer. Site itself noted the space as \"currently closed\" alongside a live exhibition listing — possibly between-install or appointment-only. 2026-08-17 re-check: the specific program page (storefront.nyc/program/longings-returns-by-sim-chi-yin/) confirms Aug 8-29 dates and curator credits directly, corroborated by 3+ independent listings (ArtRabbit, Mato, Storefront's own Facebook) — the homepage's stale \"closed\" text is likely just an unrelated visiting-hours banner, not evidence this show isn't on view. Also corrected cadence from an incorrectly-set 'daily' to 'weekly' per SPEC.md §6 (show doesn't open/close within 7 days of 2026-08-17). Image search (2026-08-18): the program page's gallery component confirms installation photography by Luis Corzo (credit visible in rendered content) but doesn't expose actual image src URLs to a non-browser fetch — image_urls left empty rather than guessed; worth revisiting once a real adapter can render the JS gallery.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
 }
