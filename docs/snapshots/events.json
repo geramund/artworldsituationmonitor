@@ -1,52 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-20T13:40:21.148Z",
+  "generated_at": "2026-10-07T13:51:42.806Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-msynuo7r-13",
-      "ts": "2026-06-25T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-a3d201825d",
-      "article_id": null,
-      "payload": {
-        "title": "Invincible Summer"
-      }
-    },
-    {
-      "id": "evt-msynuo7q-1",
-      "ts": "2026-06-26T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "andrew-kreps",
-      "exhibition_id": "ex-andrew-kreps-cae2bae414",
-      "article_id": null,
-      "payload": {
-        "title": "See You Tomorrow Under Other Skies"
-      }
-    },
-    {
-      "id": "evt-msynuo7r-2",
-      "ts": "2026-06-27T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "andrew-kreps",
-      "exhibition_id": "ex-andrew-kreps-be63dcad53",
-      "article_id": null,
-      "payload": {
-        "title": "THE CAMPUS: 2026 Annual Exhibition"
-      }
-    },
-    {
-      "id": "evt-msynuo7r-3",
-      "ts": "2026-06-27T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "bortolami",
-      "exhibition_id": "ex-bortolami-be63dcad53",
-      "article_id": null,
-      "payload": {
-        "title": "THE CAMPUS: 2026 Annual Exhibition"
-      }
-    },
     {
       "id": "evt-msynuo7r-15",
       "ts": "2026-07-10T00:00:00.000Z",
@@ -702,6 +658,752 @@
       "article_id": null,
       "payload": {
         "title": "Lucio Fontana"
+      }
+    },
+    {
+      "id": "evt-muy654ul-1",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "andrew-edlin",
+      "exhibition_id": "ex-andrew-edlin-d3c8685b9f",
+      "article_id": null,
+      "payload": {
+        "title": "Conduits of the Unseen: Women Artists Imagine Other Worlds"
+      }
+    },
+    {
+      "id": "evt-muy654ul-2",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Victor Young"
+      }
+    },
+    {
+      "id": "evt-muy654ul-3",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Victor Young",
+        "count": 3
+      }
+    },
+    {
+      "id": "evt-muy654ul-4",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-2c31e09c2f",
+      "article_id": null,
+      "payload": {
+        "title": "Andrea Bowers"
+      }
+    },
+    {
+      "id": "evt-muy654ul-5",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-1e354596c0",
+      "article_id": null,
+      "payload": {
+        "title": "2026 Annual Exhibition"
+      }
+    },
+    {
+      "id": "evt-muy654ul-6",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-b72085fde6",
+      "article_id": null,
+      "payload": {
+        "title": "Clockwork"
+      }
+    },
+    {
+      "id": "evt-muy654ul-7",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-cbc82f4302",
+      "article_id": null,
+      "payload": {
+        "title": "XYZ"
+      }
+    },
+    {
+      "id": "evt-muy654ul-8",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-dc1592c279",
+      "article_id": null,
+      "payload": {
+        "title": "5 Chome 4-1 Ginza, Tokyo"
+      }
+    },
+    {
+      "id": "evt-muy654ul-9",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-df5fdcc55c",
+      "article_id": null,
+      "payload": {
+        "title": "Counterpublic 2026: Coyote Time"
+      }
+    },
+    {
+      "id": "evt-muy654ul-10",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-6fa8e0140a",
+      "article_id": null,
+      "payload": {
+        "title": "Noces"
+      }
+    },
+    {
+      "id": "evt-muy654ul-11",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-muy654ul-13",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-e387dc4183",
+      "article_id": null,
+      "payload": {
+        "title": "Ideas (cont.)"
+      }
+    },
+    {
+      "id": "evt-muy654ul-14",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-11f2449259",
+      "article_id": null,
+      "payload": {
+        "title": "Slurpee Machine"
+      }
+    },
+    {
+      "id": "evt-muy654ul-15",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-ec6d11a65b",
+      "article_id": null,
+      "payload": {
+        "title": "Frieze London 2026 - Booth B11"
+      }
+    },
+    {
+      "id": "evt-muy654ul-16",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-5733f3119b",
+      "article_id": null,
+      "payload": {
+        "title": "Theft of Fire"
+      }
+    },
+    {
+      "id": "evt-muy654ul-17",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-14398406f5",
+      "article_id": null,
+      "payload": {
+        "title": "The Space Between"
+      }
+    },
+    {
+      "id": "evt-muy654ul-18",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "fierman",
+      "exhibition_id": "ex-fierman-5b9cddf3d7",
+      "article_id": null,
+      "payload": {
+        "title": "TEN YEARS OF FIERMAN"
+      }
+    },
+    {
+      "id": "evt-muy654ul-19",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "frick-collection",
+      "exhibition_id": "ex-frick-collection-1ef2af8060",
+      "article_id": null,
+      "payload": {
+        "title": "Siena: The Art of Bronze, 1450–1500"
+      }
+    },
+    {
+      "id": "evt-muy654ul-20",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-aca208c5dd",
+      "article_id": null,
+      "payload": {
+        "title": "Collection in Focus | Zidane, a 21st century portrait"
+      }
+    },
+    {
+      "id": "evt-muy654ul-21",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-cfb42acf43",
+      "article_id": null,
+      "payload": {
+        "title": "A Year with Children 2026"
+      }
+    },
+    {
+      "id": "evt-muy654ul-22",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-9d1f22dfd4",
+      "article_id": null,
+      "payload": {
+        "title": "TARYN SIMON FATHER COUNTRY I DO LOVE YOU"
+      }
+    },
+    {
+      "id": "evt-muy654ul-23",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-8cf05e3035",
+      "article_id": null,
+      "payload": {
+        "title": "Carol Bove"
+      }
+    },
+    {
+      "id": "evt-muy654ul-24",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-583af8f9ec",
+      "article_id": null,
+      "payload": {
+        "title": "Guggenheim Pop: 1960 to Now"
+      }
+    },
+    {
+      "id": "evt-muy654ul-25",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-94d2239f0b",
+      "article_id": null,
+      "payload": {
+        "title": "Collection in Focus | Robert Rauschenberg: Life Can’t Be Stopped"
+      }
+    },
+    {
+      "id": "evt-muy654ul-26",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-muy654ul-28",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "james-fuentes",
+      "exhibition_id": "ex-james-fuentes-bad977e4da",
+      "article_id": null,
+      "payload": {
+        "title": "Somehow Desire"
+      }
+    },
+    {
+      "id": "evt-muy654ul-29",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "kaufmann-repetto",
+      "exhibition_id": "ex-kaufmann-repetto-a44455b149",
+      "article_id": null,
+      "payload": {
+        "title": "A Moonless Plateau"
+      }
+    },
+    {
+      "id": "evt-muy654ul-30",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "EXTENDED",
+      "venue_id": "kaufmann-repetto",
+      "exhibition_id": "ex-kaufmann-repetto-a44455b149",
+      "article_id": null,
+      "payload": {
+        "title": "A Moonless Plateau",
+        "was": "2026-08-08",
+        "now": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-muy654ul-31",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-be7f737b20",
+      "article_id": null,
+      "payload": {
+        "title": "settle for a good fantasy",
+        "count": 6
+      }
+    },
+    {
+      "id": "evt-muy654ul-32",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-9a657c277b",
+      "article_id": null,
+      "payload": {
+        "title": "Costume Art"
+      }
+    },
+    {
+      "id": "evt-muy654ul-33",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-muy654ul-35",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "miguel-abreu-gallery",
+      "exhibition_id": "ex-miguel-abreu-gallery-378dc8d3a0",
+      "article_id": null,
+      "payload": {
+        "title": "Line Call"
+      }
+    },
+    {
+      "id": "evt-muy654ul-36",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-muy654ul-40",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-muy654ul-44",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nahmad-contemporary",
+      "exhibition_id": "ex-nahmad-contemporary-902f8b5cb5",
+      "article_id": null,
+      "payload": {
+        "title": "Jean Dubuffet | Figure to Ground"
+      }
+    },
+    {
+      "id": "evt-muy654ul-45",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-e9f4c1443e",
+      "article_id": null,
+      "payload": {
+        "title": "Righting"
+      }
+    },
+    {
+      "id": "evt-muy654ul-46",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-2e121a7319",
+      "article_id": null,
+      "payload": {
+        "title": "Blue State",
+        "closes": "2026-10-10"
+      }
+    },
+    {
+      "id": "evt-muy654ul-47",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-2e121a7319",
+      "article_id": null,
+      "payload": {
+        "title": "Blue State",
+        "count": 6
+      }
+    },
+    {
+      "id": "evt-muy654ul-48",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-4129d51751",
+      "article_id": null,
+      "payload": {
+        "title": "Noguchi to Asawa: Designing Postwar America"
+      }
+    },
+    {
+      "id": "evt-muy654ul-49",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-26f6ca3de6",
+      "article_id": null,
+      "payload": {
+        "title": "Noguchi Museum × Ikenobo: 40 Years in New York — A Living Tradition of Flowers and Space"
+      }
+    },
+    {
+      "id": "evt-muy654ul-50",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-1b0d0ccb0f",
+      "article_id": null,
+      "payload": {
+        "title": "Isamu Noguchi: “I am not a designer”"
+      }
+    },
+    {
+      "id": "evt-muy654ul-51",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-4cbfe07cd4",
+      "article_id": null,
+      "payload": {
+        "title": "No Ordinary Light: Akari at 75"
+      }
+    },
+    {
+      "id": "evt-muy654ul-52",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-1a82ef6a93",
+      "article_id": null,
+      "payload": {
+        "title": "OGATA Paris x The Noguchi Museum: Nature’s Way"
+      }
+    },
+    {
+      "id": "evt-muy654ul-53",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-0226bef6b3",
+      "article_id": null,
+      "payload": {
+        "title": "Isamu Noguchi at Lever House"
+      }
+    },
+    {
+      "id": "evt-muy654ul-54",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-cf5e53006c",
+      "article_id": null,
+      "payload": {
+        "title": "Vicky Colombet"
+      }
+    },
+    {
+      "id": "evt-muy654ul-55",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-cf5e53006c",
+      "article_id": null,
+      "payload": {
+        "title": "Vicky Colombet"
+      }
+    },
+    {
+      "id": "evt-muy654ul-56",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-ac4650fa48",
+      "article_id": null,
+      "payload": {
+        "title": "Savdie / Soutine"
+      }
+    },
+    {
+      "id": "evt-muy654ul-57",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-ac4650fa48",
+      "article_id": null,
+      "payload": {
+        "title": "Savdie / Soutine"
+      }
+    },
+    {
+      "id": "evt-muy654ul-58",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-0e7d5db34a",
+      "article_id": null,
+      "payload": {
+        "title": "Tuan Andrew Nguyen"
+      }
+    },
+    {
+      "id": "evt-muy654ul-59",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-fe672fe231",
+      "article_id": null,
+      "payload": {
+        "title": "Tauba Auerbach"
+      }
+    },
+    {
+      "id": "evt-muy654ul-60",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-1089531336",
+      "article_id": null,
+      "payload": {
+        "title": "Eric N. Mack"
+      }
+    },
+    {
+      "id": "evt-muy654ul-61",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-23264b803a",
+      "article_id": null,
+      "payload": {
+        "title": "Hew Locke"
+      }
+    },
+    {
+      "id": "evt-muy654ul-62",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-03fe10ada0",
+      "article_id": null,
+      "payload": {
+        "title": "Michael Wilkinson"
+      }
+    },
+    {
+      "id": "evt-muy654ul-63",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-ad534951fd",
+      "article_id": null,
+      "payload": {
+        "title": "Robin F. Williams"
+      }
+    },
+    {
+      "id": "evt-muy654ul-64",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "rachel-uffner",
+      "exhibition_id": "ex-rachel-uffner-6581b86c26",
+      "article_id": null,
+      "payload": {
+        "title": "Fool's Privilege"
+      }
+    },
+    {
+      "id": "evt-muy654ul-65",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "rachel-uffner",
+      "exhibition_id": "ex-rachel-uffner-9bad5ad534",
+      "article_id": null,
+      "payload": {
+        "title": "Upstairs Gallery: RISD MFA Painting Show"
+      }
+    },
+    {
+      "id": "evt-muy654ul-66",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-b8baf6da87",
+      "article_id": null,
+      "payload": {
+        "title": "Luke Agada"
+      }
+    },
+    {
+      "id": "evt-muy654ul-67",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-9f379172fe",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony McCall"
+      }
+    },
+    {
+      "id": "evt-muy654ul-68",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-9f379172fe",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony McCall",
+        "count": 6
+      }
+    },
+    {
+      "id": "evt-muy654ul-69",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "EXTENDED",
+      "venue_id": "situations",
+      "exhibition_id": "ex-situations-bc19343885",
+      "article_id": null,
+      "payload": {
+        "title": "PAU PESCADOR Pau takes the form of a mortal b*tch",
+        "was": "2026-10-17",
+        "now": "2026-11-21"
+      }
+    },
+    {
+      "id": "evt-muy654ul-70",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "storefront-for-art-and-architecture",
+      "exhibition_id": "ex-storefront-for-art-and-architecture-4bce0edbc6",
+      "article_id": null,
+      "payload": {
+        "title": "The Biography of a Building: Runik’s House of Culture by Hajde! Foundation and Petrit Halilaj with Ars Atelie"
+      }
+    },
+    {
+      "id": "evt-muy654ul-71",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "storefront-for-art-and-architecture",
+      "exhibition_id": "ex-storefront-for-art-and-architecture-6f21dbee7e",
+      "article_id": null,
+      "payload": {
+        "title": "归舟: Longings, Returns by Sim Chi Yin"
+      }
+    },
+    {
+      "id": "evt-muy654ul-72",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-b40b36af78",
+      "article_id": null,
+      "payload": {
+        "title": "Whitney Biennial 2026"
+      }
+    },
+    {
+      "id": "evt-muy654ul-73",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-78a5355e6d",
+      "article_id": null,
+      "payload": {
+        "title": "Hyundai Terrace Commission: Kelly Akashi"
+      }
+    },
+    {
+      "id": "evt-muy654ul-74",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "CLOSED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-46cd6b8367",
+      "article_id": null,
+      "payload": {
+        "title": "Mabel Dwight: Cool Head, Warm Heart"
+      }
+    },
+    {
+      "id": "evt-muy654ul-75",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "OPENED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1747f58d20",
+      "article_id": null,
+      "payload": {
+        "title": "Tania Franco Klein"
+      }
+    },
+    {
+      "id": "evt-muy654ul-76",
+      "ts": "2026-10-07T13:51:42.806Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-180fb3baf9",
+      "article_id": null,
+      "payload": {
+        "title": "Manuel Álvarez Bravo"
       }
     }
   ]
