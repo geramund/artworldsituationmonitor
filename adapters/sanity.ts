@@ -42,7 +42,29 @@ interface SanityConfigEmbedded {
   // exhibitionInfo.pressRelease as a dereferenceable file asset.
   schema: "embedded";
 }
-type SanityConfig = SanityConfigNested | SanityConfigFlat | SanityConfigEmbedded;
+// Per-venue field mapping, for studios whose schema no fixed variant above
+// covers. Each value is a GROQ expression evaluated per exhibition
+// document, so a venue's config is just "where does this studio keep
+// title/dates/artists/url". Verified 2026-10-07 on:
+//   faurschou (14noox4g): startDate/endDate, artists[]->name, slug.current
+//     already "exhibition/…", one location-> per show (NY filter needed —
+//     the dataset also holds Beijing/Copenhagen/Venice)
+//   neue-galerie (q2pfwt5x): start_datetime/end_datetime, no artist refs,
+//     public URL from the `page` document that references the exhibition
+interface SanityConfigMapped {
+  projectId: string;
+  dataset: string;
+  schema: "mapped";
+  filter?: string; // GROQ condition, default `_type == "exhibition"`
+  title?: string; // default "title"
+  start: string;
+  end: string;
+  artists?: string; // must yield string[]
+  space?: string;
+  url: string; // must yield a path (or absolute URL) for the show page
+  image?: string; // must yield an image URL
+}
+type SanityConfig = SanityConfigNested | SanityConfigFlat | SanityConfigEmbedded | SanityConfigMapped;
 
 function hasSanityConfig(config: unknown): config is { sanity: SanityConfig } {
   return (
@@ -232,11 +254,55 @@ function isRecentOrFuture(dateStr: string | null, maxAgeDays: number): boolean {
   return t >= Date.now() - maxAgeDays * 24 * 60 * 60 * 1000;
 }
 
+async function fetchMapped(venue: Venue, cfg: SanityConfigMapped): Promise<RawExhibition[]> {
+  const filter = cfg.filter ?? `_type == "exhibition"`;
+  const query = `*[${filter}] | order(${cfg.start} desc) [0...12] {
+    "title": ${cfg.title ?? "title"},
+    "artists": ${cfg.artists ?? "[]"},
+    "start": ${cfg.start},
+    "end": ${cfg.end},
+    "space": ${cfg.space ?? "null"},
+    "url": ${cfg.url},
+    "image": ${cfg.image ?? "null"}
+  }`;
+  const results = await groq<Record<string, unknown>[]>(cfg.projectId, cfg.dataset, query);
+  if (!results) return [];
+
+  const fetchedAt = new Date().toISOString();
+  return results
+    .filter((r) => typeof r.title === "string")
+    .map((r): RawExhibition => {
+      const artists = Array.isArray(r.artists) ? (r.artists.filter((a) => typeof a === "string") as string[]) : [];
+      return {
+        title: (r.title as string).trim(),
+        artists,
+        kind: artists.length === 1 ? "solo" : artists.length === 2 ? "two_person" : "group",
+        opens: typeof r.start === "string" ? r.start.slice(0, 10) : null,
+        closes: typeof r.end === "string" ? r.end.slice(0, 10) : null,
+        space_label: typeof r.space === "string" ? r.space : null,
+        excerpt: "",
+        press_release_url: null,
+        image_urls: typeof r.image === "string" ? [r.image] : [],
+        image_credit: null,
+        works: [] as Work[],
+        source_url: typeof r.url === "string" ? new URL(r.url, venue.url + "/").toString() : venue.url,
+        confidence: 0.9,
+        fetched_at: fetchedAt,
+      };
+    });
+}
+
 async function fetchSanity(venue: Venue): Promise<RawExhibition[]> {
   if (!hasSanityConfig(venue.config)) return []; // unmapped schema — honest empty, not a guess
   const cfg = venue.config.sanity;
   const all =
-    cfg.schema === "nested" ? await fetchNested(venue, cfg) : cfg.schema === "flat" ? await fetchFlat(venue, cfg) : await fetchEmbedded(venue, cfg);
+    cfg.schema === "nested"
+      ? await fetchNested(venue, cfg)
+      : cfg.schema === "flat"
+        ? await fetchFlat(venue, cfg)
+        : cfg.schema === "mapped"
+          ? await fetchMapped(venue, cfg)
+          : await fetchEmbedded(venue, cfg);
 
   // Keep it to what's plausibly current: closes today-or-later, or no
   // closes date but opened recently (open-ended), or opens in the future.

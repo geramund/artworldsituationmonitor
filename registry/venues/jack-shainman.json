@@ -13,8 +13,18 @@
       "lng": -74.0062412
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/",
+      "item": "a.homepage_slide:not([data-site=the_school])",
+      "title": ".title",
+      "image": "img",
+      "detail": {
+        "dates": "main section.column.width_4:has(p strong)"
+      }
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/press",
@@ -29,5 +39,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched."
+  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched.\n\nAdapter (2026-10-07): manual -> html. Homepage slides tagged data-site (20th_street / 46-lafayette / the_school = Kinderhook, excluded); dates from each show page's text column."
 }

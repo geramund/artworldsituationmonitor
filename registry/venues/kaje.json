@@ -13,8 +13,19 @@
       "lng": -73.9944426
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": [
+        "/current",
+        "/upcoming"
+      ],
+      "item": ".section",
+      "title": "h3.subtitle",
+      "artists": "h2.title",
+      "dates": "h3.date"
+    }
+  },
   "paths": {
     "exhibitions": "/current",
     "upcoming": "/upcoming"
@@ -28,5 +39,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address and hours confirmed directly on the site. Gowanus, Brooklyn — this registry's first Gowanus entry (nearest existing district tags are Red Hook/Sunset Park). Homepage shows a rotating grid of recent/current shows (e.g. 'Vault Gowanus', works by Michael E. Smith) rather than a clean current/upcoming split — treat exhibition data as unverified-current until a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: site markup suggests Kirby CMS (no adapter available yet — starts on manual)."
+  "notes": "Address and hours confirmed directly on the site. Gowanus, Brooklyn — this registry's first Gowanus entry (nearest existing district tags are Red Hook/Sunset Park). Homepage shows a rotating grid of recent/current shows (e.g. 'Vault Gowanus', works by Michael E. Smith) rather than a clean current/upcoming split — treat exhibition data as unverified-current until a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: site markup suggests Kirby CMS (no adapter available yet — starts on manual).\n\nAdapter (2026-10-07): manual -> html. Kirby site; /current and /upcoming sections: h3.date, h2.title (artist), h3.subtitle (show title)."
 }

@@ -13,8 +13,19 @@
       "lng": -73.9916144
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/galleryshows",
+      "item": "article.ov-card",
+      "title": "h2",
+      "artists": ".ov-card__artists",
+      "dates": "time",
+      "limit": 6,
+      "image": "img",
+      "openEndedDays": 30
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/press",
@@ -29,5 +40,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Community gallery + event/production space.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+  "notes": "Community gallery + event/production space.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nAdapter (2026-10-07): manual -> html. C:/Program Files/Git/galleryshows cards carry only an opening date (detail pages too), so shows count as on view for 30 days after opening."
 }

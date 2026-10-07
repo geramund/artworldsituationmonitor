@@ -13,8 +13,16 @@
       "lng": -73.9338686
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/",
+      "item": "bodycopy:has(gallery-grid):has(span i)",
+      "title": "span i",
+      "dates": "span",
+      "link": "none"
+    }
+  },
   "paths": {},
   "cadence": "weekly",
   "hours": "Not confirmed from site — verify",
@@ -25,5 +33,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Artist-run space established Dec 2021, Bushwick. Domain (403drama.com) and unit number (#403) match, which is a good internal-consistency check on the address found via search — but every direct fetch attempt at add time (homepage, /about, /contact) returned HTTP 503, so this couldn't be corroborated against the site's own text the way the rest of this batch was. Re-verify the address and current program once the site is reachable; flag as suspect if it's still down on the first real crawl.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Platform fingerprint not obtained — site unreachable (503) at add time."
+  "notes": "Artist-run space established Dec 2021, Bushwick. Domain (403drama.com) and unit number (#403) match, which is a good internal-consistency check on the address found via search — but every direct fetch attempt at add time (homepage, /about, /contact) returned HTTP 503, so this couldn't be corroborated against the site's own text the way the rest of this batch was. Re-verify the address and current program once the site is reachable; flag as suspect if it's still down on the first real crawl.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Platform fingerprint not obtained — site unreachable (503) at add time.\n\nAdapter (2026-10-07): manual -> html. Cargo site; homepage block: artist, <i>title</i>, date range. Verified against 'Amtrak / Drawings' (closed 2026-10-01)."
 }

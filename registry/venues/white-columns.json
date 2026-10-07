@@ -13,8 +13,17 @@
       "lng": -74.0083132
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/exhibitions-programming",
+      "item": "section.section-on_view .grid-item",
+      "titleLine": 2,
+      "artistsLine": 1,
+      "dates": "span.blok",
+      "image": "img"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions-programming"
   },
@@ -27,5 +36,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address and hours confirmed directly on the site. Founded 1970 (Jeffrey Lew, Gordon Matta-Clark et al.), oldest artist-run nonprofit still operating in NYC. Nominatim geocodes this address to 'Meatpacking District' but the gallery and most press describe it as West Village; tagged west-village accordingly. Current programming at add time: 'White Columns Online #37: unhomely' (Jul 17–Sep 12, 2026), with a group show (Mieko Meguro, Eric Spencer, Juliette Collet) save-the-dated for Sep 12–Oct 24.\n\nAdded 2026-08-19 at user request. Fingerprint: WordPress (wpenginepowered.com asset host) — starts on manual pending the config/mode work (see kaufmann-repetto, miguel-abreu-gallery, new-museum for the shape) needed to wire the live adapter."
+  "notes": "Address and hours confirmed directly on the site. Founded 1970 (Jeffrey Lew, Gordon Matta-Clark et al.), oldest artist-run nonprofit still operating in NYC. Nominatim geocodes this address to 'Meatpacking District' but the gallery and most press describe it as West Village; tagged west-village accordingly. Current programming at add time: 'White Columns Online #37: unhomely' (Jul 17–Sep 12, 2026), with a group show (Mieko Meguro, Eric Spencer, Juliette Collet) save-the-dated for Sep 12–Oct 24.\n\nAdded 2026-08-19 at user request. Fingerprint: WordPress (wpenginepowered.com asset host) — starts on manual pending the config/mode work (see kaufmann-repetto, miguel-abreu-gallery, new-museum for the shape) needed to wire the live adapter.\n\nAdapter (2026-10-07): manual -> html. WordPress /exhibitions-programming 'On View' grid: date span, then 'Artist<br><i>Title</i>' lines. Undated online shows drop out."
 }

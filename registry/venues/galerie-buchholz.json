@@ -13,8 +13,22 @@
       "lng": -73.9610193
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/exhibitions",
+      "item": "._exhibitionlist__element:contains(\"New York\")",
+      "title": [
+        "p:not(:last-child)",
+        "b"
+      ],
+      "artists": "b",
+      "limit": 3,
+      "detail": {
+        "dates": "._templatepart__pageexhibition__top__announcement__text"
+      }
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions"
   },
@@ -27,5 +41,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "New York space of the Berlin/Cologne/NY gallery (represents Isa Genzken, Wolfgang Tillmans, and others). Address and hours confirmed via search cross-referenced against the gallery's own /exhibitions page. That page is a single combined archive across all three cities spanning decades, not NY-specific — will need per-entry location parsing to isolate NY-only shows if this gets adapter-wired; recent NY-tagged shows at add time include Yuji Agematsu ('Marseille 1994', Jun 2026), Isa Genzken ('Projects for Outside (ISA USA)', Mar 2026), and Paul Thek (May 2026).\n\nAdded 2026-08-19 at user request. Fingerprint: no known CMS signature matched (static/custom HTML, no adapter available)."
+  "notes": "New York space of the Berlin/Cologne/NY gallery (represents Isa Genzken, Wolfgang Tillmans, and others). Address and hours confirmed via search cross-referenced against the gallery's own /exhibitions page. That page is a single combined archive across all three cities spanning decades, not NY-specific — will need per-entry location parsing to isolate NY-only shows if this gets adapter-wired; recent NY-tagged shows at add time include Yuji Agematsu ('Marseille 1994', Jun 2026), Isa Genzken ('Projects for Outside (ISA USA)', Mar 2026), and Paul Thek (May 2026).\n\nAdded 2026-08-19 at user request. Fingerprint: no known CMS signature matched (static/custom HTML, no adapter available).\n\nAdapter (2026-10-07): manual -> html. Berlin/Köln/NY list on /exhibitions (newest first, no dates); NY items filtered by address text, dates read from the 3 newest NY detail pages' announcement block."
 }

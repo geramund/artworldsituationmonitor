@@ -13,8 +13,17 @@
       "lng": -73.9211101
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/",
+      "item": "li.list-item:has(h2.list-item-content__title:contains(\"NEW YORK\"))",
+      "title": ".list-item-content__description strong",
+      "dates": ".list-item-content__description",
+      "link": ".list-item-content__description a",
+      "image": "img"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/press",
@@ -29,5 +38,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Shares its building with Transmitter (both artist-run, 2nd floor).\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML."
+  "notes": "Shares its building with Transmitter (both artist-run, 2nd floor).\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nAdapter (2026-10-07): manual -> html. Squarespace homepage 'Current Exhibitions' list, one card per city (PHL/NY/LA/CHI/GVL); filtered to the NEW YORK card. Nothing current as of 2026-10-07 (Rock, Stone, Steel and Rope closed Sep 27) — verified against that show."
 }

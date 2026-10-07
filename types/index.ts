@@ -23,6 +23,8 @@ export type AdapterId =
   | "jsonld"
   | "wordpress"
   | "squarespace"
+  | "html"
+  | "folderstudio"
   | "sitemap"
   | "gallerypress"
   | "rss";

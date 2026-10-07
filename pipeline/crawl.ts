@@ -1,10 +1,10 @@
-// The loop (SPEC.md §6). Five adapters are wired in now: manual (always
-// authoritative, never plausibility-gated), sanity, wordpress, artlogic,
-// squarespace (all four gated by plausible() against last-good — a wrong
-// empty state is worse than a slightly old one). Venues on a platform
-// without a working adapter yet (sitemap-fallback, jsonld, exhibite,
-// nextdata) are simply skipped here — they keep whatever health/data they
-// already have.
+// The loop (SPEC.md §6). Adapters wired in: manual (always authoritative,
+// never plausibility-gated), and sanity, wordpress, artlogic, squarespace,
+// html (hand-configured selectors), jsonld, folderstudio — all gated by
+// plausible() against last-good, since a wrong empty state is worse than a
+// slightly old one. Venues on a platform without a working adapter yet
+// (sitemap-fallback, exhibite, nextdata) are simply skipped here — they
+// keep whatever health/data they already have.
 //
 // Run with --dry-run to see what the crawl WOULD do (fetch, normalize,
 // plausibility-check, diff) without writing anything to disk.
@@ -16,6 +16,9 @@ import sanityAdapter from "../adapters/sanity.ts";
 import wordpressAdapter from "../adapters/wordpress.ts";
 import artlogicAdapter from "../adapters/artlogic.ts";
 import squarespaceAdapter from "../adapters/squarespace.ts";
+import htmlAdapter from "../adapters/html.ts";
+import jsonldAdapter from "../adapters/jsonld.ts";
+import folderStudioAdapter from "../adapters/folderstudio.ts";
 import { fetchOutletArticles, type OutletConfig } from "../adapters/rss.ts";
 import { fetchGalleryPressArticles } from "../adapters/gallerypress.ts";
 import { normalizeExhibition } from "./normalize.ts";
@@ -42,6 +45,9 @@ const ADAPTERS: Record<string, Adapter> = {
   wordpress: wordpressAdapter,
   artlogic: artlogicAdapter,
   squarespace: squarespaceAdapter,
+  html: htmlAdapter,
+  jsonld: jsonldAdapter,
+  folderstudio: folderStudioAdapter,
 };
 
 function loadVenues(): Venue[] {

@@ -13,8 +13,21 @@
       "lng": -73.9555835
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "sanity",
+  "config": {
+    "sanity": {
+      "projectId": "14noox4g",
+      "dataset": "production",
+      "schema": "mapped",
+      "filter": "_type == \"exhibition\" && location->title == \"New York\"",
+      "start": "startDate",
+      "end": "endDate",
+      "artists": "artists[]->name",
+      "space": "location->title",
+      "url": "\"/\" + slug.current",
+      "image": "image.asset->url"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/press",
@@ -29,5 +42,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML."
+  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML.\n\nAdapter (2026-10-07): manual -> sanity. Sanity 14noox4g (public), filtered to location 'New York'. No NY show since 'What You See Is What You See' closed 2025-02-23 — mapping verified against that record; returns nothing until a new NY show is entered."
 }

@@ -25,5 +25,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Address confirmed on the site (also maintains a Venice, Italy space at San Polo 322, not tracked here). Fluxus-focused nonprofit founded by Emily Harvey; hours and current exhibition not surfaced by a shallow fetch of the homepage/NY landing page — the site's Past Exhibitions section wasn't checked for a current show. Treat as unverified-current until a closer look or a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: not determined (old-style site, no obvious CMS signature in the fetched markup) — no adapter available, starts on manual."
+  "notes": "Address confirmed on the site (also maintains a Venice, Italy space at San Polo 322, not tracked here). Fluxus-focused nonprofit founded by Emily Harvey; hours and current exhibition not surfaced by a shallow fetch of the homepage/NY landing page — the site's Past Exhibitions section wasn't checked for a current show. Treat as unverified-current until a closer look or a crawl confirms it.\n\nAdded 2026-08-19 at user request. Fingerprint: not determined (old-style site, no obvious CMS signature in the fetched markup) — no adapter available, starts on manual.\n\nCrawler check (2026-10-07): left on manual — emilyharveyfoundation.org is a single static page (address + donation note) with no exhibition or event listings."
 }

@@ -13,8 +13,17 @@
       "lng": -74.0068964
     }
   ],
-  "adapter": "manual",
-  "config": {},
+  "adapter": "html",
+  "config": {
+    "html": {
+      "path": "/",
+      "item": ".Home--Announcement",
+      "title": "em",
+      "artists": "strong",
+      "link": "a",
+      "image": "img"
+    }
+  },
   "paths": {
     "artists": "/artists"
   },
@@ -27,5 +36,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Established gallery (historically represented Anicka Yi, Josh Kline, and others), mid-relocation as of this writing: the site states verbatim \"This September, 47 Canal will open our gallery at 529 West 20th Street in Chelsea.\" Former space was 59 Wooster St (Soho); the site's /info page currently lists an interim mailing address of 210 Canal St #204 with a by-appointment-only viewing room during the transition. Using the announced new Chelsea address as the primary space since that's where the gallery will actually operate going forward, but it isn't open yet as of 2026-08-19 — re-verify once the September opening happens.\n\nAdded 2026-08-19 at user request (apartment-gallery batch, though 47 Canal itself has outgrown that description). Fingerprint: Kirby CMS (media/pages/ URL structure) — no adapter available for this platform yet."
+  "notes": "Established gallery (historically represented Anicka Yi, Josh Kline, and others), mid-relocation as of this writing: the site states verbatim \"This September, 47 Canal will open our gallery at 529 West 20th Street in Chelsea.\" Former space was 59 Wooster St (Soho); the site's /info page currently lists an interim mailing address of 210 Canal St #204 with a by-appointment-only viewing room during the transition. Using the announced new Chelsea address as the primary space since that's where the gallery will actually operate going forward, but it isn't open yet as of 2026-08-19 — re-verify once the September opening happens.\n\nAdded 2026-08-19 at user request (apartment-gallery batch, though 47 Canal itself has outgrown that description). Fingerprint: Kirby CMS (media/pages/ URL structure) — no adapter available for this platform yet.\n\nAdapter (2026-10-07): manual -> html. Kirby site; homepage 'CURRENT EXHIBITION' announcement block."
 }
