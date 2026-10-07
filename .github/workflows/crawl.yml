@@ -2,11 +2,10 @@ name: crawl
 
 on:
   schedule:
-    # Hourly — matches the outlet RSS cadence (SPEC.md §6). Manual venues are
-    # local file reads (no politeness cost), so re-processing all of them
-    # every run is fine; only the outlet fetches hit the network on a
-    # cadence that matters.
-    - cron: "0 * * * *"
+    # Daily at 12:00 UTC (8am ET). Manual venues are local file reads (no
+    # politeness cost), so re-processing all of them every run is fine; only
+    # the outlet fetches hit the network on a cadence that matters.
+    - cron: "0 12 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -43,7 +42,7 @@ jobs:
         # once, ever, and pipeline/resolve.ts caps every single run to at
         # most 25 newly-adjudicated articles regardless of how large the
         # backlog gets — a burst of new candidates just spreads across a
-        # few more hourly runs instead of one big bill.
+        # few more daily runs instead of one big bill.
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npx tsx pipeline/crawl.ts
