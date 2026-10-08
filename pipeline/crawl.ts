@@ -25,6 +25,7 @@ import { normalizeExhibition } from "./normalize.ts";
 import { plausible } from "./plausible.ts";
 import { resolveArticles, linkWithinVenue, validateAgainstGroundTruth, type ResolveStats, type ValidationResult } from "./resolve.ts";
 import { robotsAllows } from "./robots.ts";
+import { backfillImages } from "./images.ts";
 import { diffEvents, bootstrapEvents, type PriorState } from "./diff.ts";
 import { writeCitySnapshot, writeGlobalSnapshot, appendEvents } from "./snapshot.ts";
 import { applyOffsiteOverrides, type OffsiteOverride } from "./offsite.ts";
@@ -107,6 +108,13 @@ async function main() {
     } catch (err) {
       console.warn(`[crawl] ${venue.id}: adapter threw — ${(err as Error).message}`);
     }
+    if (venue.adapter !== "manual") {
+      try {
+        await backfillImages(venue, raw);
+      } catch (err) {
+        console.warn(`[crawl] ${venue.id}: image backfill threw — ${(err as Error).message}`);
+      }
+    }
     const exhibitions = raw
       .map((r) => normalizeExhibition(r, venue, now))
       .filter((e): e is Exhibition => e !== null);
@@ -123,7 +131,7 @@ async function main() {
       };
     } else {
       const prior = priorExhibitionsByVenue.get(venue.id) ?? null;
-      const result = plausible(exhibitions, prior);
+      const result = plausible(exhibitions, prior, now.toISOString().slice(0, 10));
       if (result.ok) {
         allExhibitions.push(...exhibitions);
         venue.health = {

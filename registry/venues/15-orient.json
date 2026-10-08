@@ -20,7 +20,9 @@
       "item": "div.textspace",
       "title": "p:first-child em",
       "artists": "p:first-child strong",
-      "dates": "p:nth-of-type(2)"
+      "dates": "p:nth-of-type(2)",
+      "image": "img",
+      "imageScope": "div.container"
     }
   },
   "paths": {},
@@ -33,5 +35,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Founded 2016 by artists Shelby Jackson and Paul Gondry in a namesake Orient Ave, Williamsburg townhouse (the name predates this address); the gallery has since relocated its main space here, entrance on Cortlandt Alley — this is the address confirmed directly on the site's own visit/contact info. Just the one space — a second 'Brooklyn location' was briefly tracked as a separate registry entry based on a since-disputed secondary source; removed 2026-08-19 per direct correction from the user, who knows this gallery firsthand. Current show at add time: Skip Laplante, '48 Wind Chimes' (Jun 28–Jul 11), a site-specific sound installation.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: WordPress (/index.php/ permalink structure).\n\nAdapter (2026-10-07): manual -> html. Homepage is the current show's press release: artist in <strong>, title in <em>, dates in the next <p>."
+  "notes": "Founded 2016 by artists Shelby Jackson and Paul Gondry in a namesake Orient Ave, Williamsburg townhouse (the name predates this address); the gallery has since relocated its main space here, entrance on Cortlandt Alley — this is the address confirmed directly on the site's own visit/contact info. Just the one space — a second 'Brooklyn location' was briefly tracked as a separate registry entry based on a since-disputed secondary source; removed 2026-08-19 per direct correction from the user, who knows this gallery firsthand. Current show at add time: Skip Laplante, '48 Wind Chimes' (Jun 28–Jul 11), a site-specific sound installation.\n\nAdded 2026-08-19 at user request (apartment-gallery batch). Fingerprint: WordPress (/index.php/ permalink structure).\n\nAdapter (2026-10-07): manual -> html. Homepage is the current show's press release: artist in <strong>, title in <em>, dates in the next <p>.\n\nImages (2026-10-07): added image \"img\", imageScope \"div.container\" — the show photo sits in a sibling block of the text, under that container."
 }

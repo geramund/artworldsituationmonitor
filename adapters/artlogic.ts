@@ -22,6 +22,15 @@
 //     range text like "June 26 – September 12, 2026". Entries with no <a>
 //     (announced-but-not-yet-linked) are skipped — no page to link to means
 //     no adapter-sourced record, that's what manual.ts is for.
+//   - Newer "records_list" template (leilahellergallery.com, 2026-10-07):
+//     /exhibitions redirects to /exhibitions/current/, sections are
+//     `div[id^=exhibitions-grid-]` (-current, -upcoming, -past) each with a
+//     `.subheading`, entries are `li > a[href=/exhibitions/{id}-{slug}/]`
+//     holding `.content h2` title, `span.date` ("10 Sep - 22 Oct 2026") and
+//     `span.location` ("New York" / "Dubai"). None of the old subpage
+//     selectors exist there, so the listing's own lazy-loaded image is used.
+//     `config.artlogic.locations` keeps a multi-city gallery to the spaces
+//     this venue entry maps.
 //   - Per-exhibition subpages: `/exhibitions/{slug}` (image slider with a
 //     <figcaption> crediting the photographer), `/{slug}/artists` (artist
 //     grid), `/{slug}/press-release` (full text + a PDF download link).
@@ -29,6 +38,18 @@
 import * as cheerio from "cheerio";
 import type { Venue, RawExhibition, Adapter, ExhibitionKind } from "../types/index.ts";
 import { CRAWLER_USER_AGENT } from "../pipeline/robots.ts";
+import { parseDateRange as parseLooseDateRange } from "./html.ts";
+
+interface ArtlogicConfig {
+  // Keep only entries whose listed location contains one of these (case-
+  // insensitive). Only the records_list template shows a location.
+  locations?: string[];
+  // Regex (case-insensitive) on "title | subtitle" — drops matches, e.g. a
+  // gallery's show hosted at another gallery's space.
+  exclude?: string;
+  // How to read "10.9 - 24.10.2026"-style dates (nararoesler.art is dmy).
+  numeric?: "mdy" | "dmy";
+}
 
 async function fetchHtml(url: string): Promise<string | null> {
   try {
@@ -83,6 +104,9 @@ interface ListingEntry {
   title: string;
   spaceLabel: string | null;
   dateText: string;
+  location: string | null;
+  subtitle: string;
+  image: string | null;
 }
 
 function parseListing(html: string, origin: string): ListingEntry[] {
@@ -109,7 +133,31 @@ function parseListing(html: string, origin: string): ListingEntry[] {
       const spaceLabel = $a.find("h2.subtitle2").first().text().trim() || null;
       const dateText = $a.find("h3").first().text().trim();
       if (!title) return;
-      entries.push({ slug: slugMatch[1], title, spaceLabel, dateText });
+      entries.push({ slug: slugMatch[1], title, spaceLabel, dateText, location: null, subtitle: spaceLabel ?? "", image: null });
+    });
+  });
+
+  // records_list template — see header.
+  $("div[id^='exhibitions-grid-']:not([id$='-container'])").each((_, section) => {
+    const $sec = $(section);
+    const heading = $sec.find(".subheading").first().text().trim().toLowerCase();
+    if (heading === "past" || /-past$/.test($sec.attr("id") ?? "")) return;
+
+    $sec.find("li > a[href^='/exhibitions/']").each((_, a) => {
+      const $a = $(a);
+      const slugMatch = ($a.attr("href") ?? "").match(/^\/exhibitions\/([a-z0-9-]+)\/?$/i);
+      if (!slugMatch) return;
+      const title = $a.find(".content h2").first().text().trim();
+      if (!title) return;
+      entries.push({
+        slug: slugMatch[1],
+        title,
+        spaceLabel: null,
+        dateText: $a.find(".date").first().text().trim(),
+        location: $a.find(".location").first().text().trim() || null,
+        subtitle: $a.find(".content h3, .content .subtitle").first().text().trim(),
+        image: $a.find("img[data-src]").first().attr("data-src") ?? null,
+      });
     });
   });
 
@@ -157,6 +205,22 @@ async function fetchImages(baseUrl: string, slug: string): Promise<ImageInfo> {
     if (src && !urls.includes(src)) urls.push(src);
   });
 
+  // Exhibit-E-derived Artlogic sites (ppowgallery.com, paulacoopergallery.com,
+  // nahmadcontemporary.com — 2026-10-07) have no data-enlarge slider: show
+  // images are plain `<img itemprop=image src=".../exhibit-e/...">`. The
+  // w_200,h_50 ones on the same CDN path are partner/footer logos. Some lazy-
+  // load (data-src); some only have a header background (nahmad).
+  if (urls.length === 0) {
+    $("img").each((_, el) => {
+      const src = $(el).attr("data-src") || $(el).attr("src");
+      if (src && src.includes("/exhibit-e/") && !/h_50\b/.test(src) && !urls.includes(src)) urls.push(src);
+    });
+  }
+  if (urls.length === 0) {
+    const bg = ($(".item-header-background").attr("style") ?? "").match(/url\(['"]?([^'")]+exhibit-e\/[^'")]+)/);
+    if (bg) urls.push(bg[1]);
+  }
+
   $("figcaption p").each((_, el) => {
     if (credit) return;
     const text = $(el).text();
@@ -193,17 +257,32 @@ async function fetchArtlogic(venue: Venue): Promise<RawExhibition[]> {
   const listingHtml = await fetchHtml(listingUrl);
   if (!listingHtml) return [];
 
-  const entries = parseListing(listingHtml, baseUrl);
+  const config = (venue.config as { artlogic?: ArtlogicConfig } | undefined)?.artlogic;
+  const wanted = config?.locations?.map((l) => l.toLowerCase());
+  const exclude = config?.exclude ? new RegExp(config.exclude, "i") : null;
+  const entries = parseListing(listingHtml, baseUrl).filter(
+    (e) =>
+      (!wanted || (e.location !== null && wanted.some((w) => e.location!.toLowerCase().includes(w)))) &&
+      !exclude?.test(`${e.title} | ${e.subtitle}`)
+  );
   const now = new Date().toISOString();
   const results: RawExhibition[] = [];
 
   for (const entry of entries) {
-    const [opens, closes] = parseDateRange(entry.dateText);
+    // A configured numeric order means "10.9 - 10.11.2026"-style text, which
+    // the Date-based parser would happily misread as month-first.
+    let [opens, closes] = config?.numeric ? [null, null] : parseDateRange(entry.dateText);
+    if (!opens || !closes) {
+      const loose = parseLooseDateRange(entry.dateText, config?.numeric);
+      if (loose) [opens, closes] = [loose.opens, loose.closes];
+    }
     const sourceUrl = `${baseUrl}/exhibitions/${entry.slug}`;
 
     const artists = await fetchArtists(baseUrl, entry.slug);
     await sleep(250);
-    const { urls: imageUrls, credit } = await fetchImages(baseUrl, entry.slug);
+    const images = await fetchImages(baseUrl, entry.slug);
+    const imageUrls = images.urls.length ? images.urls : entry.image ? [new URL(entry.image, baseUrl).toString()] : [];
+    const credit = images.credit;
     await sleep(250);
     const { excerpt, pressReleaseUrl } = await fetchPressRelease(baseUrl, entry.slug);
     await sleep(250);

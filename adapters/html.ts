@@ -18,7 +18,11 @@
 //   dates     element holding the date range (default: whole item text)
 //   link      <a> for the show page (default: item itself if <a>, else first
 //             a[href]; "none" when the item's links all point off-site)
-//   image     <img> for a thumbnail
+//   image     <img> for a thumbnail (searched inside the item, or inside
+//             `imageScope` when set)
+//   imageScope  ancestor of the item to look for `image` in — page builders
+//             (Squarespace fluid-engine, plain two-column layouts) put the
+//             text block and its photo in sibling blocks of one container
 //   limit     only the first N items (listings sorted newest-first, where
 //             older entries are past shows with no "closed" marker)
 //   numeric   "mdy" | "dmy" — how to read 10.08.26-style dates (default mdy)
@@ -50,6 +54,7 @@ export interface HtmlConfig {
   dates?: string;
   link?: string;
   image?: string;
+  imageScope?: string;
   limit?: number;
   numeric?: "mdy" | "dmy";
   keepUndated?: boolean;
@@ -141,11 +146,12 @@ export function parseDateRange(text: string, numeric: "mdy" | "dmy" = "mdy", now
     }
   }
 
-  // "10.08.26 - 12.12.26", "10/8/2026 – 12/12/2026"
-  m = t.match(/(\d{1,2})[./](\d{1,2})[./](\d{2,4})\s*[-–—]\s*(\d{1,2})[./](\d{1,2})[./](\d{2,4})/);
+  // "10.08.26 - 12.12.26", "10/8/2026 – 12/12/2026", "10.9 - 24.10.2026"
+  // (start year omitted: borrowed from the end)
+  m = t.match(/(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?\s*[-–—]\s*(\d{1,2})[./](\d{1,2})[./](\d{2,4})/);
   if (m) {
     const [a, b, c, d] = numeric === "mdy" ? [m[1], m[2], m[4], m[5]] : [m[2], m[1], m[5], m[4]];
-    const start: Part = { m: Number(a), d: Number(b), y: fullYear(m[3]) };
+    const start: Part = { m: Number(a), d: Number(b), y: fullYear(m[3] ?? m[6]) };
     const end: Part = { m: Number(c), d: Number(d), y: fullYear(m[6]) };
     if (valid(start) && valid(end)) return { opens: iso(start), closes: iso(end) };
   }
@@ -306,8 +312,13 @@ export function extractHtml(
     if (seen.has(key)) continue;
     seen.add(key);
 
-    const $img = config.image ? $item.find(config.image).first() : $();
-    const src = $img.attr("data-src") || $img.attr("data-original") || $img.attr("data-image") || $img.attr("src");
+    const $scope = config.imageScope ? $item.closest(config.imageScope) : $item;
+    const $img = config.image ? $scope.find(config.image).first() : $();
+    let src = $img.attr("data-src") || $img.attr("data-original") || $img.attr("data-image") || $img.attr("src");
+    // Wix serves a transform path (".../v1/fill/w_108,...,blur_2/...") that is
+    // often a blurred lazy-load placeholder; the media URL before /v1/ is the
+    // original upload.
+    if (src && /static\.wixstatic\.com\/media\//.test(src)) src = src.replace(/\/v1\/.*$/, "");
     const kind: ExhibitionKind | undefined = artists.length === 1 ? "solo" : artists.length === 2 ? "two_person" : undefined;
 
     out.push({

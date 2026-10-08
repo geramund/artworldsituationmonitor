@@ -19,7 +19,8 @@
       "path": "/",
       "item": "body",
       "title": ".sqs-html-content h2",
-      "artists": ".sqs-html-content:has(h2) h2 + p:first"
+      "artists": ".sqs-html-content:has(h2) h2 + p:first",
+      "image": ".sqs-block-image img"
     }
   },
   "paths": {
@@ -36,5 +37,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Formerly Parallel Art Space. Shares its building with Tiger Strikes Asteroid.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nAdapter (2026-10-07): manual -> html. Squarespace homepage is the current show: title h2, artist in the next <p>."
+  "notes": "Formerly Parallel Art Space. Shares its building with Tiger Strikes Asteroid.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nAdapter (2026-10-07): manual -> html. Squarespace homepage is the current show: title h2, artist in the next <p>.\n\nImages (2026-10-07): added image \".sqs-block-image img\" — the show photo sits in the listing item/page."
 }

@@ -13,12 +13,22 @@ export interface PlausibilityResult {
 
 export function plausible(
   newRecords: Exhibition[],
-  priorRecords: Exhibition[] | null
+  priorRecords: Exhibition[] | null,
+  today: string = new Date().toISOString().slice(0, 10)
 ): PlausibilityResult {
+  // Only last-good records that should still be on view count as evidence.
+  // A show that has since closed is expected to vanish (or have its dates
+  // revised), so comparing against it rejects real changes forever: once
+  // every prior show closes, "0 now" or "dates changed" is simply correct.
+  // Seen 2026-10-07 — Leila Heller and New Museum stuck "suspect" since
+  // August behind last-good shows that closed in early September.
+  const stillOn = (priorRecords ?? []).filter((r) => !r.closes || r.closes >= today);
+
   // Nothing to compare against — first-ever crawl of this venue, or the
   // venue previously had nothing on view either. Whatever came back is the
   // new baseline.
-  if (!priorRecords || priorRecords.length === 0) return { ok: true };
+  if (stillOn.length === 0) return { ok: true };
+  priorRecords = stillOn;
 
   if (newRecords.length === 0) {
     return {

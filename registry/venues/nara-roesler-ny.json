@@ -14,7 +14,14 @@
     }
   ],
   "adapter": "artlogic",
-  "config": {},
+  "config": {
+    "artlogic": {
+      "locations": [
+        "nova york"
+      ],
+      "numeric": "dmy"
+    }
+  },
   "paths": {
     "exhibitions": "/exhibitions",
     "press": "/press",
@@ -29,5 +36,5 @@
     "consecutive_failures": 0,
     "status": "ok"
   },
-  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
+  "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML.\n\nAdapter (2026-10-07): site uses Artlogic's newer records_list template, now read by artlogic.ts (previously 0 records). The listing covers São Paulo and Rio too; location \"nova york\" keeps the New York space (and the all-three-cities \"50 anos\" anniversary show). Dates are day-first (\"10.9 - 24.10.2026\"), hence numeric \"dmy\"."
 }
