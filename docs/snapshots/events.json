@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-08T18:08:41.952Z",
+  "generated_at": "2026-10-09T17:42:16.313Z",
   "window_days": 90,
   "events": [
     {
@@ -3136,6 +3136,134 @@
       "payload": {
         "title": "ANAHITA",
         "count": 1
+      }
+    },
+    {
+      "id": "evt-mv19anxt-1",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-2",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-3",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-4",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-5",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-6",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-8",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-9",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv19anxt-10",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "The Collected Photograph, 1970–1989",
+        "closes": "2026-10-11"
+      }
+    },
+    {
+      "id": "evt-mv19anxu-12",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "ANNOUNCED",
+      "venue_id": "tiger-strikes-asteroid",
+      "exhibition_id": "ex-tiger-strikes-asteroid-e310916eee",
+      "article_id": null,
+      "payload": {
+        "title": "Absorption"
+      }
+    },
+    {
+      "id": "evt-mv19anxu-13",
+      "ts": "2026-10-09T17:42:16.313Z",
+      "type": "OPENED",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-685826fb71",
+      "article_id": null,
+      "payload": {
+        "title": "Upcoming Lifestyle"
       }
     }
   ]
