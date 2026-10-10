@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-09T17:42:16.313Z",
+  "generated_at": "2026-10-10T16:33:51.092Z",
   "window_days": 90,
   "events": [
     {
@@ -3264,6 +3264,272 @@
       "article_id": null,
       "payload": {
         "title": "Upcoming Lifestyle"
+      }
+    },
+    {
+      "id": "evt-mv2mapt8-1",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "OPENED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-b2f4c055cf",
+      "article_id": null,
+      "payload": {
+        "title": "Notes on Gesture"
+      }
+    },
+    {
+      "id": "evt-mv2mapt8-2",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "OPENED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-b28a0d69bb",
+      "article_id": null,
+      "payload": {
+        "title": "Catalyst Carrier"
+      }
+    },
+    {
+      "id": "evt-mv2mapt8-3",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "OPENED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-788d92eff5",
+      "article_id": null,
+      "payload": {
+        "title": "ChairBodies"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-4",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-5",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-6",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-e387dc4183",
+      "article_id": null,
+      "payload": {
+        "title": "Ideas (cont.)",
+        "closes": "2026-10-17"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-7",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-11f2449259",
+      "article_id": null,
+      "payload": {
+        "title": "Slurpee Machine",
+        "closes": "2026-10-17"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-8",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "david-zwirner-chelsea",
+      "exhibition_id": "ex-david-zwirner-chelsea-576c7b5b83",
+      "article_id": null,
+      "payload": {
+        "title": "Thomas Ruff",
+        "closes": "2026-10-17"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-9",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "david-zwirner-chelsea",
+      "exhibition_id": "ex-david-zwirner-chelsea-829041d5f7",
+      "article_id": null,
+      "payload": {
+        "title": "Scott Kahn",
+        "closes": "2026-10-17"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-10",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSED",
+      "venue_id": "david-zwirner-chelsea",
+      "exhibition_id": "ex-david-zwirner-chelsea-56e4cb81a4",
+      "article_id": null,
+      "payload": {
+        "title": "Everyone you’re looking at is also you"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-11",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSED",
+      "venue_id": "entrance",
+      "exhibition_id": "ex-entrance-cda62c1db3",
+      "article_id": null,
+      "payload": {
+        "title": "there’s no such thing as art"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-12",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-13",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-14",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-15",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-17",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-18",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-19",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "The Collected Photograph, 1970–1989",
+        "closes": "2026-10-11"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-21",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-2e121a7319",
+      "article_id": null,
+      "payload": {
+        "title": "Blue State"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-22",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-1747f58d20",
+      "article_id": null,
+      "payload": {
+        "title": "Tania Franco Klein",
+        "closes": "2026-10-17"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-23",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-180fb3baf9",
+      "article_id": null,
+      "payload": {
+        "title": "Manuel Álvarez Bravo",
+        "closes": "2026-10-17"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-24",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9746a56b3c",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core"
+      }
+    },
+    {
+      "id": "evt-mv2mapt9-25",
+      "ts": "2026-10-10T16:33:51.092Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b13240741b",
+      "article_id": null,
+      "payload": {
+        "title": "Karen Gunderson"
       }
     }
   ]
