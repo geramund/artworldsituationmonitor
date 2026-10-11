@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-10T16:33:51.092Z",
+  "generated_at": "2026-10-11T16:59:09.002Z",
   "window_days": 90,
   "events": [
     {
@@ -3530,6 +3530,167 @@
       "article_id": null,
       "payload": {
         "title": "Karen Gunderson"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-1",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "CLOSED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-1daa1002b5",
+      "article_id": null,
+      "payload": {
+        "title": "Residual Worlds"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-2",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-3",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-4",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "ANNOUNCED",
+      "venue_id": "gallery-henoch",
+      "exhibition_id": "ex-gallery-henoch-44ac241991",
+      "article_id": null,
+      "payload": {
+        "title": "Structures"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-5",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "ANNOUNCED",
+      "venue_id": "gallery-henoch",
+      "exhibition_id": "ex-gallery-henoch-05fb0f913a",
+      "article_id": null,
+      "payload": {
+        "title": "Contemplative Landscapes"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-6",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "ANNOUNCED",
+      "venue_id": "gallery-henoch",
+      "exhibition_id": "ex-gallery-henoch-826db17c8e",
+      "article_id": null,
+      "payload": {
+        "title": "Through the Female Gaze"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-7",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "ANNOUNCED",
+      "venue_id": "gallery-henoch",
+      "exhibition_id": "ex-gallery-henoch-d1d70cf325",
+      "article_id": null,
+      "payload": {
+        "title": "Reflections and Refractions"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-8",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv42n24b-9",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "kaje",
+      "exhibition_id": "ex-kaje-13c49df949",
+      "article_id": null,
+      "payload": {
+        "title": "Chapeltown Road",
+        "closes": "2026-10-18"
+      }
+    },
+    {
+      "id": "evt-mv42n24c-10",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv42n24c-11",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv42n24c-12",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv42n24c-14",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv42n24c-15",
+      "ts": "2026-10-11T16:59:09.002Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
       }
     }
   ]
