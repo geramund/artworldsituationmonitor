@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-11T16:59:09.002Z",
+  "generated_at": "2026-10-12T20:34:22.600Z",
   "window_days": 90,
   "events": [
     {
@@ -3691,6 +3691,156 @@
         "title": "Luminous Color",
         "was": "2026-09-13",
         "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv5psi2e-1",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "ANNOUNCED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-62b427dc7a",
+      "article_id": null,
+      "payload": {
+        "title": "Event Horizon"
+      }
+    },
+    {
+      "id": "evt-mv5psi2e-2",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "ANNOUNCED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-0e7373c33b",
+      "article_id": null,
+      "payload": {
+        "title": "Winter Exhibition I"
+      }
+    },
+    {
+      "id": "evt-mv5psi2e-3",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv5psi2e-4",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv5psi2e-5",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "ANNOUNCED",
+      "venue_id": "culture-lab-lic",
+      "exhibition_id": "ex-culture-lab-lic-a5b25cf433",
+      "article_id": null,
+      "payload": {
+        "title": "Open Call"
+      }
+    },
+    {
+      "id": "evt-mv5psi2e-6",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "ANNOUNCED",
+      "venue_id": "drama",
+      "exhibition_id": "ex-drama-c1bd0d298e",
+      "article_id": null,
+      "payload": {
+        "title": "Tennis Player with a Fig Leaf"
+      }
+    },
+    {
+      "id": "evt-mv5psi2f-7",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv5psi2f-8",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv5psi2f-9",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv5psi2g-10",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv5psi2g-12",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv5psi2g-13",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv5psi2g-15",
+      "ts": "2026-10-12T20:34:22.600Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-11dbff5835",
+      "article_id": null,
+      "payload": {
+        "title": "Andy Warhol Family Album",
+        "closes": "2026-10-19"
       }
     }
   ]
