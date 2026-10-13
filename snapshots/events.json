@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-12T20:34:22.600Z",
+  "generated_at": "2026-10-13T18:38:26.686Z",
   "window_days": 90,
   "events": [
     {
@@ -3841,6 +3841,139 @@
       "payload": {
         "title": "Andy Warhol Family Album",
         "closes": "2026-10-19"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-1",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-2",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-3",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-4",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "EXTENDED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-be7f737b20",
+      "article_id": null,
+      "payload": {
+        "title": "settle for a good fantasy",
+        "was": "2026-10-24",
+        "now": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-5",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-6",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-7",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-9",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-10",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-12",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "EXTENDED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9746a56b3c",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core",
+        "was": "2026-12-05",
+        "now": "2026-12-19"
+      }
+    },
+    {
+      "id": "evt-mv7145uj-13",
+      "ts": "2026-10-13T18:38:26.686Z",
+      "type": "EXTENDED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b13240741b",
+      "article_id": null,
+      "payload": {
+        "title": "Karen Gunderson",
+        "was": "2026-12-05",
+        "now": "2026-12-19"
       }
     }
   ]
