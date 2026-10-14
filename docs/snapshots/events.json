@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-13T18:38:26.686Z",
+  "generated_at": "2026-10-14T16:08:48.548Z",
   "window_days": 90,
   "events": [
     {
@@ -3974,6 +3974,134 @@
         "title": "Karen Gunderson",
         "was": "2026-12-05",
         "now": "2026-12-19"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-1",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-2",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-3",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-ec6d11a65b",
+      "article_id": null,
+      "payload": {
+        "title": "Frieze London 2026 - Booth B11",
+        "closes": "2026-10-18"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-4",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-5",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-6",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-7",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-9",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-10",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-12",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "ANNOUNCED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-1ea33cd1d0",
+      "article_id": null,
+      "payload": {
+        "title": "Art is for the Spirit"
+      }
+    },
+    {
+      "id": "evt-mv8b61j7-13",
+      "ts": "2026-10-14T16:08:48.548Z",
+      "type": "ANNOUNCED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-e3219e0ae5",
+      "article_id": null,
+      "payload": {
+        "title": "Claes Oldenburg"
       }
     }
   ]
