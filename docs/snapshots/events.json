@@ -1,19 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-14T16:08:48.548Z",
+  "generated_at": "2026-10-15T15:56:23.022Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-msynuo7r-7",
-      "ts": "2026-07-17T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "miguel-abreu-gallery",
-      "exhibition_id": "ex-miguel-abreu-gallery-a52cffd506",
-      "article_id": null,
-      "payload": {
-        "title": "Regroup Show"
-      }
-    },
     {
       "id": "evt-msynuo7r-10",
       "ts": "2026-07-31T00:00:00.000Z",
@@ -4102,6 +4091,178 @@
       "article_id": null,
       "payload": {
         "title": "Claes Oldenburg"
+      }
+    },
+    {
+      "id": "evt-mv9q7qza-1",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-62b427dc7a",
+      "article_id": null,
+      "payload": {
+        "title": "Event Horizon"
+      }
+    },
+    {
+      "id": "evt-mv9q7qza-2",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mv9q7qza-3",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-4",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "entrance",
+      "exhibition_id": "ex-entrance-a9d91614cc",
+      "article_id": null,
+      "payload": {
+        "title": "Fair Hikes"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-5",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "frick-collection",
+      "exhibition_id": "ex-frick-collection-1ef2af8060",
+      "article_id": null,
+      "payload": {
+        "title": "Siena: The Art of Bronze, 1450–1500"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-6",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "ANNOUNCED",
+      "venue_id": "galerie-lelong",
+      "exhibition_id": "ex-galerie-lelong-f8df0af512",
+      "article_id": null,
+      "payload": {
+        "title": "Mildred Thompson: Cosmos Calling"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-7",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-8",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6e695cbb45",
+      "article_id": null,
+      "payload": {
+        "title": "Ryan Koopmans and Alice Wexell: The Wild Within",
+        "closes": "2026-10-22"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-9",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-10",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-11",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-13",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-14",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-16",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "OPENED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-a87be7eb77",
+      "article_id": null,
+      "payload": {
+        "title": "Miracle Paintings"
+      }
+    },
+    {
+      "id": "evt-mv9q7qzb-17",
+      "ts": "2026-10-15T15:56:23.022Z",
+      "type": "ANNOUNCED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-d92f71b569",
+      "article_id": null,
+      "payload": {
+        "title": "Grace Carney"
       }
     }
   ]
