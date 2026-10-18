@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-17T14:37:22.240Z",
+  "generated_at": "2026-10-18T15:04:26.939Z",
   "window_days": 90,
   "events": [
     {
@@ -5000,6 +5000,122 @@
       "article_id": null,
       "payload": {
         "title": "Manuel Álvarez Bravo"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-1",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-2",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-3",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "CLOSED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-ec6d11a65b",
+      "article_id": null,
+      "payload": {
+        "title": "Frieze London 2026 - Booth B11"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-4",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-5",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-6",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-7",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-9",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-10",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvdyn5j1-12",
+      "ts": "2026-10-18T15:04:26.939Z",
+      "type": "VENUE_DARK",
+      "venue_id": "canada",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "CANADA"
       }
     }
   ]
