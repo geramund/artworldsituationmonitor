@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-18T15:04:26.939Z",
+  "generated_at": "2026-10-19T17:56:00.269Z",
   "window_days": 90,
   "events": [
     {
@@ -5116,6 +5116,111 @@
       "article_id": null,
       "payload": {
         "name": "CANADA"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-1",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-2",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-3",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-4",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-5",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-6",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-8",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-9",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvfk81ut-11",
+      "ts": "2026-10-19T17:56:00.269Z",
+      "type": "CLOSED",
+      "venue_id": "whitney-museum-of-american-art",
+      "exhibition_id": "ex-whitney-museum-of-american-art-11dbff5835",
+      "article_id": null,
+      "payload": {
+        "title": "Andy Warhol Family Album"
       }
     }
   ]
