@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-19T17:56:00.269Z",
+  "generated_at": "2026-10-20T16:00:03.637Z",
   "window_days": 90,
   "events": [
     {
@@ -5221,6 +5221,133 @@
       "article_id": null,
       "payload": {
         "title": "Andy Warhol Family Album"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-1",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "OPENED",
+      "venue_id": "bric",
+      "exhibition_id": "ex-bric-430e2648e9",
+      "article_id": null,
+      "payload": {
+        "title": "From the BRIClab: Works from the 2025-26 Artist Residencies"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-2",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-3",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-4",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "CLOSED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-4c3d0d643e",
+      "article_id": null,
+      "payload": {
+        "title": "In Converstation: John Edmonds & Jessica Lynne"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-5",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-6",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "ANNOUNCED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-b874032a54",
+      "article_id": null,
+      "payload": {
+        "title": "Maison Leleu x Luhring Augustine"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-7",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-8",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-9",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-11",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvgvj101-12",
+      "ts": "2026-10-20T16:00:03.637Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
       }
     }
   ]
