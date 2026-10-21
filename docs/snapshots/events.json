@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-20T16:00:03.637Z",
+  "generated_at": "2026-10-21T16:16:59.326Z",
   "window_days": 90,
   "events": [
     {
@@ -5340,6 +5340,144 @@
     {
       "id": "evt-mvgvj101-12",
       "ts": "2026-10-20T16:00:03.637Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-1",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "ANNOUNCED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-9979d3d26b",
+      "article_id": null,
+      "payload": {
+        "title": "Invasive Thoughts (Mothers and Monsters)"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-2",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "ANNOUNCED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-16291bd3cf",
+      "article_id": null,
+      "payload": {
+        "title": "A Cathedral Inside"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-3",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-4",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-5",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "ANNOUNCED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-1e9377c42b",
+      "article_id": null,
+      "payload": {
+        "title": "Fundraiser for The John and Alice Coltrane Home"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-6",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-7",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "ANNOUNCED",
+      "venue_id": "kaje",
+      "exhibition_id": "ex-kaje-ce5db64818",
+      "article_id": null,
+      "payload": {
+        "title": "The Lazarus Layers"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-8",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-9",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-10",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-12",
+      "ts": "2026-10-21T16:16:59.326Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvibjnma-13",
+      "ts": "2026-10-21T16:16:59.326Z",
       "type": "EXTENDED",
       "venue_id": "morgan-library",
       "exhibition_id": "ex-morgan-library-24bce94381",
