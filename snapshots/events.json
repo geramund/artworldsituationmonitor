@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-21T16:16:59.326Z",
+  "generated_at": "2026-10-22T16:15:44.358Z",
   "window_days": 90,
   "events": [
     {
@@ -5486,6 +5486,179 @@
         "title": "Luminous Color",
         "was": "2026-09-13",
         "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-1",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-2",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-3",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-1e9377c42b",
+      "article_id": null,
+      "payload": {
+        "title": "Fundraiser for The John and Alice Coltrane Home",
+        "closes": "2026-10-23"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-4",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "ANNOUNCED",
+      "venue_id": "entrance",
+      "exhibition_id": "ex-entrance-05ee826a64",
+      "article_id": null,
+      "payload": {
+        "title": "Fair Hikes"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-5",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-6",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "CLOSED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6e695cbb45",
+      "article_id": null,
+      "payload": {
+        "title": "Ryan Koopmans and Alice Wexell: The Wild Within"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-7",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-8",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-9",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-11",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-12",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-14",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-0e7d5db34a",
+      "article_id": null,
+      "payload": {
+        "title": "Tuan Andrew Nguyen",
+        "count": 1
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-15",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "ANNOUNCED",
+      "venue_id": "peter-blum",
+      "exhibition_id": "ex-peter-blum-0dbf5bf27a",
+      "article_id": null,
+      "payload": {
+        "title": "Erik Lindman"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-16",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "OPENED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-b13240741b",
+      "article_id": null,
+      "payload": {
+        "title": "Karen Gunderson"
+      }
+    },
+    {
+      "id": "evt-mvjqyi2d-17",
+      "ts": "2026-10-22T16:15:44.358Z",
+      "type": "OPENED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-9746a56b3c",
+      "article_id": null,
+      "payload": {
+        "title": "Sharon Core"
       }
     }
   ]
