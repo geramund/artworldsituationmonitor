@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-22T16:15:44.358Z",
+  "generated_at": "2026-10-23T16:06:03.163Z",
   "window_days": 90,
   "events": [
     {
@@ -5659,6 +5659,156 @@
       "article_id": null,
       "payload": {
         "title": "Sharon Core"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-1",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-2",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-3",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "CLOSED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-1e9377c42b",
+      "article_id": null,
+      "payload": {
+        "title": "Fundraiser for The John and Alice Coltrane Home"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-4",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "OPENED",
+      "venue_id": "drawing-center",
+      "exhibition_id": "ex-drawing-center-f33e59ffe6",
+      "article_id": null,
+      "payload": {
+        "title": "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-5",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-6",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-7",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvl656bn-8",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvl656bo-10",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvl656bo-11",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvl656bo-13",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "nahmad-contemporary",
+      "exhibition_id": "ex-nahmad-contemporary-902f8b5cb5",
+      "article_id": null,
+      "payload": {
+        "title": "Jean Dubuffet | Figure to Ground",
+        "closes": "2026-10-25"
+      }
+    },
+    {
+      "id": "evt-mvl656bo-14",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-0e7d5db34a",
+      "article_id": null,
+      "payload": {
+        "title": "Tuan Andrew Nguyen"
+      }
+    },
+    {
+      "id": "evt-mvl656bo-15",
+      "ts": "2026-10-23T16:06:03.163Z",
+      "type": "VENUE_DARK",
+      "venue_id": "leila-heller",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Leila Heller Gallery"
       }
     }
   ]
