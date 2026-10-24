@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-23T16:06:03.163Z",
+  "generated_at": "2026-10-24T15:02:36.481Z",
   "window_days": 90,
   "events": [
     {
@@ -5809,6 +5809,640 @@
       "article_id": null,
       "payload": {
         "name": "Leila Heller Gallery"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-1",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "aca-galleries",
+      "exhibition_id": "ex-aca-galleries-b681035c92",
+      "article_id": null,
+      "payload": {
+        "title": "Kandy G Lopez"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-2",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "alexander-gray",
+      "exhibition_id": "ex-alexander-gray-92dbe84f7b",
+      "article_id": null,
+      "payload": {
+        "title": "People Make Art: A Tribute to Melvin Edwards"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-3",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "andrew-edlin",
+      "exhibition_id": "ex-andrew-edlin-d3c8685b9f",
+      "article_id": null,
+      "payload": {
+        "title": "Conduits of the Unseen: Women Artists Imagine Other Worlds",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-4",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Victor Young",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-5",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-2c31e09c2f",
+      "article_id": null,
+      "payload": {
+        "title": "Andrea Bowers",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-6",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "ANNOUNCED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-9e71000ff0",
+      "article_id": null,
+      "payload": {
+        "title": "HEITOR DOS PRAZERES"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-7",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-bf733f873a",
+      "article_id": null,
+      "payload": {
+        "title": "#35"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-8",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-6fa8e0140a",
+      "article_id": null,
+      "payload": {
+        "title": "Noces"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-9",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "broadway",
+      "exhibition_id": "ex-broadway-a54cca2332",
+      "article_id": null,
+      "payload": {
+        "title": "Claire Oswalt"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-10",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-11",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-12",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "ANNOUNCED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-2ea0dc27c2",
+      "article_id": null,
+      "payload": {
+        "title": "Evening was blue"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-13",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "ANNOUNCED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-36bd425750",
+      "article_id": null,
+      "payload": {
+        "title": "The Sword, the Horse, and the Silence"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-14",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "david-zwirner-chelsea",
+      "exhibition_id": "ex-david-zwirner-chelsea-28ca4d0c05",
+      "article_id": null,
+      "payload": {
+        "title": "Nate Lowman"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-15",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "gagosian-chelsea",
+      "exhibition_id": "ex-gagosian-chelsea-42151bda7f",
+      "article_id": null,
+      "payload": {
+        "title": "Deana Lawson"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-16",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "gagosian-chelsea",
+      "exhibition_id": "ex-gagosian-chelsea-c0d30f12fc",
+      "article_id": null,
+      "payload": {
+        "title": "Jordan Wolfson"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-17",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "galerie-buchholz",
+      "exhibition_id": "ex-galerie-buchholz-1d4c52f232",
+      "article_id": null,
+      "payload": {
+        "title": "Songs of New York",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-18",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "galerie-lelong",
+      "exhibition_id": "ex-galerie-lelong-6e42ea8140",
+      "article_id": null,
+      "payload": {
+        "title": "Alfredo Jaar: A Logo for America, 1987"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-19",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-20",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "jack-shainman",
+      "exhibition_id": "ex-jack-shainman-a64aeadfe2",
+      "article_id": null,
+      "payload": {
+        "title": "Becky Suss: Night House",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-21",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "jeffrey-deitch",
+      "exhibition_id": "ex-jeffrey-deitch-2d3d8ef71e",
+      "article_id": null,
+      "payload": {
+        "title": "Celeste Dupuy-Spencer: Burning in the Eyes of the Maker",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-22",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "jeffrey-deitch",
+      "exhibition_id": "ex-jeffrey-deitch-ca48ac27bf",
+      "article_id": null,
+      "payload": {
+        "title": "Eddie R. Aparicio: Rubberneckers",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-23",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "kaufmann-repetto",
+      "exhibition_id": "ex-kaufmann-repetto-a44455b149",
+      "article_id": null,
+      "payload": {
+        "title": "A Moonless Plateau",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-24",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6e695cbb45",
+      "article_id": null,
+      "payload": {
+        "title": "Ryan Koopmans and Alice Wexell: The Wild Within"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-25",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": "ex-lisson-chelsea-e0c52fcf01",
+      "article_id": null,
+      "payload": {
+        "title": "Unnatural Habitat"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-26",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": "ex-lisson-chelsea-22b7654d2a",
+      "article_id": null,
+      "payload": {
+        "title": "Leonilson"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-27",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-be7f737b20",
+      "article_id": null,
+      "payload": {
+        "title": "settle for a good fantasy"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-28",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "matthew-marks",
+      "exhibition_id": "ex-matthew-marks-6042a45b88",
+      "article_id": null,
+      "payload": {
+        "title": "Space Remembers"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-29",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "matthew-marks",
+      "exhibition_id": "ex-matthew-marks-7849a6fe3c",
+      "article_id": null,
+      "payload": {
+        "title": "GARY HUME"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-30",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-31",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-32",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-34",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-35",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-37",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "nara-roesler-ny",
+      "exhibition_id": "ex-nara-roesler-ny-22b8e17585",
+      "article_id": null,
+      "payload": {
+        "title": "the ultimate works"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-38",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-e9f4c1443e",
+      "article_id": null,
+      "payload": {
+        "title": "Righting"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-39",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "nicola-vassell",
+      "exhibition_id": "ex-nicola-vassell-ac3d4585c2",
+      "article_id": null,
+      "payload": {
+        "title": "Na Kim"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-40",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-cf5e53006c",
+      "article_id": null,
+      "payload": {
+        "title": "Vicky Colombet"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-41",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "norr-cohan",
+      "exhibition_id": "ex-norr-cohan-ac4650fa48",
+      "article_id": null,
+      "payload": {
+        "title": "Savdie / Soutine"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-42",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "pace-chelsea",
+      "exhibition_id": "ex-pace-chelsea-115dc9b853",
+      "article_id": null,
+      "payload": {
+        "title": "KNOTTING, TYING, FOLDING"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-43",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "pace-chelsea",
+      "exhibition_id": "ex-pace-chelsea-14ae30b0f1",
+      "article_id": null,
+      "payload": {
+        "title": "She Said She Said"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-44",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "pace-chelsea",
+      "exhibition_id": "ex-pace-chelsea-36619eeefe",
+      "article_id": null,
+      "payload": {
+        "title": "Intimate Legacy"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-45",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "pace-chelsea",
+      "exhibition_id": "ex-pace-chelsea-15fef76260",
+      "article_id": null,
+      "payload": {
+        "title": "Seeing in Blue"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-46",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "parent-company",
+      "exhibition_id": "ex-parent-company-d1a8204a25",
+      "article_id": null,
+      "payload": {
+        "title": "The Dolphin Denouement",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-47",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-fe672fe231",
+      "article_id": null,
+      "payload": {
+        "title": "Tauba Auerbach"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-48",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-1089531336",
+      "article_id": null,
+      "payload": {
+        "title": "Eric N. Mack"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-49",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "peter-blum",
+      "exhibition_id": "ex-peter-blum-c313406695",
+      "article_id": null,
+      "payload": {
+        "title": "Paul Fägerskiöld",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-50",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-ad534951fd",
+      "article_id": null,
+      "payload": {
+        "title": "Robin F. Williams"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-51",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-23264b803a",
+      "article_id": null,
+      "payload": {
+        "title": "Hew Locke"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-52",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-03fe10ada0",
+      "article_id": null,
+      "payload": {
+        "title": "Michael Wilkinson"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-53",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-b8baf6da87",
+      "article_id": null,
+      "payload": {
+        "title": "Luke Agada",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-54",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-9f379172fe",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony McCall",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-55",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-81d5fa8c40",
+      "article_id": null,
+      "payload": {
+        "title": "Works, New York, 2009-2026"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-56",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-64235dc3d2",
+      "article_id": null,
+      "payload": {
+        "title": "Words on my Mind"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-57",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "CLOSED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-3484d2b0fe",
+      "article_id": null,
+      "payload": {
+        "title": "Juliette Collet"
+      }
+    },
+    {
+      "id": "evt-mvmj8c7a-58",
+      "ts": "2026-10-24T15:02:36.481Z",
+      "type": "VENUE_DARK",
+      "venue_id": "canada",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "CANADA"
       }
     }
   ]
