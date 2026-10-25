@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-24T15:02:36.481Z",
+  "generated_at": "2026-10-25T15:13:53.618Z",
   "window_days": 90,
   "events": [
     {
@@ -6443,6 +6443,332 @@
       "article_id": null,
       "payload": {
         "name": "CANADA"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-1",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "15-orient",
+      "exhibition_id": "ex-15-orient-ca56573c23",
+      "article_id": null,
+      "payload": {
+        "title": "Paintings and Drawings (2017-2022)",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-2",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "ANNOUNCED",
+      "venue_id": "alexander-gray",
+      "exhibition_id": "ex-alexander-gray-d90ecb12b9",
+      "article_id": null,
+      "payload": {
+        "title": "Steve Locke: I said what I said"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-3",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-1e354596c0",
+      "article_id": null,
+      "payload": {
+        "title": "2026 Annual Exhibition",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-4",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-ca927b3b60",
+      "article_id": null,
+      "payload": {
+        "title": "Maki Katayama and Hikari Ono, curated by Richard Aldrich"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-5",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-6",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-7",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "culture-lab-lic",
+      "exhibition_id": "ex-culture-lab-lic-c407b789e4",
+      "article_id": null,
+      "payload": {
+        "title": "Form & Function",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-8",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "culture-lab-lic",
+      "exhibition_id": "ex-culture-lab-lic-0af13f8f6f",
+      "article_id": null,
+      "payload": {
+        "title": "The IRVA Art Collaborative Group",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-9",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-10",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "OPENED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-b874032a54",
+      "article_id": null,
+      "payload": {
+        "title": "Maison Leleu x Luhring Augustine"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-11",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "EXTENDED",
+      "venue_id": "luhring-augustine",
+      "exhibition_id": "ex-luhring-augustine-b874032a54",
+      "article_id": null,
+      "payload": {
+        "title": "Maison Leleu x Luhring Augustine",
+        "was": "2026-10-20",
+        "now": "2027-02-26"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-12",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-13",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-14",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "miguel-abreu-gallery",
+      "exhibition_id": "ex-miguel-abreu-gallery-378dc8d3a0",
+      "article_id": null,
+      "payload": {
+        "title": "Line Call",
+        "closes": "2026-10-31"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-15",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-17",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-18",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-20",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "ortega-y-gasset",
+      "exhibition_id": "ex-ortega-y-gasset-c623a8f597",
+      "article_id": null,
+      "payload": {
+        "title": "Group Exhibition The Tower",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-21",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "socrates-sculpture-park",
+      "exhibition_id": "ex-socrates-sculpture-park-25304175d0",
+      "article_id": null,
+      "payload": {
+        "title": "Homecoming: John Morse",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-22",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "tiger-strikes-asteroid",
+      "exhibition_id": "ex-tiger-strikes-asteroid-e310916eee",
+      "article_id": null,
+      "payload": {
+        "title": "Absorption",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-23",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "transmitter",
+      "exhibition_id": "ex-transmitter-db3e789dc5",
+      "article_id": null,
+      "payload": {
+        "title": "ANAHITA",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-24",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-685826fb71",
+      "article_id": null,
+      "payload": {
+        "title": "Upcoming Lifestyle",
+        "closes": "2026-11-01"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-25",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "VENUE_DARK",
+      "venue_id": "aca-galleries",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "ACA Galleries"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-26",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "VENUE_DARK",
+      "venue_id": "broadway",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Broadway Gallery"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-27",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "VENUE_DARK",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Lisson Gallery (Chelsea)"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-28",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "VENUE_DARK",
+      "venue_id": "matthew-marks",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Matthew Marks Gallery"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-29",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "VENUE_DARK",
+      "venue_id": "nicola-vassell",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Nicola Vassell Gallery"
+      }
+    },
+    {
+      "id": "evt-mvnz1bsd-30",
+      "ts": "2026-10-25T15:13:53.618Z",
+      "type": "VENUE_DARK",
+      "venue_id": "white-columns",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "White Columns"
       }
     }
   ]
