@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-25T15:13:53.618Z",
+  "generated_at": "2026-10-26T17:51:44.037Z",
   "window_days": 90,
   "events": [
     {
@@ -6769,6 +6769,122 @@
       "article_id": null,
       "payload": {
         "name": "White Columns"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-1",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-2",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-3",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-4",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "CLOSED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6e695cbb45",
+      "article_id": null,
+      "payload": {
+        "title": "Ryan Koopmans and Alice Wexell: The Wild Within"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-5",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-6",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-7",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-9",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvpk4482-10",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvpk4483-12",
+      "ts": "2026-10-26T17:51:44.037Z",
+      "type": "VENUE_DARK",
+      "venue_id": "nahmad-contemporary",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Nahmad Contemporary"
       }
     }
   ]
