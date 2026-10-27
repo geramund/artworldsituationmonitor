@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-26T17:51:44.037Z",
+  "generated_at": "2026-10-27T16:59:58.446Z",
   "window_days": 90,
   "events": [
     {
@@ -6885,6 +6885,155 @@
       "article_id": null,
       "payload": {
         "name": "Nahmad Contemporary"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-1",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "ANNOUNCED",
+      "venue_id": "aca-galleries",
+      "exhibition_id": "ex-aca-galleries-013af09912",
+      "article_id": null,
+      "payload": {
+        "title": "John Baeder"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-2",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-3",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-4",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "ANNOUNCED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-c5453f95dd",
+      "article_id": null,
+      "payload": {
+        "title": "Paintings for People"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-5",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "ANNOUNCED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-22c20e127d",
+      "article_id": null,
+      "payload": {
+        "title": "Good Light"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-6",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "ANNOUNCED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-1e9377c42b",
+      "article_id": null,
+      "payload": {
+        "title": "Fundraiser for The John and Alice Coltrane Home"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-7",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-8",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-9",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-10",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-12",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhi-13",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvqxpfhj-15",
+      "ts": "2026-10-27T16:59:58.446Z",
+      "type": "VENUE_DARK",
+      "venue_id": "leila-heller",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Leila Heller Gallery"
       }
     }
   ]
