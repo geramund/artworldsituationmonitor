@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-27T16:59:58.446Z",
+  "generated_at": "2026-10-28T17:36:49.380Z",
   "window_days": 90,
   "events": [
     {
@@ -7034,6 +7034,133 @@
       "article_id": null,
       "payload": {
         "name": "Leila Heller Gallery"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-1",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-2",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-3",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-4",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-5",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-6",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-8",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-9",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-11",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "ANNOUNCED",
+      "venue_id": "neue-galerie",
+      "exhibition_id": "ex-neue-galerie-971d94933d",
+      "article_id": null,
+      "payload": {
+        "title": "1910: Portrait of a Year"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-12",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "ANNOUNCED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-b9419ca7ec",
+      "article_id": null,
+      "payload": {
+        "title": "Marc Hundley"
+      }
+    },
+    {
+      "id": "evt-mvsegd4r-13",
+      "ts": "2026-10-28T17:36:49.380Z",
+      "type": "ANNOUNCED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-08ed831b40",
+      "article_id": null,
+      "payload": {
+        "title": "Claire Watson"
       }
     }
   ]
