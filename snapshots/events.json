@@ -1,19 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-28T17:36:49.380Z",
+  "generated_at": "2026-10-29T17:45:38.587Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-msynuo7r-10",
-      "ts": "2026-07-31T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "moma-ps1",
-      "exhibition_id": "ex-moma-ps1-1ea7c9df27",
-      "article_id": null,
-      "payload": {
-        "title": "Open Courtyard Commission: Precious Okoyomon"
-      }
-    },
     {
       "id": "evt-msynuo7r-6",
       "ts": "2026-08-08T00:00:00.000Z",
@@ -7161,6 +7150,199 @@
       "article_id": null,
       "payload": {
         "title": "Claire Watson"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-1",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "andrew-edlin",
+      "exhibition_id": "ex-andrew-edlin-18f776f1d2",
+      "article_id": null,
+      "payload": {
+        "title": "Beverly Buchanan: Ruination and Regeneration"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-2",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-3276ee219a",
+      "article_id": null,
+      "payload": {
+        "title": "As a moment and as an accumulation"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-3",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-0772246b3a",
+      "article_id": null,
+      "payload": {
+        "title": "Imaginary Engine"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-4",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-5",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-6",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "OPENED",
+      "venue_id": "galerie-lelong",
+      "exhibition_id": "ex-galerie-lelong-f8df0af512",
+      "article_id": null,
+      "payload": {
+        "title": "Mildred Thompson: Cosmos Calling"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-7",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-8",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-60aa93980b",
+      "article_id": null,
+      "payload": {
+        "title": "Jon Isherwood: Permanence in Bloom"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-9",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-10",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-11",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-13",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-14",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-16",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "neue-galerie",
+      "exhibition_id": "ex-neue-galerie-76fd928273",
+      "article_id": null,
+      "payload": {
+        "title": "Austrian Masterworks from the Neue Galerie"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-17",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nicola-vassell",
+      "exhibition_id": "ex-nicola-vassell-f6152dd948",
+      "article_id": null,
+      "payload": {
+        "title": "Pam Glick"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-18",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "OPENED",
+      "venue_id": "paula-cooper",
+      "exhibition_id": "ex-paula-cooper-1ea33cd1d0",
+      "article_id": null,
+      "payload": {
+        "title": "Art is for the Spirit"
+      }
+    },
+    {
+      "id": "evt-mvtu7x81-19",
+      "ts": "2026-10-29T17:45:38.587Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6cb3e961ac",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2026"
       }
     }
   ]
