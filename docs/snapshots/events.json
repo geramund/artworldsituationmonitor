@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-29T17:45:38.587Z",
+  "generated_at": "2026-10-30T17:26:31.107Z",
   "window_days": 90,
   "events": [
     {
@@ -7343,6 +7343,200 @@
       "article_id": null,
       "payload": {
         "title": "Paris Photo 2026"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-1",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "alexander-gray",
+      "exhibition_id": "ex-alexander-gray-d90ecb12b9",
+      "article_id": null,
+      "payload": {
+        "title": "Steve Locke: I said what I said"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-2",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "ANNOUNCED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-707e813bb4",
+      "article_id": null,
+      "payload": {
+        "title": "Material / Immaterial"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-3",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-3276ee219a",
+      "article_id": null,
+      "payload": {
+        "title": "As a moment and as an accumulation"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-4",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "bortolami",
+      "exhibition_id": "ex-bortolami-bf733f873a",
+      "article_id": null,
+      "payload": {
+        "title": "#35"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-5",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-6",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-7",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "CLOSED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-1e9377c42b",
+      "article_id": null,
+      "payload": {
+        "title": "Fundraiser for The John and Alice Coltrane Home"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-8",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-9",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "jack-shainman",
+      "exhibition_id": "ex-jack-shainman-9a76aed1b4",
+      "article_id": null,
+      "payload": {
+        "title": "Gordon Parks: Voices in the Mirror",
+        "closes": "2026-11-06"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-10",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-11",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-12",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-14",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-15",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-17",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-9e9e803c66",
+      "article_id": null,
+      "payload": {
+        "title": "The Cherry Orchard &#038; Other Plays"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-18",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "OPENED",
+      "venue_id": "ppow",
+      "exhibition_id": "ex-ppow-d92f71b569",
+      "article_id": null,
+      "payload": {
+        "title": "Grace Carney"
+      }
+    },
+    {
+      "id": "evt-mvv96lg3-19",
+      "ts": "2026-10-30T17:26:31.107Z",
+      "type": "ANNOUNCED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-8439c99d01",
+      "article_id": null,
+      "payload": {
+        "title": "Clothes, not Fashion"
       }
     }
   ]
