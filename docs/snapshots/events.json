@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-30T17:26:31.107Z",
+  "generated_at": "2026-10-31T16:29:57.276Z",
   "window_days": 90,
   "events": [
     {
@@ -7537,6 +7537,356 @@
       "article_id": null,
       "payload": {
         "title": "Clothes, not Fashion"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-1",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "47-canal",
+      "exhibition_id": "ex-47-canal-0882528bd3",
+      "article_id": null,
+      "payload": {
+        "title": "Auld Lang Syne (prelude)",
+        "closes": "2026-11-07"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-2",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "OPENED",
+      "venue_id": "aca-galleries",
+      "exhibition_id": "ex-aca-galleries-013af09912",
+      "article_id": null,
+      "payload": {
+        "title": "John Baeder"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-3",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "andrew-edlin",
+      "exhibition_id": "ex-andrew-edlin-d3c8685b9f",
+      "article_id": null,
+      "payload": {
+        "title": "Conduits of the Unseen: Women Artists Imagine Other Worlds"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-4",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
+      "article_id": null,
+      "payload": {
+        "title": "Kenneth Victor Young"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-5",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-2c31e09c2f",
+      "article_id": null,
+      "payload": {
+        "title": "Andrea Bowers"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-6",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "ANNOUNCED",
+      "venue_id": "broadway",
+      "exhibition_id": "ex-broadway-734ba96ff7",
+      "article_id": null,
+      "payload": {
+        "title": "John Riepenhoff"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-7",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-8",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-9",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "drama",
+      "exhibition_id": "ex-drama-c1bd0d298e",
+      "article_id": null,
+      "payload": {
+        "title": "Tennis Player with a Fig Leaf",
+        "closes": "2026-11-07"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-10",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "galerie-buchholz",
+      "exhibition_id": "ex-galerie-buchholz-1d4c52f232",
+      "article_id": null,
+      "payload": {
+        "title": "Songs of New York"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-11",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-12",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "jack-shainman",
+      "exhibition_id": "ex-jack-shainman-a64aeadfe2",
+      "article_id": null,
+      "payload": {
+        "title": "Becky Suss: Night House"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-13",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "jeffrey-deitch",
+      "exhibition_id": "ex-jeffrey-deitch-2d3d8ef71e",
+      "article_id": null,
+      "payload": {
+        "title": "Celeste Dupuy-Spencer: Burning in the Eyes of the Maker"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-14",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "jeffrey-deitch",
+      "exhibition_id": "ex-jeffrey-deitch-ca48ac27bf",
+      "article_id": null,
+      "payload": {
+        "title": "Eddie R. Aparicio: Rubberneckers"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-15",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "OPENED",
+      "venue_id": "kaufmann-repetto",
+      "exhibition_id": "ex-kaufmann-repetto-a44455b149",
+      "article_id": null,
+      "payload": {
+        "title": "One moment, please..."
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-16",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leila-heller",
+      "exhibition_id": "ex-leila-heller-6e695cbb45",
+      "article_id": null,
+      "payload": {
+        "title": "Ryan Koopmans and Alice Wexell: The Wild Within"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-17",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-18",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-19",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "miguel-abreu-gallery",
+      "exhibition_id": "ex-miguel-abreu-gallery-378dc8d3a0",
+      "article_id": null,
+      "payload": {
+        "title": "Line Call"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-20",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-22",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "OPENED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-23",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-25",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nara-roesler-ny",
+      "exhibition_id": "ex-nara-roesler-ny-81dadbc7fe",
+      "article_id": null,
+      "payload": {
+        "title": "window"
+      }
+    },
+    {
+      "id": "evt-mvwmf3z9-26",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nara-roesler-ny",
+      "exhibition_id": "ex-nara-roesler-ny-73d365c92e",
+      "article_id": null,
+      "payload": {
+        "title": "the other"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-27",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "pace-chelsea",
+      "exhibition_id": "ex-pace-chelsea-932814b26b",
+      "article_id": null,
+      "payload": {
+        "title": "Recent Work",
+        "closes": "2026-11-07"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-28",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "parent-company",
+      "exhibition_id": "ex-parent-company-d1a8204a25",
+      "article_id": null,
+      "payload": {
+        "title": "The Dolphin Denouement"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-29",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "peter-blum",
+      "exhibition_id": "ex-peter-blum-c313406695",
+      "article_id": null,
+      "payload": {
+        "title": "Paul Fägerskiöld"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-30",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-b8baf6da87",
+      "article_id": null,
+      "payload": {
+        "title": "Luke Agada"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-31",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "CLOSED",
+      "venue_id": "sean-kelly",
+      "exhibition_id": "ex-sean-kelly-9f379172fe",
+      "article_id": null,
+      "payload": {
+        "title": "Anthony McCall"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-32",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "OPENED",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-96e773a0de",
+      "article_id": null,
+      "payload": {
+        "title": "Zulu Padilla: Flyways"
+      }
+    },
+    {
+      "id": "evt-mvwmf3za-33",
+      "ts": "2026-10-31T16:29:57.276Z",
+      "type": "ANNOUNCED",
+      "venue_id": "white-columns",
+      "exhibition_id": "ex-white-columns-700367beac",
+      "article_id": null,
+      "payload": {
+        "title": "SHOP: Artists Who Do Shirts"
       }
     }
   ]
