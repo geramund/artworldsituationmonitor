@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-31T16:29:57.276Z",
+  "generated_at": "2026-11-02T21:01:31.341Z",
   "window_days": 90,
   "events": [
     {
@@ -7887,6 +7887,216 @@
       "article_id": null,
       "payload": {
         "title": "SHOP: Artists Who Do Shirts"
+      }
+    },
+    {
+      "id": "evt-mvzqznw1-1",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-b2f4c055cf",
+      "article_id": null,
+      "payload": {
+        "title": "Notes on Gesture",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-2",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-b28a0d69bb",
+      "article_id": null,
+      "payload": {
+        "title": "Catalyst Carrier",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-3",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-788d92eff5",
+      "article_id": null,
+      "payload": {
+        "title": "ChairBodies",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-4",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-1e354596c0",
+      "article_id": null,
+      "payload": {
+        "title": "2026 Annual Exhibition"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-5",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-6",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-7",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-8",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "ANNOUNCED",
+      "venue_id": "jack-shainman",
+      "exhibition_id": "ex-jack-shainman-8af2a6812b",
+      "article_id": null,
+      "payload": {
+        "title": "Donyel Ivy-Royal: By the time the rain comes, we will be home"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-9",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-10",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-11",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-13",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-14",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-16",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "EXTENDED",
+      "venue_id": "transmitter",
+      "exhibition_id": "ex-transmitter-db3e789dc5",
+      "article_id": null,
+      "payload": {
+        "title": "TRANSMITTER",
+        "was": "2026-11-01",
+        "now": "2026-12-13"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-17",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "VENUE_DARK",
+      "venue_id": "15-orient",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "15 Orient"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-18",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "VENUE_DARK",
+      "venue_id": "galerie-buchholz",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Galerie Buchholz"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-19",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "VENUE_DARK",
+      "venue_id": "parent-company",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Parent Company"
+      }
+    },
+    {
+      "id": "evt-mvzqznw2-20",
+      "ts": "2026-11-02T21:01:31.341Z",
+      "type": "VENUE_DARK",
+      "venue_id": "tiger-strikes-asteroid",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Tiger Strikes Asteroid (TSA New York)"
       }
     }
   ]
