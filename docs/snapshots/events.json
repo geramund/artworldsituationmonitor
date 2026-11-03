@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-02T21:01:31.341Z",
+  "generated_at": "2026-11-03T18:47:46.623Z",
   "window_days": 90,
   "events": [
     {
@@ -8097,6 +8097,146 @@
       "article_id": null,
       "payload": {
         "name": "Tiger Strikes Asteroid (TSA New York)"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-1",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "andrew-kreps",
+      "exhibition_id": "ex-andrew-kreps-9e71000ff0",
+      "article_id": null,
+      "payload": {
+        "title": "HEITOR DOS PRAZERES",
+        "count": 1
+      }
+    },
+    {
+      "id": "evt-mw11n16y-2",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-3",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-4",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "ANNOUNCED",
+      "venue_id": "entrance",
+      "exhibition_id": "ex-entrance-a72665a980",
+      "article_id": null,
+      "payload": {
+        "title": "Bathing by moonlight"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-5",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-6",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-7",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-8",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-10",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-11",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-13",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "ANNOUNCED",
+      "venue_id": "parent-company",
+      "exhibition_id": "ex-parent-company-de4f425ba3",
+      "article_id": null,
+      "payload": {
+        "title": "trinket"
+      }
+    },
+    {
+      "id": "evt-mw11n16y-14",
+      "ts": "2026-11-03T18:47:46.623Z",
+      "type": "ANNOUNCED",
+      "venue_id": "socrates-sculpture-park",
+      "exhibition_id": "ex-socrates-sculpture-park-25304175d0",
+      "article_id": null,
+      "payload": {
+        "title": "Homecoming: John Morse"
       }
     }
   ]
