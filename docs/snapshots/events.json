@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-03T18:47:46.623Z",
+  "generated_at": "2026-11-04T19:03:08.068Z",
   "window_days": 90,
   "events": [
     {
@@ -8237,6 +8237,156 @@
       "article_id": null,
       "payload": {
         "title": "Homecoming: John Morse"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-1",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "OPENED",
+      "venue_id": "broadway",
+      "exhibition_id": "ex-broadway-734ba96ff7",
+      "article_id": null,
+      "payload": {
+        "title": "John Riepenhoff"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-2",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-3",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-4",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "OPENED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-c5453f95dd",
+      "article_id": null,
+      "payload": {
+        "title": "Paintings for People"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-5",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "OPENED",
+      "venue_id": "canada",
+      "exhibition_id": "ex-canada-22c20e127d",
+      "article_id": null,
+      "payload": {
+        "title": "Good Light"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-6",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-7",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "ANNOUNCED",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": "ex-lisson-chelsea-8c169eff5b",
+      "article_id": null,
+      "payload": {
+        "title": "Myth Migration"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-8",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "ANNOUNCED",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": "ex-lisson-chelsea-6e39584052",
+      "article_id": null,
+      "payload": {
+        "title": "Field of Asura"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-9",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-10",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-11",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-13",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw2hn42y-14",
+      "ts": "2026-11-04T19:03:08.068Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
       }
     }
   ]
