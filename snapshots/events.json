@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-04T19:03:08.068Z",
+  "generated_at": "2026-11-05T19:14:14.227Z",
   "window_days": 90,
   "events": [
     {
@@ -8387,6 +8387,338 @@
         "title": "Luminous Color",
         "was": "2026-09-13",
         "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-1",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-2",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-3",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-2ea0dc27c2",
+      "article_id": null,
+      "payload": {
+        "title": "Evening was blue "
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-4",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-2ea0dc27c2",
+      "article_id": null,
+      "payload": {
+        "title": "Evening was blue ",
+        "count": 1
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-5",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-2ea0dc27c2",
+      "article_id": null,
+      "payload": {
+        "title": "Evening was blue "
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-6",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-36bd425750",
+      "article_id": null,
+      "payload": {
+        "title": "The Sword, the Horse, and the Silence"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-7",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "DOCUMENTATION_POSTED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-36bd425750",
+      "article_id": null,
+      "payload": {
+        "title": "The Sword, the Horse, and the Silence",
+        "count": 1
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-8",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "company-gallery",
+      "exhibition_id": "ex-company-gallery-36bd425750",
+      "article_id": null,
+      "payload": {
+        "title": "The Sword, the Horse, and the Silence"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-9",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "culture-lab-lic",
+      "exhibition_id": "ex-culture-lab-lic-a5b25cf433",
+      "article_id": null,
+      "payload": {
+        "title": "Open Call"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-10",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "david-zwirner-chelsea",
+      "exhibition_id": "ex-david-zwirner-chelsea-bb53c32d93",
+      "article_id": null,
+      "payload": {
+        "title": "Yoshitomo Nara"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-11",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-12",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "jack-shainman",
+      "exhibition_id": "ex-jack-shainman-8af2a6812b",
+      "article_id": null,
+      "payload": {
+        "title": "Donyel Ivy-Royal: By the time the rain comes, we will be home"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-13",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "EXTENDED",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": "ex-lisson-chelsea-8c169eff5b",
+      "article_id": null,
+      "payload": {
+        "title": "Myth Migration",
+        "was": "2027-01-09",
+        "now": "2027-01-23"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-14",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "EXTENDED",
+      "venue_id": "lisson-chelsea",
+      "exhibition_id": "ex-lisson-chelsea-6e39584052",
+      "article_id": null,
+      "payload": {
+        "title": "Field of Asura",
+        "was": "2027-01-09",
+        "now": "2027-01-23"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-15",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "ANNOUNCED",
+      "venue_id": "matthew-marks",
+      "exhibition_id": "ex-matthew-marks-d27e3f5bf9",
+      "article_id": null,
+      "payload": {
+        "title": "Sculpture"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-16",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "ANNOUNCED",
+      "venue_id": "matthew-marks",
+      "exhibition_id": "ex-matthew-marks-4953ef333c",
+      "article_id": null,
+      "payload": {
+        "title": "101 DRAWINGS"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-17",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "ANNOUNCED",
+      "venue_id": "matthew-marks",
+      "exhibition_id": "ex-matthew-marks-fefe656fbb",
+      "article_id": null,
+      "payload": {
+        "title": "Recent Drawings"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-18",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-19",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-20",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "moma-ps1",
+      "exhibition_id": "ex-moma-ps1-8c64b21d6d",
+      "article_id": null,
+      "payload": {
+        "title": "Hard Art"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-21",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-23",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "closes": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-24",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sx-26",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "nara-roesler-ny",
+      "exhibition_id": "ex-nara-roesler-ny-73d365c92e",
+      "article_id": null,
+      "payload": {
+        "title": "the other"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sy-27",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-2e121a7319",
+      "article_id": null,
+      "payload": {
+        "title": "Blue State"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sy-28",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-9b2926f69a",
+      "article_id": null,
+      "payload": {
+        "title": "I Can Hear the Grass Grow"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sy-29",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "nicola-vassell",
+      "exhibition_id": "ex-nicola-vassell-f6152dd948",
+      "article_id": null,
+      "payload": {
+        "title": "Pam Glick"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sy-30",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "parent-company",
+      "exhibition_id": "ex-parent-company-de4f425ba3",
+      "article_id": null,
+      "payload": {
+        "title": "trinket"
+      }
+    },
+    {
+      "id": "evt-mw3xj1sy-31",
+      "ts": "2026-11-05T19:14:14.227Z",
+      "type": "OPENED",
+      "venue_id": "peter-blum",
+      "exhibition_id": "ex-peter-blum-0dbf5bf27a",
+      "article_id": null,
+      "payload": {
+        "title": "Erik Lindman"
       }
     }
   ]
