@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-07T17:10:04.854Z",
+  "generated_at": "2026-11-08T17:23:07.235Z",
   "window_days": 90,
   "events": [
     {
@@ -9104,6 +9104,191 @@
       "article_id": null,
       "payload": {
         "title": "SHOP: Artists Who Do Shirts"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-1",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-b2f4c055cf",
+      "article_id": null,
+      "payload": {
+        "title": "Notes on Gesture"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-2",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-b28a0d69bb",
+      "article_id": null,
+      "payload": {
+        "title": "Catalyst Carrier"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-3",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSED",
+      "venue_id": "air-gallery",
+      "exhibition_id": "ex-air-gallery-788d92eff5",
+      "article_id": null,
+      "payload": {
+        "title": "ChairBodies"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-4",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-62b427dc7a",
+      "article_id": null,
+      "payload": {
+        "title": "Event Horizon",
+        "closes": "2026-11-15"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-5",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-6",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-7",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-8",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "leslie-lohman",
+      "exhibition_id": "ex-leslie-lohman-612899c0cf",
+      "article_id": null,
+      "payload": {
+        "title": "Soft Spaces: Heather Marie Scholl and Eva Wu",
+        "closes": "2026-11-15"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-9",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-10",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-11",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mw83tqic-13",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw83tqid-15",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "socrates-sculpture-park",
+      "exhibition_id": "ex-socrates-sculpture-park-2ec57e679c",
+      "article_id": null,
+      "payload": {
+        "title": "Ecologies of Care",
+        "closes": "2026-11-15"
+      }
+    },
+    {
+      "id": "evt-mw83tqid-16",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "OPENED",
+      "venue_id": "transmitter",
+      "exhibition_id": "ex-transmitter-db3e789dc5",
+      "article_id": null,
+      "payload": {
+        "title": "TRANSMITTER"
+      }
+    },
+    {
+      "id": "evt-mw83tqid-17",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "VENUE_DARK",
+      "venue_id": "47-canal",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "47 Canal"
+      }
+    },
+    {
+      "id": "evt-mw83tqid-18",
+      "ts": "2026-11-08T17:23:07.235Z",
+      "type": "VENUE_DARK",
+      "venue_id": "drama",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Drama"
       }
     }
   ]
