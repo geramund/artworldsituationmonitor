@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-08T17:23:07.235Z",
+  "generated_at": "2026-11-09T21:44:40.843Z",
   "window_days": 90,
   "events": [
     {
@@ -9289,6 +9289,122 @@
       "article_id": null,
       "payload": {
         "name": "Drama"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-1",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "ANNOUNCED",
+      "venue_id": "47-canal",
+      "exhibition_id": "ex-47-canal-91059b8eef",
+      "article_id": null,
+      "payload": {
+        "title": "In Beauty It Was Begun"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-2",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-3",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-4",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "ANNOUNCED",
+      "venue_id": "guggenheim",
+      "exhibition_id": "ex-guggenheim-caf86b4831",
+      "article_id": null,
+      "payload": {
+        "title": "I dream in another language | Do Ho Suh"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-5",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-6",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-7",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-8",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-10",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mw9slml5-12",
+      "ts": "2026-11-09T21:44:40.843Z",
+      "type": "ANNOUNCED",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-4e512fa5c6",
+      "article_id": null,
+      "payload": {
+        "title": "Winter wUnderdonk"
       }
     }
   ]
