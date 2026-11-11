@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-10T19:02:23.632Z",
+  "generated_at": "2026-11-11T18:59:24.694Z",
   "window_days": 90,
   "events": [
     {
@@ -9521,6 +9521,112 @@
         "title": "Luminous Color",
         "was": "2026-09-13",
         "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-1",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-2",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-3",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-4",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-5",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-6",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-8",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-10",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "ANNOUNCED",
+      "venue_id": "tiger-strikes-asteroid",
+      "exhibition_id": "ex-tiger-strikes-asteroid-df17728c29",
+      "article_id": null,
+      "payload": {
+        "title": "End-of-year Fundraiser"
+      }
+    },
+    {
+      "id": "evt-mwchkzzy-11",
+      "ts": "2026-11-11T18:59:24.694Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6cb3e961ac",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2026",
+        "closes": "2026-11-15"
       }
     }
   ]
