@@ -1,30 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-11T18:59:24.694Z",
+  "generated_at": "2026-11-12T19:18:12.377Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-msynuo7r-5",
-      "ts": "2026-08-14T00:00:00.000Z",
-      "type": "OPENED",
-      "venue_id": "james-fuentes",
-      "exhibition_id": "ex-james-fuentes-bad977e4da",
-      "article_id": null,
-      "payload": {
-        "title": "Somehow Desire"
-      }
-    },
-    {
-      "id": "evt-msynuo7r-14",
-      "ts": "2026-08-14T00:00:00.000Z",
-      "type": "CLOSED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-a3d201825d",
-      "article_id": null,
-      "payload": {
-        "title": "Invincible Summer"
-      }
-    },
     {
       "id": "evt-msynuo7r-9",
       "ts": "2026-08-17T00:00:00.000Z",
@@ -9627,6 +9605,111 @@
       "payload": {
         "title": "Paris Photo 2026",
         "closes": "2026-11-15"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-1",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-2",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-3",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-4",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-5",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-6",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-8",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-10",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "OPENED",
+      "venue_id": "neue-galerie",
+      "exhibition_id": "ex-neue-galerie-21119a502a",
+      "article_id": null,
+      "payload": {
+        "title": "25th Anniversary Exhibition"
+      }
+    },
+    {
+      "id": "evt-mwdxrj5j-11",
+      "ts": "2026-11-12T19:18:12.377Z",
+      "type": "OPENED",
+      "venue_id": "noguchi-museum",
+      "exhibition_id": "ex-noguchi-museum-4cbfe07cd4",
+      "article_id": null,
+      "payload": {
+        "title": "No Ordinary Light: Akari at 75"
       }
     }
   ]
