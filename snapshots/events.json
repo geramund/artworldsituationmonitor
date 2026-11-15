@@ -1,31 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-14T17:27:58.375Z",
+  "generated_at": "2026-11-15T18:10:35.131Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-msynuo7r-9",
-      "ts": "2026-08-17T00:00:00.000Z",
-      "type": "CLOSED",
-      "venue_id": "moma-ps1",
-      "exhibition_id": "ex-moma-ps1-0692e4b302",
-      "article_id": null,
-      "payload": {
-        "title": "Greater New York 2026"
-      }
-    },
-    {
-      "id": "evt-msynuo7r-11",
-      "ts": "2026-08-17T00:00:00Z",
-      "type": "ANNOUNCED",
-      "venue_id": "moma-ps1",
-      "exhibition_id": "ex-moma-ps1-8c64b21d6d",
-      "article_id": null,
-      "payload": {
-        "title": "Hard Art",
-        "opens": "2026-11-05"
-      }
-    },
     {
       "id": "evt-msynuo7r-19",
       "ts": "2026-08-18T12:50:23.797Z",
@@ -9928,6 +9905,145 @@
       "article_id": null,
       "payload": {
         "title": "The Surrealist Years"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-1",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-62b427dc7a",
+      "article_id": null,
+      "payload": {
+        "title": "Event Horizon"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-2",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-3",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-4",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-5",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSED",
+      "venue_id": "leslie-lohman",
+      "exhibition_id": "ex-leslie-lohman-612899c0cf",
+      "article_id": null,
+      "payload": {
+        "title": "Soft Spaces: Heather Marie Scholl and Eva Wu"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-6",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-7",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-8",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-10",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-12",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "pioneer-works",
+      "exhibition_id": "ex-pioneer-works-453023beed",
+      "article_id": null,
+      "payload": {
+        "title": "Siphon",
+        "closes": "2026-11-22"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-13",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSED",
+      "venue_id": "socrates-sculpture-park",
+      "exhibition_id": "ex-socrates-sculpture-park-2ec57e679c",
+      "article_id": null,
+      "payload": {
+        "title": "Ecologies of Care"
+      }
+    },
+    {
+      "id": "evt-mwi5krn3-14",
+      "ts": "2026-11-15T18:10:35.131Z",
+      "type": "CLOSED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-6cb3e961ac",
+      "article_id": null,
+      "payload": {
+        "title": "Paris Photo 2026"
       }
     }
   ]
