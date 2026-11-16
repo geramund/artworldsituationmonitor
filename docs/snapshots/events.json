@@ -1,543 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-15T18:10:35.131Z",
+  "generated_at": "2026-11-16T21:25:15.643Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-msynuo7r-19",
-      "ts": "2026-08-18T12:50:23.797Z",
-      "type": "CLOSING_SOON",
-      "venue_id": "whitney-museum-of-american-art",
-      "exhibition_id": "ex-whitney-museum-of-american-art-b40b36af78",
-      "article_id": null,
-      "payload": {
-        "title": "Whitney Biennial 2026",
-        "closes": "2026-08-23"
-      }
-    },
-    {
-      "id": "evt-msynuo7r-22",
-      "ts": "2026-08-18T12:50:23.797Z",
-      "type": "CLOSING_SOON",
-      "venue_id": "whitney-museum-of-american-art",
-      "exhibition_id": "ex-whitney-museum-of-american-art-78a5355e6d",
-      "article_id": null,
-      "payload": {
-        "title": "Hyundai Terrace Commission: Kelly Akashi",
-        "closes": "2026-08-23"
-      }
-    },
-    {
-      "id": "evt-msyqvuzt-1",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "andrew-edlin",
-      "exhibition_id": "ex-andrew-edlin-d3c8685b9f",
-      "article_id": null,
-      "payload": {
-        "title": "Conduits of the Unseen: Women Artists Imagine Other Worlds"
-      }
-    },
-    {
-      "id": "evt-msyqvuzt-2",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "andrew-kreps",
-      "exhibition_id": "ex-andrew-kreps-066d1920d5",
-      "article_id": null,
-      "payload": {
-        "title": "THE CAMPUS"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-3",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "DOCUMENTATION_POSTED",
-      "venue_id": "andrew-kreps",
-      "exhibition_id": "ex-andrew-kreps-cae2bae414",
-      "article_id": null,
-      "payload": {
-        "title": "SEE YOU TOMORROW UNDER OTHER SKIES",
-        "count": 6
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-4",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "andrew-kreps",
-      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
-      "article_id": null,
-      "payload": {
-        "title": "Kenneth Victor Young"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-5",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "bortolami",
-      "exhibition_id": "ex-bortolami-755c0762b7",
-      "article_id": null,
-      "payload": {
-        "title": "Christine Safa"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-6",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "bortolami",
-      "exhibition_id": "ex-bortolami-44407722ce",
-      "article_id": null,
-      "payload": {
-        "title": "Daniel Buren & Barbara Kasten"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-7",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "bortolami",
-      "exhibition_id": "ex-bortolami-ab6afc9746",
-      "article_id": null,
-      "payload": {
-        "title": "Yuan Yuan"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-8",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "bortolami",
-      "exhibition_id": "ex-bortolami-ee531ec34f",
-      "article_id": null,
-      "payload": {
-        "title": "THE CAMPUS: 2026 Annual Exhibition"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-9",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "kaufmann-repetto",
-      "exhibition_id": "ex-kaufmann-repetto-a44455b149",
-      "article_id": null,
-      "payload": {
-        "title": "Look into our current and upcoming exhibitions &bull; kaufmann repetto"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-10",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-2e121a7319",
-      "article_id": null,
-      "payload": {
-        "title": "Blue State"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-11",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-9b2926f69a",
-      "article_id": null,
-      "payload": {
-        "title": "I Can Hear the Grass Grow"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-12",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-e1b818cbd3",
-      "article_id": null,
-      "payload": {
-        "title": "Fooling Linnaeus"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-13",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-d5e39da256",
-      "article_id": null,
-      "payload": {
-        "title": "Leech"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-14",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "nicelle-beauchene",
-      "exhibition_id": "ex-nicelle-beauchene-ed605a527f",
-      "article_id": null,
-      "payload": {
-        "title": "Galesburg"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-15",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "norr-cohan",
-      "exhibition_id": "ex-norr-cohan-ac4650fa48",
-      "article_id": null,
-      "payload": {
-        "title": "Savdie / Soutine"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-16",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "norr-cohan",
-      "exhibition_id": "ex-norr-cohan-cf5e53006c",
-      "article_id": null,
-      "payload": {
-        "title": "Vicky Colombet"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-17",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "DOCUMENTATION_POSTED",
-      "venue_id": "storefront-for-art-and-architecture",
-      "exhibition_id": "ex-storefront-for-art-and-architecture-6f21dbee7e",
-      "article_id": null,
-      "payload": {
-        "title": "归舟: Longings, Returns by Sim Chi Yin",
-        "count": 6
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-18",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "storefront-for-art-and-architecture",
-      "exhibition_id": "ex-storefront-for-art-and-architecture-04c1687e4f",
-      "article_id": null,
-      "payload": {
-        "title": "Black Fire! by Thandi Loewenson"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-19",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "storefront-for-art-and-architecture",
-      "exhibition_id": "ex-storefront-for-art-and-architecture-4860224175",
-      "article_id": null,
-      "payload": {
-        "title": "Perforation, Ellipse by Alison Nguyen"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-20",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "storefront-for-art-and-architecture",
-      "exhibition_id": "ex-storefront-for-art-and-architecture-90f1a9b8fe",
-      "article_id": null,
-      "payload": {
-        "title": "Public Address by Alex Strada"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-21",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "storefront-for-art-and-architecture",
-      "exhibition_id": "ex-storefront-for-art-and-architecture-bc08e95a1d",
-      "article_id": null,
-      "payload": {
-        "title": "Território vivo by Sertão Negro"
-      }
-    },
-    {
-      "id": "evt-msyqvuzu-22",
-      "ts": "2026-08-18T14:14:46.775Z",
-      "type": "ANNOUNCED",
-      "venue_id": "storefront-for-art-and-architecture",
-      "exhibition_id": "ex-storefront-for-art-and-architecture-0a8a6caa11",
-      "article_id": null,
-      "payload": {
-        "title": "Na floresta à noite (In the Forest of the Night) by Denilson Baniwa"
-      }
-    },
-    {
-      "id": "evt-msyztqqk-1",
-      "ts": "2026-08-18T18:24:52.709Z",
-      "type": "CLOSED",
-      "venue_id": "kaufmann-repetto",
-      "exhibition_id": "ex-kaufmann-repetto-a44455b149",
-      "article_id": null,
-      "payload": {
-        "title": "Male Art Exhibition, Great Show!"
-      }
-    },
-    {
-      "id": "evt-msz0jo4a-1",
-      "ts": "2026-08-18T18:45:00.742Z",
-      "type": "ANNOUNCED",
-      "venue_id": "fierman",
-      "exhibition_id": "ex-fierman-5b9cddf3d7",
-      "article_id": null,
-      "payload": {
-        "title": "TEN YEARS OF FIERMAN"
-      }
-    },
-    {
-      "id": "evt-msz0jo4a-2",
-      "ts": "2026-08-18T18:45:00.742Z",
-      "type": "ANNOUNCED",
-      "venue_id": "situations",
-      "exhibition_id": "ex-situations-bc19343885",
-      "article_id": null,
-      "payload": {
-        "title": "MASAMITSU SHIGETA"
-      }
-    },
-    {
-      "id": "evt-msz1moyb-1",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "PRESS_RELEASE_POSTED",
-      "venue_id": "andrew-kreps",
-      "exhibition_id": "ex-andrew-kreps-d9a0898da2",
-      "article_id": null,
-      "payload": {
-        "title": "Kenneth Victor Young"
-      }
-    },
-    {
-      "id": "evt-msz1moyb-2",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "ANNOUNCED",
-      "venue_id": "miguel-abreu-gallery",
-      "exhibition_id": "ex-miguel-abreu-gallery-0f56f77095",
-      "article_id": null,
-      "payload": {
-        "title": "Regroup Show"
-      }
-    },
-    {
-      "id": "evt-msz1moyb-3",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "EXTENDED",
-      "venue_id": "new-museum",
-      "exhibition_id": "ex-new-museum-8abb5d5517",
-      "article_id": null,
-      "payload": {
-        "title": "New Humans: Memories of the Future",
-        "was": "2026-08-30",
-        "now": "2026-08-31"
-      }
-    },
-    {
-      "id": "evt-msz1moyb-4",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "DOCUMENTATION_POSTED",
-      "venue_id": "new-museum",
-      "exhibition_id": "ex-new-museum-8abb5d5517",
-      "article_id": null,
-      "payload": {
-        "title": "New Humans: Memories of the Future",
-        "count": 1
-      }
-    },
-    {
-      "id": "evt-msz1moyb-5",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "ANNOUNCED",
-      "venue_id": "new-museum",
-      "exhibition_id": "ex-new-museum-50fd4d045d",
-      "article_id": null,
-      "payload": {
-        "title": "Plaza: Sarah Lucas—VENUS VICTORIA"
-      }
-    },
-    {
-      "id": "evt-msz1moyb-6",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "ANNOUNCED",
-      "venue_id": "new-museum",
-      "exhibition_id": "ex-new-museum-44c0bf50f1",
-      "article_id": null,
-      "payload": {
-        "title": "Facade: Tschabalala Self—Art Lovers"
-      }
-    },
-    {
-      "id": "evt-msz1moyb-7",
-      "ts": "2026-08-18T19:15:25.585Z",
-      "type": "ANNOUNCED",
-      "venue_id": "new-museum",
-      "exhibition_id": "ex-new-museum-541d431df1",
-      "article_id": null,
-      "payload": {
-        "title": "Atrium Stair: Klára Hosnedlová—Shelter"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-1",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "leila-heller",
-      "exhibition_id": "ex-leila-heller-350dcec99b",
-      "article_id": null,
-      "payload": {
-        "title": "Summer Group Show: Between Memory and Imagination"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-2",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "leila-heller",
-      "exhibition_id": "ex-leila-heller-d52254d623",
-      "article_id": null,
-      "payload": {
-        "title": "Art & Design Show: Spectra"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-3",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "leila-heller",
-      "exhibition_id": "ex-leila-heller-9cc16a4e2e",
-      "article_id": null,
-      "payload": {
-        "title": "Kevork Mourad: The Echoes of Silent Bells"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-4",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "leila-heller",
-      "exhibition_id": "ex-leila-heller-591de827db",
-      "article_id": null,
-      "payload": {
-        "title": "Sultan Bin Fahad: Blue Note"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-240",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "luhring-augustine",
-      "exhibition_id": "ex-luhring-augustine-be7f737b20",
-      "article_id": null,
-      "payload": {
-        "title": "settle for a good fantasy"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-241",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "paula-cooper",
-      "exhibition_id": "ex-paula-cooper-9493b51f93",
-      "article_id": null,
-      "payload": {
-        "title": "Liz Glynn"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-242",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "paula-cooper",
-      "exhibition_id": "ex-paula-cooper-6238ae6642",
-      "article_id": null,
-      "payload": {
-        "title": "WOODS LANDS MEADOWS"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-243",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "paula-cooper",
-      "exhibition_id": "ex-paula-cooper-1089531336",
-      "article_id": null,
-      "payload": {
-        "title": "Eric N. Mack"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-244",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "paula-cooper",
-      "exhibition_id": "ex-paula-cooper-fe672fe231",
-      "article_id": null,
-      "payload": {
-        "title": "Tauba Auerbach"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-245",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "peter-blum",
-      "exhibition_id": "ex-peter-blum-c313406695",
-      "article_id": null,
-      "payload": {
-        "title": "Paul Fägerskiöld"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-246",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "sean-kelly",
-      "exhibition_id": "ex-sean-kelly-9f379172fe",
-      "article_id": null,
-      "payload": {
-        "title": "Anthony McCall"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-247",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "sean-kelly",
-      "exhibition_id": "ex-sean-kelly-b8baf6da87",
-      "article_id": null,
-      "payload": {
-        "title": "Luke Agada"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-248",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "yancey-richardson",
-      "exhibition_id": "ex-yancey-richardson-95df90a05f",
-      "article_id": null,
-      "payload": {
-        "title": "Yale MFA Photography 2026 Thesis Show"
-      }
-    },
-    {
-      "id": "evt-msz6emhp-249",
-      "ts": "2026-08-18T21:16:19.687Z",
-      "type": "ANNOUNCED",
-      "venue_id": "yancey-richardson",
-      "exhibition_id": "ex-yancey-richardson-1747f58d20",
-      "article_id": null,
-      "payload": {
-        "title": "Tania Franco Klein"
-      }
-    },
     {
       "id": "evt-mt06qm0b-1",
       "ts": "2026-08-19T14:24:57.911Z",
@@ -10044,6 +9509,134 @@
       "article_id": null,
       "payload": {
         "title": "Paris Photo 2026"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsl-1",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "ANNOUNCED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-b8197a498c",
+      "article_id": null,
+      "payload": {
+        "title": "Material / Immaterial"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsl-2",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "ANNOUNCED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-ac9d82076c",
+      "article_id": null,
+      "payload": {
+        "title": "UPCOMING:"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsl-3",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsl-4",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-5",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-6",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-7",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-8",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-10",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-12",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "OPENED",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-4e512fa5c6",
+      "article_id": null,
+      "payload": {
+        "title": "Winter wUnderdonk"
+      }
+    },
+    {
+      "id": "evt-mwjrzhsm-13",
+      "ts": "2026-11-16T21:25:15.643Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-96e773a0de",
+      "article_id": null,
+      "payload": {
+        "title": "Zulu Padilla: Flyways",
+        "closes": "2026-11-23"
       }
     }
   ]
