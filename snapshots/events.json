@@ -1,19 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-16T21:25:15.643Z",
+  "generated_at": "2026-11-17T20:13:10.023Z",
   "window_days": 90,
   "events": [
-    {
-      "id": "evt-mt06qm0b-1",
-      "ts": "2026-08-19T14:24:57.911Z",
-      "type": "ANNOUNCED",
-      "venue_id": "nahmad-contemporary",
-      "exhibition_id": "ex-nahmad-contemporary-85c7f48ac5",
-      "article_id": null,
-      "payload": {
-        "title": "Lucio Fontana"
-      }
-    },
     {
       "id": "evt-muy654ul-1",
       "ts": "2026-10-07T13:51:42.806Z",
@@ -9637,6 +9626,111 @@
       "payload": {
         "title": "Zulu Padilla: Flyways",
         "closes": "2026-11-23"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-1",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "ANNOUNCED",
+      "venue_id": "amos-eno",
+      "exhibition_id": "ex-amos-eno-8b373c182c",
+      "article_id": null,
+      "payload": {
+        "title": "Systems of Being"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-2",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-3",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-4",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-5",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-6",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-7",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-9",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwl4vwde-11",
+      "ts": "2026-11-17T20:13:10.023Z",
+      "type": "ANNOUNCED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-e9753e2a12",
+      "article_id": null,
+      "payload": {
+        "title": "Korakrit Arunanondchai: The movie inside you has no end"
       }
     }
   ]
