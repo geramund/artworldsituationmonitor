@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-18T19:44:17.879Z",
+  "generated_at": "2026-11-19T19:44:35.732Z",
   "window_days": 90,
   "events": [
     {
@@ -9903,6 +9903,144 @@
       "payload": {
         "title": "Homecoming: John Morse",
         "closes": "2026-11-25"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-1",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "OPENED",
+      "venue_id": "47-canal",
+      "exhibition_id": "ex-47-canal-91059b8eef",
+      "article_id": null,
+      "payload": {
+        "title": "In Beauty It Was Begun"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-2",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-3",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-4",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "ANNOUNCED",
+      "venue_id": "entrance",
+      "exhibition_id": "ex-entrance-8eef2ef323",
+      "article_id": null,
+      "payload": {
+        "title": "Bathing by moonlight"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-5",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-6",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "ANNOUNCED",
+      "venue_id": "leslie-lohman",
+      "exhibition_id": "ex-leslie-lohman-62834cfa5a",
+      "article_id": null,
+      "payload": {
+        "title": "Soft Spaces: Sean Desiree and Shikeith"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-7",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-8",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-9",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-11",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-13",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "OPENED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-9e9e803c66",
+      "article_id": null,
+      "payload": {
+        "title": "The Cherry Orchard &#038; Other Plays"
+      }
+    },
+    {
+      "id": "evt-mwnyp9kw-14",
+      "ts": "2026-11-19T19:44:35.732Z",
+      "type": "ANNOUNCED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8cf172b540",
+      "article_id": null,
+      "payload": {
+        "title": "Art Basel Miami Beach 2026"
       }
     }
   ]
