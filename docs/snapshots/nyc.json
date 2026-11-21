@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-20T19:25:08.818Z",
+  "generated_at": "2026-11-21T18:27:24.118Z",
   "city": "nyc",
   "coverage": {
-    "live": 100,
-    "stale": 9,
+    "live": 99,
+    "stale": 8,
     "dark": 40,
     "blocked": 0,
     "no_adapter": 0
@@ -41,8 +41,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -81,8 +81,8 @@
       "cadence": "weekly",
       "hours": "By appointment during the move; TBD once Chelsea space opens",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -114,8 +114,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6 (per David Zwirner house hours; this location showed as closed with no current show on 2026-08-17)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -147,8 +147,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -180,8 +180,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -222,8 +222,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -255,8 +255,8 @@
       "cadence": "weekly",
       "hours": "unknown (gallery closed)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -288,8 +288,8 @@
       "cadence": "weekly",
       "hours": "Tue–Fri 10:30–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -333,8 +333,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -366,8 +366,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -405,8 +405,8 @@
       "cadence": "weekly",
       "hours": "not published on site as of 2026-08-17; call ahead (212-741-8849)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -438,8 +438,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -471,8 +471,8 @@
       "cadence": "daily",
       "hours": "Wed–Sat 12–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -504,8 +504,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -537,8 +537,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -576,8 +576,8 @@
       "cadence": "weekly",
       "hours": "Thu–Sun, 11am–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -627,8 +627,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6 & by appointment",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -668,10 +668,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-11-02T21:01:31.341Z",
         "record_count": 2,
-        "consecutive_failures": 16,
+        "consecutive_failures": 17,
         "status": "stale"
       },
       "notes": "Joined NYC's Cultural Institutions Group Sept 2025.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): wordpress — wp-content path in HTML, /wp-json/ unreachable.\n\nAdapter (2026-10-07): manual -> html. WordPress theme cards on /exhibitions, dates as MM.DD.YY ranges."
@@ -701,8 +701,8 @@
       "cadence": "weekly",
       "hours": "Closed for summer vacation (reopens September); normally Tue–Sat",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -734,8 +734,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 11–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -767,8 +767,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sun 11am–6pm (Thu until 10pm), closed Mon–Tue; first Saturday of the month 11am–11pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -800,8 +800,8 @@
       "cadence": "weekly",
       "hours": "By appointment only (per site, 2026-08-17)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -839,8 +839,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -872,8 +872,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 11–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -916,11 +916,11 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-10-31T16:29:57.276Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
-        "consecutive_failures": 17,
-        "status": "stale"
+        "consecutive_failures": 0,
+        "status": "ok"
       },
       "notes": "Community gallery + event/production space.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nAdapter (2026-10-07): manual -> html. C:/Program Files/Git/galleryshows cards carry only an opening date (detail pages too), so shows count as on view for 30 days after opening."
     },
@@ -955,8 +955,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 12–5pm (summer hours)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -996,8 +996,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1037,10 +1037,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-11-17T20:13:10.023Z",
         "record_count": 1,
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "status": "stale"
       },
       "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sanity — cdn.sanity.io reference in HTML.\n\nAdapter (2026-10-07): manual -> jsonld. schema.org ExhibitionEvent JSON-LD on /exhibitions, filtered to the 19th/20th Street spaces (Tribeca = 52 Walker, a separate venue)."
@@ -1070,8 +1070,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 12–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1103,8 +1103,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sat 12–6pm, closed Sun–Tue",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1140,8 +1140,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1180,10 +1180,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-11-03T18:47:46.623Z",
         "record_count": 1,
-        "consecutive_failures": 15,
+        "consecutive_failures": 16,
         "status": "stale"
       },
       "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): sitemap — no known platform signature matched.\n\nAdapter (2026-10-07): manual -> html. Nuxt site, server-rendered /exhibitions: one section.exhibit_module per show, <time> range in h3."
@@ -1209,8 +1209,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1253,8 +1253,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1275,8 +1275,8 @@
       "cadence": "weekly",
       "hours": "",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1321,8 +1321,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1358,8 +1358,8 @@
       "cadence": "daily",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1391,8 +1391,8 @@
       "cadence": "weekly",
       "hours": "N/A — gallery program ended",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1424,8 +1424,8 @@
       "cadence": "weekly",
       "hours": "Mon, Wed–Sun 10:30am–5:30pm, closed Tue",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1457,8 +1457,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1502,8 +1502,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat, 10am–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1542,8 +1542,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1575,10 +1575,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-11-11T18:59:24.694Z",
         "record_count": 4,
-        "consecutive_failures": 8,
+        "consecutive_failures": 9,
         "status": "stale"
       },
       "notes": "Added 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
@@ -1604,8 +1604,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — by appointment, verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1642,8 +1642,8 @@
       "cadence": "weekly",
       "hours": "Daily 10:30am–5:30pm; pay-what-you-wish Mon & Sat 4–5:30pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1675,8 +1675,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1708,8 +1708,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1741,8 +1741,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 11–6 (summer hours: Mon–Fri 11–6)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1774,8 +1774,8 @@
       "cadence": "weekly",
       "hours": "Mon, Wed, Fri–Sun 10:30am–6:30pm; Thu 10:30am–8pm; closed Tue",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1817,8 +1817,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1850,8 +1850,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10am–6pm (hours not fully confirmed from site)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1887,8 +1887,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1926,8 +1926,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -1959,8 +1959,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sat 12–6pm & by appointment",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2003,8 +2003,8 @@
       "cadence": "weekly",
       "hours": "Sat–Sun, 12–6pm, and by appointment",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2036,8 +2036,8 @@
       "cadence": "weekly",
       "hours": "unknown; not listed on exhibitions page",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2079,8 +2079,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2119,8 +2119,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat, 12–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2158,8 +2158,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2199,8 +2199,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2241,8 +2241,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2274,8 +2274,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2317,8 +2317,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2350,8 +2350,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2395,8 +2395,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2428,8 +2428,8 @@
       "cadence": "weekly",
       "hours": "Sun–Tue 10am–5pm, Wed closed, Thu 10am–5pm, Fri–Sat 10am–9pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2461,8 +2461,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2499,11 +2499,11 @@
       "cadence": "daily",
       "hours": "Mon–Fri 10am–6pm or by appointment (summer hours)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-11-20T19:25:08.818Z",
         "record_count": 2,
-        "consecutive_failures": 0,
-        "status": "ok"
+        "consecutive_failures": 1,
+        "status": "suspect"
       },
       "notes": "Site previously also listed a 36 Orchard Street space (seen in secondary sources); current site shows only 88 Eldridge as active. Treat 36 Orchard as historical unless reconfirmed.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable.\n\nWired to real live adapter (2026-08-18): the standard REST endpoints turned out to be a dead end (dozens of oddly-named, mostly-untitled \"pages\" from a page-builder, no clean current-show signal; the real \"exhibition\" custom post type isn't exposed via /wp-json/ at all). /exhibitions/ itself is a clean, well-labeled archive though (confirmed via the post-type-archive-exhibition body class) with an explicit <h3>Current</h3> section — scraped directly instead. Found and worked around a real markup bug on the gallery's own site: the artist-list div's class attribute is missing its \"=\" (renders as class\"exhibition-subtitle italic\"), which silently drops the class for any normal CSS-selector scrape; adapters/wordpress.ts's findByClassOrMangledAttr matches the mangled attribute name directly instead of just returning an empty artist list. Confirms \"88 Eldridge\" as the current space label, matching the note above."
     },
@@ -2532,8 +2532,8 @@
       "cadence": "daily",
       "hours": "12–6pm, Sat from 10am, closed Tue–Wed",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2565,8 +2565,8 @@
       "cadence": "weekly",
       "hours": "Mon–Thu, Sat–Sun 10:30am–5:30pm; Fri 10:30am–8:30pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2598,8 +2598,8 @@
       "cadence": "weekly",
       "hours": "Tue–Thu, Sat–Sun 10:30am–5pm; Fri 10:30am–8pm; closed Mon",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2631,8 +2631,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2671,8 +2671,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2715,8 +2715,8 @@
       "cadence": "weekly",
       "hours": "Currently closed for construction/restoration; reopening planned Autumn 2026 with regular hours Mon, Wed–Sun 10am–6pm (closed Tue)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2754,8 +2754,8 @@
       "cadence": "weekly",
       "hours": "Thu 11am–9pm; other days generally 11–6, closed Mon–Tue — confirm at newmuseum.org/visit",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 10,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2798,8 +2798,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6 (per secondary listing aggregators — gallery's own /visit and /about pages 404'd; phone 212-375-8043 also secondhand)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2831,8 +2831,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2864,8 +2864,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2902,8 +2902,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sun 11am–6pm, closed Mon–Tue",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -2941,10 +2941,10 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-10-28T17:36:49.380Z",
         "record_count": 1,
-        "consecutive_failures": 20,
+        "consecutive_failures": 21,
         "status": "stale"
       },
       "notes": "Formerly James Cohan Gallery — rebranded to NORR COHAN on 2026-07-15 as partner David Norr assumed sole ownership after James and Jane Cohan stepped back (per The Art Newspaper, Artforum, ARTnews). Registry id kept as historical continuity anchor; consider aliasing 'james-cohan' -> 'norr-cohan' in resolution layer since press/backlinks will use both names for a transition period. Domain jamescohan.com unchanged. Both Tribeca spaces dark as of 2026-08-17; next show (Savdie/Soutine at 48 Walker, Vicky Colombet at 52 Walker) opens 2026-09-10/09-17. NOTE: 52 Walker Street address is also claimed by a separate registry venue (David Zwirner's '52-walker', main floor/entrance) — this appears to be a shared building with multiple gallery tenants on different floors; needs physical/on-site verification before geocoding assumes identical coordinates for both venues' spaces.\n\nFingerprint (2026-08-18): artlogic — artlogic.net reference in HTML."
@@ -2981,10 +2981,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-10-31T16:29:57.276Z",
         "record_count": 3,
-        "consecutive_failures": 17,
+        "consecutive_failures": 18,
         "status": "stale"
       },
       "notes": "Nonprofit artist-run curatorial collective, founded May 2013 in Bushwick, relocated to Gowanus Feb 2015.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nAdapter (2026-10-07): manual -> html. Squarespace /upcoming: one text block per show, 'Space:' label line then title line; links point to artist sites."
@@ -3014,8 +3014,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 10–6",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3059,8 +3059,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3100,8 +3100,8 @@
       "cadence": "weekly",
       "hours": "Wed–Sat, 11am–6pm and by appointment",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3133,8 +3133,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3166,8 +3166,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3208,8 +3208,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3252,8 +3252,8 @@
       "cadence": "weekly",
       "hours": "Mon–Fri 10–6 (392 Broadway); Mon–Fri 11–6 (390 Broadway)",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3291,8 +3291,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 2,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3332,8 +3332,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3365,8 +3365,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3398,8 +3398,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3435,10 +3435,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-10-11T16:59:09.002Z",
         "record_count": 1,
-        "consecutive_failures": 37,
+        "consecutive_failures": 38,
         "status": "stale"
       },
       "notes": "SPEC seed list places this venue in Lower East Side, but the gallery relocated to Chelsea (515 W 20th St) in January 2024 per secondary sources — could not independently confirm the exact address from the gallery's own site (contact/info page returned 404). LOW CONFIDENCE on address; verify before geocoding.\n\nFingerprint (2026-08-18): squarespace — squarespace-cdn reference in HTML.\n\nWired to real live adapter (2026-08-18): /future-1 page's free text lists \"MASAMITSU SHIGETA September 10 - October 17, 2026\" as the next show (adapters/squarespace.ts takes the first title+date match on the page; a second line below it about an UNTITLED ART Houston fair booth is correctly left unparsed, not a gallery exhibition)."
@@ -3476,10 +3476,10 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-10-28T17:36:49.380Z",
         "record_count": 1,
-        "consecutive_failures": 20,
+        "consecutive_failures": 21,
         "status": "stale"
       },
       "notes": "Dark for summer 2026 per own site as of add date; 30th-anniversary exhibition opens Sept 19, 2026.\n\nAdded 2026-08-18 as part of a Brooklyn/Queens/artist-run/Chelsea-Soho-UES expansion pass. Verified real and currently operating via the venue's own website (title/existence check) at add time; NOT yet given the deep multi-source cross-referencing the original Tribeca/LES seed set received — treat current-exhibition data as unverified until a crawl or closer look confirms it. Platform fingerprinting and adapter work not yet done; starts on manual.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable.\n\nAdapter (2026-10-07): manual -> html. WordPress theme /exhibitions grid (custom post type smackmellon_exhibits): h3.entry-title + .post-date range."
@@ -3518,8 +3518,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3558,11 +3558,11 @@
       "cadence": "weekly",
       "hours": "Wed–Sat 12–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
         "last_success": "2026-11-20T19:25:08.818Z",
         "record_count": 6,
-        "consecutive_failures": 0,
-        "status": "ok"
+        "consecutive_failures": 1,
+        "status": "suspect"
       },
       "notes": "Architecture-focused nonprofit, included here for the institutions layer. Site itself noted the space as \"currently closed\" alongside a live exhibition listing — possibly between-install or appointment-only. 2026-08-17 re-check: the specific program page (storefront.nyc/program/longings-returns-by-sim-chi-yin/) confirms Aug 8-29 dates and curator credits directly, corroborated by 3+ independent listings (ArtRabbit, Mato, Storefront's own Facebook) — the homepage's stale \"closed\" text is likely just an unrelated visiting-hours banner, not evidence this show isn't on view. Also corrected cadence from an incorrectly-set 'daily' to 'weekly' per SPEC.md §6 (show doesn't open/close within 7 days of 2026-08-17). Image search (2026-08-18): the program page's gallery component confirms installation photography by Luis Corzo (credit visible in rendered content) but doesn't expose actual image src URLs to a non-browser fetch — image_urls left empty rather than guessed; worth revisiting once a real adapter can render the JS gallery.\n\nFingerprint (2026-08-18): wordpress — /wp-json/ reachable."
     },
@@ -3591,8 +3591,8 @@
       "cadence": "weekly",
       "hours": "Closed for construction",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3624,8 +3624,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3657,8 +3657,8 @@
       "cadence": "weekly",
       "hours": "Public hours vary by program; office Mon–Fri 10am–6pm — see thekitchen.org/on-view",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3690,8 +3690,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat 12–6, or by appointment",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3732,8 +3732,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3773,8 +3773,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 1,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3806,8 +3806,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3835,8 +3835,8 @@
       "cadence": "weekly",
       "hours": "Open by appointment",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3873,8 +3873,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3906,8 +3906,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 0,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3946,8 +3946,8 @@
       "cadence": "weekly",
       "hours": "Tue–Sat, 11am–6pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 4,
         "consecutive_failures": 0,
         "status": "ok"
@@ -3979,8 +3979,8 @@
       "cadence": "daily",
       "hours": "Mon–Sun 10:30am–6pm, Fri until 10pm",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 6,
         "consecutive_failures": 0,
         "status": "ok"
@@ -4012,8 +4012,8 @@
       "cadence": "weekly",
       "hours": "Not confirmed from site — verify",
       "health": {
-        "last_attempt": "2026-11-20T19:25:08.818Z",
-        "last_success": "2026-11-20T19:25:08.818Z",
+        "last_attempt": "2026-11-21T18:27:24.118Z",
+        "last_success": "2026-11-21T18:27:24.118Z",
         "record_count": 3,
         "consecutive_failures": 0,
         "status": "ok"
@@ -4044,7 +4044,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://47canal.us/exhibitions/in-beauty-it-was-begun",
-      "fetched_at": "2026-11-20T19:25:10.165Z",
+      "fetched_at": "2026-11-21T18:27:24.617Z",
       "confidence": 0.7
     },
     {
@@ -4066,7 +4066,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://acagalleries.com/exhibitions/90-john-baeder-america",
-      "fetched_at": "2026-11-20T19:25:11.026Z",
+      "fetched_at": "2026-11-21T18:27:27.469Z",
       "confidence": 0.85
     },
     {
@@ -4088,7 +4088,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.airgallery.org/exhibitions/invasive-thoughts-mothers-and-monsters",
-      "fetched_at": "2026-11-20T19:25:17.180Z",
+      "fetched_at": "2026-11-21T18:27:33.308Z",
       "confidence": 0.7
     },
     {
@@ -4110,7 +4110,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.airgallery.org/exhibitions/paper-doll",
-      "fetched_at": "2026-11-20T19:25:17.180Z",
+      "fetched_at": "2026-11-21T18:27:33.308Z",
       "confidence": 0.7
     },
     {
@@ -4132,7 +4132,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.airgallery.org/exhibitions/a-cathedral-inside",
-      "fetched_at": "2026-11-20T19:25:17.180Z",
+      "fetched_at": "2026-11-21T18:27:33.308Z",
       "confidence": 0.7
     },
     {
@@ -4154,7 +4154,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.alexandergray.com/exhibitions/912-steve-locke-i-said-what-i-said",
-      "fetched_at": "2026-11-20T19:25:18.749Z",
+      "fetched_at": "2026-11-21T18:27:34.230Z",
       "confidence": 0.85
     },
     {
@@ -4179,7 +4179,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.amoseno.org/current#material-immaterial",
-      "fetched_at": "2026-11-20T19:25:22.202Z",
+      "fetched_at": "2026-11-21T18:27:36.925Z",
       "confidence": 0.7
     },
     {
@@ -4205,7 +4205,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.amoseno.org/upcoming#systems-of-being",
-      "fetched_at": "2026-11-20T19:25:22.267Z",
+      "fetched_at": "2026-11-21T18:27:36.971Z",
       "confidence": 0.7
     },
     {
@@ -4234,7 +4234,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.edlingallery.com/exhibitions/beverly-buchanan-ruination-and-regeneration",
-      "fetched_at": "2026-11-20T19:25:24.309Z",
+      "fetched_at": "2026-11-21T18:27:38.676Z",
       "confidence": 0.85
     },
     {
@@ -4261,7 +4261,7 @@
       "image_credit": "Elisabeth Bernstein",
       "works": [],
       "source_url": "https://www.andrewkreps.com/exhibitions/heitor-dos-prazeres",
-      "fetched_at": "2026-11-20T19:25:28.314Z",
+      "fetched_at": "2026-11-21T18:27:41.953Z",
       "confidence": 0.85
     },
     {
@@ -4292,7 +4292,7 @@
       "image_credit": "Maki Katayama and Hikari Ono, As a moment and as an accumulation , installation view, The Upstairs at Bortolami, New York, 2026. Photo: Guang Xu.",
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/as-a-moment-and-as-an-accumulation",
-      "fetched_at": "2026-11-20T19:25:33.491Z",
+      "fetched_at": "2026-11-21T18:27:45.280Z",
       "confidence": 0.9
     },
     {
@@ -4329,7 +4329,7 @@
       "image_credit": "Rebecca Morris, #35 , installation view, Bortolami, New York, 2026. Photography by Guang Xu.",
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/35",
-      "fetched_at": "2026-11-20T19:25:33.491Z",
+      "fetched_at": "2026-11-21T18:27:45.280Z",
       "confidence": 0.9
     },
     {
@@ -4355,7 +4355,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/imaginary-engine",
-      "fetched_at": "2026-11-20T19:25:33.491Z",
+      "fetched_at": "2026-11-21T18:27:45.280Z",
       "confidence": 0.9
     },
     {
@@ -4384,7 +4384,7 @@
       "image_credit": "Frieda Toranzo Jaeger, Arpa , 2026. Exhibition view of Industrial Symphony in Two Movements at the Zapopan Art Museum (MAZ). Photography by: Agustín Arce.",
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/industrial-symphony-in-two-movements",
-      "fetched_at": "2026-11-20T19:25:33.491Z",
+      "fetched_at": "2026-11-21T18:27:45.280Z",
       "confidence": 0.9
     },
     {
@@ -4411,7 +4411,7 @@
       "image_credit": "FLAG reframes Clockwork by expanding its more cinematic elements into an immersive stage set environment, where video becomes an immediate means of visualizing unseen, ordinary violence. Including scu",
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/clockwork",
-      "fetched_at": "2026-11-20T19:25:33.491Z",
+      "fetched_at": "2026-11-21T18:27:45.280Z",
       "confidence": 0.9
     },
     {
@@ -4437,7 +4437,7 @@
       "image_credit": "Installation view, Aki Sasamoto: XYZ , Pirelli HangarBicocca, Milan, 17 September, 2026 - 17 January, 2027",
       "works": [],
       "source_url": "https://www.bortolamigallery.com/exhibitions/xyz",
-      "fetched_at": "2026-11-20T19:25:33.491Z",
+      "fetched_at": "2026-11-21T18:27:45.280Z",
       "confidence": 0.9
     },
     {
@@ -4503,7 +4503,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://broadwaygallery.nyc/exhibitions/75-john-riepenhoff-surround",
-      "fetched_at": "2026-11-20T19:25:35.784Z",
+      "fetched_at": "2026-11-21T18:27:46.990Z",
       "confidence": 0.85
     },
     {
@@ -4572,7 +4572,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://canadanewyork.com/exhibitions/art-basel-miami-beach",
-      "fetched_at": "2026-11-20T19:25:38.991Z",
+      "fetched_at": "2026-11-21T18:27:49.895Z",
       "confidence": 0.9
     },
     {
@@ -4602,7 +4602,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://canadanewyork.com/exhibitions/paintings-for-people",
-      "fetched_at": "2026-11-20T19:25:38.991Z",
+      "fetched_at": "2026-11-21T18:27:49.895Z",
       "confidence": 0.9
     },
     {
@@ -4634,31 +4634,31 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://canadanewyork.com/exhibitions/good-light",
-      "fetched_at": "2026-11-20T19:25:38.991Z",
+      "fetched_at": "2026-11-21T18:27:49.895Z",
       "confidence": 0.9
     },
     {
-      "id": "ex-chinatown-soup-8922d51067",
+      "id": "ex-chinatown-soup-da1ce52200",
       "venue_id": "chinatown-soup",
       "space_label": null,
-      "title": "BRANDON TELLEZ",
+      "title": "SUTTON LAKE LYNCH",
       "artists": [
-        "Brandon Tellez"
+        "Sutton Lake Lynch"
       ],
       "kind": "solo",
-      "opens": "2026-10-03",
+      "opens": "2026-12-05",
       "closes": null,
       "opening_reception": null,
-      "status": "open",
+      "status": "upcoming",
       "excerpt": "",
       "press_release_url": null,
       "image_urls": [
-        "https://www.chinatownsoup.nyc/images/galleryshows/brandon-tellez/brandon-tellez-600.webp"
+        "https://www.chinatownsoup.nyc/images/galleryshows/sutton-lake-lynch/sutton-lake-lynch-600.webp"
       ],
       "image_credit": null,
       "works": [],
-      "source_url": "https://www.chinatownsoup.nyc/galleryshows/2026/10/3/brandon-tellez",
-      "fetched_at": "2026-10-31T16:30:35.880Z",
+      "source_url": "https://www.chinatownsoup.nyc/galleryshows/2026/12/5/sutton-lake-lynch",
+      "fetched_at": "2026-11-21T18:27:51.315Z",
       "confidence": 0.55
     },
     {
@@ -4686,7 +4686,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://companygallery.us/exhibitions/evening-was-blue",
-      "fetched_at": "2026-11-20T19:25:42.699Z",
+      "fetched_at": "2026-11-21T18:27:51.716Z",
       "confidence": 0.9
     },
     {
@@ -4717,7 +4717,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://companygallery.us/exhibitions/the-sword-the-horse-and-the-silence",
-      "fetched_at": "2026-11-20T19:25:42.699Z",
+      "fetched_at": "2026-11-21T18:27:51.716Z",
       "confidence": 0.9
     },
     {
@@ -4730,7 +4730,7 @@
       "opens": "2026-10-17",
       "closes": "2026-11-21",
       "opening_reception": null,
-      "status": "closing_soon",
+      "status": "closed",
       "excerpt": "Tala is pleased to present Scores , a solo exhibition by anti-disciplinary artist and DJ Jesús Hilario-Reyes (NYC) including his most recent drawing and sculptural works. In the late 1960’s classical composer and jazz musician Frederick Tillis took a step towards composing the form of the spiritual ",
       "press_release_url": null,
       "image_urls": [
@@ -4743,7 +4743,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://companygallery.us/exhibitions/scores",
-      "fetched_at": "2026-11-20T19:25:42.699Z",
+      "fetched_at": "2026-11-21T18:27:51.716Z",
       "confidence": 0.9
     },
     {
@@ -4765,7 +4765,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://companygallery.us/exhibitions/the-great-room-london",
-      "fetched_at": "2026-11-20T19:25:42.699Z",
+      "fetched_at": "2026-11-21T18:27:51.716Z",
       "confidence": 0.9
     },
     {
@@ -4787,7 +4787,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.culturelablic.org/current-exhibitions#off-the-wall-2026",
-      "fetched_at": "2026-11-20T19:25:42.921Z",
+      "fetched_at": "2026-11-21T18:27:51.951Z",
       "confidence": 0.7
     },
     {
@@ -4879,7 +4879,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.entrance.nyc/63-victoire-bourgois-bathing-by-moonlight",
-      "fetched_at": "2026-11-20T19:25:44.355Z",
+      "fetched_at": "2026-11-21T18:27:52.923Z",
       "confidence": 0.7
     },
     {
@@ -4903,7 +4903,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.entrance.nyc/61-tom-friedman-if-i-ran-the-circus",
-      "fetched_at": "2026-11-20T19:25:44.355Z",
+      "fetched_at": "2026-11-21T18:27:52.923Z",
       "confidence": 0.7
     },
     {
@@ -4923,7 +4923,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://fierman.nyc/upcoming",
-      "fetched_at": "2026-11-20T19:25:46.985Z",
+      "fetched_at": "2026-11-21T18:27:54.812Z",
       "confidence": 0.4
     },
     {
@@ -4965,7 +4965,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://gagosian.com/exhibitions/2026/deana-lawson/",
-      "fetched_at": "2026-11-20T19:25:08.818Z",
+      "fetched_at": "2026-11-21T18:27:24.118Z",
       "confidence": 0.8
     },
     {
@@ -4987,7 +4987,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://gagosian.com/exhibitions/2026/jordan-wolfson/",
-      "fetched_at": "2026-11-20T19:25:08.818Z",
+      "fetched_at": "2026-11-21T18:27:24.118Z",
       "confidence": 0.8
     },
     {
@@ -5009,7 +5009,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.galeriebuchholz.de/exhibitions/sherrie-levine-galerie-buchholz-new-york-2026",
-      "fetched_at": "2026-11-20T19:25:50.116Z",
+      "fetched_at": "2026-11-21T18:27:57.146Z",
       "confidence": 0.7
     },
     {
@@ -5031,7 +5031,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.galerielelong.com/exhibitions/280-mildred-thompson-cosmos-calling",
-      "fetched_at": "2026-11-20T19:25:52.615Z",
+      "fetched_at": "2026-11-21T18:27:59.410Z",
       "confidence": 0.85
     },
     {
@@ -5141,7 +5141,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.guggenheim.org/exhibition/i-dream-in-another-language-do-ho-suh",
-      "fetched_at": "2026-11-20T19:26:00.470Z",
+      "fetched_at": "2026-11-21T18:28:03.312Z",
       "confidence": 0.45
     },
     {
@@ -5163,7 +5163,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.guggenheim.org/exhibition/collection-in-focus-zidane-a-21st-century-portrait",
-      "fetched_at": "2026-11-20T19:26:00.798Z",
+      "fetched_at": "2026-11-21T18:28:03.630Z",
       "confidence": 0.45
     },
     {
@@ -5185,7 +5185,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.guggenheim.org/exhibition/a-year-with-children-2026",
-      "fetched_at": "2026-11-20T19:26:01.126Z",
+      "fetched_at": "2026-11-21T18:28:03.941Z",
       "confidence": 0.45
     },
     {
@@ -5207,7 +5207,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.guggenheim.org/exhibition/taryn-simon",
-      "fetched_at": "2026-11-20T19:26:01.453Z",
+      "fetched_at": "2026-11-21T18:28:04.251Z",
       "confidence": 0.45
     },
     {
@@ -5229,7 +5229,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.guggenheim.org/exhibition/carol-bove",
-      "fetched_at": "2026-11-20T19:26:01.782Z",
+      "fetched_at": "2026-11-21T18:28:04.560Z",
       "confidence": 0.45
     },
     {
@@ -5251,7 +5251,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.guggenheim.org/exhibition/guggenheim-pop",
-      "fetched_at": "2026-11-20T19:26:02.110Z",
+      "fetched_at": "2026-11-21T18:28:04.872Z",
       "confidence": 0.45
     },
     {
@@ -5313,7 +5313,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.jackshainman.com/exhibitions/donyel_ivyroyal_by_the_time_the_rain_comes_we_will_be_home",
-      "fetched_at": "2026-11-20T19:26:08.861Z",
+      "fetched_at": "2026-11-21T18:28:10.006Z",
       "confidence": 0.7
     },
     {
@@ -5373,7 +5373,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://deitch.com/new-york/exhibitions/isaac-escoto-3am-eternal",
-      "fetched_at": "2026-11-20T19:26:11.724Z",
+      "fetched_at": "2026-11-21T18:28:11.655Z",
       "confidence": 0.85
     },
     {
@@ -5397,7 +5397,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://deitch.com/new-york/exhibitions/michael-alvarez-i-see-you",
-      "fetched_at": "2026-11-20T19:26:11.724Z",
+      "fetched_at": "2026-11-21T18:28:11.655Z",
       "confidence": 0.85
     },
     {
@@ -5424,7 +5424,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://kaje.world/nick-irvin",
-      "fetched_at": "2026-11-20T19:26:13.155Z",
+      "fetched_at": "2026-11-21T18:28:14.663Z",
       "confidence": 0.7
     },
     {
@@ -5444,7 +5444,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://kaufmannrepetto.com/exhibitions-current/",
-      "fetched_at": "2026-11-20T19:26:14.975Z",
+      "fetched_at": "2026-11-21T18:28:15.938Z",
       "confidence": 0.4
     },
     {
@@ -5457,7 +5457,7 @@
       "opens": "2026-09-10",
       "closes": "2026-11-21",
       "opening_reception": null,
-      "status": "closing_soon",
+      "status": "closed",
       "excerpt": "",
       "press_release_url": null,
       "image_urls": [
@@ -5466,7 +5466,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leilahellergallery.com/exhibitions/269-ryan-koopmans-and-alice-wexell-the-wild-within",
-      "fetched_at": "2026-11-20T19:26:18.854Z",
+      "fetched_at": "2026-11-21T18:28:18.360Z",
       "confidence": 0.85
     },
     {
@@ -5479,7 +5479,7 @@
       "opens": "2026-10-29",
       "closes": "2026-11-21",
       "opening_reception": null,
-      "status": "closing_soon",
+      "status": "closed",
       "excerpt": "",
       "press_release_url": null,
       "image_urls": [
@@ -5488,7 +5488,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leilahellergallery.com/exhibitions/273-jon-isherwood-permanence-in-bloom",
-      "fetched_at": "2026-11-20T19:26:18.854Z",
+      "fetched_at": "2026-11-21T18:28:18.360Z",
       "confidence": 0.85
     },
     {
@@ -5510,7 +5510,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leslielohman.org/exhibitions#soft-spaces-sean-desiree-and-shikeith",
-      "fetched_at": "2026-11-20T19:26:27.792Z",
+      "fetched_at": "2026-11-21T18:28:24.503Z",
       "confidence": 0.7
     },
     {
@@ -5532,7 +5532,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leslielohman.org/exhibitions#props-from-barakei-eikoh-hosoe-and-jason-wee",
-      "fetched_at": "2026-11-20T19:26:27.792Z",
+      "fetched_at": "2026-11-21T18:28:24.503Z",
       "confidence": 0.7
     },
     {
@@ -5554,7 +5554,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leslielohman.org/exhibitions#shu-lea-cheang-lover-love",
-      "fetched_at": "2026-11-20T19:26:27.792Z",
+      "fetched_at": "2026-11-21T18:28:24.503Z",
       "confidence": 0.7
     },
     {
@@ -5576,7 +5576,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.leslielohman.org/exhibitions#hortensia-mi-kafchin-through-different-eyes",
-      "fetched_at": "2026-11-20T19:26:27.792Z",
+      "fetched_at": "2026-11-21T18:28:24.503Z",
       "confidence": 0.7
     },
     {
@@ -5598,7 +5598,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://lisson.com/exhibitions/myth-migration",
-      "fetched_at": "2026-11-20T19:26:28.742Z",
+      "fetched_at": "2026-11-21T18:28:25.790Z",
       "confidence": 0.7
     },
     {
@@ -5622,7 +5622,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://lisson.com/exhibitions/yu-hong-lisson-new-york",
-      "fetched_at": "2026-11-20T19:26:28.742Z",
+      "fetched_at": "2026-11-21T18:28:25.790Z",
       "confidence": 0.7
     },
     {
@@ -5651,7 +5651,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.luhringaugustine.com/exhibitions/jason-moran3",
-      "fetched_at": "2026-11-20T19:26:31.410Z",
+      "fetched_at": "2026-11-21T18:28:27.951Z",
       "confidence": 0.85
     },
     {
@@ -5682,7 +5682,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.luhringaugustine.com/exhibitions/maison-leleu-x-luhring-augustine",
-      "fetched_at": "2026-11-20T19:26:31.410Z",
+      "fetched_at": "2026-11-21T18:28:27.951Z",
       "confidence": 0.85
     },
     {
@@ -5706,7 +5706,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://matthewmarks.com/exhibitions/wade-guyton-sculpture-10-26",
-      "fetched_at": "2026-11-20T19:26:43.107Z",
+      "fetched_at": "2026-11-21T18:28:38.558Z",
       "confidence": 0.7
     },
     {
@@ -5730,7 +5730,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://matthewmarks.com/exhibitions/101-drawings-11-2026",
-      "fetched_at": "2026-11-20T19:26:43.107Z",
+      "fetched_at": "2026-11-21T18:28:38.558Z",
       "confidence": 0.7
     },
     {
@@ -5754,7 +5754,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://matthewmarks.com/exhibitions/jasper-johns-recent-drawings-11-2026",
-      "fetched_at": "2026-11-20T19:26:43.107Z",
+      "fetched_at": "2026-11-21T18:28:38.558Z",
       "confidence": 0.7
     },
     {
@@ -6148,7 +6148,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nararoesler.art/exhibitions/300",
-      "fetched_at": "2026-11-20T19:26:47.085Z",
+      "fetched_at": "2026-11-21T18:28:40.906Z",
       "confidence": 0.6
     },
     {
@@ -6170,7 +6170,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nararoesler.art/exhibitions/317",
-      "fetched_at": "2026-11-20T19:26:47.085Z",
+      "fetched_at": "2026-11-21T18:28:40.906Z",
       "confidence": 0.85
     },
     {
@@ -6192,7 +6192,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nararoesler.art/exhibitions/318",
-      "fetched_at": "2026-11-20T19:26:47.085Z",
+      "fetched_at": "2026-11-21T18:28:40.906Z",
       "confidence": 0.85
     },
     {
@@ -6214,7 +6214,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.neuegalerie.org/exhibitions/1910",
-      "fetched_at": "2026-11-20T19:26:55.914Z",
+      "fetched_at": "2026-11-21T18:28:47.179Z",
       "confidence": 0.9
     },
     {
@@ -6236,7 +6236,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.neuegalerie.org/exhibitions/austrianmasterworks",
-      "fetched_at": "2026-11-20T19:26:55.914Z",
+      "fetched_at": "2026-11-21T18:28:47.179Z",
       "confidence": 0.9
     },
     {
@@ -6258,7 +6258,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.neuegalerie.org/exhibitions/25thanniversary",
-      "fetched_at": "2026-11-20T19:26:55.914Z",
+      "fetched_at": "2026-11-21T18:28:47.179Z",
       "confidence": 0.9
     },
     {
@@ -6280,7 +6280,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6302,7 +6302,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/diego-marcon-arrivederci-piggies/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6324,7 +6324,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/the-bowery-devils-mile/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6346,7 +6346,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/hyundai-translocal-series-ho-tzu-nyen/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6368,7 +6368,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/screens-series-umi-ishihara/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6390,7 +6390,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/plaza-sarah-lucas-venus-victoria/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6412,7 +6412,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/facade-tschabalala-self-art-lovers/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6434,7 +6434,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/atrium-stair-klara-hosnedlova/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6456,7 +6456,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/sixth-new-museum-triennial-the-outside-expands/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6478,7 +6478,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.newmuseum.org/exhibition/korakrit-arunanondchai-the-movie-inside-you-has-no-end/",
-      "fetched_at": "2026-11-20T19:26:58.346Z",
+      "fetched_at": "2026-11-21T18:28:49.270Z",
       "confidence": 0.85
     },
     {
@@ -6500,7 +6500,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/the-cherry-orchard-other-plays/",
-      "fetched_at": "2026-11-20T19:26:59.098Z",
+      "fetched_at": "2026-11-21T18:28:50.170Z",
       "confidence": 0.6
     },
     {
@@ -6527,7 +6527,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/miracle-paintings/",
-      "fetched_at": "2026-11-20T19:26:59.476Z",
+      "fetched_at": "2026-11-21T18:28:50.720Z",
       "confidence": 0.6
     },
     {
@@ -6554,7 +6554,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/righting/",
-      "fetched_at": "2026-11-20T19:26:59.857Z",
+      "fetched_at": "2026-11-21T18:28:51.157Z",
       "confidence": 0.6
     },
     {
@@ -6581,7 +6581,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/blue-state/",
-      "fetched_at": "2026-11-20T19:27:00.350Z",
+      "fetched_at": "2026-11-21T18:28:51.713Z",
       "confidence": 0.6
     },
     {
@@ -6608,7 +6608,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/invincible-summer/",
-      "fetched_at": "2026-11-20T19:27:00.829Z",
+      "fetched_at": "2026-11-21T18:28:52.258Z",
       "confidence": 0.6
     },
     {
@@ -6635,7 +6635,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://nicellebeauchene.com/exhibitions/i-can-hear-the-grass-grow/",
-      "fetched_at": "2026-11-20T19:27:01.301Z",
+      "fetched_at": "2026-11-21T18:28:52.791Z",
       "confidence": 0.6
     },
     {
@@ -6657,7 +6657,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.nicolavassell.com/exhibitions/39-pam-glick-pg-13",
-      "fetched_at": "2026-11-20T19:27:02.403Z",
+      "fetched_at": "2026-11-21T18:28:54.915Z",
       "confidence": 0.85
     },
     {
@@ -6679,7 +6679,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.noguchi.org/museum/exhibitions/view/noguchi-to-asawa-designing-postwar-america/",
-      "fetched_at": "2026-11-20T19:27:09.711Z",
+      "fetched_at": "2026-11-21T18:29:01.147Z",
       "confidence": 0.45
     },
     {
@@ -6701,7 +6701,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.noguchi.org/museum/exhibitions/view/noguchi-museum-x-ikenobo-40-years-in-new-york-a-living-tradition-of-flowers-and-space/",
-      "fetched_at": "2026-11-20T19:27:10.282Z",
+      "fetched_at": "2026-11-21T18:29:01.658Z",
       "confidence": 0.45
     },
     {
@@ -6723,7 +6723,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.noguchi.org/museum/exhibitions/view/isamu-noguchi-i-am-not-a-designer-2/",
-      "fetched_at": "2026-11-20T19:27:10.848Z",
+      "fetched_at": "2026-11-21T18:29:02.174Z",
       "confidence": 0.6
     },
     {
@@ -6745,7 +6745,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.noguchi.org/museum/exhibitions/view/no-ordinary-light-akari-at-75/",
-      "fetched_at": "2026-11-20T19:27:11.438Z",
+      "fetched_at": "2026-11-21T18:29:02.708Z",
       "confidence": 0.45
     },
     {
@@ -6767,7 +6767,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.noguchi.org/museum/exhibitions/view/ogata-paris-x-the-noguchi-museum-natures-way/",
-      "fetched_at": "2026-11-20T19:27:12.007Z",
+      "fetched_at": "2026-11-21T18:29:03.250Z",
       "confidence": 0.6
     },
     {
@@ -6789,7 +6789,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.noguchi.org/museum/exhibitions/view/isamu-noguchi-at-lever-house/",
-      "fetched_at": "2026-11-20T19:27:12.600Z",
+      "fetched_at": "2026-11-21T18:29:03.771Z",
       "confidence": 0.45
     },
     {
@@ -6898,7 +6898,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.pacegallery.com/exhibitions/li-hei-di-the-year-of-mud/",
-      "fetched_at": "2026-11-20T19:27:19.602Z",
+      "fetched_at": "2026-11-21T18:29:14.905Z",
       "confidence": 0.7
     },
     {
@@ -6922,7 +6922,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.pacegallery.com/exhibitions/lucas-samaras-boxes-reconstructions/",
-      "fetched_at": "2026-11-20T19:27:19.602Z",
+      "fetched_at": "2026-11-21T18:29:14.905Z",
       "confidence": 0.7
     },
     {
@@ -6947,7 +6947,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.pacegallery.com/exhibitions/elmgreen-dragset-transition/",
-      "fetched_at": "2026-11-20T19:27:19.602Z",
+      "fetched_at": "2026-11-21T18:29:14.905Z",
       "confidence": 0.7
     },
     {
@@ -6971,7 +6971,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.pacegallery.com/exhibitions/david-byrne-stairwell-drawings/",
-      "fetched_at": "2026-11-20T19:27:19.602Z",
+      "fetched_at": "2026-11-21T18:29:14.905Z",
       "confidence": 0.7
     },
     {
@@ -6995,7 +6995,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.pacegallery.com/exhibitions/amedeo-modigliani/",
-      "fetched_at": "2026-11-20T19:27:19.602Z",
+      "fetched_at": "2026-11-21T18:29:14.905Z",
       "confidence": 0.7
     },
     {
@@ -7019,7 +7019,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.pacegallery.com/exhibitions/rothko-gottlieb-surrealist-years/",
-      "fetched_at": "2026-11-20T19:27:19.602Z",
+      "fetched_at": "2026-11-21T18:29:14.905Z",
       "confidence": 0.7
     },
     {
@@ -7043,7 +7043,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.parentcompany.net/exhibitions#trinket",
-      "fetched_at": "2026-11-20T19:27:20.361Z",
+      "fetched_at": "2026-11-21T18:29:15.149Z",
       "confidence": 0.7
     },
     {
@@ -7073,7 +7073,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.paulacoopergallery.com/exhibitions/claes-oldenburg",
-      "fetched_at": "2026-11-20T19:27:23.217Z",
+      "fetched_at": "2026-11-21T18:29:17.791Z",
       "confidence": 0.85
     },
     {
@@ -7109,7 +7109,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.paulacoopergallery.com/exhibitions/art-is-for-the-spirit",
-      "fetched_at": "2026-11-20T19:27:23.217Z",
+      "fetched_at": "2026-11-21T18:29:17.791Z",
       "confidence": 0.85
     },
     {
@@ -7138,7 +7138,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.peterblumgallery.com/exhibitions/erik-lindman3",
-      "fetched_at": "2026-11-20T19:27:34.706Z",
+      "fetched_at": "2026-11-21T18:29:27.525Z",
       "confidence": 0.85
     },
     {
@@ -7165,7 +7165,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://pioneerworks.org/exhibitions/finnegan-shannon-there-is-no-me-without-you",
-      "fetched_at": "2026-11-20T19:27:39.193Z",
+      "fetched_at": "2026-11-21T18:29:32.318Z",
       "confidence": 0.7
     },
     {
@@ -7189,7 +7189,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://pioneerworks.org/exhibitions/tuomas-a-laitinen-siphon",
-      "fetched_at": "2026-11-20T19:27:39.193Z",
+      "fetched_at": "2026-11-21T18:29:32.318Z",
       "confidence": 0.7
     },
     {
@@ -7213,7 +7213,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://pioneerworks.org/exhibitions/lajune-mcmillian-child-ren-of-the-bloom",
-      "fetched_at": "2026-11-20T19:27:39.193Z",
+      "fetched_at": "2026-11-21T18:29:32.318Z",
       "confidence": 0.7
     },
     {
@@ -7237,7 +7237,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://pioneerworks.org/exhibitions/selva-aparicio-de-tot-cor-with-all-my-heart",
-      "fetched_at": "2026-11-20T19:27:39.193Z",
+      "fetched_at": "2026-11-21T18:29:32.318Z",
       "confidence": 0.7
     },
     {
@@ -7266,7 +7266,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.ppowgallery.com/exhibitions/adam-putnam5",
-      "fetched_at": "2026-11-20T19:27:41.277Z",
+      "fetched_at": "2026-11-21T18:29:34.585Z",
       "confidence": 0.85
     },
     {
@@ -7295,7 +7295,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.ppowgallery.com/exhibitions/grace-carney3",
-      "fetched_at": "2026-11-20T19:27:41.277Z",
+      "fetched_at": "2026-11-21T18:29:34.585Z",
       "confidence": 0.85
     },
     {
@@ -7400,7 +7400,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.sculpture-center.org/exhibitions/14935/aziz-hazara-coming-home",
-      "fetched_at": "2026-11-20T19:27:48.735Z",
+      "fetched_at": "2026-11-21T18:29:41.672Z",
       "confidence": 0.7
     },
     {
@@ -7422,7 +7422,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.sculpture-center.org/exhibitions/14942/cevdet-erek-americas",
-      "fetched_at": "2026-11-20T19:27:48.735Z",
+      "fetched_at": "2026-11-21T18:29:41.672Z",
       "confidence": 0.7
     },
     {
@@ -7444,7 +7444,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.sculpture-center.org/exhibitions/14938/yining-fei-feral-sediment",
-      "fetched_at": "2026-11-20T19:27:48.735Z",
+      "fetched_at": "2026-11-21T18:29:41.672Z",
       "confidence": 0.7
     },
     {
@@ -7473,7 +7473,7 @@
       "image_credit": "y: Adam Reich, New York, Courtesy: Sean Kelly, New York",
       "works": [],
       "source_url": "https://www.skny.com/exhibitions/kehinde-wiley3",
-      "fetched_at": "2026-11-20T19:27:51.057Z",
+      "fetched_at": "2026-11-21T18:29:43.411Z",
       "confidence": 0.85
     },
     {
@@ -7539,7 +7539,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://socratessculpturepark.org/exhibition/homecoming-chakaia-booker/",
-      "fetched_at": "2026-11-20T19:27:57.372Z",
+      "fetched_at": "2026-11-21T18:29:49.691Z",
       "confidence": 0.7
     },
     {
@@ -7572,7 +7572,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://socratessculpturepark.org/exhibition/artists-choose-artists-the-socrates-annual-fellowship-anniversary/",
-      "fetched_at": "2026-11-20T19:27:57.372Z",
+      "fetched_at": "2026-11-21T18:29:49.691Z",
       "confidence": 0.7
     },
     {
@@ -7596,7 +7596,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://socratessculpturepark.org/exhibition/homecoming-john-morse/",
-      "fetched_at": "2026-11-20T19:27:57.372Z",
+      "fetched_at": "2026-11-21T18:29:49.691Z",
       "confidence": 0.7
     },
     {
@@ -7620,7 +7620,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://socratessculpturepark.org/exhibition/homecoming-sanford-biggers/",
-      "fetched_at": "2026-11-20T19:27:57.372Z",
+      "fetched_at": "2026-11-21T18:29:49.691Z",
       "confidence": 0.7
     },
     {
@@ -7804,7 +7804,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://tigerstrikesasteroid.com/new-york-benefit",
-      "fetched_at": "2026-11-20T19:28:00.715Z",
+      "fetched_at": "2026-11-21T18:29:50.229Z",
       "confidence": 0.55
     },
     {
@@ -7833,7 +7833,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://transmitter.nyc/",
-      "fetched_at": "2026-11-20T19:28:01.417Z",
+      "fetched_at": "2026-11-21T18:29:50.662Z",
       "confidence": 0.7
     },
     {
@@ -7855,7 +7855,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.underdonk.com/exhibitions/winter-wunderdonk-2026",
-      "fetched_at": "2026-11-20T19:28:02.291Z",
+      "fetched_at": "2026-11-21T18:29:51.395Z",
       "confidence": 0.7
     },
     {
@@ -7877,7 +7877,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.underdonk.com/exhibitions/the-flatbed-picture-plane",
-      "fetched_at": "2026-11-20T19:28:02.291Z",
+      "fetched_at": "2026-11-21T18:29:51.395Z",
       "confidence": 0.7
     },
     {
@@ -7899,7 +7899,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.underdonk.com/exhibitions/zulupadilla-flyways",
-      "fetched_at": "2026-11-20T19:28:02.291Z",
+      "fetched_at": "2026-11-21T18:29:51.395Z",
       "confidence": 0.7
     },
     {
@@ -7923,7 +7923,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://whitecolumns.org/exhibitions/marc-hundley/",
-      "fetched_at": "2026-11-20T19:28:03.544Z",
+      "fetched_at": "2026-11-21T18:29:52.000Z",
       "confidence": 0.7
     },
     {
@@ -7947,7 +7947,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://whitecolumns.org/exhibitions/claire-watson/",
-      "fetched_at": "2026-11-20T19:28:03.544Z",
+      "fetched_at": "2026-11-21T18:29:52.000Z",
       "confidence": 0.7
     },
     {
@@ -7971,7 +7971,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://whitecolumns.org/exhibitions/shop-artists-who-do-shirts/",
-      "fetched_at": "2026-11-20T19:28:03.544Z",
+      "fetched_at": "2026-11-21T18:29:52.000Z",
       "confidence": 0.7
     },
     {
@@ -7995,7 +7995,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://whitecolumns.org/exhibitions/white-columns-online-38-clothesnot-fashion-curated-by-gemma-cirignano/",
-      "fetched_at": "2026-11-20T19:28:03.544Z",
+      "fetched_at": "2026-11-21T18:29:52.000Z",
       "confidence": 0.7
     },
     {
@@ -8179,7 +8179,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.yanceyrichardson.com/exhibitions/karen-gunderson",
-      "fetched_at": "2026-11-20T19:28:04.876Z",
+      "fetched_at": "2026-11-21T18:29:53.220Z",
       "confidence": 0.85
     },
     {
@@ -8206,7 +8206,7 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.yanceyrichardson.com/exhibitions/sharon-core5",
-      "fetched_at": "2026-11-20T19:28:04.876Z",
+      "fetched_at": "2026-11-21T18:29:53.220Z",
       "confidence": 0.85
     },
     {
@@ -8235,11 +8235,116 @@
       "image_credit": null,
       "works": [],
       "source_url": "https://www.yanceyrichardson.com/exhibitions/art-basel-miami-beach-20262",
-      "fetched_at": "2026-11-20T19:28:04.876Z",
+      "fetched_at": "2026-11-21T18:29:53.220Z",
       "confidence": 0.85
     }
   ],
   "articles": [
+    {
+      "id": "article-hyperallergic-f73bff25cd29",
+      "outlet": "Hyperallergic",
+      "headline": "Hail to the Squash King",
+      "byline": "Hakim Bishara",
+      "published": "2026-11-21T11:00:00.000Z",
+      "url": "https://hyperallergic.com/hail-to-the-squash-king/",
+      "excerpt": "Hilma af Klint painting shatters records, new Edward Said documentary, the politics of pigment, and how should we memorialize the Trump era?",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-c52c6cdbee88",
+      "outlet": "Hyperallergic",
+      "headline": "Is GTA VI the Art Miami Deserves?",
+      "byline": "Valentina Di Liscia",
+      "published": "2026-11-20T23:51:17.000Z",
+      "url": "https://hyperallergic.com/is-gta-vi-the-art-miami-deserves/",
+      "excerpt": "Miami-based artists Leo Castañeda and misael soto join Hyperallergic in a conversation about the tensions of a game that portrays a changing city locked in time.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-dbbf447c005d",
+      "outlet": "Hyperallergic",
+      "headline": "In a Midtown Office, Artists Sift Through the Junkspace of Capitalism",
+      "byline": "Phillip Pyle",
+      "published": "2026-11-20T22:52:02.000Z",
+      "url": "https://hyperallergic.com/in-a-midtown-office-artists-sift-through-the-junkspace-of-capitalism/",
+      "excerpt": "An intergenerational group of artists confronts technology as both a pathogen and a cure for today’s cultural ailments in the husk of an office at 260 Madison.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-39f831800d2c",
+      "outlet": "Hyperallergic",
+      "headline": "The Venice Biennale's Sham Awards Cannot Artwash Genocide",
+      "byline": "Art Not Genocide Alliance",
+      "published": "2026-11-20T22:00:00.000Z",
+      "url": "https://hyperallergic.com/the-venice-biennales-sham-awards-cannot-artwash-genocide/",
+      "excerpt": "This year’s historic actions demonstrated that Israel’s unspeakable assault on Palestine will not be ignored — and that the power of boycott has never been greater.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-693dd7a10bc3",
+      "outlet": "Hyperallergic",
+      "headline": "So You Want to Run an Artist’s Estate?",
+      "byline": "John Seed",
+      "published": "2026-11-20T21:50:18.000Z",
+      "url": "https://hyperallergic.com/so-you-want-to-run-an-artists-estate/",
+      "excerpt": "A how-to guide on all things inventory, planning, appraisals, conservation, and more.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-6f186d6bd047",
+      "outlet": "Hyperallergic",
+      "headline": "Threading the Names of Alabama’s Black Belt History",
+      "byline": "Carly Mattox",
+      "published": "2026-11-20T21:47:05.000Z",
+      "url": "https://hyperallergic.com/threading-the-names-of-alabamas-black-belt-history/",
+      "excerpt": "In a community center across from Mt. Willing Baptist Church, a group of women is sewing the legacies of enslaved people into their quilts.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-36a4511cdc65",
+      "outlet": "Hyperallergic",
+      "headline": "The Real Miami Museums and Artists Behind GTA VI’s Vice City",
+      "byline": "Rhea Nayyar",
+      "published": "2026-11-20T19:42:28.000Z",
+      "url": "https://hyperallergic.com/the-real-miami-museums-and-artists-behind-gta-vis-vice-city/",
+      "excerpt": "From The Bass in Miami Beach to the murals of Wynwood, the long-awaited Grand Theft Auto VI is heavily inspired by the local arts scene.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
     {
       "id": "article-hyperallergic-2788a7718bc8",
       "outlet": "Hyperallergic",
@@ -8263,6 +8368,21 @@
       "published": "2026-11-20T11:00:00.000Z",
       "url": "https://hyperallergic.com/hilma-af-klint-is-rolling-in-her-grave/",
       "excerpt": "The Swedish artist’s painting went under the hammer for an obscene amount of money. Plus: Lowery Stokes Sims reviews Richard Powell’s new book on pigment, Blackness, and paint.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-hyperallergic-9a23ab65525c",
+      "outlet": "Hyperallergic",
+      "headline": "Still Here and Independent",
+      "byline": "Hakim Bishara",
+      "published": "2026-11-20T06:30:00.000Z",
+      "url": "https://hyperallergic.com/still-here-and-independent/",
+      "excerpt": "And a new logo and website coming soon.",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -8316,13 +8436,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-hyperallergic-c3c206905c8a",
-      "outlet": "Hyperallergic",
-      "headline": "Native Artist Receives $10K Grant to Revive Visor Craftmaking",
-      "byline": "Anna Lee",
-      "published": "2026-11-19T19:02:14.000Z",
-      "url": "https://hyperallergic.com/native-artist-receives-10k-grant-to-revive-visor-craftmaking/",
-      "excerpt": "Dustin Newman (Unangax̂/Deg Hit’an Athabascan) will use the Walker Youngbird Foundation grant to revive the qayaatx̂ux, or chief visor.",
+      "id": "article-artforum-f76144be0e39",
+      "outlet": "Artforum",
+      "headline": "European Countries Demand Russia’s Exclusion from Venice Architecture Biennale",
+      "byline": "Samuel Wilken",
+      "published": "2026-11-20T22:18:37.000Z",
+      "url": "https://www.artforum.com/news/no-russian-venice-architecture-biennale-1234763974/",
+      "excerpt": "Ten countries in the European Union have urged the European Commission to keep Russia out of Venice’s 2027 architecture biennale. The effort is led by Poland and includes Austria, Croatia, Denmark, Estonia, Finland, Germany, Latvia, Lithuania, and Sweden. The countries say that allowing Russia to pa",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -8331,88 +8451,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-hyperallergic-2289bb20e39f",
-      "outlet": "Hyperallergic",
-      "headline": "Richard Powell Unsettles Race and Color Theory",
-      "byline": "Lowery Sims",
-      "published": "2026-11-19T17:13:40.000Z",
-      "url": "https://hyperallergic.com/richard-powell-unsettles-race-and-color-theory/",
-      "excerpt": "Drawing on the work of artists and theorists alike, the art historian traces how generations of Black painters have deployed color and how color, in turn, shapes our understanding of Blackness.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-hyperallergic-4aac30ea4c49",
-      "outlet": "Hyperallergic",
-      "headline": "Iconic and Independent: New York Studio School's MFA Program",
-      "byline": "New York Studio School",
-      "published": "2026-11-19T15:45:00.000Z",
-      "url": "https://hyperallergic.com/iconic-and-independent-new-york-studio-schools-mfa-program/",
-      "excerpt": "NYSS is now accepting applications from independent thinkers and experimenters in the arts.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-hyperallergic-75cdf8b3886c",
-      "outlet": "Hyperallergic",
-      "headline": "Recovering Edward Said’s Voice",
-      "byline": "Hyperallergic",
-      "published": "2026-11-19T11:00:00.000Z",
-      "url": "https://hyperallergic.com/recovering-edward-saids-voice/",
-      "excerpt": "Moustafa Bayoumi on a new documentary about the legendary Palestinian critic and activist; plus, can contemporary art make us laugh?",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-hyperallergic-903c1af82778",
-      "outlet": "Hyperallergic",
-      "headline": "Is My Art Funny to You?",
-      "byline": "Greta Rainbow",
-      "published": "2026-11-18T22:22:24.000Z",
-      "url": "https://hyperallergic.com/is-my-art-funny-to-you/",
-      "excerpt": "A sprawling exhibition across two New York campus galleries explores humor in contemporary art, imploring us to take seriously the jokes artists made and preserved in time.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-hyperallergic-705187ccb4a1",
-      "outlet": "Hyperallergic",
-      "headline": "A Marquee Week of Indulgence",
-      "byline": "Rhea Nayyar",
-      "published": "2026-11-18T21:31:17.000Z",
-      "url": "https://hyperallergic.com/a-marquee-week-of-indulgence/",
-      "excerpt": "The latest from the fall auctions, museum protests, and tackling the British Empire one video at a time.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-hyperallergic-b225fafd9226",
-      "outlet": "Hyperallergic",
-      "headline": "Arpita Singh, Indian Painter Who Never Stopped Innovating, Dies at 89",
-      "byline": "Lisa Yin Zhang",
-      "published": "2026-11-18T21:27:22.000Z",
-      "url": "https://hyperallergic.com/obits-2/",
-      "excerpt": "In this column honoring those we lost in the art world, we also remember a British painter of bewitching scenes and one of Japan’s greatest manga artists.",
+      "id": "article-artforum-49788e69ed38",
+      "outlet": "Artforum",
+      "headline": "Scotland’s Paisley Museum to Reopen in Early 2027",
+      "byline": "Samuel Wilken",
+      "published": "2026-11-20T21:42:13.000Z",
+      "url": "https://www.artforum.com/news/scotlands-paisley-museum-to-reopen-early-2027-1234763970/",
+      "excerpt": "Paisley Museum, which holds one of the largest municipal art collections in Scotland, is set to reopen its doors to the public early next year following the first major renovation in its 150-year history. The £68.7 million transformation began in 2018 but suffered delays from Covid, construction set",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -8541,73 +8586,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-artforum-857b8c0dbcbe",
-      "outlet": "Artforum",
-      "headline": "Harvard Design Students Propose Alternatives to Trump’s Arch",
-      "byline": "Theo Belci",
-      "published": "2026-11-18T17:02:24.000Z",
-      "url": "https://www.artforum.com/news/harvard-design-students-propose-alternatives-to-trump-arch-1234763780/",
-      "excerpt": "Two landscape architecture students at Harvard’s Graduate School of Design have come up with plans rivaling Trump’s proposed triumphal arch at Memorial Circle in Washington, D.C., Dezeen reports. The students, Jeremy Dvorak and Jake Geitner, based their two alternative designs on previous historical",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-artnews-615057ec3b31",
+      "id": "article-artnews-acb64e2bf23a",
       "outlet": "ARTnews",
-      "headline": "Student Wrecks Scottish Exhibit in Attempt to Sit on Stone of Destiny",
-      "byline": "Andy Battaglia",
-      "published": "2026-11-20T19:16:57.000Z",
-      "url": "https://www.artnews.com/art-news/news/student-smashed-stone-of-destiny-1234807142/",
-      "excerpt": "The relic at the Perth Museum that had been used to crown Scottish monarchs until the 13th century.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-artnews-7ddf75de0842",
-      "outlet": "ARTnews",
-      "headline": "Yoshitomo Nara Painting Fetches $15.9 M., Outselling Koons and Richter in New York",
-      "byline": "Daniel Cassady",
-      "published": "2026-11-20T18:54:35.000Z",
-      "url": "https://www.artnews.com/art-news/news/yoshitomo-nara-fair-warning-15-million-auction-1234807111/",
-      "excerpt": "The painting sold through Fair Warning for just above its $15 million high estimate, the third-highest price for a Nara at auction and narrowly short of second place.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-artnews-59d085e51152",
-      "outlet": "ARTnews",
-      "headline": "The Best Booths at Frieze Abu Dhabi, From a Surrealist Take on the Iran-Iraq War to Mosaics",
-      "byline": "Hikmat Mohammed",
-      "published": "2026-11-20T18:08:38.000Z",
-      "url": "https://www.artnews.com/list/art-news/news/8-best-booths-at-frieze-abu-dhabi-1234807046/",
-      "excerpt": "The most striking works confront regional conflict, as well as ideas of masculinity, memory, and religion.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-artnews-172ab69c4c21",
-      "outlet": "ARTnews",
-      "headline": "Ron Howard on Telling Richard Avedon’s ‘Very Human Story’ in New Netflix Doc",
+      "headline": "Art Advisor Sophia Cohen on How the Next Generation of Collectors Is Approaching the Art Market",
       "byline": "Lmiller",
-      "published": "2026-11-20T17:38:04.000Z",
-      "url": "https://www.artnews.com/art-news/news/ron-howard-richard-avedon-documentary-netflix-very-human-story-1234807103/",
-      "excerpt": "The documentary about famed fashion and portrait photographer Richard Avedon premiered on Netflix on Nov. 11.",
+      "published": "2026-11-21T14:00:00.000Z",
+      "url": "https://www.artnews.com/art-news/news/sophia-cohen-siren-projects-art-week-nyc-1234807155/",
+      "excerpt": "Cohen, formerly of Gavin Brown's enterprise and Gagosian, launched Siren Projects in 2024.",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -8616,13 +8601,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-artnews-c5a2924bf8fd",
+      "id": "article-artnews-c3f181890230",
       "outlet": "ARTnews",
-      "headline": "In Sammy Baloji’s Hands, ‘Objective’ Materials Reveal New Truths About African History",
-      "byline": "Alex Greenberger",
-      "published": "2026-11-20T17:03:01.000Z",
-      "url": "https://www.artnews.com/art-news/artists/sammy-baloji-venice-biennale-wexner-center-1234807096/",
-      "excerpt": "In presentations at the Venice Biennale and Ohio's Wexner Center, he explores the legacies of European colonialism in the Democratic Republic of Congo.",
+      "headline": "Ireland’s Experiment in Paying Artists a Basic Income Is Working as Intended For Artists",
+      "byline": "Harrison Jacobs",
+      "published": "2026-11-21T13:19:00.000Z",
+      "url": "https://www.artnews.com/art-news/news/is-ireland-experiment-in-paying-artists-basic-income-working-1234806168/",
+      "excerpt": "While Ireland’s Basic Income for the Arts scheme was only made permanent in February, the pilot project ran for three years before.",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -8631,43 +8616,118 @@
       "link_confidence": 0
     },
     {
-      "id": "article-artnews-840dc26e2ba6",
+      "id": "article-artnews-6e5166a7b0ac",
       "outlet": "ARTnews",
-      "headline": "Hilma af Klint Painting Sells in Sweden for $12.7 M., Setting New Auction Record",
-      "byline": "Alex Greenberger",
-      "published": "2026-11-20T14:48:49.000Z",
-      "url": "https://www.artnews.com/art-news/news/hilma-af-klint-painting-auction-record-sweden-1234807039/",
-      "excerpt": "At least one art historian argued that the work should not have sold.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-artnews-8e1a387bd192",
-      "outlet": "ARTnews",
-      "headline": "LA’s The Landing Gallery Closes, Christie’s Brings in $145.9 M. But Falls Short of Estimates, and More: Morning Links for November 19, 2026",
-      "byline": "Hikmat Mohammed",
-      "published": "2026-11-20T14:00:00.000Z",
-      "url": "https://www.artnews.com/art-news/news/the-landing-la-gallery-closes-morning-links-1234806998/",
-      "excerpt": "Here's what we're reading this morning.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-artnews-dfa383bbb7e9",
-      "outlet": "ARTnews",
-      "headline": "Was Grandma Moses a Foil to Modernity, or a Product of It?",
+      "headline": "Maren Hassinger Won’t Be Weighed Down",
       "byline": "Emily Watlington",
-      "published": "2026-11-20T10:00:00.000Z",
-      "url": "https://www.artnews.com/art-in-america/aia-reviews/grandma-moses-survey-modernity-crystal-bridges-arkansas-1234806881/",
-      "excerpt": "Her landmark survey is on view at Crystal Bridges.",
+      "published": "2026-11-21T10:00:00.000Z",
+      "url": "https://www.artnews.com/art-in-america/aia-reviews/maren-hassinger-bampfa-retrospective-berkeley-1234806748/",
+      "excerpt": "Her retrospective at the Berkeley Art Museum and Pacific Film Archive (BAMPFA) highlights the artist's love of metal and motion.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-32983ca4d2d3",
+      "outlet": "ARTnews",
+      "headline": "The 16 Most Expensive Artworks Ever Sold at Auction",
+      "byline": "Daniel Cassady",
+      "published": "2026-11-20T22:00:00.000Z",
+      "url": "https://www.artnews.com/list/art-news/market/most-expensive-artworks-ever-sold-at-auction-1234736898/",
+      "excerpt": "With each record-breaking sale, the bar gets set higher, the stakes get sharper, and the frenzy deepens.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-28cb0e3ae9fc",
+      "outlet": "ARTnews",
+      "headline": "El Greco Masterpiece Gets Its Colors Back After More Than 400 Years",
+      "byline": "Daniel Cassady",
+      "published": "2026-11-20T21:49:51.000Z",
+      "url": "https://www.artnews.com/art-news/news/el-greco-martyrdom-saint-maurice-restoration-1234807093/",
+      "excerpt": "“El Greco was the Jeff Koons or Damien Hirst of his day,” said Carmen Reviriego, founder of the Callia Foundation, which helped fund the restoration.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-8074119dcf5b",
+      "outlet": "ARTnews",
+      "headline": "Grand Theft Auto VI ’s Vice City Pays Homage to the Bass, Among More Art Easter Eggs",
+      "byline": "Tessa Solomon",
+      "published": "2026-11-20T21:12:22.000Z",
+      "url": "https://www.artnews.com/art-news/news/grand-theft-auto-vice-city-bass-museum-art-oregano-basel-1234807185/",
+      "excerpt": "The game even rendered a riff on 'Miami Mountain', a tower of boulders by Ugo Rondinone installed outside the Bass.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-d4c905193837",
+      "outlet": "ARTnews",
+      "headline": "Judge Allows Lawsuit Over Allegedly Stolen Fra Angelico to Move Forward",
+      "byline": "Daniel Cassady",
+      "published": "2026-11-20T21:03:44.000Z",
+      "url": "https://www.artnews.com/art-news/news/bic-heirs-fra-angelico-lawsuit-feigen-estate-ruling-1234807135/",
+      "excerpt": "The ruling is good news for the Bich heirs, though there's still a long way to go. The judge hasn't decided who owns the painting, or even whether it was stolen.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-0713f84dadc5",
+      "outlet": "ARTnews",
+      "headline": "How do Artworks Acquire Value? New York Art Dealers David Nolan and Anton Svyatsky Weigh In.",
+      "byline": "Lmiller",
+      "published": "2026-11-20T21:00:00.000Z",
+      "url": "https://www.artnews.com/art-news/news/david-nolan-anton-svyatsky-art-week-nyc-2026-1234806643/",
+      "excerpt": "An art world veteran and a relative newcomer offer their perspectives on the role of the art collector in today's market.",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-8903f2e8c8f8",
+      "outlet": "ARTnews",
+      "headline": "Working Mothers Face Pervasive Discrimination in London Art World, Study Finds",
+      "byline": "Anne Doran",
+      "published": "2026-11-20T20:54:37.000Z",
+      "url": "https://www.artnews.com/art-news/news/working-mothers-face-discrimination-in-london-art-world-1234807151/",
+      "excerpt": "For many, having children comes at a professional cost",
+      "links": {
+        "exhibition_id": null,
+        "venue_ids": [],
+        "artist_names": []
+      },
+      "link_confidence": 0
+    },
+    {
+      "id": "article-artnews-18c57700cd1c",
+      "outlet": "ARTnews",
+      "headline": "15 Van Gogh Masterpieces that Set Auction Records",
+      "byline": "Anne Doran",
+      "published": "2026-11-20T20:21:25.000Z",
+      "url": "https://www.artnews.com/list/art-news/market/van-gogh-masterpieces-that-set-auction-records-1234784867/",
+      "excerpt": "Each of these works has achieved a place among the highest prices for a Van Gogh in auction history",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -9396,13 +9456,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-the-art-newspaper-00a5ab567e2c",
-      "outlet": "The Art Newspaper",
-      "headline": "German museum returns Slevogt painting to heirs of Nazi-persecuted collector",
-      "byline": "Anzhela Khachaturova",
-      "published": "2026-11-12T12:36:20.000Z",
-      "url": "https://www.theartnewspaper.com/2026/11/12/german-museum-returns-slevogt-painting-to-heirs-of-nazi-persecuted-collector",
-      "excerpt": "Restituted work by German Impressionist will be sold at auction in Munich",
+      "id": "article-contemporary-art-daily-e52725d0ad02",
+      "outlet": "Contemporary Art Daily",
+      "headline": "Miho Dohi at Hagiwara Projects",
+      "byline": null,
+      "published": "2026-11-21T00:00:00.000Z",
+      "url": "https://www.contemporaryartdaily.com/project/miho-dohi-at-hagiwara-projects-tokyo-120905?source=rss",
+      "excerpt": "October 31 – December 12, 2026",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -9411,13 +9471,13 @@
       "link_confidence": 0
     },
     {
-      "id": "article-the-art-newspaper-b720f75d238f",
-      "outlet": "The Art Newspaper",
-      "headline": "Staff petition against major restructuring plans at Sydney's Chau Chak Wing Museum",
-      "byline": "Elizabeth Fortescue",
-      "published": "2026-11-12T12:19:23.000Z",
-      "url": "https://www.theartnewspaper.com/2026/11/12/staff-petition-against-major-restructuring-plans-at-sydneys-chau-chak-wing-museum",
-      "excerpt": "Proposed cut of eight positions would put the collections at risk, the museum's curators say",
+      "id": "article-contemporary-art-daily-e2655fa0a6a0",
+      "outlet": "Contemporary Art Daily",
+      "headline": "Mathis Gasser at Ehrlich Steinberg",
+      "byline": null,
+      "published": "2026-11-21T00:00:00.000Z",
+      "url": "https://www.contemporaryartdaily.com/project/mathis-gasser-at-ehrlich-steinberg-los-angeles-120907?source=rss",
+      "excerpt": "October 31 – December 19, 2026",
       "links": {
         "exhibition_id": null,
         "venue_ids": [],
@@ -9831,34 +9891,21 @@
       "link_confidence": 0
     },
     {
-      "id": "article-contemporary-art-daily-92e332368710",
-      "outlet": "Contemporary Art Daily",
-      "headline": "Kateryna Lysovenko at Salzburger Kunstverein",
-      "byline": null,
-      "published": "2026-11-05T00:00:00.000Z",
-      "url": "https://www.contemporaryartdaily.com/project/kateryna-lysovenko-at-salzburger-kunstverein-66524?source=rss",
-      "excerpt": "March 7 – November 29, 2026",
+      "id": "article-hyperallergic-03d559e4a5e2",
+      "outlet": "Hyperallergic",
+      "headline": "A Sprawling Exhibition of Latin American Art and Fashion Is Coming to NYC",
+      "byline": "Anna Lee",
+      "published": "2026-11-20T22:58:48.000Z",
+      "url": "https://hyperallergic.com/a-sprawling-exhibition-of-latin-american-art-and-fashion-is-coming-to-nyc/",
+      "excerpt": "Twenty artists and designers across the Americas will be featured in \"Malvestir\" at MoMA PS1 this spring, probing the historical and contemporary resonances of Latin American dress.",
       "links": {
         "exhibition_id": null,
-        "venue_ids": [],
+        "venue_ids": [
+          "moma-ps1"
+        ],
         "artist_names": []
       },
-      "link_confidence": 0
-    },
-    {
-      "id": "article-contemporary-art-daily-63f183428e43",
-      "outlet": "Contemporary Art Daily",
-      "headline": "Vunkwan Tam at Empty Gallery",
-      "byline": null,
-      "published": "2026-11-05T00:00:00.000Z",
-      "url": "https://www.contemporaryartdaily.com/project/vunkwan-tam-at-empty-gallery-hong-kong-115790?source=rss",
-      "excerpt": "September 23 – November 21, 2026",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [],
-        "artist_names": []
-      },
-      "link_confidence": 0
+      "link_confidence": 0.3
     },
     {
       "id": "article-hyperallergic-30c05f042716",
@@ -9872,40 +9919,6 @@
         "exhibition_id": null,
         "venue_ids": [
           "matthew-marks"
-        ],
-        "artist_names": []
-      },
-      "link_confidence": 0.3
-    },
-    {
-      "id": "article-hyperallergic-1cc2ecb23729",
-      "outlet": "Hyperallergic",
-      "headline": "Art Dealer Sentenced for Falsely Claiming Native Heritage",
-      "byline": "Rhea Nayyar",
-      "published": "2026-11-19T19:23:10.000Z",
-      "url": "https://hyperallergic.com/art-dealer-sentenced-for-falsely-claiming-native-heritage/",
-      "excerpt": "Jose Martinez adopted the name Joseph Skywolf and ran a traveling gallery that sold products falsely marketed as Native, violating the Indian Arts and Crafts Act.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [
-          "pioneer-works"
-        ],
-        "artist_names": []
-      },
-      "link_confidence": 0.3
-    },
-    {
-      "id": "article-hyperallergic-3bd11ac06a5b",
-      "outlet": "Hyperallergic",
-      "headline": "Georgia O'Keeffe Painting Found in NYC Closet Sells for $4.9M",
-      "byline": "Phillip Pyle",
-      "published": "2026-11-18T22:56:15.000Z",
-      "url": "https://hyperallergic.com/georgia-okeeffe-painting-found-in-nyc-closet-sells-for-4-9m/",
-      "excerpt": "Calls to exclude Russia from Venice Architecture Biennale, Public Art Fund announces 2027 program, and more in today's art news.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [
-          "whitney-museum-of-american-art"
         ],
         "artist_names": []
       },
@@ -9946,51 +9959,34 @@
       "link_confidence": 0.3
     },
     {
-      "id": "article-artforum-a99f3d5d7c6f",
-      "outlet": "Artforum",
-      "headline": "Christie’s Pulls Frida Kahlo Painting Amid Heritage Firestorm",
-      "byline": "Polly Watson",
-      "published": "2026-11-18T16:40:44.000Z",
-      "url": "https://www.artforum.com/news/christies-yanks-frida-kahlo-painting-amid-heritage-squabble-1234763765/",
-      "excerpt": "Christie’s pulled a Frida Kahlo canvas from a November 17 evening sale in New York just hours before the auction was to begin after a group raised concerns that it was considered part of Mexico’s heritage and thus not legally allowed to leave the country. In accordance with the 1984 establishment of",
+      "id": "article-the-art-newspaper-9e2f656824c6",
+      "outlet": "The Art Newspaper",
+      "headline": "Russian strikes damage historic buildings in Kyiv and Odesa, including World Heritage sites",
+      "byline": "Sophia Kishkovsky",
+      "published": "2026-11-20T22:06:36.000Z",
+      "url": "https://www.theartnewspaper.com/2026/11/20/russian-strikes-damage-heritage-sites-kyiv-odesa",
+      "excerpt": "The St Volodymyr’s Cathedral and the St Michael’s Golden-Domed Cathedral and Monastery in Kyiv are among the heritage buildings targeted in recent Russian attacks",
       "links": {
         "exhibition_id": null,
         "venue_ids": [
-          "moma"
+          "canada"
         ],
         "artist_names": []
       },
       "link_confidence": 0.3
     },
     {
-      "id": "article-artnews-625731a5ed7e",
-      "outlet": "ARTnews",
-      "headline": "MoMA PS1 Plans ‘Malvestir,’ Exhibition Looking at Latin American and Latinx Fashion and Contemporary Art",
-      "byline": "Maximilíano Durón",
-      "published": "2026-11-20T15:39:06.000Z",
-      "url": "https://www.artnews.com/art-news/news/moma-ps1-malvestir-exhibition-latinx-fashion-art-1234807040/",
-      "excerpt": "The show will feature 20 artists and designers, including Willy Chavarria, Camila Falquez, Carla Fernández, Bárbara Sánchez-Kane, and Troy Montes Michie.",
+      "id": "article-the-art-newspaper-bdb43a40814f",
+      "outlet": "The Art Newspaper",
+      "headline": "Conservation of the ‘Sistine Chapel of the Andes’ nears completion",
+      "byline": "Graciela Ibáñez",
+      "published": "2026-11-20T21:13:19.000Z",
+      "url": "https://www.theartnewspaper.com/2026/11/20/bolivia-church-sistine-chapel-andes-conservation-nearly-complete",
+      "excerpt": "Famous for its murals, the Bolivian church of Santiago de Curahuara de Carangas has undergone restoration work on its roofs, buttresses and walls",
       "links": {
         "exhibition_id": null,
         "venue_ids": [
-          "moma-ps1"
-        ],
-        "artist_names": []
-      },
-      "link_confidence": 0.3
-    },
-    {
-      "id": "article-artnews-4c978cbd246f",
-      "outlet": "ARTnews",
-      "headline": "Christie’s Notches a $145.9 M. Sale of 21st-Century Art, Led by a $32.9 M. Basquiat, amid Flagging Energy",
-      "byline": "Brian Boucher",
-      "published": "2026-11-20T03:49:20.000Z",
-      "url": "https://www.artnews.com/art-news/market/christies-21st-century-art-sale-november-2026-1234806916/",
-      "excerpt": "“The estimates were too high for this market,” dealer Jeanne Greenberg Rohatyn said, on her way out of the sale.",
-      "links": {
-        "exhibition_id": null,
-        "venue_ids": [
-          "whitney-museum-of-american-art"
+          "rachel-uffner"
         ],
         "artist_names": []
       },
