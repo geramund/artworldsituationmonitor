@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-21T18:27:24.118Z",
+  "generated_at": "2026-11-23T23:02:50.689Z",
   "window_days": 90,
   "events": [
     {
@@ -10251,6 +10251,190 @@
         "title": "Luminous Color",
         "was": "2026-09-13",
         "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-1",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-2",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-3",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "entrance",
+      "exhibition_id": "ex-entrance-ce9b041868",
+      "article_id": null,
+      "payload": {
+        "title": "if I ran the circus",
+        "closes": "2026-11-29"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-4",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-5",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "ANNOUNCED",
+      "venue_id": "kaje",
+      "exhibition_id": "ex-kaje-b4dfaf163f",
+      "article_id": null,
+      "payload": {
+        "title": "L.A. Howl"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-6",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-7",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-8",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-10",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Pierre Huyghe: UUmwelt",
+        "closes": "2026-11-29"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-11",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-13",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "ANNOUNCED",
+      "venue_id": "new-museum",
+      "exhibition_id": "ex-new-museum-51bc6fa75b",
+      "article_id": null,
+      "payload": {
+        "title": "Suzanne Jackson: What Is Love"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-14",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "ANNOUNCED",
+      "venue_id": "nicelle-beauchene",
+      "exhibition_id": "ex-nicelle-beauchene-816e840421",
+      "article_id": null,
+      "payload": {
+        "title": "Selected Works"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-15",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "CLOSED",
+      "venue_id": "underdonk",
+      "exhibition_id": "ex-underdonk-96e773a0de",
+      "article_id": null,
+      "payload": {
+        "title": "Zulu Padilla: Flyways"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-16",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "PRESS_RELEASE_POSTED",
+      "venue_id": "yancey-richardson",
+      "exhibition_id": "ex-yancey-richardson-8cf172b540",
+      "article_id": null,
+      "payload": {
+        "title": "Art Basel Miami Beach 2026"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-17",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "VENUE_DARK",
+      "venue_id": "leila-heller",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "Leila Heller Gallery"
+      }
+    },
+    {
+      "id": "evt-mwtvkae8-18",
+      "ts": "2026-11-23T23:02:50.689Z",
+      "type": "VENUE_DARK",
+      "venue_id": "situations",
+      "exhibition_id": null,
+      "article_id": null,
+      "payload": {
+        "name": "SITUATIONS"
       }
     }
   ]
