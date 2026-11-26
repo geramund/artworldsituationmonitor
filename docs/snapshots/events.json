@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-25T20:50:25.292Z",
+  "generated_at": "2026-11-26T20:41:47.383Z",
   "window_days": 90,
   "events": [
     {
@@ -10639,6 +10639,101 @@
     {
       "id": "evt-mwwlpism-9",
       "ts": "2026-11-25T20:50:25.292Z",
+      "type": "EXTENDED",
+      "venue_id": "morgan-library",
+      "exhibition_id": "ex-morgan-library-24bce94381",
+      "article_id": null,
+      "payload": {
+        "title": "Luminous Color",
+        "was": "2026-09-13",
+        "now": "2026-11-08"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-1",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "OPENED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-2",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "EXTENDED",
+      "venue_id": "brooklyn-museum",
+      "exhibition_id": "ex-brooklyn-museum-8e9b49865c",
+      "article_id": null,
+      "payload": {
+        "title": "Iris van Herpen: Sculpting the Senses",
+        "was": "2026-09-06",
+        "now": "2026-12-06"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-3",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "CLOSED",
+      "venue_id": "icp",
+      "exhibition_id": "ex-icp-0029fbec9b",
+      "article_id": null,
+      "payload": {
+        "title": "Yves Saint Laurent and Photography"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-4",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "OPENED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-5",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "EXTENDED",
+      "venue_id": "metropolitan-museum-of-art",
+      "exhibition_id": "ex-metropolitan-museum-of-art-20c4c23708",
+      "article_id": null,
+      "payload": {
+        "title": "Flip Sides: Seeing Korean Art Anew",
+        "was": "2026-09-27",
+        "now": "2027-05-31"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-6",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "CLOSED",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Marcel Duchamp"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-8",
+      "ts": "2026-11-26T20:41:47.383Z",
+      "type": "CLOSING_SOON",
+      "venue_id": "moma",
+      "exhibition_id": "ex-moma-9884255168",
+      "article_id": null,
+      "payload": {
+        "title": "Pierre Huyghe: UUmwelt",
+        "closes": "2026-11-29"
+      }
+    },
+    {
+      "id": "evt-mwy0u7nq-9",
+      "ts": "2026-11-26T20:41:47.383Z",
       "type": "EXTENDED",
       "venue_id": "morgan-library",
       "exhibition_id": "ex-morgan-library-24bce94381",
